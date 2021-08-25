@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>441</width>
-    <height>480</height>
+    <height>554</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,7 +38,7 @@
               </property>
              </widget>
             </item>
-            <item>
+            <item alignment="Qt::AlignRight">
              <widget class="QLabel" name="number_of_words">
               <property name="font">
                <font>
@@ -67,7 +67,7 @@
               </property>
              </widget>
             </item>
-            <item>
+            <item alignment="Qt::AlignRight">
              <widget class="QLabel" name="random_w">
               <property name="font">
                <font>
@@ -96,7 +96,7 @@
               </property>
              </widget>
             </item>
-            <item>
+            <item alignment="Qt::AlignRight">
              <widget class="QLabel" name="strike_main">
               <property name="font">
                <font>
@@ -125,7 +125,7 @@
           </property>
           <property name="icon">
            <iconset>
-            <normalon>icons/disk-black.png</normalon>
+            <normalon>../icons/disk-black.png</normalon>
            </iconset>
           </property>
           <property name="flat">
@@ -145,7 +145,7 @@
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>icons/arrow-circle-045-left.png</normaloff>icons/arrow-circle-045-left.png</iconset>
+            <normaloff>../icons/arrow-circle-045-left.png</normaloff>../icons/arrow-circle-045-left.png</iconset>
           </property>
          </widget>
         </item>
@@ -161,7 +161,7 @@
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>icons/speaker-volume.png</normaloff>icons/speaker-volume.png</iconset>
+            <normaloff>../icons/speaker-volume.png</normaloff>../icons/speaker-volume.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -173,11 +173,14 @@
         </item>
         <item>
          <widget class="QCheckBox" name="pronunciation_checkbox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
           <property name="text">
            <string/>
           </property>
           <property name="checked">
-           <bool>true</bool>
+           <bool>false</bool>
           </property>
          </widget>
         </item>
@@ -223,7 +226,7 @@
           </property>
          </widget>
         </item>
-        <item>
+        <item alignment="Qt::AlignLeft">
          <widget class="QLabel" name="correctly_main">
           <property name="font">
            <font>
@@ -297,7 +300,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>icons/arrow-switch-180.png</normaloff>icons/arrow-switch-180.png</iconset>
+          <normaloff>../icons/arrow-switch-180.png</normaloff>../icons/arrow-switch-180.png</iconset>
         </property>
        </widget>
       </item>
@@ -587,7 +590,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>icons/plus.png</normaloff>icons/plus.png</iconset>
+          <normaloff>../icons/plus.png</normaloff>../icons/plus.png</iconset>
         </property>
        </widget>
       </item>
@@ -603,7 +606,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>icons/disk.png</normaloff>icons/disk.png</iconset>
+          <normaloff>../icons/disk.png</normaloff>../icons/disk.png</iconset>
         </property>
        </widget>
       </item>
