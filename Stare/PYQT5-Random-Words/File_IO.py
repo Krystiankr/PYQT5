@@ -14,7 +14,7 @@ class File:
 
     def return_lines(self):
         return self.file.readlines()
-# 222 222
+# 222 222 xx 3
     def write_lines(self, lines):
         self.file.writelines(lines)
 
