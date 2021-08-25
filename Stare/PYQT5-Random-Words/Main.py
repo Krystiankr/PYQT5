@@ -24,7 +24,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.dialog = Ui_Dialog()
         self.dialog.setupUi(self.Dialog)
         self.dialog.buttonBox.accepted.connect(self.new_word)
-#2
+
         # adding configuration of answering calls from the button
         self.ui.random_button.clicked.connect(self.change_text_main)
         self.ui.cbutton1.clicked.connect(lambda: self.polish_button_clicked(self.ui.cbutton1))
