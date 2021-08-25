@@ -237,7 +237,7 @@ class MainWindow(QtWidgets.QMainWindow):
         with open("Scores.txt", "r") as f:
             scores = f.readlines()
             self.ui.correctly_main.setText(scores[0][10:-1])
-            self.ui.badly_main.setText(scores[1][6:])
+            self.ui.badly_main.setText(scores[1][6:-1])
             self.ui.badly_main.setStyleSheet("QLabel""{""color: rgb(153, 29, 29); font-family : SimSun-ExtB;""}")
             self.ui.correctly_main.setStyleSheet("QLabel""{""color: rgb(60, 163, 44); font-family : SimSun-ExtB;""}")
         f.close()
