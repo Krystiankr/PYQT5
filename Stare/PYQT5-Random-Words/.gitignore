@@ -1,1 +1,3 @@
-.gitignore:1:*.log       test.txt
+.gitignore:1:*.log
+/test.txt
+/.idea
