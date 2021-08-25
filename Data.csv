@@ -190,7 +190,7 @@ guide,przewodnik,0
 thumb,kciuk,1
 nimble,zwinny,0
 chased,ścigany,1
-disadvantage,niekorzyść,0
+disadvantage,niekorzyść,1
 sought,poszukiwany,1
 guerillas,partyzanci,1
 terrain,teren,0
@@ -219,7 +219,7 @@ overpay,przepłacać,0
 cruising,rejs,1
 altitude,wysokość,0
 financially,materialnie,1
-wiser,mądrzejszy,0
+wiser,mądrzejszy,1
 diversify,urozmaicać,0
 intend,zamierzać,1
 techno-weenies,Nieefektywny lub mało znaczący nerd komputerowy.,0
@@ -282,7 +282,7 @@ agricultural,rolniczy,0
 distributed,Rozpowszechniane,0
 ruler,władca,1
 appropriate,odpowiednio,0
-neither rich nor poor,"ani bogaty, ani biedny",0
+neither rich nor poor,"ani bogaty, ani biedny",1
 independence,niezależność,0
 derived,pochodny,0
 vanity,próżność,1
@@ -498,7 +498,7 @@ disastrously,katastrofalnie,0
 forbade,zabroniony,1
 zoning,podział na strefy,1
 evolutionary,ewolucyjny,1
-descendants,potomków,0
+descendants,potomków,1
 undergrads,studenci,0
 converge,skupiać,0
 hunch,przeczucie,1
@@ -623,7 +623,7 @@ ingredient,ingredient,0
 considering,wobec,0
 invents,wymyśla,1
 exemplified,zilustrowany,1
-smooth,smooth/płynny,0
+smooth,smooth/płynny,1
 naive,naiwny,1
 faith,wiara,1
 outweigh,przeważać kogoś coś,0
@@ -652,10 +652,10 @@ blurry,Rozmazany,0
 refine,oczyścić,0
 unsophisticated,niewyszukany,0
 sailing,żeglarstwo,1
-meanwhile,tymczasem,1
+meanwhile,tymczasem,0
 inward-looking,zapatrzony w siebie,1
 outnumber,przewyższać liczebnie,0
-diluted,rozcieńczony,0
+diluted,rozcieńczony,1
 freely,swobodnie,0
 immediate,natychmiastowy,1
 explicit measures,wyraźne środki,0
@@ -679,7 +679,7 @@ surprisingness,zdziwienie,1
 innate,wrodzony,0
 shore it up,shore it up,0
 whereas,"mając na uwadze, że",0
-gluttons,żarłocy,0
+gluttons,żarłocy,1
 vacuum,próżnia,1
 subversive,wywrotowy,0
 seek out,szukać,0
