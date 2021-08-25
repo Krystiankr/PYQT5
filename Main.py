@@ -8,7 +8,7 @@ from Voice import voice_speech
 from PyQt5 import QtCore, QtWidgets
 from Data import Data
 from File_IO import File
-
+#2
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
