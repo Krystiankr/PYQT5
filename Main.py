@@ -8,7 +8,7 @@ from Voice import voice_speech
 from PyQt5 import QtCore, QtWidgets
 from Data import Data
 from File_IO import File
-#2
+
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
@@ -171,7 +171,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.ui.streak_num.setText("0")
         self.streak_choice = w_l
         if int(self.ui.streak_num.text()) > self.strike_max:
-            print("Rekord")
+            self.strike_max = int(self.ui.streak_num.text())
         if int(self.ui.streak_num.text()) > 0:
             self.ui.streak_num.setStyleSheet("QLabel{color: darkgreen;}")
             self.ui.streak_name.setStyleSheet("QLabel{color: darkgreen;}")
@@ -230,6 +230,9 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.badly.setText(str(0))
         self.change_text_main()
         self.ui.streak_num.setText("0")
+        self.ui.strike_main.setText(str(self.strike_max))
+        self.ui.streak_num.setStyleSheet("QLabel{color: dark;}")
+        self.ui.streak_name.setStyleSheet("QLabel{color: dark;}")
 
     def load_scores(self):
         with open("Scores.txt", "r") as f:
