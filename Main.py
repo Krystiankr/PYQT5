@@ -1,4 +1,5 @@
 import sys
+from datetime import datetime
 from random import randint, shuffle
 
 from Dialog import Ui_Dialog
@@ -58,8 +59,12 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.cbutton3.customContextMenuRequested.connect(lambda: line_edit(self.ui.edit_c3, self.ui.cbutton3))
         self.ui.random_button.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
         self.ui.random_button.customContextMenuRequested.connect(self.copy_eng_word)
+
+        # save streak
         self.ui.save_word.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
         self.ui.save_word.customContextMenuRequested.connect(self.test)
+        self.ui.save_button.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
+        self.ui.save_button.customContextMenuRequested.connect(self.to_file)
 
         self.new_choice = None
         self.ui.save_word.clicked.connect(self.line_edit_disable)
@@ -72,6 +77,15 @@ class MainWindow(QtWidgets.QMainWindow):
         self.streak_choice = "correct"
         self.tmp_file.close()
         self.record = None
+
+    def to_file(self):
+        print("to file")
+        f = File("a+", "Log.txt")
+        now = datetime.now()
+        today = now.strftime("%d/%m/%Y %H:%M:%S")
+        print(f"{today}+\n+{self.strike_max}")
+        f.write_end(f"Date: {today} Max Strike:{self.strike_max}")
+        f.close()
 
     def reading_word(self, word):
         if self.ui.pronunciation_checkbox.isChecked():
