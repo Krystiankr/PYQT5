@@ -84,7 +84,10 @@ class MainWindow(QtWidgets.QMainWindow):
         now = datetime.now()
         today = now.strftime("%d/%m/%Y %H:%M:%S")
         print(f"{today}+\n+{self.strike_max}")
+        f.write_end("")
         f.write_end(f"Date: {today} Max Strike:{self.strike_max}")
+        f.write_end(f"Date: {today} Correctly:{self.ui.correctly_main.text()}")
+        f.write_end(f"Date: {today} Badly:{self.ui.badly_main.text()}")
         f.close()
 
     def reading_word(self, word):
@@ -139,10 +142,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.button_default_stylesheet()
         self.button_set_enabled(True)
 
-        sample_row = self.df_data.ret_ang(self.df_data.sample_row())
-        random_value = sample_row.values[0]
-        random_index = sample_row.index[0]
-        change_text_in_label(self.ui.random_word, random_value)
+        sample_row = self.df_data.sample_row()
+        change_text_in_label(self.ui.random_word, self.df_data.return_english_word_from_row(sample_row))
 
         # create dictes and shuffle their elements
         button_dict = [self.ui.cbutton1, self.ui.cbutton2, self.ui.cbutton3]
@@ -152,14 +153,15 @@ class MainWindow(QtWidgets.QMainWindow):
         button_dict, edit_dict = zip(*pack)
 
         # enters the randomly selected words into the pushbutton
-        answer = [random_index, randint(0, self.df_data.len_df()), randint(0, self.df_data.len_df())]
-        for button, ans, ed in zip(button_dict, answer, edit_dict):
-            change_text_in_label(button, self.df_data.ret_pol(self.df_data.df_return())[ans])
-            change_text_in_label(ed, self.df_data.ret_pol(self.df_data.df_return())[ans])
+        texts = [sample_row, self.df_data.sample_row(), self.df_data.sample_row()]
+        for button, text, ed in zip(button_dict, texts, edit_dict):
+            text_t = self.df_data.return_polish_word_from_row(text)
+            change_text_in_label(button, text_t)
+            change_text_in_label(ed, text_t)
         self.reading_word(self.ui.random_word.text())
 
     def polish_button_clicked(self, btn):
-        df = self.df_data.df_return()
+        df = self.df_data.df_random_return()
         print(self.ui.random_word.text(), " + ", df[df['Polski'] == btn.text()]['Angielski'].any())
         if self.ui.random_word.text() in df[df['Polski'] == btn.text()]['Angielski'].values:
             self.df_data.increase_frequency(self.ui.random_word.text())
@@ -244,8 +246,6 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.badly.setText(str(0))
         self.change_text_main()
         self.ui.strike_main.setText(str(self.strike_max))
-        self.ui.streak_num.setStyleSheet("QLabel{color: dark;}")
-        self.ui.streak_name.setStyleSheet("QLabel{color: dark;}")
 
     def load_scores(self):
         with open("Scores.txt", "r") as f:

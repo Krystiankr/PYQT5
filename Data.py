@@ -14,6 +14,9 @@ class Data:
     def df_return(self):
         return self.df
 
+    def df_random_return(self):
+        return self.df[self.df['Frequency'] == self.df['Frequency'].min()]
+
     def len_random(self):
         return len(self.df[self.df['Frequency'] == self.df['Frequency'].min()])
 
@@ -42,4 +45,8 @@ class Data:
     def ret_pol(self, df_tmp):
         return df_tmp['Polski']
 
+    def return_polish_word_from_row(self, row):
+        return row['Polski'].values[0]
 
+    def return_english_word_from_row(self, row):
+        return row['Angielski'].values[0]

@@ -1,1 +1,13 @@
 Date: 26/08/2021 01:45:27 Max Strike:11
+Date: 26/08/2021 01:48:41 Max Strike:11
+Summary
+Date: 26/08/2021 01:48:41 Correctly: 422
+Date: 26/08/2021 01:48:41 Badly: 150
+
+Date: 26/08/2021 01:49:18 Max Strike:11
+Date: 26/08/2021 01:49:18 Correctly: 422
+Date: 26/08/2021 01:49:18 Badly: 150
+
+Date: 26/08/2021 01:49:20 Max Strike:11
+Date: 26/08/2021 01:49:20 Correctly: 422
+Date: 26/08/2021 01:49:20 Badly: 150

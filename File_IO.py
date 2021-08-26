@@ -21,5 +21,5 @@ class File:
     def close(self):
         self.file.close()
 
-    def write_end(self, text):
+    def write_end(self, text=""):
         self.file.write(text+"\n")
