@@ -9,7 +9,7 @@ from Voice import voice_speech
 from PyQt5 import QtCore, QtWidgets
 from Data import Data
 from File_IO import File
-
+from PyQt5.QtWidgets import QLabel
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
@@ -33,6 +33,11 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.cbutton3.clicked.connect(lambda: self.polish_button_clicked(self.ui.cbutton3))
         self.ui.save_button.clicked.connect(self.save_button)
         self.ui.reset_button.clicked.connect(self.reset_button)
+
+        # Status bar
+        self.bar_label = QLabel("Welcome")
+        self.statusBar().setStyleSheet("QLabel{font-weight:bold;color:grey}QStatusBar{border :1px solid gray;padding-left:8px;background:rgba(0,0,0,0);color:black;font-weight:bold;}")
+        self.statusBar().addPermanentWidget(self.bar_label)
 
         # a class that deals with pandas df
         self.df_data = Data()
@@ -89,12 +94,17 @@ class MainWindow(QtWidgets.QMainWindow):
         f.write_end(f"Date: {today} Correctly:{self.ui.correctly_main.text()}")
         f.write_end(f"Date: {today} Badly:{self.ui.badly_main.text()}")
         f.close()
+        self.bar_change_text("update log file")
+
+    def bar_change_text(self, text):
+        self.bar_label.setText(text)
 
     def reading_word(self, word):
         if self.ui.pronunciation_checkbox.isChecked():
             self.speak.text(word)
         else:
             print("Pronunciation is disable")
+        self.bar_change_text("clicked pronunciation")
 
     def copy_eng_word(self):
         print(self.ui.random_word.text())
@@ -104,6 +114,7 @@ class MainWindow(QtWidgets.QMainWindow):
         print(add)
         self.reading_word(add)
         self.reload_df()
+        self.bar_change_text(add)
 
     def reload_df(self):
         self.ui.number_of_words.setText(str(self.df_data.len_df()))
@@ -131,6 +142,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 self.new_choice[1].setText(self.new_choice[0].text())
                 self.new_choice = None
                 print("Successfully update")
+                self.bar_change_text("Update word")
             except:
                 print("Update failed")
 
@@ -159,6 +171,7 @@ class MainWindow(QtWidgets.QMainWindow):
             change_text_in_label(button, text_t)
             change_text_in_label(ed, text_t)
         self.reading_word(self.ui.random_word.text())
+        self.bar_change_text("Random a word")
 
     def polish_button_clicked(self, btn):
         df = self.df_data.df_random_return()
@@ -188,15 +201,13 @@ class MainWindow(QtWidgets.QMainWindow):
         self.streak_choice = w_l
         if int(self.ui.streak_num.text()) > self.strike_max:
             self.strike_max = int(self.ui.streak_num.text())
+            self.bar_change_text("New streak!")
         if int(self.ui.streak_num.text()) > 0:
             self.ui.streak_num.setStyleSheet("QLabel{color: darkgreen;}")
             self.ui.streak_name.setStyleSheet("QLabel{color: darkgreen;}")
         else:
             self.ui.streak_num.setStyleSheet("QLabel{color: dark;}")
             self.ui.streak_name.setStyleSheet("QLabel{color: dark;}")
-
-    #def update_streak(self):
-
 
     def test(self):
         f = File()
@@ -223,9 +234,6 @@ class MainWindow(QtWidgets.QMainWindow):
         correct = int(scores[0][10:-1])+int(self.ui.correctly.text())
         bad = int(scores[1][6:])+int(self.ui.badly.text())
         strike = self.strike_max
-       # f.close()
-       # if self.record is not None:
-        #    strike =
 
         scores = [f"correctly: {correct}\n", f"badly: {bad}\nMax_strike: {strike}"]
 
@@ -235,6 +243,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.reading_word("successfully saved")
         self.reset_button()
         self.load_scores()
+        self.bar_change_text("Save changes")
 
     def reset_button(self):
         print("reset")
@@ -246,6 +255,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.badly.setText(str(0))
         self.change_text_main()
         self.ui.strike_main.setText(str(self.strike_max))
+        self.bar_change_text("Reset")
 
     def load_scores(self):
         with open("Scores.txt", "r") as f:
@@ -255,6 +265,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.ui.badly_main.setStyleSheet("QLabel""{""color: rgb(153, 29, 29); font-family : SimSun-ExtB;""}")
             self.ui.correctly_main.setStyleSheet("QLabel""{""color: rgb(60, 163, 44); font-family : SimSun-ExtB;""}")
         f.close()
+        self.bar_change_text("Load scores")
         return scores
 
 
