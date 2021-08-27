@@ -1,5 +1,5 @@
 class File:
-    def __init__(self, r_w="r", file="Scores.txt"):
+    def __init__(self, r_w="r", file="control_files/Scores.txt"):
         self.file = open(file, r_w)
 
     def print(self, line):

@@ -4,7 +4,7 @@ releases,wydania,0
 nastiest,najgorszy,0
 tend,mieć skłonności,1
 wholesale,hurt,1
-assemble,gromadzić się,0
+assemble,gromadzić się,1
 torn out,wyrwane,1
 rubble out,gruz na zewnątrz,1
 correctness,poprawność,1
@@ -41,7 +41,7 @@ hire,wynajmować,1
 exponentially,wykładniczo,0
 unforeseen,nieprzewidziany,0
 frequently,często,1
-Arbitrarily,Dowolnie,0
+Arbitrarily,dowolnie,0
 awaited,oczekiwany,0
 sampling,próbowanie,1
 rely,polegać,1
@@ -83,7 +83,7 @@ lameness,kalectwo,0
 convenient,wygodny,1
 proliferate,rozmnażać się,1
 tweak,dostrajać,0
-convergence,zbieżność,0
+convergence,zbieżność,1
 amused,rozbawiony,1
 snore,chrapać,0
 frugality,oszczędność,0
@@ -93,7 +93,7 @@ disparage,deprecjonować,0
 intimidated,onieśmielony,0
 shelf,półka,0
 retail,sprzedaż,1
-grovel,czołgać się,0
+grovel,czołgać się,1
 appeared,pojawił się,0
 venture,przedsięwzięcie,0
 redundant,zbędny,1
@@ -109,7 +109,7 @@ wealth,bogactwo,0
 endure,wytrzymać,1
 penny,grosz,1
 salary,pensja,1
-bulk,ogrom,0
+bulk,ogrom,1
 discount,zniżka,1
 evade,uchylać się,0
 outliers,odstające,0
@@ -142,7 +142,7 @@ craftsmen,rzemieślnicy,0
 grasp,zrozumieć/pojąć,1
 rise,wzrastać,1
 valuable,cenny,1
-confuse,pomylić,0
+confuse,pomylić,1
 mailroom,poczta,0
 estimating,doceniający,1
 mediocre,przeciętny/mierny,1
@@ -152,7 +152,7 @@ injustice,niesprawiedliwość,0
 such,taki,0
 similarities,podobieństwa,0
 underlying,zasadniczY,0
-concealed,ukryty,0
+concealed,ukryty,1
 averaged,uśredniony,1
 indirect,pośredni,0
 afflicting,trapiący,1
@@ -174,7 +174,7 @@ effect,wpływ,1
 piecework,praca akordowa,0
 sweatshop,warsztat,1
 accordingly,odpowiednio,0
-scope,zakres,0
+scope,zakres,1
 gross,obrzydliwy,1
 hedge,żywopłot,0
 failure,awaria,1
@@ -186,7 +186,7 @@ galley,statek,0
 rowers,wioślarze,1
 encouraged,zachęcał,1
 unorthodox,nie ortodoksyjny,1
-guide,przewodnik,0
+guide,przewodnik,1
 thumb,kciuk,1
 nimble,zwinny,0
 chased,ścigany,1
@@ -219,7 +219,7 @@ overpay,przepłacać,0
 cruising,rejs,1
 altitude,wysokość,0
 financially,materialnie,1
-wiser,mądrzejszy,0
+wiser,mądrzejszy,1
 diversify,urozmaicać,0
 intend,zamierzać,1
 techno-weenies,Nieefektywny lub mało znaczący nerd komputerowy.,0
@@ -235,25 +235,25 @@ burnt,spalony,1
 slaves,niewolnicy,1
 serfs,chłopi pańszczyźniani,0
 conquest,podbój,1
-accumulate,gromadzić,0
+accumulate,gromadzić,1
 henchmen,"poplecznicy/wierny wyznawca lub zwolennik polityczny, zwłaszcza gotowy do popełniania przestępstw lub przemocy w ramach służby",0
 withstand,wytrzymać,0
 incentive,zachęta,0
-sufficient,wystarczający,0
+sufficient,wystarczający,1
 forbid,zakazać,0
 perspiration,pot,0
 mundane,przyziemny,0
 bulbs,żarówki,0
 semiconductors,półprzewodniki,0
 entrepreneurs,przedsiębiorcy,0
-superior,znakomity,0
+superior,znakomity,1
 rode,jechał,1
 crest,herb,0
 led,prowadzony,0
 ruling,rządzący,0
 mind the gap,uważaj na lukę,1
 contemporaries,współcześni,0
-surpass,przewyższać,0
+surpass,przewyższać,1
 misleading,zwodniczy,0
 disreputable,haniebny,1
 sockets,gniazda,0
@@ -279,7 +279,7 @@ unjust,niesprawiedliwy,0
 lamentable,opłakany,0
 steamed,gotowane na parze,0
 agricultural,rolniczy,0
-distributed,Rozpowszechniane,0
+distributed,rozpowszechniane,1
 ruler,władca,1
 appropriate,odpowiednio,0
 neither rich nor poor,"ani bogaty, ani biedny",0
@@ -352,7 +352,7 @@ stringently,surowo,0
 strain,napięcie/filtrować,1
 resistant,odporny,0
 indistinguishable,nie do odróżnienia,0
-severely,surowo,0
+severely,surowo,1
 so - called,tak zwane,0
 opt - in,zdecydowac,1
 conceal,ukryć,0
@@ -368,14 +368,14 @@ denial,odmowa,1
 undertake,podjąć,1
 inundated,zalany,0
 overlap,zachodzić na siebie,0
-blathered,bełkotał,0
+blathered,bełkotał,1
 tangle,splot,0
 unexamined,niezbadane,0
 bickering,sprzeczka,1
 contradicts,zaprzecza,0
-disputes,sprzeczanie się,0
+disputes,sprzeczanie się,1
 hamper,utrudniać,1
-crop up,pojawić się,0
+crop up,pojawić się,1
 profusion,obfitość,1
 observed,zauważony,0
 lace collar,koronkowy kołnierzyk,0
@@ -389,7 +389,7 @@ engraver,grawer,1
 comparison,porównanie,0
 appeal,odwołanie,1
 derive,czerpać,1
-merit,zasługA,0
+merit,zasługa,0
 stove,kuchenka,0
 burners,palniki,0
 misguided,błędny,1
@@ -413,7 +413,7 @@ swallows,jaskółki,0
 ditto,tak samo,0
 toss,podrzucenie,1
 unnecessary,niepotrzebne,1
-aside,na boku,0
+aside,na boku,1
 fickle,zmienny,0
 unreliable,niewiarygodne,1
 satisfy,usatysfakcjonować,0
@@ -426,22 +426,22 @@ hesitant,niezdecydowany,0
 conscious,świadomy,0
 repetition,powtórzenie,0
 veins,żyły/słojowanie,1
-leaf,liść,0
+leaf,liść,1
 premise,przesłanka,1
 striking,uderzający,0
 substitute,zastąpić,1
 resembles,przypomina,1
 deny,zaprzeczyć,1
 misunderstood,niezrozumiany,1
-chew on,żuć,0
-spines,kolce,0
+chew on,żuć,1
+spines,kolce,1
 ribs,żebra,1
 ribcage,klatka piersiowa,1
 unmanned,bezzałogowy,0
 reconnaissance,rozpoznawczy,0
 redesign,przeprojektowanie,0
 confidence,zaufanie,0
-redo,przerobić,0
+redo,przerobić,1
 convince,przekonać,0
 treating,leczący,1
 disasters,katastrofy,0
@@ -453,7 +453,7 @@ pervaded,przeniknięty,0
 selflessness,bezinteresowność,1
 uncanny,niesamowity,1
 miraculous,cudowny,0
-distinctive,charakterystyczny,0
+distinctive,charakterystyczny,1
 strangeness,osobliwość,0
 chunks,kawałki,1
 inhabitants,mieszkańcy,0
@@ -480,19 +480,19 @@ awkward,niezręczny,1
 intrinsically,wewnętrznie,0
 merits,zasługi,0
 skewed,przechylony,1
-differ,różnić się,0
+differ,różnić się,1
 fabulously,bajecznie,1
-backward,do tyłu,0
+backward,do tyłu,1
 misuse,nadużywanie,1
 seat belts,pasy bezpieczeństwa,0
 handcuffs,kajdany,1
 permissive,dozwalający,1
-retrieve,odzyskać,0
+retrieve,odzyskać,1
 surely,surely,0
 renaissance,renesans,0
 harness,uprząż,0
 inner,wewnętrzny,0
-corner,kąt,0
+corner,kąt,1
 contradiction,sprzeczność,0
 disastrously,katastrofalnie,0
 forbade,zabroniony,1
@@ -503,7 +503,7 @@ undergrads,studenci,0
 converge,skupiać,0
 hunch,przeczucie,1
 presumptuous,arogancki,0
-graspable,chwytalny,0
+graspable,chwytalny,1
 soak up,nasiąkać,0
 increasingly,coraz bardziej,0
 shockingly,niemożliwie,0
@@ -559,7 +559,7 @@ emerge,pojawić się,0
 struggle,borykać się,0
 formidable,potężny,0
 pointy - haired,spiczastowłosy,1
-miraculously,cudownie,0
+miraculously,cudownie,1
 whatsoever,cokolwiek,0
 assumption,założenie,1
 hesitation,wahanie,0
@@ -605,7 +605,7 @@ subvert,obalić,1
 innards,bebech,1
 grisly,przerażający,0
 orthogonal,prostokątny,0
-raffish,ordynarny,0
+raffish,ordynarny,1
 disapprovingly,nieprzychylnie,1
 overwhelmed,przytłoczony,1
 bogged,ugrzęzło,1
@@ -623,7 +623,7 @@ ingredient,ingredient,0
 considering,wobec,0
 invents,wymyśla,1
 exemplified,zilustrowany,1
-smooth,smooth/płynny,0
+smooth,smooth/płynny,1
 naive,naiwny,1
 faith,wiara,1
 outweigh,przeważać kogoś coś,0
@@ -632,7 +632,7 @@ deter,powstrzymać,1
 wise,mądry,0
 terse,lakoniczny/zwięzły,0
 blindingly,oślepiająco,0
-inner loops,wewnętrzne pętle,0
+inner loops,wewnętrzne pętle,1
 retained,zachowane,0
 deprecated,przestarzałe,0
 neat,czysty,1
@@ -671,7 +671,7 @@ sloppy,niechlujny,1
 willing,chętny,1
 labelled,oznaczony,1
 submarine,Łódź podwodna,0
-virtues,cnoty,0
+virtues,cnoty,1
 encourage,przekonywać,1
 reinforces,wzmacnia,1
 counterintuitive,przeciwny,1
@@ -704,7 +704,7 @@ medieval,średniowieczny,1
 assigned,przydzielony,1
 sharply-defined,ostro zdefiniowane,0
 inadvertently,nieumyślnie,1
-surpassed,przekroczony/przejść,0
+surpassed,przekroczony/przejść,1
 porous as a colander,dziurkowaty jak durszlak,0
 overloaded,przeciążony,1
 tempted,skuszony,1
@@ -717,7 +717,7 @@ counsellors,doradcy,1
 nor claim to be,"ani twierdzić, że jest",0
 admirable,zachwycający,1
 admirableness,godny podziwu,0
-distorts,zniekształca,0
+distorts,zniekształca,1
 alienated,wyobcowany,1
 subtler,subtelniejszy,0
 advising,doradzanie,0
@@ -788,14 +788,14 @@ luggage,bagaż,0
 anyhow,w każdym razie,0
 pose,poza,1
 lack of,brak,1
-impose,narzucać,0
+impose,narzucać,1
 tuned,dostrojony,1
 jotting down,notować,0
 well-chosen,dobrze dobrany,0
 bulleted,punktowany,0
 gist of,istota,1
 although,chociaż,1
-catchy,wpada w ucho,0
+catchy,wpada w ucho,1
 hesitating,wahanie,0
 half-baked,na wpół upieczony,0
 handling,obsługiwanie,0
@@ -818,17 +818,17 @@ judicious,rozsądny,0
 blasphemy,bluźnierstwo,1
 dissect,analizować wnikliwie,0
 nesting,zagnieżdżanie,0
-flow of,przebieg,0
+flow of,przebieg,1
 invoke,odwołać się,0
 squid,kałamarnica,0
 donut-shaped,w kształcie pączka,0
 esophagus,przełyk,1
 digestible,strawny,0
-swallow,połknąć,0
+swallow,połknąć,1
 distribute,rozprowadzać,0
 abusing,nadużycie,0
-nugget of truth,ziarnko prawdy,0
-newer,nowsza,0
+nugget of truth,ziarnko prawdy,1
+newer,nowsza,1
 nonexclusive,niewyłączny,0
 slip by,przemijać,0
 altogether,całkowicie,0

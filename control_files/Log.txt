@@ -39,3 +39,7 @@ Date: 27/08/2021 00:31:44 Badly: 206
 Date: 27/08/2021 04:11:34 Max Strike:22
 Date: 27/08/2021 04:11:34 Correctly: 667
 Date: 27/08/2021 04:11:34 Badly: 224
+
+Date: 27/08/2021 14:58:13 Max Strike:22
+Date: 27/08/2021 14:58:13 Correctly: 720
+Date: 27/08/2021 14:58:13 Badly: 244

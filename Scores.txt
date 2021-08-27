@@ -1,3 +1,0 @@
-correctly: 680
-badly: 231
-Max_strike: 22

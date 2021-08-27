@@ -3,7 +3,7 @@ import pandas as pd
 
 class Data:
     def __init__(self):
-        self.df = pd.read_csv('Data.csv')
+        self.df = pd.read_csv('control_files/Data.csv')
 
     def print_df(self):
         print(self.df)
@@ -21,7 +21,7 @@ class Data:
         return len(self.df[self.df['Frequency'] == self.df['Frequency'].min()])
 
     def reset_df(self):
-        self.df = pd.read_csv('Data.csv')
+        self.df = pd.read_csv('control_files/Data.csv')
 
     def sample_row(self):
         return self.df[self.df['Frequency'] == self.df['Frequency'].min()].sample()

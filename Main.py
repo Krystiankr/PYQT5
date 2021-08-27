@@ -44,7 +44,7 @@ class MainWindow(QtWidgets.QMainWindow):
         # a class that deals with pandas df
         self.df_data = Data()
         self.ui.number_of_words.setText(str(self.df_data.len_df()))
-        self.ui.random_w.setText(str(self.df_data.len_random()))
+        self.update_rand()
 
         # voice speaker class
         self.speak = voice_speech()
@@ -85,9 +85,10 @@ class MainWindow(QtWidgets.QMainWindow):
         self.tmp_file.close()
         self.record = None
 
+
     def to_file(self):
         print("to file")
-        f = File("a+", "Log.txt")
+        f = File("a+", "control_files/Log.txt")
         now = datetime.now()
         today = now.strftime("%d/%m/%Y %H:%M:%S")
         print(f"{today}+\n+{self.strike_max}")
@@ -127,8 +128,11 @@ class MainWindow(QtWidgets.QMainWindow):
         self.dialog.polski.setText("")
 
     def update_rand(self):
-
         self.ui.random_w.setText(str(self.df_data.len_random()))
+        number_all = int(self.ui.number_of_words.text())
+        number_need = number_all-int(self.ui.random_w.text())
+        new_value = (100*number_need)//number_all
+        self.ui.progressBar.setValue(new_value)
 
     def line_edit_disable(self):
         self.ui.edit_c1.setEnabled(False)
@@ -228,7 +232,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.cbutton3.setStyleSheet("QPushButton""{""background-color : None;""}")
 
     def save_button(self):
-        self.df_data.df_return().to_csv('Data.csv', index=False, encoding='utf-8-sig')
+        self.df_data.df_return().to_csv('control_files/Data.csv', index=False, encoding='utf-8-sig')
         print("save")
         f = File()
         scores = f.return_lines()
@@ -260,7 +264,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.bar_change_text("Reset")
 
     def load_scores(self):
-        with open("Scores.txt", "r") as f:
+        with open("control_files/Scores.txt", "r") as f:
             scores = f.readlines()
             self.ui.correctly_main.setText(scores[0][10:-1])
             self.ui.badly_main.setText(scores[1][6:-1])
