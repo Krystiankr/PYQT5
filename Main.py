@@ -1,15 +1,16 @@
 import sys
 from datetime import datetime
-from random import randint, shuffle
+from random import shuffle
 
-from Dialog import Ui_Dialog
-from MainWindow import Ui_MainWindow
+from interface_files.Dialog import Ui_Dialog
+from interface_files.MainWindow import Ui_MainWindow
 
-from Voice import voice_speech
+from control_files.Voice import voice_speech
 from PyQt5 import QtCore, QtWidgets
-from Data import Data
-from File_IO import File
+from control_files.Data import Data
+from control_files.File_IO import File
 from PyQt5.QtWidgets import QLabel
+
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
@@ -36,7 +37,8 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # Status bar
         self.bar_label = QLabel("Welcome")
-        self.statusBar().setStyleSheet("QLabel{font-weight:bold;color:grey}QStatusBar{border :1px solid gray;padding-left:8px;background:rgba(0,0,0,0);color:black;font-weight:bold;}")
+        self.statusBar().setStyleSheet(
+            "QLabel{font-weight:bold;color:grey}QStatusBar{border :1px solid gray;padding-left:8px;background:rgba(0,0,0,0);color:black;font-weight:bold;}")
         self.statusBar().addPermanentWidget(self.bar_label)
 
         # a class that deals with pandas df
@@ -125,6 +127,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.dialog.polski.setText("")
 
     def update_rand(self):
+
         self.ui.random_w.setText(str(self.df_data.len_random()))
 
     def line_edit_disable(self):
@@ -133,7 +136,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.edit_c3.setEnabled(False)
         self.update_new_word()
 
-    def update_new_word(self):
+    def update_new_word(self):# ??need change this name
         if self.new_choice is not None:
             try:
                 df = self.df_data.df_return()
@@ -143,7 +146,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 self.new_choice = None
                 print("Successfully update")
                 self.bar_change_text("Update word")
-            except:
+            except Exception:
                 print("Update failed")
 
     def change_text_main(self):
@@ -172,6 +175,7 @@ class MainWindow(QtWidgets.QMainWindow):
             change_text_in_label(ed, text_t)
         self.reading_word(self.ui.random_word.text())
         self.bar_change_text("Random a word")
+        self.ui.random_button.setEnabled(False)
 
     def polish_button_clicked(self, btn):
         df = self.df_data.df_random_return()
@@ -184,6 +188,7 @@ class MainWindow(QtWidgets.QMainWindow):
             btn.setStyleSheet("QPushButton""{""background-color: rgb(14, 217, 0); color : green;""}")
             self.update_rand()
             self.streak("correct")
+            self.ui.random_button.setEnabled(True)
         else:
             new_number = int(self.ui.badly.text()) + 1
             self.ui.badly.setText(str(new_number))
@@ -210,11 +215,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.ui.streak_name.setStyleSheet("QLabel{color: dark;}")
 
     def test(self):
-        f = File()
-        print("*", end='')
-        f.print(2)
-        print("*")
-        f.close()
+        print("test")
 
     def button_set_enabled(self, bool_tmp):
         self.ui.cbutton1.setEnabled(bool_tmp)
@@ -255,6 +256,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.badly.setText(str(0))
         self.change_text_main()
         self.ui.strike_main.setText(str(self.strike_max))
+        self.ui.random_button.setEnabled(True)
         self.bar_change_text("Reset")
 
     def load_scores(self):
