@@ -14,6 +14,8 @@ The program includes options such as
 * the program is made in such a way that the third time we answer the word correctly with 100% because otherwise the next word cannot be randomized, it is done for two reasons, the first to see the correct translation of the word, second, so that the case does not draw two words at the same time, which happened to me more than once when using this program.
 
 To run this program you need libraries like: **pandas, pyttsx3, matplotlib, numpy, pyqt5**
+which are mension in file `requirements.txt to` install libraries from file just type in terminal
+`pip install -r requirements.txt`
 </br>
 The current version of the program looks like this 
 
