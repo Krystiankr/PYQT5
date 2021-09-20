@@ -19,3 +19,6 @@ The current version of the program looks like this
 
 Window that allows us to add a word
 
+
+![](images/new_word.png)
+
