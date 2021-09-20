@@ -17,4 +17,4 @@ The current version of the program looks like this</br>
 ![ScreenShot](/images/view.png)</br>
 Window that allows us to add a word</br>
 ![ScreenShot](/images/new_word.png)</br>
-![](/images/new_word.png)</br>
+![](images/view.png)</br>
