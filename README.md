@@ -1,4 +1,4 @@
-# PYQT5-Random-Words
+# PYQT5-Random-Words(OOP)
 Hello, I am pleased to introduce you to a program with which you can practice English words with Polish translations.</br>
 The program includes options such as
 * main statistic about correct and bad answers
