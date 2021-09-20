@@ -21,4 +21,3 @@ Window that allows us to add a word
 
 
 ![](images/new_word.png)
-
