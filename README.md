@@ -16,5 +16,5 @@ The program includes options such as
 The current version of the program looks like this
 ![](images/view.png)
 Window that allows us to add a word
-
+![](images/new_word.png)
 
