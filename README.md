@@ -14,7 +14,6 @@ The program includes options such as
 * the program is made in such a way that the third time we answer the word correctly with 100% because otherwise the next word cannot be randomized, it is done for two reasons, the first to see the correct translation of the word, second, so that the case does not draw two words at the same time, which happened to me more than once when using this program.
 </br>
 The current version of the program looks like this</br>
-![](images/view.png)</br>
+![ScreenShot](images/view.png)</br>
 Window that allows us to add a word</br>
-![](images/new_word.png)</br>
-![](images/okno_2.png)
+![ScreenShot](images/new_word.png)</br>
