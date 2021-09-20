@@ -15,5 +15,4 @@ The program includes options such as
 </br>
 The current version of the program looks like this Window that allows us to add a word
 ![](images/view.png)
-![](images/new_word.png)
 
