@@ -4,8 +4,10 @@ from random import shuffle
 
 from interface_files.Dialog import Ui_Dialog
 from interface_files.MainWindow import Ui_MainWindow
-
 from control_files.Voice import voice_speech
+from control_files.Graph import Graph
+
+
 from PyQt5 import QtCore, QtWidgets
 from control_files.Data import Data
 from control_files.File_IO import File
@@ -85,6 +87,23 @@ class MainWindow(QtWidgets.QMainWindow):
         self.tmp_file.close()
         self.record = None
 
+        # init graph
+        self.graph = None
+
+        self.init_graph()
+
+        # add action to menu bar
+        self.ui.actionGraph.triggered.connect(self.init_graph)
+
+
+
+    def init_graph(self):
+        self.graph = Graph()
+
+        # add graph to horizontal3
+        self.ui.stackedWidget.addWidget(self.graph.return_canvas())
+        self.ui.stackedWidget.setCurrentWidget(self.graph.return_canvas())
+      #  self.ui.horizontalLayout_3.addWidget(self.graph.return_canvas())
 
     def to_file(self):
         print("to file")
@@ -93,9 +112,10 @@ class MainWindow(QtWidgets.QMainWindow):
         today = now.strftime("%d/%m/%Y %H:%M:%S")
         print(f"{today}+\n+{self.strike_max}")
         f.write_end("")
-        f.write_end(f"Date: {today} Max Strike:{self.strike_max}")
+        f.write_end(f"Date: {today} Number of words: {self.ui.number_of_words.text()}")
         f.write_end(f"Date: {today} Correctly:{self.ui.correctly_main.text()}")
         f.write_end(f"Date: {today} Badly:{self.ui.badly_main.text()}")
+        f.write_end(f"Date: {today} Max Strike: {self.strike_max}")
         f.close()
         self.bar_change_text("update log file")
 
@@ -115,8 +135,9 @@ class MainWindow(QtWidgets.QMainWindow):
     def new_word(self):
         add = self.df_data.add_new_word(self.dialog.angielski.text(), self.dialog.polski.text())
         print(add)
-        self.reading_word(add)
+        #self.reading_word(add)
         self.reload_df()
+        #self.df_data = Data()
         self.bar_change_text(add)
 
     def reload_df(self):
@@ -177,11 +198,11 @@ class MainWindow(QtWidgets.QMainWindow):
             text_t = self.df_data.return_polish_word_from_row(text)
             change_text_in_label(button, text_t)
             change_text_in_label(ed, text_t)
-        self.reading_word(self.ui.random_word.text())
+        #self.reading_word(self.ui.random_word.text())
         self.bar_change_text("Random a word")
         self.ui.random_button.setEnabled(False)
 
-    def polish_button_clicked(self, btn):
+    def polish_button_clicked(self, btn): # temporary stats
         df = self.df_data.df_random_return()
         print(self.ui.random_word.text(), " + ", df[df['Polski'] == btn.text()]['Angielski'].any())
         if self.ui.random_word.text() in df[df['Polski'] == btn.text()]['Angielski'].values:
@@ -193,12 +214,17 @@ class MainWindow(QtWidgets.QMainWindow):
             self.update_rand()
             self.streak("correct")
             self.ui.random_button.setEnabled(True)
+            if self.graph:
+                self.graph.add_item(1)
         else:
+            self.df_data.increaseBadlyAnswer(self.ui.random_word.text())
             new_number = int(self.ui.badly.text()) + 1
             self.ui.badly.setText(str(new_number))
             btn.setEnabled(False)
             btn.setStyleSheet("QPushButton""{""background-color : rgb(167, 12, 20);""}")
             self.streak("baddly")
+            if self.graph:
+                self.graph.add_item(-1)
 
     def streak(self, w_l):
         if w_l == "correct" and self.streak_choice == "correct":
@@ -245,14 +271,14 @@ class MainWindow(QtWidgets.QMainWindow):
         f = File("w")
         f.write_lines(scores)
         f.close()
-        self.reading_word("successfully saved")
+        #self.reading_word("successfully saved")
         self.reset_button()
         self.load_scores()
         self.bar_change_text("Save changes")
 
     def reset_button(self):
         print("reset")
-        self.reading_word("reset")
+        #.reading_word("reset")
         self.df_data.reset_df()
         self.update_rand()
         self.ui.number_of_words.setText(str(self.df_data.len_df()))
@@ -263,7 +289,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.random_button.setEnabled(True)
         self.bar_change_text("Reset")
 
-    def load_scores(self):
+    def load_scores(self): # main stats
         with open("control_files/Scores.txt", "r") as f:
             scores = f.readlines()
             self.ui.correctly_main.setText(scores[0][10:-1])
