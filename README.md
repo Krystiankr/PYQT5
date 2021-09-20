@@ -17,3 +17,4 @@ The current version of the program looks like this</br>
 ![](images/view.png)</br>
 Window that allows us to add a word</br>
 ![](images/new_word.png)</br>
+![](images/okno_2.png)
