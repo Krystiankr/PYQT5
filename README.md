@@ -25,3 +25,5 @@ Window that allows us to add a word
 
 
 ![](images/new_word.png)
+
+Icons used from fugue icon set by designer Yusuke Kamiyamane
