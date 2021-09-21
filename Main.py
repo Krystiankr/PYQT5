@@ -7,11 +7,11 @@ from interface_files.MainWindow import Ui_MainWindow
 from control_files.Voice import voice_speech
 from control_files.Graph import Graph
 
-
 from PyQt5 import QtCore, QtWidgets
 from control_files.Data import Data
 from control_files.File_IO import File
-from PyQt5.QtWidgets import QLabel
+from PyQt5.QtWidgets import QLabel, QAction
+from PyQt5.QtGui import QIcon, QPixmap
 
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -94,8 +94,23 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # add action to menu bar
         self.ui.actionGraph.triggered.connect(self.init_graph)
+        #self.ui.actionSave_Graph.triggered.connect(self.save_graph)
 
+        # setting icons for buttons
+        self.ui.save_button.setIcon(QIcon("images/disk-black.png"))
+        self.ui.save_word.setIcon(QIcon("images/disk-black.png"))
+        self.ui.add_new_word.setIcon(QIcon("images/plus.png"))
+        self.ui.reset_button.setIcon(QIcon("images/arrow-circle.png"))
+        self.ui.random_button.setIcon(QIcon("images/playing-card.png"))
+        self.ui.pronunciation_button.setIcon(QIcon("images/speaker.png"))
+        self.ui.actionSave_Graph.setIcon(QIcon("images/image--arrow.png"))
 
+    # def save_graph(self):
+    #     p = QPixmap.grabWindow(self.ui.verticalLayout_2.winId())
+    #     p.save('123.png', 'png')
+    #
+    # def save_graph2(self):
+    #     self.save_graph()
 
     def init_graph(self):
         self.graph = Graph()
