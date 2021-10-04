@@ -181,7 +181,7 @@ class MainWindow(QtWidgets.QMainWindow):
             try:
                 df = self.df_data.df_return()
                 stare = df[self.df_data.ret_pol(df) == self.new_choice[1].text()].index[0]
-                df.at[stare, 'Polski'] = self.new_choice[0].text()
+                df.at[stare, 'Meaning'] = self.new_choice[0].text()
                 self.new_choice[1].setText(self.new_choice[0].text())
                 self.new_choice = None
                 print("Successfully update")
@@ -219,8 +219,8 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def polish_button_clicked(self, btn): # temporary stats
         df = self.df_data.df_random_return()
-        print(self.ui.random_word.text(), " + ", df[df['Polski'] == btn.text()]['Angielski'].any())
-        if self.ui.random_word.text() in df[df['Polski'] == btn.text()]['Angielski'].values:
+        print(self.ui.random_word.text(), " + ", df[df['Meaning'] == btn.text()]['Idiom'].any())
+        if self.ui.random_word.text() in df[df['Meaning'] == btn.text()]['Idiom'].values:
             self.df_data.increase_frequency(self.ui.random_word.text())
             new_number = int(self.ui.correctly.text()) + 1
             self.ui.correctly.setText(str(new_number))
