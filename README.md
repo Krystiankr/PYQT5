@@ -15,7 +15,8 @@ The program includes options such as
 
 To run this program you need libraries like: **pandas, pyttsx3, matplotlib, numpy, pyqt5**
 which are mension in file `requirements.txt to` install libraries from file just type in terminal
-`pip install -r requirements.txt`
+`pip install -r requirements.txt`.</br>
+After installing all libraries, run Main.py
 </br>
 The current version of the program looks like this 
 
