@@ -29,9 +29,12 @@ class Data:
     def increase_frequency(self, word):
         self.df.at[self.df[self.df['Angielski'] == word].index[0], 'Frequency'] += 1
 
+    def increaseBadlyAnswer(self, word):
+        self.df.at[self.df[self.df['Angielski'] == word].index[0], 'BadlyAnswer'] += 1
+
     def add_new_word(self, ang, pol):
         if not self.is_there_word(ang):
-            self.df.loc[self.df.index.max() + 1] = [ang] + [pol] + [0]
+            self.df.loc[self.df.index.max() + 1] = [ang] + [pol] + [self.df['Frequency'].min()] + [0]
             return "Added new word"
         else:
             return "The word already exists"
