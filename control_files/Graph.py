@@ -1,6 +1,8 @@
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QPushButton
+from PyQt5.QtGui import QPixmap
 
+from datetime import datetime
 import pandas as pd
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg
 import matplotlib.pyplot as plt
@@ -62,5 +64,21 @@ class Graph(QtWidgets.QMainWindow):
         if self.bar:
             del self.bar
         self.bar = self.ax.plot("A", data=self.df)
+
+        fig = plt.gcf()
+        # fig.savefig('output.png')
+        fig.savefig(f'42.png', format='png')
+
         plt.tight_layout()
+
         self.canvas.draw()
+
+    # def save_fige(self):
+    #     now = datetime.now()
+    #     now = now.strftime("%d-%m-%Y_%H-%M-%S")
+    #     print(now)
+    #     fig = plt.gcf()
+    #    # fig.savefig('output.png')
+    #     fig.savefig(f'42.png', format='png')
+    #
+
