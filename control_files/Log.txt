@@ -1,0 +1,4882 @@
+Date: 26/08/2021 01:45:27 Max Strike:11
+Date: 26/08/2021 01:48:41 Max Strike:11
+Summary
+Date: 26/08/2021 01:48:41 Correctly: 422
+Date: 26/08/2021 01:48:41 Badly: 150
+
+Date: 26/08/2021 01:49:18 Max Strike:11
+Date: 26/08/2021 01:49:18 Correctly: 422
+Date: 26/08/2021 01:49:18 Badly: 150
+
+Date: 26/08/2021 01:49:20 Max Strike:11
+Date: 26/08/2021 01:49:20 Correctly: 422
+Date: 26/08/2021 01:49:20 Badly: 150
+
+Date: 26/08/2021 03:01:46 Max Strike:11
+Date: 26/08/2021 03:01:46 Correctly: 458
+Date: 26/08/2021 03:01:46 Badly: 161
+
+Date: 26/08/2021 03:15:47 Max Strike:11
+Date: 26/08/2021 03:15:47 Correctly: 472
+Date: 26/08/2021 03:15:47 Badly: 168
+
+Date: 26/08/2021 03:48:40 Max Strike:11
+Date: 26/08/2021 03:48:40 Correctly: 472
+Date: 26/08/2021 03:48:40 Badly: 168
+
+Date: 26/08/2021 21:30:40 Max Strike:15
+Date: 26/08/2021 21:30:40 Correctly: 490
+Date: 26/08/2021 21:30:40 Badly: 171
+
+Date: 27/08/2021 00:21:01 Max Strike:17
+Date: 27/08/2021 00:21:01 Correctly: 577
+Date: 27/08/2021 00:21:01 Badly: 197
+
+Date: 27/08/2021 00:31:44 Max Strike:17
+Date: 27/08/2021 00:31:44 Correctly: 599
+Date: 27/08/2021 00:31:44 Badly: 206
+
+Date: 27/08/2021 04:11:34 Max Strike:22
+Date: 27/08/2021 04:11:34 Correctly: 667
+Date: 27/08/2021 04:11:34 Badly: 224
+
+Date: 27/08/2021 14:58:13 Max Strike:22
+Date: 27/08/2021 14:58:13 Correctly: 720
+Date: 27/08/2021 14:58:13 Badly: 244
+
+Date: 27/08/2021 15:06:27 Max Strike:22
+Date: 27/08/2021 15:06:27 Correctly: 722
+Date: 27/08/2021 15:06:27 Badly: 247
+
+Date: 27/08/2021 15:43:56 Max Strike:30
+Date: 27/08/2021 15:43:56 Correctly: 770
+Date: 27/08/2021 15:43:56 Badly: 258
+
+Date: 27/08/2021 16:17:52 Max Strike:30
+Date: 27/08/2021 16:17:52 Correctly: 809
+Date: 27/08/2021 16:17:52 Badly: 265
+
+Date: 27/08/2021 16:28:45 Max Strike:30
+Date: 27/08/2021 16:28:45 Correctly: 828
+Date: 27/08/2021 16:28:45 Badly: 271
+
+Date: 27/08/2021 18:03:54 Max Strike:30
+Date: 27/08/2021 18:03:54 Correctly: 852
+Date: 27/08/2021 18:03:54 Badly: 288
+
+Date: 27/08/2021 18:16:05 Max Strike:30
+Date: 27/08/2021 18:16:05 Correctly: 887
+Date: 27/08/2021 18:16:05 Badly: 296
+
+Date: 28/08/2021 00:19:34 Max Strike:30
+Date: 28/08/2021 00:19:34 Correctly: 1098
+Date: 28/08/2021 00:19:34 Badly: 379
+
+Date: 28/08/2021 00:35:59 Max Strike:30
+Date: 28/08/2021 00:35:59 Correctly: 1165
+Date: 28/08/2021 00:35:59 Badly: 399
+
+Date: 28/08/2021 00:44:38 Max Strike:30
+Date: 28/08/2021 00:44:38 Correctly: 1222
+Date: 28/08/2021 00:44:38 Badly: 425
+
+Date: 28/08/2021 01:48:42 Max Strike:30
+Date: 28/08/2021 01:48:42 Correctly: 1243
+Date: 28/08/2021 01:48:42 Badly: 426
+
+Date: 28/08/2021 05:56:48 Max Strike:30
+Date: 28/08/2021 05:56:48 Correctly: 1271
+Date: 28/08/2021 05:56:48 Badly: 432
+
+Date: 29/08/2021 17:44:32 Max Strike:30
+Date: 29/08/2021 17:44:32 Correctly: 1412
+Date: 29/08/2021 17:44:32 Badly: 466
+
+Date: 29/08/2021 23:25:55 Max Strike:30
+Date: 29/08/2021 23:25:55 Correctly: 1827
+Date: 29/08/2021 23:25:55 Badly: 614
+
+Date: 29/08/2021 23:27:44 Max Strike:30
+Date: 29/08/2021 23:27:44 Correctly: 1827
+Date: 29/08/2021 23:27:44 Badly: 614
+Date: 29/08/2021 23:27:44 Number of words:1020
+
+Date: 29/08/2021 23:28:05 Number of words:1020
+Date: 29/08/2021 23:28:05 Correctly: 1827
+Date: 29/08/2021 23:28:05 Badly: 614
+Date: 29/08/2021 23:28:05 Max Strike:30
+
+Date: 29/08/2021 23:28:27 Number of words: 1020
+Date: 29/08/2021 23:28:27 Correctly: 1827
+Date: 29/08/2021 23:28:27 Badly: 614
+Date: 29/08/2021 23:28:27 Max Strike: 30
+
+Date: 30/08/2021 15:50:51 Number of words: 1023
+Date: 30/08/2021 15:50:51 Correctly: 2037
+Date: 30/08/2021 15:50:51 Badly: 702
+Date: 30/08/2021 15:50:51 Max Strike: 30
+
+Date: 30/08/2021 19:49:11 Number of words: 1033
+Date: 30/08/2021 19:49:11 Correctly: 2220
+Date: 30/08/2021 19:49:11 Badly: 772
+Date: 30/08/2021 19:49:11 Max Strike: 30
+
+Date: 30/08/2021 20:33:40 Number of words: 1033
+Date: 30/08/2021 20:33:40 Correctly: 2320
+Date: 30/08/2021 20:33:40 Badly: 799
+Date: 30/08/2021 20:33:40 Max Strike: 30
+
+Date: 30/08/2021 22:56:49 Number of words: 1033
+Date: 30/08/2021 22:56:49 Correctly: 2420
+Date: 30/08/2021 22:56:49 Badly: 832
+Date: 30/08/2021 22:56:49 Max Strike: 30
+
+Date: 31/08/2021 00:20:33 Number of words: 1033
+Date: 31/08/2021 00:20:33 Correctly: 2653
+Date: 31/08/2021 00:20:33 Badly: 904
+Date: 31/08/2021 00:20:33 Max Strike: 30
+
+Date: 31/08/2021 13:27:42 Number of words: 1043
+Date: 31/08/2021 13:27:42 Correctly: 2698
+Date: 31/08/2021 13:27:42 Badly: 911
+Date: 31/08/2021 13:27:42 Max Strike: 30
+
+Date: 31/08/2021 14:08:04 Number of words: 1057
+Date: 31/08/2021 14:08:04 Correctly: 2789
+Date: 31/08/2021 14:08:04 Badly: 929
+Date: 31/08/2021 14:08:04 Max Strike: 30
+
+Date: 31/08/2021 16:37:33 Number of words: 1057
+Date: 31/08/2021 16:37:33 Correctly: 3001
+Date: 31/08/2021 16:37:33 Badly: 996
+Date: 31/08/2021 16:37:33 Max Strike: 30
+
+Date: 31/08/2021 23:57:32 Number of words: 1057
+Date: 31/08/2021 23:57:32 Correctly: 3489
+Date: 31/08/2021 23:57:32 Badly: 1180
+Date: 31/08/2021 23:57:32 Max Strike: 30
+
+Date: 03/09/2021 00:22:32 Number of words: 1105
+Date: 03/09/2021 00:22:32 Correctly: 4047
+Date: 03/09/2021 00:22:32 Badly: 1361
+Date: 03/09/2021 00:22:32 Max Strike: 30
+
+Date: 03/09/2021 18:04:56 Number of words: 1137
+Date: 03/09/2021 18:04:56 Correctly: 4295
+Date: 03/09/2021 18:04:56 Badly: 1450
+Date: 03/09/2021 18:04:56 Max Strike: 30
+
+Date: 03/09/2021 19:37:49 Number of words: 1155
+Date: 03/09/2021 19:37:49 Correctly: 4325
+Date: 03/09/2021 19:37:49 Badly: 1464
+Date: 03/09/2021 19:37:49 Max Strike: 30
+
+Date: 04/09/2021 00:37:45 Number of words: 1155
+Date: 04/09/2021 00:37:45 Correctly: 4429
+Date: 04/09/2021 00:37:45 Badly: 1507
+Date: 04/09/2021 00:37:45 Max Strike: 30
+
+Date: 04/09/2021 01:05:05 Number of words: 1164
+Date: 04/09/2021 01:05:05 Correctly: 4545
+Date: 04/09/2021 01:05:05 Badly: 1575
+Date: 04/09/2021 01:05:05 Max Strike: 30
+
+Date: 04/09/2021 01:26:16 Number of words: 1173
+Date: 04/09/2021 01:26:16 Correctly: 4662
+Date: 04/09/2021 01:26:16 Badly: 1631
+Date: 04/09/2021 01:26:16 Max Strike: 30
+
+Date: 04/09/2021 04:21:55 Number of words: 1190
+Date: 04/09/2021 04:21:55 Correctly: 4663
+Date: 04/09/2021 04:21:55 Badly: 1632
+Date: 04/09/2021 04:21:55 Max Strike: 30
+
+Date: 04/09/2021 10:13:01 Number of words: 1204
+Date: 04/09/2021 10:13:01 Correctly: 4663
+Date: 04/09/2021 10:13:01 Badly: 1632
+Date: 04/09/2021 10:13:01 Max Strike: 30
+
+Date: 04/09/2021 23:19:07 Number of words: 1223
+Date: 04/09/2021 23:19:07 Correctly: 4808
+Date: 04/09/2021 23:19:07 Badly: 1697
+Date: 04/09/2021 23:19:07 Max Strike: 30
+
+Date: 07/09/2021 10:46:30 Number of words: 1246
+Date: 07/09/2021 10:46:30 Correctly: 5531
+Date: 07/09/2021 10:46:30 Badly: 1989
+Date: 07/09/2021 10:46:30 Max Strike: 30
+
+Date: 07/09/2021 11:22:19 Number of words: 1253
+Date: 07/09/2021 11:22:19 Correctly: 5531
+Date: 07/09/2021 11:22:19 Badly: 1989
+Date: 07/09/2021 11:22:19 Max Strike: 30
+
+Date: 07/09/2021 11:54:39 Number of words: 1268
+Date: 07/09/2021 11:54:39 Correctly: 5572
+Date: 07/09/2021 11:54:39 Badly: 1999
+Date: 07/09/2021 11:54:39 Max Strike: 30
+
+Date: 07/09/2021 14:10:20 Number of words: 1268
+Date: 07/09/2021 14:10:20 Correctly: 5930
+Date: 07/09/2021 14:10:20 Badly: 2152
+Date: 07/09/2021 14:10:20 Max Strike: 30
+
+Date: 07/09/2021 14:27:38 Number of words: 1268
+Date: 07/09/2021 14:27:38 Correctly: 5930
+Date: 07/09/2021 14:27:38 Badly: 2152
+Date: 07/09/2021 14:27:38 Max Strike: 30
+
+Date: 08/09/2021 02:42:01 Number of words: 1269
+Date: 08/09/2021 02:42:01 Correctly: 5956
+Date: 08/09/2021 02:42:01 Badly: 2165
+Date: 08/09/2021 02:42:01 Max Strike: 30
+
+Date: 08/09/2021 15:32:54 Number of words: 1269
+Date: 08/09/2021 15:32:54 Correctly: 5956
+Date: 08/09/2021 15:32:54 Badly: 2165
+Date: 08/09/2021 15:32:54 Max Strike: 30
+
+Date: 09/09/2021 13:08:52 Number of words: 1282
+Date: 09/09/2021 13:08:52 Correctly: 5956
+Date: 09/09/2021 13:08:52 Badly: 2165
+Date: 09/09/2021 13:08:52 Max Strike: 30
+
+Date: 09/09/2021 17:06:06 Number of words: 1298
+Date: 09/09/2021 17:06:06 Correctly: 5957
+Date: 09/09/2021 17:06:06 Badly: 2165
+Date: 09/09/2021 17:06:06 Max Strike: 30
+
+Date: 09/09/2021 17:33:00 Number of words: 1302
+Date: 09/09/2021 17:33:00 Correctly: 5957
+Date: 09/09/2021 17:33:00 Badly: 2165
+Date: 09/09/2021 17:33:00 Max Strike: 30
+
+Date: 09/09/2021 17:43:41 Number of words: 1306
+Date: 09/09/2021 17:43:41 Correctly: 5957
+Date: 09/09/2021 17:43:41 Badly: 2165
+Date: 09/09/2021 17:43:41 Max Strike: 30
+
+Date: 09/09/2021 21:46:52 Number of words: 1323
+Date: 09/09/2021 21:46:52 Correctly: 5960
+Date: 09/09/2021 21:46:52 Badly: 2167
+Date: 09/09/2021 21:46:52 Max Strike: 30
+
+Date: 10/09/2021 00:44:40 Number of words: 1328
+Date: 10/09/2021 00:44:40 Correctly: 5960
+Date: 10/09/2021 00:44:40 Badly: 2167
+Date: 10/09/2021 00:44:40 Max Strike: 30
+
+Date: 10/09/2021 02:20:09 Number of words: 1330
+Date: 10/09/2021 02:20:09 Correctly: 5960
+Date: 10/09/2021 02:20:09 Badly: 2167
+Date: 10/09/2021 02:20:09 Max Strike: 30
+
+Date: 10/09/2021 02:24:41 Number of words: 1330
+Date: 10/09/2021 02:24:41 Correctly: 5960
+Date: 10/09/2021 02:24:41 Badly: 2167
+Date: 10/09/2021 02:24:41 Max Strike: 30
+
+Date: 10/09/2021 06:42:16 Number of words: 1332
+Date: 10/09/2021 06:42:16 Correctly: 5960
+Date: 10/09/2021 06:42:16 Badly: 2167
+Date: 10/09/2021 06:42:16 Max Strike: 30
+
+Date: 10/09/2021 17:08:01 Number of words: 1332
+Date: 10/09/2021 17:08:01 Correctly: 6065
+Date: 10/09/2021 17:08:01 Badly: 2207
+Date: 10/09/2021 17:08:01 Max Strike: 30
+
+Date: 11/09/2021 01:23:47 Number of words: 1396
+Date: 11/09/2021 01:23:47 Correctly: 6094
+Date: 11/09/2021 01:23:47 Badly: 2216
+Date: 11/09/2021 01:23:47 Max Strike: 30
+
+Date: 11/09/2021 01:37:25 Number of words: 1406
+Date: 11/09/2021 01:37:25 Correctly: 6094
+Date: 11/09/2021 01:37:25 Badly: 2216
+Date: 11/09/2021 01:37:25 Max Strike: 30
+
+Date: 11/09/2021 01:52:50 Number of words: 1428
+Date: 11/09/2021 01:52:50 Correctly: 6094
+Date: 11/09/2021 01:52:50 Badly: 2216
+Date: 11/09/2021 01:52:50 Max Strike: 30
+
+Date: 11/09/2021 17:48:08 Number of words: 1428
+Date: 11/09/2021 17:48:08 Correctly: 6098
+Date: 11/09/2021 17:48:08 Badly: 2217
+Date: 11/09/2021 17:48:08 Max Strike: 30
+
+Date: 13/09/2021 03:54:57 Number of words: 1428
+Date: 13/09/2021 03:54:57 Correctly: 6122
+Date: 13/09/2021 03:54:57 Badly: 2225
+Date: 13/09/2021 03:54:57 Max Strike: 30
+
+Date: 14/09/2021 03:04:54 Number of words: 1460
+Date: 14/09/2021 03:04:54 Correctly: 6262
+Date: 14/09/2021 03:04:54 Badly: 2270
+Date: 14/09/2021 03:04:54 Max Strike: 30
+
+Date: 14/09/2021 09:25:50 Number of words: 1460
+Date: 14/09/2021 09:25:50 Correctly: 6345
+Date: 14/09/2021 09:25:50 Badly: 2296
+Date: 14/09/2021 09:25:50 Max Strike: 30
+
+Date: 14/09/2021 10:56:21 Number of words: 1460
+Date: 14/09/2021 10:56:21 Correctly: 6545
+Date: 14/09/2021 10:56:21 Badly: 2361
+Date: 14/09/2021 10:56:21 Max Strike: 30
+
+Date: 14/09/2021 13:40:20 Number of words: 1460
+Date: 14/09/2021 13:40:20 Correctly: 6545
+Date: 14/09/2021 13:40:20 Badly: 2361
+Date: 14/09/2021 13:40:20 Max Strike: 30
+
+Date: 14/09/2021 13:46:28 Number of words: 1460
+Date: 14/09/2021 13:46:28 Correctly: 6663
+Date: 14/09/2021 13:46:28 Badly: 2391
+Date: 14/09/2021 13:46:28 Max Strike: 30
+
+Date: 14/09/2021 17:31:10 Number of words: 1467
+Date: 14/09/2021 17:31:10 Correctly: 6713
+Date: 14/09/2021 17:31:10 Badly: 2416
+Date: 14/09/2021 17:31:10 Max Strike: 30
+
+Date: 15/09/2021 13:24:12 Number of words: 1471
+Date: 15/09/2021 13:24:12 Correctly: 6728
+Date: 15/09/2021 13:24:12 Badly: 2420
+Date: 15/09/2021 13:24:12 Max Strike: 30
+
+Date: 15/09/2021 14:18:15 Number of words: 1474
+Date: 15/09/2021 14:18:15 Correctly: 6767
+Date: 15/09/2021 14:18:15 Badly: 2434
+Date: 15/09/2021 14:18:15 Max Strike: 30
+
+Date: 15/09/2021 17:42:08 Number of words: 1476
+Date: 15/09/2021 17:42:08 Correctly: 6908
+Date: 15/09/2021 17:42:08 Badly: 2492
+Date: 15/09/2021 17:42:08 Max Strike: 30
+
+Date: 15/09/2021 22:28:30 Number of words: 1482
+Date: 15/09/2021 22:28:30 Correctly: 7112
+Date: 15/09/2021 22:28:30 Badly: 2575
+Date: 15/09/2021 22:28:30 Max Strike: 30
+
+Date: 17/09/2021 00:00:48 Number of words: 1482
+Date: 17/09/2021 00:00:48 Correctly: 7412
+Date: 17/09/2021 00:00:48 Badly: 2724
+Date: 17/09/2021 00:00:48 Max Strike: 30
+
+Date: 17/09/2021 16:13:43 Number of words: 1489
+Date: 17/09/2021 16:13:43 Correctly: 7601
+Date: 17/09/2021 16:13:43 Badly: 2796
+Date: 17/09/2021 16:13:43 Max Strike: 30
+
+Date: 18/09/2021 00:48:58 Number of words: 1490
+Date: 18/09/2021 00:48:58 Correctly: 7703
+Date: 18/09/2021 00:48:58 Badly: 2834
+Date: 18/09/2021 00:48:58 Max Strike: 30
+
+Date: 19/09/2021 21:52:15 Number of words: 1510
+Date: 19/09/2021 21:52:15 Correctly: 7797
+Date: 19/09/2021 21:52:15 Badly: 2876
+Date: 19/09/2021 21:52:15 Max Strike: 30
+
+Date: 20/09/2021 14:12:56 Number of words: 1515
+Date: 20/09/2021 14:12:56 Correctly: 7964
+Date: 20/09/2021 14:12:56 Badly: 2960
+Date: 20/09/2021 14:12:56 Max Strike: 30
+
+Date: 20/09/2021 14:20:56 Number of words: 1516
+Date: 20/09/2021 14:20:56 Correctly: 7964
+Date: 20/09/2021 14:20:56 Badly: 2960
+Date: 20/09/2021 14:20:56 Max Strike: 30
+
+Date: 20/09/2021 17:20:08 Number of words: 1521
+Date: 20/09/2021 17:20:08 Correctly: 7993
+Date: 20/09/2021 17:20:08 Badly: 2972
+Date: 20/09/2021 17:20:08 Max Strike: 30
+
+Date: 20/09/2021 17:46:17 Number of words: 1521
+Date: 20/09/2021 17:46:17 Correctly: 7995
+Date: 20/09/2021 17:46:17 Badly: 2973
+Date: 20/09/2021 17:46:17 Max Strike: 30
+
+Date: 20/09/2021 18:58:28 Number of words: 1521
+Date: 20/09/2021 18:58:28 Correctly: 8043
+Date: 20/09/2021 18:58:28 Badly: 2992
+Date: 20/09/2021 18:58:28 Max Strike: 30
+
+Date: 20/09/2021 21:15:32 Number of words: 1527
+Date: 20/09/2021 21:15:32 Correctly: 8224
+Date: 20/09/2021 21:15:32 Badly: 3056
+Date: 20/09/2021 21:15:32 Max Strike: 30
+
+Date: 20/09/2021 22:31:39 Number of words: 1528
+Date: 20/09/2021 22:31:39 Correctly: 8295
+Date: 20/09/2021 22:31:39 Badly: 3093
+Date: 20/09/2021 22:31:39 Max Strike: 30
+
+Date: 21/09/2021 00:42:17 Number of words: 1539
+Date: 21/09/2021 00:42:17 Correctly: 8311
+Date: 21/09/2021 00:42:17 Badly: 3099
+Date: 21/09/2021 00:42:17 Max Strike: 30
+
+Date: 21/09/2021 00:53:15 Number of words: 1539
+Date: 21/09/2021 00:53:15 Correctly: 8451
+Date: 21/09/2021 00:53:15 Badly: 3158
+Date: 21/09/2021 00:53:15 Max Strike: 30
+
+Date: 21/09/2021 15:10:34 Number of words: 1539
+Date: 21/09/2021 15:10:34 Correctly: 8523
+Date: 21/09/2021 15:10:34 Badly: 3197
+Date: 21/09/2021 15:10:34 Max Strike: 30
+
+Date: 21/09/2021 17:59:58 Number of words: 1539
+Date: 21/09/2021 17:59:58 Correctly: 8557
+Date: 21/09/2021 17:59:58 Badly: 3211
+Date: 21/09/2021 17:59:58 Max Strike: 30
+
+Date: 21/09/2021 18:38:49 Number of words: 1553
+Date: 21/09/2021 18:38:49 Correctly: 8690
+Date: 21/09/2021 18:38:49 Badly: 3265
+Date: 21/09/2021 18:38:49 Max Strike: 30
+
+Date: 21/09/2021 18:47:56 Number of words: 1553
+Date: 21/09/2021 18:47:56 Correctly: 8765
+Date: 21/09/2021 18:47:56 Badly: 3287
+Date: 21/09/2021 18:47:56 Max Strike: 30
+
+Date: 21/09/2021 19:13:25 Number of words: 1553
+Date: 21/09/2021 19:13:25 Correctly: 8766
+Date: 21/09/2021 19:13:25 Badly: 3287
+Date: 21/09/2021 19:13:25 Max Strike: 30
+
+Date: 22/09/2021 00:46:11 Number of words: 1553
+Date: 22/09/2021 00:46:11 Correctly: 8965
+Date: 22/09/2021 00:46:11 Badly: 3349
+Date: 22/09/2021 00:46:11 Max Strike: 30
+
+Date: 22/09/2021 02:52:49 Number of words: 1572
+Date: 22/09/2021 02:52:49 Correctly: 9137
+Date: 22/09/2021 02:52:49 Badly: 3403
+Date: 22/09/2021 02:52:49 Max Strike: 42
+
+Date: 22/09/2021 15:29:43 Number of words: 1577
+Date: 22/09/2021 15:29:43 Correctly: 9242
+Date: 22/09/2021 15:29:43 Badly: 3439
+Date: 22/09/2021 15:29:43 Max Strike: 42
+
+Date: 23/09/2021 00:28:01 Number of words: 1582
+Date: 23/09/2021 00:28:01 Correctly: 9410
+Date: 23/09/2021 00:28:01 Badly: 3473
+Date: 23/09/2021 00:28:01 Max Strike: 42
+
+Date: 23/09/2021 03:08:54 Number of words: 1584
+Date: 23/09/2021 03:08:54 Correctly: 9452
+Date: 23/09/2021 03:08:54 Badly: 3484
+Date: 23/09/2021 03:08:54 Max Strike: 42
+
+Date: 23/09/2021 11:01:29 Number of words: 1584
+Date: 23/09/2021 11:01:29 Correctly: 9452
+Date: 23/09/2021 11:01:29 Badly: 3484
+Date: 23/09/2021 11:01:29 Max Strike: 42
+
+Date: 23/09/2021 21:53:13 Number of words: 1586
+Date: 23/09/2021 21:53:13 Correctly: 9453
+Date: 23/09/2021 21:53:13 Badly: 3484
+Date: 23/09/2021 21:53:13 Max Strike: 42
+
+Date: 25/09/2021 21:40:50 Number of words: 1586
+Date: 25/09/2021 21:40:50 Correctly: 9553
+Date: 25/09/2021 21:40:50 Badly: 3518
+Date: 25/09/2021 21:40:50 Max Strike: 42
+
+Date: 26/09/2021 02:52:42 Number of words: 1586
+Date: 26/09/2021 02:52:42 Correctly: 9658
+Date: 26/09/2021 02:52:42 Badly: 3549
+Date: 26/09/2021 02:52:42 Max Strike: 42
+
+Date: 26/09/2021 20:21:13 Number of words: 1589
+Date: 26/09/2021 20:21:13 Correctly: 9666
+Date: 26/09/2021 20:21:13 Badly: 3553
+Date: 26/09/2021 20:21:13 Max Strike: 42
+
+Date: 26/09/2021 20:34:27 Number of words: 1589
+Date: 26/09/2021 20:34:27 Correctly: 9773
+Date: 26/09/2021 20:34:27 Badly: 3581
+Date: 26/09/2021 20:34:27 Max Strike: 42
+
+Date: 26/09/2021 23:45:45 Number of words: 1589
+Date: 26/09/2021 23:45:45 Correctly: 9856
+Date: 26/09/2021 23:45:45 Badly: 3611
+Date: 26/09/2021 23:45:45 Max Strike: 42
+
+Date: 26/09/2021 23:51:51 Number of words: 1589
+Date: 26/09/2021 23:51:51 Correctly: 9910
+Date: 26/09/2021 23:51:51 Badly: 3633
+Date: 26/09/2021 23:51:51 Max Strike: 42
+
+Date: 26/09/2021 23:56:00 Number of words: 1589
+Date: 26/09/2021 23:56:00 Correctly: 10000
+Date: 26/09/2021 23:56:00 Badly: 3662
+Date: 26/09/2021 23:56:00 Max Strike: 42
+
+Date: 26/09/2021 23:56:36 Number of words: 1589
+Date: 26/09/2021 23:56:36 Correctly: 10000
+Date: 26/09/2021 23:56:36 Badly: 3662
+Date: 26/09/2021 23:56:36 Max Strike: 42
+
+Date: 27/09/2021 20:36:21 Number of words: 1590
+Date: 27/09/2021 20:36:21 Correctly: 10074
+Date: 27/09/2021 20:36:21 Badly: 3688
+Date: 27/09/2021 20:36:21 Max Strike: 42
+
+Date: 28/09/2021 03:48:37 Number of words: 1601
+Date: 28/09/2021 03:48:37 Correctly: 10204
+Date: 28/09/2021 03:48:37 Badly: 3741
+Date: 28/09/2021 03:48:37 Max Strike: 42
+
+Date: 28/09/2021 18:11:06 Number of words: 1601
+Date: 28/09/2021 18:11:06 Correctly: 10266
+Date: 28/09/2021 18:11:06 Badly: 3756
+Date: 28/09/2021 18:11:06 Max Strike: 42
+
+Date: 29/09/2021 02:18:41 Number of words: 1615
+Date: 29/09/2021 02:18:41 Correctly: 10281
+Date: 29/09/2021 02:18:41 Badly: 3764
+Date: 29/09/2021 02:18:41 Max Strike: 42
+
+Date: 29/09/2021 17:22:36 Number of words: 1624
+Date: 29/09/2021 17:22:36 Correctly: 10332
+Date: 29/09/2021 17:22:36 Badly: 3777
+Date: 29/09/2021 17:22:36 Max Strike: 42
+
+Date: 03/10/2021 00:51:43 Number of words: 1624
+Date: 03/10/2021 00:51:43 Correctly: 10589
+Date: 03/10/2021 00:51:43 Badly: 3840
+Date: 03/10/2021 00:51:43 Max Strike: 42
+
+Date: 04/10/2021 02:25:58 Number of words: 1624
+Date: 04/10/2021 02:25:58 Correctly: 10689
+Date: 04/10/2021 02:25:58 Badly: 3866
+Date: 04/10/2021 02:25:58 Max Strike: 42
+
+Date: 06/10/2021 23:24:49 Number of words: 1626
+Date: 06/10/2021 23:24:49 Correctly: 10831
+Date: 06/10/2021 23:24:49 Badly: 3900
+Date: 06/10/2021 23:24:49 Max Strike: 42
+
+Date: 11/10/2021 21:29:15 Number of words: 1626
+Date: 11/10/2021 21:29:15 Correctly: 10895
+Date: 11/10/2021 21:29:15 Badly: 3924
+Date: 11/10/2021 21:29:15 Max Strike: 42
+
+Date: 12/10/2021 17:03:33 Number of words: 1666
+Date: 12/10/2021 17:03:33 Correctly: 10906
+Date: 12/10/2021 17:03:33 Badly: 3929
+Date: 12/10/2021 17:03:33 Max Strike: 42
+
+Date: 12/10/2021 17:19:11 Number of words: 1710
+Date: 12/10/2021 17:19:11 Correctly: 10906
+Date: 12/10/2021 17:19:11 Badly: 3929
+Date: 12/10/2021 17:19:11 Max Strike: 42
+
+Date: 12/10/2021 17:24:35 Number of words: 1717
+Date: 12/10/2021 17:24:35 Correctly: 10906
+Date: 12/10/2021 17:24:35 Badly: 3929
+Date: 12/10/2021 17:24:35 Max Strike: 42
+
+Date: 12/10/2021 18:46:29 Number of words: 1732
+Date: 12/10/2021 18:46:29 Correctly: 10940
+Date: 12/10/2021 18:46:29 Badly: 3938
+Date: 12/10/2021 18:46:29 Max Strike: 42
+
+Date: 12/10/2021 19:35:45 Number of words: 1732
+Date: 12/10/2021 19:35:45 Correctly: 11321
+Date: 12/10/2021 19:35:45 Badly: 4059
+Date: 12/10/2021 19:35:45 Max Strike: 42
+
+Date: 13/10/2021 23:51:02 Number of words: 1736
+Date: 13/10/2021 23:51:02 Correctly: 11392
+Date: 13/10/2021 23:51:02 Badly: 4070
+Date: 13/10/2021 23:51:02 Max Strike: 42
+
+Date: 14/10/2021 09:53:22 Number of words: 1737
+Date: 14/10/2021 09:53:22 Correctly: 11435
+Date: 14/10/2021 09:53:22 Badly: 4077
+Date: 14/10/2021 09:53:22 Max Strike: 42
+
+Date: 15/10/2021 16:41:06 Number of words: 1791
+Date: 15/10/2021 16:41:06 Correctly: 11436
+Date: 15/10/2021 16:41:06 Badly: 4077
+Date: 15/10/2021 16:41:06 Max Strike: 42
+
+Date: 16/10/2021 02:59:29 Number of words: 1792
+Date: 16/10/2021 02:59:29 Correctly: 11466
+Date: 16/10/2021 02:59:29 Badly: 4085
+Date: 16/10/2021 02:59:29 Max Strike: 42
+
+Date: 18/10/2021 13:55:48 Number of words: 1793
+Date: 18/10/2021 13:55:48 Correctly: 11620
+Date: 18/10/2021 13:55:48 Badly: 4135
+Date: 18/10/2021 13:55:48 Max Strike: 42
+
+Date: 18/10/2021 18:54:03 Number of words: 1805
+Date: 18/10/2021 18:54:03 Correctly: 11843
+Date: 18/10/2021 18:54:03 Badly: 4207
+Date: 18/10/2021 18:54:03 Max Strike: 42
+
+Date: 18/10/2021 21:50:30 Number of words: 1805
+Date: 18/10/2021 21:50:30 Correctly: 12394
+Date: 18/10/2021 21:50:30 Badly: 4386
+Date: 18/10/2021 21:50:30 Max Strike: 42
+
+Date: 19/10/2021 11:48:34 Number of words: 1805
+Date: 19/10/2021 11:48:34 Correctly: 12402
+Date: 19/10/2021 11:48:34 Badly: 4389
+Date: 19/10/2021 11:48:34 Max Strike: 42
+
+Date: 19/10/2021 13:47:38 Number of words: 1805
+Date: 19/10/2021 13:47:38 Correctly: 12438
+Date: 19/10/2021 13:47:38 Badly: 4402
+Date: 19/10/2021 13:47:38 Max Strike: 42
+
+Date: 19/10/2021 21:35:11 Number of words: 1814
+Date: 19/10/2021 21:35:11 Correctly: 12457
+Date: 19/10/2021 21:35:11 Badly: 4412
+Date: 19/10/2021 21:35:11 Max Strike: 42
+
+Date: 19/10/2021 21:57:12 Number of words: 1814
+Date: 19/10/2021 21:57:12 Correctly: 12508
+Date: 19/10/2021 21:57:12 Badly: 4424
+Date: 19/10/2021 21:57:12 Max Strike: 42
+
+Date: 20/10/2021 21:55:06 Number of words: 1821
+Date: 20/10/2021 21:55:06 Correctly: 12540
+Date: 20/10/2021 21:55:06 Badly: 4430
+Date: 20/10/2021 21:55:06 Max Strike: 42
+
+Date: 21/10/2021 22:11:13 Number of words: 1834
+Date: 21/10/2021 22:11:13 Correctly: 12547
+Date: 21/10/2021 22:11:13 Badly: 4433
+Date: 21/10/2021 22:11:13 Max Strike: 42
+
+Date: 23/10/2021 16:31:11 Number of words: 2616
+Date: 23/10/2021 16:31:11 Correctly: 12617
+Date: 23/10/2021 16:31:11 Badly: 4452
+Date: 23/10/2021 16:31:11 Max Strike: 42
+
+Date: 24/10/2021 00:12:50 Number of words: 2616
+Date: 24/10/2021 00:12:50 Correctly: 12626
+Date: 24/10/2021 00:12:50 Badly: 4452
+Date: 24/10/2021 00:12:50 Max Strike: 42
+
+Date: 24/10/2021 10:44:08 Number of words: 2616
+Date: 24/10/2021 10:44:08 Correctly: 12667
+Date: 24/10/2021 10:44:08 Badly: 4459
+Date: 24/10/2021 10:44:08 Max Strike: 42
+
+Date: 24/10/2021 11:09:02 Number of words: 2616
+Date: 24/10/2021 11:09:02 Correctly: 12685
+Date: 24/10/2021 11:09:02 Badly: 4461
+Date: 24/10/2021 11:09:02 Max Strike: 42
+
+Date: 24/10/2021 13:26:54 Number of words: 2617
+Date: 24/10/2021 13:26:54 Correctly: 12722
+Date: 24/10/2021 13:26:54 Badly: 4468
+Date: 24/10/2021 13:26:54 Max Strike: 42
+
+Date: 24/10/2021 13:37:18 Number of words: 2618
+Date: 24/10/2021 13:37:18 Correctly: 12746
+Date: 24/10/2021 13:37:18 Badly: 4470
+Date: 24/10/2021 13:37:18 Max Strike: 42
+
+Date: 24/10/2021 14:26:35 Number of words: 2628
+Date: 24/10/2021 14:26:35 Correctly: 12785
+Date: 24/10/2021 14:26:35 Badly: 4478
+Date: 24/10/2021 14:26:35 Max Strike: 42
+
+Date: 24/10/2021 14:39:11 Number of words: 2628
+Date: 24/10/2021 14:39:11 Correctly: 12824
+Date: 24/10/2021 14:39:11 Badly: 4482
+Date: 24/10/2021 14:39:11 Max Strike: 42
+
+Date: 24/10/2021 15:42:10 Number of words: 2628
+Date: 24/10/2021 15:42:10 Correctly: 12851
+Date: 24/10/2021 15:42:10 Badly: 4488
+Date: 24/10/2021 15:42:10 Max Strike: 42
+
+Date: 24/10/2021 17:02:24 Number of words: 2628
+Date: 24/10/2021 17:02:24 Correctly: 12887
+Date: 24/10/2021 17:02:24 Badly: 4495
+Date: 24/10/2021 17:02:24 Max Strike: 42
+
+Date: 24/10/2021 18:20:41 Number of words: 2628
+Date: 24/10/2021 18:20:41 Correctly: 12951
+Date: 24/10/2021 18:20:41 Badly: 4512
+Date: 24/10/2021 18:20:41 Max Strike: 42
+
+Date: 24/10/2021 20:04:50 Number of words: 2628
+Date: 24/10/2021 20:04:50 Correctly: 13030
+Date: 24/10/2021 20:04:50 Badly: 4527
+Date: 24/10/2021 20:04:50 Max Strike: 42
+
+Date: 24/10/2021 20:20:16 Number of words: 2628
+Date: 24/10/2021 20:20:16 Correctly: 13043
+Date: 24/10/2021 20:20:16 Badly: 4528
+Date: 24/10/2021 20:20:16 Max Strike: 42
+
+Date: 24/10/2021 20:57:12 Number of words: 2628
+Date: 24/10/2021 20:57:12 Correctly: 13092
+Date: 24/10/2021 20:57:12 Badly: 4540
+Date: 24/10/2021 20:57:12 Max Strike: 42
+
+Date: 24/10/2021 23:19:07 Number of words: 2628
+Date: 24/10/2021 23:19:07 Correctly: 13092
+Date: 24/10/2021 23:19:07 Badly: 4540
+Date: 24/10/2021 23:19:07 Max Strike: 42
+
+Date: 25/10/2021 14:37:59 Number of words: 2628
+Date: 25/10/2021 14:37:59 Correctly: 13155
+Date: 25/10/2021 14:37:59 Badly: 4559
+Date: 25/10/2021 14:37:59 Max Strike: 42
+
+Date: 25/10/2021 23:27:16 Number of words: 2631
+Date: 25/10/2021 23:27:16 Correctly: 13197
+Date: 25/10/2021 23:27:16 Badly: 4568
+Date: 25/10/2021 23:27:16 Max Strike: 42
+
+Date: 26/10/2021 10:31:31 Number of words: 2631
+Date: 26/10/2021 10:31:31 Correctly: 13249
+Date: 26/10/2021 10:31:31 Badly: 4584
+Date: 26/10/2021 10:31:31 Max Strike: 42
+
+Date: 26/10/2021 16:07:03 Number of words: 2645
+Date: 26/10/2021 16:07:03 Correctly: 13441
+Date: 26/10/2021 16:07:03 Badly: 4651
+Date: 26/10/2021 16:07:03 Max Strike: 42
+
+Date: 26/10/2021 20:46:58 Number of words: 2645
+Date: 26/10/2021 20:46:58 Correctly: 13444
+Date: 26/10/2021 20:46:58 Badly: 4653
+Date: 26/10/2021 20:46:58 Max Strike: 42
+
+Date: 27/10/2021 19:31:54 Number of words: 2647
+Date: 27/10/2021 19:31:54 Correctly: 13566
+Date: 27/10/2021 19:31:54 Badly: 4687
+Date: 27/10/2021 19:31:54 Max Strike: 42
+
+Date: 27/10/2021 21:53:31 Number of words: 2647
+Date: 27/10/2021 21:53:31 Correctly: 13700
+Date: 27/10/2021 21:53:31 Badly: 4729
+Date: 27/10/2021 21:53:31 Max Strike: 42
+
+Date: 28/10/2021 12:12:40 Number of words: 2648
+Date: 28/10/2021 12:12:40 Correctly: 13700
+Date: 28/10/2021 12:12:40 Badly: 4729
+Date: 28/10/2021 12:12:40 Max Strike: 42
+
+Date: 28/10/2021 21:47:35 Number of words: 2649
+Date: 28/10/2021 21:47:35 Correctly: 13827
+Date: 28/10/2021 21:47:35 Badly: 4759
+Date: 28/10/2021 21:47:35 Max Strike: 42
+
+Date: 28/10/2021 21:58:12 Number of words: 2649
+Date: 28/10/2021 21:58:12 Correctly: 13833
+Date: 28/10/2021 21:58:12 Badly: 4763
+Date: 28/10/2021 21:58:12 Max Strike: 42
+
+Date: 29/10/2021 11:20:35 Number of words: 2653
+Date: 29/10/2021 11:20:35 Correctly: 13933
+Date: 29/10/2021 11:20:35 Badly: 4791
+Date: 29/10/2021 11:20:35 Max Strike: 42
+
+Date: 29/10/2021 14:01:47 Number of words: 2653
+Date: 29/10/2021 14:01:47 Correctly: 13991
+Date: 29/10/2021 14:01:47 Badly: 4811
+Date: 29/10/2021 14:01:47 Max Strike: 42
+
+Date: 29/10/2021 16:29:27 Number of words: 2653
+Date: 29/10/2021 16:29:27 Correctly: 14028
+Date: 29/10/2021 16:29:27 Badly: 4825
+Date: 29/10/2021 16:29:27 Max Strike: 42
+
+Date: 29/10/2021 20:23:43 Number of words: 2655
+Date: 29/10/2021 20:23:43 Correctly: 14084
+Date: 29/10/2021 20:23:43 Badly: 4853
+Date: 29/10/2021 20:23:43 Max Strike: 42
+
+Date: 29/10/2021 21:56:48 Number of words: 2655
+Date: 29/10/2021 21:56:48 Correctly: 14184
+Date: 29/10/2021 21:56:48 Badly: 4894
+Date: 29/10/2021 21:56:48 Max Strike: 42
+
+Date: 30/10/2021 11:32:01 Number of words: 2655
+Date: 30/10/2021 11:32:01 Correctly: 14260
+Date: 30/10/2021 11:32:01 Badly: 4917
+Date: 30/10/2021 11:32:01 Max Strike: 42
+
+Date: 30/10/2021 19:39:55 Number of words: 2655
+Date: 30/10/2021 19:39:55 Correctly: 14510
+Date: 30/10/2021 19:39:55 Badly: 5015
+Date: 30/10/2021 19:39:55 Max Strike: 42
+
+Date: 30/10/2021 20:28:07 Number of words: 2655
+Date: 30/10/2021 20:28:07 Correctly: 14610
+Date: 30/10/2021 20:28:07 Badly: 5041
+Date: 30/10/2021 20:28:07 Max Strike: 42
+
+Date: 30/10/2021 21:41:13 Number of words: 2655
+Date: 30/10/2021 21:41:13 Correctly: 14667
+Date: 30/10/2021 21:41:13 Badly: 5071
+Date: 30/10/2021 21:41:13 Max Strike: 42
+
+Date: 30/10/2021 21:41:53 Number of words: 2655
+Date: 30/10/2021 21:41:53 Correctly: 14684
+Date: 30/10/2021 21:41:53 Badly: 5080
+Date: 30/10/2021 21:41:53 Max Strike: 42
+
+Date: 31/10/2021 10:52:22 Number of words: 2655
+Date: 31/10/2021 10:52:22 Correctly: 14734
+Date: 31/10/2021 10:52:22 Badly: 5100
+Date: 31/10/2021 10:52:22 Max Strike: 42
+
+Date: 31/10/2021 19:59:32 Number of words: 2661
+Date: 31/10/2021 19:59:32 Correctly: 14865
+Date: 31/10/2021 19:59:32 Badly: 5145
+Date: 31/10/2021 19:59:32 Max Strike: 42
+
+Date: 31/10/2021 20:32:08 Number of words: 2661
+Date: 31/10/2021 20:32:08 Correctly: 14915
+Date: 31/10/2021 20:32:08 Badly: 5165
+Date: 31/10/2021 20:32:08 Max Strike: 42
+
+Date: 31/10/2021 21:45:14 Number of words: 2664
+Date: 31/10/2021 21:45:14 Correctly: 15004
+Date: 31/10/2021 21:45:14 Badly: 5185
+Date: 31/10/2021 21:45:14 Max Strike: 57
+
+Date: 31/10/2021 21:48:07 Number of words: 2664
+Date: 31/10/2021 21:48:07 Correctly: 15104
+Date: 31/10/2021 21:48:07 Badly: 5210
+Date: 31/10/2021 21:48:07 Max Strike: 57
+
+Date: 01/11/2021 11:34:25 Number of words: 2664
+Date: 01/11/2021 11:34:25 Correctly: 15154
+Date: 01/11/2021 11:34:25 Badly: 5228
+Date: 01/11/2021 11:34:25 Max Strike: 57
+
+Date: 01/11/2021 20:02:52 Number of words: 2666
+Date: 01/11/2021 20:02:52 Correctly: 15206
+Date: 01/11/2021 20:02:52 Badly: 5247
+Date: 01/11/2021 20:02:52 Max Strike: 57
+
+Date: 01/11/2021 21:34:22 Number of words: 2666
+Date: 01/11/2021 21:34:22 Correctly: 15336
+Date: 01/11/2021 21:34:22 Badly: 5289
+Date: 01/11/2021 21:34:22 Max Strike: 57
+
+Date: 01/11/2021 21:57:50 Number of words: 2666
+Date: 01/11/2021 21:57:50 Correctly: 15446
+Date: 01/11/2021 21:57:50 Badly: 5330
+Date: 01/11/2021 21:57:50 Max Strike: 57
+
+Date: 01/11/2021 21:57:57 Number of words: 2666
+Date: 01/11/2021 21:57:57 Correctly: 15448
+Date: 01/11/2021 21:57:57 Badly: 5330
+Date: 01/11/2021 21:57:57 Max Strike: 57
+
+Date: 02/11/2021 14:10:59 Number of words: 2666
+Date: 02/11/2021 14:10:59 Correctly: 15459
+Date: 02/11/2021 14:10:59 Badly: 5332
+Date: 02/11/2021 14:10:59 Max Strike: 57
+
+Date: 02/11/2021 14:31:37 Number of words: 2666
+Date: 02/11/2021 14:31:37 Correctly: 15466
+Date: 02/11/2021 14:31:37 Badly: 5334
+Date: 02/11/2021 14:31:37 Max Strike: 57
+
+Date: 03/11/2021 13:08:50 Number of words: 2666
+Date: 03/11/2021 13:08:50 Correctly: 15468
+Date: 03/11/2021 13:08:50 Badly: 5334
+Date: 03/11/2021 13:08:50 Max Strike: 57
+
+Date: 03/11/2021 13:10:01 Number of words: 2666
+Date: 03/11/2021 13:10:01 Correctly: 15475
+Date: 03/11/2021 13:10:01 Badly: 5338
+Date: 03/11/2021 13:10:01 Max Strike: 57
+
+Date: 03/11/2021 13:47:49 Number of words: 2564
+Date: 03/11/2021 13:47:49 Correctly: 15492
+Date: 03/11/2021 13:47:49 Badly: 5343
+Date: 03/11/2021 13:47:49 Max Strike: 57
+
+Date: 03/11/2021 13:49:32 Number of words: 2564
+Date: 03/11/2021 13:49:32 Correctly: 15493
+Date: 03/11/2021 13:49:32 Badly: 5345
+Date: 03/11/2021 13:49:32 Max Strike: 57
+
+Date: 03/11/2021 18:55:58 Number of words: 2565
+Date: 03/11/2021 18:55:58 Correctly: 15513
+Date: 03/11/2021 18:55:58 Badly: 5351
+Date: 03/11/2021 18:55:58 Max Strike: 57
+
+Date: 03/11/2021 22:42:29 Number of words: 2565
+Date: 03/11/2021 22:42:29 Correctly: 15522
+Date: 03/11/2021 22:42:29 Badly: 5356
+Date: 03/11/2021 22:42:29 Max Strike: 57
+
+Date: 03/11/2021 22:42:29 Number of words: 2565
+Date: 03/11/2021 22:42:29 Correctly: 15522
+Date: 03/11/2021 22:42:29 Badly: 5356
+Date: 03/11/2021 22:42:29 Max Strike: 57
+
+Date: 04/11/2021 22:17:35 Number of words: 2566
+Date: 04/11/2021 22:17:35 Correctly: 15522
+Date: 04/11/2021 22:17:35 Badly: 5356
+Date: 04/11/2021 22:17:35 Max Strike: 57
+
+Date: 05/11/2021 00:18:33 Number of words: 2566
+Date: 05/11/2021 00:18:33 Correctly: 15522
+Date: 05/11/2021 00:18:33 Badly: 5356
+Date: 05/11/2021 00:18:33 Max Strike: 57
+
+Date: 05/11/2021 00:18:33 Number of words: 2566
+Date: 05/11/2021 00:18:33 Correctly: 15522
+Date: 05/11/2021 00:18:33 Badly: 5356
+Date: 05/11/2021 00:18:33 Max Strike: 57
+
+Date: 06/11/2021 20:46:33 Number of words: 2567
+Date: 06/11/2021 20:46:33 Correctly: 15581
+Date: 06/11/2021 20:46:33 Badly: 5377
+Date: 06/11/2021 20:46:33 Max Strike: 57
+
+Date: 07/11/2021 00:12:31 Number of words: 2567
+Date: 07/11/2021 00:12:31 Correctly: 15587
+Date: 07/11/2021 00:12:31 Badly: 5379
+Date: 07/11/2021 00:12:31 Max Strike: 57
+
+Date: 07/11/2021 00:12:31 Number of words: 2567
+Date: 07/11/2021 00:12:31 Correctly: 15587
+Date: 07/11/2021 00:12:31 Badly: 5379
+Date: 07/11/2021 00:12:31 Max Strike: 57
+
+Date: 08/11/2021 10:51:22 Number of words: 2568
+Date: 08/11/2021 10:51:22 Correctly: 15587
+Date: 08/11/2021 10:51:22 Badly: 5379
+Date: 08/11/2021 10:51:22 Max Strike: 57
+
+Date: 08/11/2021 11:05:31 Number of words: 2570
+Date: 08/11/2021 11:05:31 Correctly: 15617
+Date: 08/11/2021 11:05:31 Badly: 5383
+Date: 08/11/2021 11:05:31 Max Strike: 57
+
+Date: 08/11/2021 11:13:15 Number of words: 2571
+Date: 08/11/2021 11:13:15 Correctly: 15639
+Date: 08/11/2021 11:13:15 Badly: 5391
+Date: 08/11/2021 11:13:15 Max Strike: 57
+
+Date: 08/11/2021 11:26:40 Number of words: 2572
+Date: 08/11/2021 11:26:40 Correctly: 15665
+Date: 08/11/2021 11:26:40 Badly: 5402
+Date: 08/11/2021 11:26:40 Max Strike: 57
+
+Date: 08/11/2021 13:51:44 Number of words: 2573
+Date: 08/11/2021 13:51:44 Correctly: 15834
+Date: 08/11/2021 13:51:44 Badly: 5442
+Date: 08/11/2021 13:51:44 Max Strike: 57
+
+Date: 08/11/2021 13:51:45 Number of words: 2573
+Date: 08/11/2021 13:51:45 Correctly: 15834
+Date: 08/11/2021 13:51:45 Badly: 5442
+Date: 08/11/2021 13:51:45 Max Strike: 57
+
+Date: 08/11/2021 23:22:10 Number of words: 2573
+Date: 08/11/2021 23:22:10 Correctly: 16034
+Date: 08/11/2021 23:22:10 Badly: 5528
+Date: 08/11/2021 23:22:10 Max Strike: 57
+
+Date: 08/11/2021 23:22:10 Number of words: 2573
+Date: 08/11/2021 23:22:10 Correctly: 16034
+Date: 08/11/2021 23:22:10 Badly: 5528
+Date: 08/11/2021 23:22:10 Max Strike: 57
+
+Date: 09/11/2021 17:45:17 Number of words: 2574
+Date: 09/11/2021 17:45:17 Correctly: 16034
+Date: 09/11/2021 17:45:17 Badly: 5528
+Date: 09/11/2021 17:45:17 Max Strike: 57
+
+Date: 09/11/2021 17:47:15 Number of words: 2575
+Date: 09/11/2021 17:47:15 Correctly: 16034
+Date: 09/11/2021 17:47:15 Badly: 5528
+Date: 09/11/2021 17:47:15 Max Strike: 57
+
+Date: 09/11/2021 17:58:43 Number of words: 2576
+Date: 09/11/2021 17:58:43 Correctly: 16034
+Date: 09/11/2021 17:58:43 Badly: 5528
+Date: 09/11/2021 17:58:43 Max Strike: 57
+
+Date: 09/11/2021 18:01:55 Number of words: 2577
+Date: 09/11/2021 18:01:55 Correctly: 16034
+Date: 09/11/2021 18:01:55 Badly: 5528
+Date: 09/11/2021 18:01:55 Max Strike: 57
+
+Date: 09/11/2021 18:03:40 Number of words: 2578
+Date: 09/11/2021 18:03:40 Correctly: 16034
+Date: 09/11/2021 18:03:40 Badly: 5528
+Date: 09/11/2021 18:03:40 Max Strike: 57
+
+Date: 09/11/2021 18:14:00 Number of words: 2579
+Date: 09/11/2021 18:14:00 Correctly: 16034
+Date: 09/11/2021 18:14:00 Badly: 5528
+Date: 09/11/2021 18:14:00 Max Strike: 57
+
+Date: 09/11/2021 18:25:47 Number of words: 2580
+Date: 09/11/2021 18:25:47 Correctly: 16034
+Date: 09/11/2021 18:25:47 Badly: 5528
+Date: 09/11/2021 18:25:47 Max Strike: 57
+
+Date: 09/11/2021 18:29:02 Number of words: 2581
+Date: 09/11/2021 18:29:02 Correctly: 16034
+Date: 09/11/2021 18:29:02 Badly: 5528
+Date: 09/11/2021 18:29:02 Max Strike: 57
+
+Date: 09/11/2021 18:29:13 Number of words: 2582
+Date: 09/11/2021 18:29:13 Correctly: 16034
+Date: 09/11/2021 18:29:13 Badly: 5528
+Date: 09/11/2021 18:29:13 Max Strike: 57
+
+Date: 09/11/2021 18:32:11 Number of words: 2582
+Date: 09/11/2021 18:32:11 Correctly: 16034
+Date: 09/11/2021 18:32:11 Badly: 5528
+Date: 09/11/2021 18:32:11 Max Strike: 57
+
+Date: 09/11/2021 18:34:56 Number of words: 2583
+Date: 09/11/2021 18:34:56 Correctly: 16034
+Date: 09/11/2021 18:34:56 Badly: 5528
+Date: 09/11/2021 18:34:56 Max Strike: 57
+
+Date: 09/11/2021 18:37:30 Number of words: 2583
+Date: 09/11/2021 18:37:30 Correctly: 16034
+Date: 09/11/2021 18:37:30 Badly: 5528
+Date: 09/11/2021 18:37:30 Max Strike: 57
+
+Date: 09/11/2021 19:19:45 Number of words: 2584
+Date: 09/11/2021 19:19:45 Correctly: 16034
+Date: 09/11/2021 19:19:45 Badly: 5528
+Date: 09/11/2021 19:19:45 Max Strike: 57
+
+Date: 09/11/2021 19:20:41 Number of words: 2585
+Date: 09/11/2021 19:20:41 Correctly: 16034
+Date: 09/11/2021 19:20:41 Badly: 5528
+Date: 09/11/2021 19:20:41 Max Strike: 57
+
+Date: 10/11/2021 12:52:26 Number of words: 2586
+Date: 10/11/2021 12:52:26 Correctly: 16034
+Date: 10/11/2021 12:52:26 Badly: 5528
+Date: 10/11/2021 12:52:26 Max Strike: 57
+
+Date: 10/11/2021 12:54:46 Number of words: 2587
+Date: 10/11/2021 12:54:46 Correctly: 16034
+Date: 10/11/2021 12:54:46 Badly: 5528
+Date: 10/11/2021 12:54:46 Max Strike: 57
+
+Date: 10/11/2021 12:56:03 Number of words: 2588
+Date: 10/11/2021 12:56:03 Correctly: 16034
+Date: 10/11/2021 12:56:03 Badly: 5528
+Date: 10/11/2021 12:56:03 Max Strike: 57
+
+Date: 10/11/2021 13:04:46 Number of words: 2589
+Date: 10/11/2021 13:04:46 Correctly: 16034
+Date: 10/11/2021 13:04:46 Badly: 5528
+Date: 10/11/2021 13:04:46 Max Strike: 57
+
+Date: 10/11/2021 13:12:10 Number of words: 2589
+Date: 10/11/2021 13:12:10 Correctly: 16045
+Date: 10/11/2021 13:12:10 Badly: 5530
+Date: 10/11/2021 13:12:10 Max Strike: 57
+
+Date: 10/11/2021 14:03:30 Number of words: 2590
+Date: 10/11/2021 14:03:30 Correctly: 16045
+Date: 10/11/2021 14:03:30 Badly: 5530
+Date: 10/11/2021 14:03:30 Max Strike: 57
+
+Date: 10/11/2021 14:20:24 Number of words: 2591
+Date: 10/11/2021 14:20:24 Correctly: 16045
+Date: 10/11/2021 14:20:24 Badly: 5530
+Date: 10/11/2021 14:20:24 Max Strike: 57
+
+Date: 10/11/2021 14:23:16 Number of words: 2592
+Date: 10/11/2021 14:23:16 Correctly: 16045
+Date: 10/11/2021 14:23:16 Badly: 5530
+Date: 10/11/2021 14:23:16 Max Strike: 57
+
+Date: 10/11/2021 14:25:04 Number of words: 2593
+Date: 10/11/2021 14:25:04 Correctly: 16045
+Date: 10/11/2021 14:25:04 Badly: 5530
+Date: 10/11/2021 14:25:04 Max Strike: 57
+
+Date: 10/11/2021 14:35:37 Number of words: 2593
+Date: 10/11/2021 14:35:37 Correctly: 16096
+Date: 10/11/2021 14:35:37 Badly: 5547
+Date: 10/11/2021 14:35:37 Max Strike: 57
+
+Date: 10/11/2021 14:35:39 Number of words: 2593
+Date: 10/11/2021 14:35:39 Correctly: 16096
+Date: 10/11/2021 14:35:39 Badly: 5547
+Date: 10/11/2021 14:35:39 Max Strike: 57
+
+Date: 10/11/2021 21:39:29 Number of words: 2594
+Date: 10/11/2021 21:39:29 Correctly: 16106
+Date: 10/11/2021 21:39:29 Badly: 5549
+Date: 10/11/2021 21:39:29 Max Strike: 57
+
+Date: 10/11/2021 22:33:07 Number of words: 2594
+Date: 10/11/2021 22:33:07 Correctly: 16156
+Date: 10/11/2021 22:33:07 Badly: 5559
+Date: 10/11/2021 22:33:07 Max Strike: 57
+
+Date: 10/11/2021 22:33:07 Number of words: 2594
+Date: 10/11/2021 22:33:07 Correctly: 16156
+Date: 10/11/2021 22:33:07 Badly: 5559
+Date: 10/11/2021 22:33:07 Max Strike: 57
+
+Date: 11/11/2021 13:36:02 Number of words: 2595
+Date: 11/11/2021 13:36:02 Correctly: 16156
+Date: 11/11/2021 13:36:02 Badly: 5559
+Date: 11/11/2021 13:36:02 Max Strike: 57
+
+Date: 11/11/2021 13:36:11 Number of words: 2596
+Date: 11/11/2021 13:36:11 Correctly: 16156
+Date: 11/11/2021 13:36:11 Badly: 5559
+Date: 11/11/2021 13:36:11 Max Strike: 57
+
+Date: 11/11/2021 13:45:21 Number of words: 2597
+Date: 11/11/2021 13:45:21 Correctly: 16156
+Date: 11/11/2021 13:45:21 Badly: 5559
+Date: 11/11/2021 13:45:21 Max Strike: 57
+
+Date: 12/11/2021 03:16:44 Number of words: 2597
+Date: 12/11/2021 03:16:44 Correctly: 16170
+Date: 12/11/2021 03:16:44 Badly: 5567
+Date: 12/11/2021 03:16:44 Max Strike: 57
+
+Date: 12/11/2021 20:15:55 Number of words: 2598
+Date: 12/11/2021 20:15:55 Correctly: 16170
+Date: 12/11/2021 20:15:55 Badly: 5567
+Date: 12/11/2021 20:15:55 Max Strike: 57
+
+Date: 12/11/2021 20:16:22 Number of words: 2599
+Date: 12/11/2021 20:16:22 Correctly: 16170
+Date: 12/11/2021 20:16:22 Badly: 5567
+Date: 12/11/2021 20:16:22 Max Strike: 57
+
+Date: 12/11/2021 20:16:41 Number of words: 2600
+Date: 12/11/2021 20:16:41 Correctly: 16170
+Date: 12/11/2021 20:16:41 Badly: 5567
+Date: 12/11/2021 20:16:41 Max Strike: 57
+
+Date: 12/11/2021 23:16:06 Number of words: 2601
+Date: 12/11/2021 23:16:06 Correctly: 16170
+Date: 12/11/2021 23:16:06 Badly: 5567
+Date: 12/11/2021 23:16:06 Max Strike: 57
+
+Date: 12/11/2021 23:16:52 Number of words: 2601
+Date: 12/11/2021 23:16:52 Correctly: 16170
+Date: 12/11/2021 23:16:52 Badly: 5567
+Date: 12/11/2021 23:16:52 Max Strike: 57
+
+Date: 13/11/2021 07:59:52 Number of words: 2601
+Date: 13/11/2021 07:59:52 Correctly: 16331
+Date: 13/11/2021 07:59:52 Badly: 5629
+Date: 13/11/2021 07:59:52 Max Strike: 57
+
+Date: 13/11/2021 09:09:25 Number of words: 2601
+Date: 13/11/2021 09:09:25 Correctly: 16331
+Date: 13/11/2021 09:09:25 Badly: 5629
+Date: 13/11/2021 09:09:25 Max Strike: 57
+
+Date: 15/11/2021 20:32:34 Number of words: 2601
+Date: 15/11/2021 20:32:34 Correctly: 16508
+Date: 15/11/2021 20:32:34 Badly: 5702
+Date: 15/11/2021 20:32:34 Max Strike: 57
+
+Date: 15/11/2021 20:32:34 Number of words: 2601
+Date: 15/11/2021 20:32:34 Correctly: 16508
+Date: 15/11/2021 20:32:34 Badly: 5702
+Date: 15/11/2021 20:32:34 Max Strike: 57
+
+Date: 15/11/2021 20:32:35 Number of words: 2601
+Date: 15/11/2021 20:32:35 Correctly: 16508
+Date: 15/11/2021 20:32:35 Badly: 5702
+Date: 15/11/2021 20:32:35 Max Strike: 57
+
+Date: 15/11/2021 23:31:41 Number of words: 2602
+Date: 15/11/2021 23:31:41 Correctly: 16508
+Date: 15/11/2021 23:31:41 Badly: 5702
+Date: 15/11/2021 23:31:41 Max Strike: 57
+
+Date: 15/11/2021 23:33:39 Number of words: 2603
+Date: 15/11/2021 23:33:39 Correctly: 16508
+Date: 15/11/2021 23:33:39 Badly: 5702
+Date: 15/11/2021 23:33:39 Max Strike: 57
+
+Date: 15/11/2021 23:49:12 Number of words: 2603
+Date: 15/11/2021 23:49:12 Correctly: 16558
+Date: 15/11/2021 23:49:12 Badly: 5726
+Date: 15/11/2021 23:49:12 Max Strike: 57
+
+Date: 15/11/2021 23:49:12 Number of words: 2603
+Date: 15/11/2021 23:49:12 Correctly: 16558
+Date: 15/11/2021 23:49:12 Badly: 5726
+Date: 15/11/2021 23:49:12 Max Strike: 57
+
+Date: 17/11/2021 01:24:32 Number of words: 2603
+Date: 17/11/2021 01:24:32 Correctly: 16608
+Date: 17/11/2021 01:24:32 Badly: 5745
+Date: 17/11/2021 01:24:32 Max Strike: 57
+
+Date: 17/11/2021 01:41:19 Number of words: 2604
+Date: 17/11/2021 01:41:19 Correctly: 16608
+Date: 17/11/2021 01:41:19 Badly: 5745
+Date: 17/11/2021 01:41:19 Max Strike: 57
+
+Date: 17/11/2021 02:31:01 Number of words: 2604
+Date: 17/11/2021 02:31:01 Correctly: 16608
+Date: 17/11/2021 02:31:01 Badly: 5745
+Date: 17/11/2021 02:31:01 Max Strike: 57
+
+Date: 17/11/2021 15:15:10 Number of words: 2605
+Date: 17/11/2021 15:15:10 Correctly: 16608
+Date: 17/11/2021 15:15:10 Badly: 5745
+Date: 17/11/2021 15:15:10 Max Strike: 57
+
+Date: 17/11/2021 20:07:07 Number of words: 2605
+Date: 17/11/2021 20:07:07 Correctly: 16615
+Date: 17/11/2021 20:07:07 Badly: 5749
+Date: 17/11/2021 20:07:07 Max Strike: 57
+
+Date: 17/11/2021 20:07:07 Number of words: 2605
+Date: 17/11/2021 20:07:07 Correctly: 16615
+Date: 17/11/2021 20:07:07 Badly: 5749
+Date: 17/11/2021 20:07:07 Max Strike: 57
+
+Date: 18/11/2021 08:44:35 Number of words: 2605
+Date: 18/11/2021 08:44:35 Correctly: 16615
+Date: 18/11/2021 08:44:35 Badly: 5749
+Date: 18/11/2021 08:44:35 Max Strike: 57
+
+Date: 18/11/2021 17:00:43 Number of words: 2605
+Date: 18/11/2021 17:00:43 Correctly: 16615
+Date: 18/11/2021 17:00:43 Badly: 5749
+Date: 18/11/2021 17:00:43 Max Strike: 57
+
+Date: 19/11/2021 00:40:23 Number of words: 2606
+Date: 19/11/2021 00:40:23 Correctly: 16615
+Date: 19/11/2021 00:40:23 Badly: 5749
+Date: 19/11/2021 00:40:23 Max Strike: 57
+
+Date: 19/11/2021 00:41:25 Number of words: 2607
+Date: 19/11/2021 00:41:25 Correctly: 16615
+Date: 19/11/2021 00:41:25 Badly: 5749
+Date: 19/11/2021 00:41:25 Max Strike: 57
+
+Date: 19/11/2021 01:06:01 Number of words: 2608
+Date: 19/11/2021 01:06:01 Correctly: 16615
+Date: 19/11/2021 01:06:01 Badly: 5749
+Date: 19/11/2021 01:06:01 Max Strike: 57
+
+Date: 19/11/2021 01:44:02 Number of words: 2609
+Date: 19/11/2021 01:44:02 Correctly: 16615
+Date: 19/11/2021 01:44:02 Badly: 5749
+Date: 19/11/2021 01:44:02 Max Strike: 57
+
+Date: 19/11/2021 01:48:49 Number of words: 2610
+Date: 19/11/2021 01:48:49 Correctly: 16615
+Date: 19/11/2021 01:48:49 Badly: 5749
+Date: 19/11/2021 01:48:49 Max Strike: 57
+
+Date: 19/11/2021 11:29:24 Number of words: 2610
+Date: 19/11/2021 11:29:24 Correctly: 16615
+Date: 19/11/2021 11:29:24 Badly: 5749
+Date: 19/11/2021 11:29:24 Max Strike: 57
+
+Date: 19/11/2021 11:29:25 Number of words: 2610
+Date: 19/11/2021 11:29:25 Correctly: 16615
+Date: 19/11/2021 11:29:25 Badly: 5749
+Date: 19/11/2021 11:29:25 Max Strike: 57
+
+Date: 19/11/2021 12:16:13 Number of words: 2611
+Date: 19/11/2021 12:16:13 Correctly: 16615
+Date: 19/11/2021 12:16:13 Badly: 5749
+Date: 19/11/2021 12:16:13 Max Strike: 57
+
+Date: 19/11/2021 16:09:42 Number of words: 2611
+Date: 19/11/2021 16:09:42 Correctly: 16615
+Date: 19/11/2021 16:09:42 Badly: 5749
+Date: 19/11/2021 16:09:42 Max Strike: 57
+
+Date: 19/11/2021 16:15:49 Number of words: 2612
+Date: 19/11/2021 16:15:49 Correctly: 16615
+Date: 19/11/2021 16:15:49 Badly: 5749
+Date: 19/11/2021 16:15:49 Max Strike: 57
+
+Date: 19/11/2021 16:18:55 Number of words: 2612
+Date: 19/11/2021 16:18:55 Correctly: 16615
+Date: 19/11/2021 16:18:55 Badly: 5749
+Date: 19/11/2021 16:18:55 Max Strike: 57
+
+Date: 19/11/2021 16:19:13 Number of words: 2613
+Date: 19/11/2021 16:19:13 Correctly: 16615
+Date: 19/11/2021 16:19:13 Badly: 5749
+Date: 19/11/2021 16:19:13 Max Strike: 57
+
+Date: 19/11/2021 16:19:27 Number of words: 2613
+Date: 19/11/2021 16:19:27 Correctly: 16615
+Date: 19/11/2021 16:19:27 Badly: 5749
+Date: 19/11/2021 16:19:27 Max Strike: 57
+
+Date: 19/11/2021 16:21:34 Number of words: 2614
+Date: 19/11/2021 16:21:34 Correctly: 16615
+Date: 19/11/2021 16:21:34 Badly: 5749
+Date: 19/11/2021 16:21:34 Max Strike: 57
+
+Date: 19/11/2021 16:22:40 Number of words: 2614
+Date: 19/11/2021 16:22:40 Correctly: 16615
+Date: 19/11/2021 16:22:40 Badly: 5749
+Date: 19/11/2021 16:22:40 Max Strike: 57
+
+Date: 19/11/2021 16:35:25 Number of words: 2614
+Date: 19/11/2021 16:35:25 Correctly: 16615
+Date: 19/11/2021 16:35:25 Badly: 5749
+Date: 19/11/2021 16:35:25 Max Strike: 57
+
+Date: 19/11/2021 16:36:58 Number of words: 2615
+Date: 19/11/2021 16:36:58 Correctly: 16615
+Date: 19/11/2021 16:36:58 Badly: 5749
+Date: 19/11/2021 16:36:58 Max Strike: 57
+
+Date: 19/11/2021 16:37:47 Number of words: 2616
+Date: 19/11/2021 16:37:47 Correctly: 16615
+Date: 19/11/2021 16:37:47 Badly: 5749
+Date: 19/11/2021 16:37:47 Max Strike: 57
+
+Date: 19/11/2021 16:44:30 Number of words: 2617
+Date: 19/11/2021 16:44:30 Correctly: 16615
+Date: 19/11/2021 16:44:30 Badly: 5749
+Date: 19/11/2021 16:44:30 Max Strike: 57
+
+Date: 19/11/2021 16:44:31 Number of words: 2617
+Date: 19/11/2021 16:44:31 Correctly: 16615
+Date: 19/11/2021 16:44:31 Badly: 5749
+Date: 19/11/2021 16:44:31 Max Strike: 57
+
+Date: 19/11/2021 19:47:21 Number of words: 2617
+Date: 19/11/2021 19:47:21 Correctly: 16615
+Date: 19/11/2021 19:47:21 Badly: 5749
+Date: 19/11/2021 19:47:21 Max Strike: 57
+
+Date: 19/11/2021 21:40:32 Number of words: 2618
+Date: 19/11/2021 21:40:32 Correctly: 16615
+Date: 19/11/2021 21:40:32 Badly: 5749
+Date: 19/11/2021 21:40:32 Max Strike: 57
+
+Date: 20/11/2021 19:36:58 Number of words: 2618
+Date: 20/11/2021 19:36:58 Correctly: 16615
+Date: 20/11/2021 19:36:58 Badly: 5749
+Date: 20/11/2021 19:36:58 Max Strike: 57
+
+Date: 20/11/2021 19:36:58 Number of words: 2618
+Date: 20/11/2021 19:36:58 Correctly: 16615
+Date: 20/11/2021 19:36:58 Badly: 5749
+Date: 20/11/2021 19:36:58 Max Strike: 57
+
+Date: 25/11/2021 13:11:17 Number of words: 2619
+Date: 25/11/2021 13:11:17 Correctly: 16615
+Date: 25/11/2021 13:11:17 Badly: 5749
+Date: 25/11/2021 13:11:17 Max Strike: 57
+
+Date: 30/11/2021 00:30:55 Number of words: 2619
+Date: 30/11/2021 00:30:55 Correctly: 16631
+Date: 30/11/2021 00:30:55 Badly: 5754
+Date: 30/11/2021 00:30:55 Max Strike: 57
+
+Date: 30/11/2021 00:30:55 Number of words: 2619
+Date: 30/11/2021 00:30:55 Correctly: 16631
+Date: 30/11/2021 00:30:55 Badly: 5754
+Date: 30/11/2021 00:30:55 Max Strike: 57
+
+Date: 30/11/2021 23:36:07 Number of words: 2620
+Date: 30/11/2021 23:36:07 Correctly: 16631
+Date: 30/11/2021 23:36:07 Badly: 5754
+Date: 30/11/2021 23:36:07 Max Strike: 57
+
+Date: 30/11/2021 23:39:51 Number of words: 2621
+Date: 30/11/2021 23:39:51 Correctly: 16631
+Date: 30/11/2021 23:39:51 Badly: 5754
+Date: 30/11/2021 23:39:51 Max Strike: 57
+
+Date: 01/12/2021 18:01:17 Number of words: 2621
+Date: 01/12/2021 18:01:17 Correctly: 16654
+Date: 01/12/2021 18:01:17 Badly: 5763
+Date: 01/12/2021 18:01:17 Max Strike: 57
+
+Date: 02/12/2021 00:27:06 Number of words: 2622
+Date: 02/12/2021 00:27:06 Correctly: 16684
+Date: 02/12/2021 00:27:06 Badly: 5769
+Date: 02/12/2021 00:27:06 Max Strike: 57
+
+Date: 02/12/2021 00:32:55 Number of words: 2623
+Date: 02/12/2021 00:32:55 Correctly: 16684
+Date: 02/12/2021 00:32:55 Badly: 5769
+Date: 02/12/2021 00:32:55 Max Strike: 57
+
+Date: 02/12/2021 00:35:23 Number of words: 2624
+Date: 02/12/2021 00:35:23 Correctly: 16684
+Date: 02/12/2021 00:35:23 Badly: 5769
+Date: 02/12/2021 00:35:23 Max Strike: 57
+
+Date: 02/12/2021 15:16:04 Number of words: 2625
+Date: 02/12/2021 15:16:04 Correctly: 16684
+Date: 02/12/2021 15:16:04 Badly: 5769
+Date: 02/12/2021 15:16:04 Max Strike: 57
+
+Date: 02/12/2021 16:25:15 Number of words: 2626
+Date: 02/12/2021 16:25:15 Correctly: 16684
+Date: 02/12/2021 16:25:15 Badly: 5769
+Date: 02/12/2021 16:25:15 Max Strike: 57
+
+Date: 02/12/2021 23:37:52 Number of words: 2627
+Date: 02/12/2021 23:37:52 Correctly: 16684
+Date: 02/12/2021 23:37:52 Badly: 5769
+Date: 02/12/2021 23:37:52 Max Strike: 57
+
+Date: 06/12/2021 22:25:01 Number of words: 2627
+Date: 06/12/2021 22:25:01 Correctly: 16784
+Date: 06/12/2021 22:25:01 Badly: 5814
+Date: 06/12/2021 22:25:01 Max Strike: 57
+
+Date: 06/12/2021 22:25:01 Number of words: 2627
+Date: 06/12/2021 22:25:01 Correctly: 16784
+Date: 06/12/2021 22:25:01 Badly: 5814
+Date: 06/12/2021 22:25:01 Max Strike: 57
+
+Date: 12/12/2021 04:20:41 Number of words: 2627
+Date: 12/12/2021 04:20:41 Correctly: 16800
+Date: 12/12/2021 04:20:41 Badly: 5816
+Date: 12/12/2021 04:20:41 Max Strike: 57
+
+Date: 12/12/2021 04:20:41 Number of words: 2627
+Date: 12/12/2021 04:20:41 Correctly: 16800
+Date: 12/12/2021 04:20:41 Badly: 5816
+Date: 12/12/2021 04:20:41 Max Strike: 57
+
+Date: 13/12/2021 22:35:58 Number of words: 2627
+Date: 13/12/2021 22:35:58 Correctly: 16825
+Date: 13/12/2021 22:35:58 Badly: 5826
+Date: 13/12/2021 22:35:58 Max Strike: 57
+
+Date: 13/12/2021 22:35:59 Number of words: 2627
+Date: 13/12/2021 22:35:59 Correctly: 16825
+Date: 13/12/2021 22:35:59 Badly: 5826
+Date: 13/12/2021 22:35:59 Max Strike: 57
+
+Date: 15/12/2021 00:03:58 Number of words: 2627
+Date: 15/12/2021 00:03:58 Correctly: 16828
+Date: 15/12/2021 00:03:58 Badly: 5827
+Date: 15/12/2021 00:03:58 Max Strike: 57
+
+Date: 15/12/2021 00:03:58 Number of words: 2627
+Date: 15/12/2021 00:03:58 Correctly: 16828
+Date: 15/12/2021 00:03:58 Badly: 5827
+Date: 15/12/2021 00:03:58 Max Strike: 57
+
+Date: 25/01/2022 21:57:44 Number of words: 2627
+Date: 25/01/2022 21:57:44 Correctly: 16928
+Date: 25/01/2022 21:57:44 Badly: 5871
+Date: 25/01/2022 21:57:44 Max Strike: 57
+
+Date: 25/01/2022 21:57:45 Number of words: 2627
+Date: 25/01/2022 21:57:45 Correctly: 16928
+Date: 25/01/2022 21:57:45 Badly: 5871
+Date: 25/01/2022 21:57:45 Max Strike: 57
+
+Date: 26/01/2022 13:39:47 Number of words: 2628
+Date: 26/01/2022 13:39:47 Correctly: 16928
+Date: 26/01/2022 13:39:47 Badly: 5871
+Date: 26/01/2022 13:39:47 Max Strike: 57
+
+Date: 26/01/2022 18:26:36 Number of words: 2629
+Date: 26/01/2022 18:26:36 Correctly: 16948
+Date: 26/01/2022 18:26:36 Badly: 5873
+Date: 26/01/2022 18:26:36 Max Strike: 57
+
+Date: 26/01/2022 18:46:39 Number of words: 2630
+Date: 26/01/2022 18:46:39 Correctly: 16948
+Date: 26/01/2022 18:46:39 Badly: 5873
+Date: 26/01/2022 18:46:39 Max Strike: 57
+
+Date: 26/01/2022 19:29:49 Number of words: 2631
+Date: 26/01/2022 19:29:49 Correctly: 16948
+Date: 26/01/2022 19:29:49 Badly: 5873
+Date: 26/01/2022 19:29:49 Max Strike: 57
+
+Date: 26/01/2022 21:51:51 Number of words: 2632
+Date: 26/01/2022 21:51:51 Correctly: 16984
+Date: 26/01/2022 21:51:51 Badly: 5885
+Date: 26/01/2022 21:51:51 Max Strike: 57
+
+Date: 26/01/2022 21:53:20 Number of words: 2633
+Date: 26/01/2022 21:53:20 Correctly: 16984
+Date: 26/01/2022 21:53:20 Badly: 5885
+Date: 26/01/2022 21:53:20 Max Strike: 57
+
+Date: 27/01/2022 08:57:40 Number of words: 2634
+Date: 27/01/2022 08:57:40 Correctly: 16984
+Date: 27/01/2022 08:57:40 Badly: 5885
+Date: 27/01/2022 08:57:40 Max Strike: 57
+
+Date: 27/01/2022 10:13:03 Number of words: 2635
+Date: 27/01/2022 10:13:03 Correctly: 16994
+Date: 27/01/2022 10:13:03 Badly: 5889
+Date: 27/01/2022 10:13:03 Max Strike: 57
+
+Date: 27/01/2022 14:38:48 Number of words: 2635
+Date: 27/01/2022 14:38:48 Correctly: 16995
+Date: 27/01/2022 14:38:48 Badly: 5889
+Date: 27/01/2022 14:38:48 Max Strike: 57
+
+Date: 29/01/2022 00:08:04 Number of words: 2635
+Date: 29/01/2022 00:08:04 Correctly: 17030
+Date: 29/01/2022 00:08:04 Badly: 5899
+Date: 29/01/2022 00:08:04 Max Strike: 57
+
+Date: 30/01/2022 13:43:50 Number of words: 2636
+Date: 30/01/2022 13:43:50 Correctly: 17030
+Date: 30/01/2022 13:43:50 Badly: 5899
+Date: 30/01/2022 13:43:50 Max Strike: 57
+
+Date: 31/01/2022 03:21:26 Number of words: 2637
+Date: 31/01/2022 03:21:26 Correctly: 17130
+Date: 31/01/2022 03:21:26 Badly: 5937
+Date: 31/01/2022 03:21:26 Max Strike: 57
+
+Date: 31/01/2022 12:06:21 Number of words: 2637
+Date: 31/01/2022 12:06:21 Correctly: 17130
+Date: 31/01/2022 12:06:21 Badly: 5937
+Date: 31/01/2022 12:06:21 Max Strike: 57
+
+Date: 31/01/2022 19:16:24 Number of words: 2638
+Date: 31/01/2022 19:16:24 Correctly: 17152
+Date: 31/01/2022 19:16:24 Badly: 5948
+Date: 31/01/2022 19:16:24 Max Strike: 57
+
+Date: 31/01/2022 22:21:47 Number of words: 2639
+Date: 31/01/2022 22:21:47 Correctly: 17252
+Date: 31/01/2022 22:21:47 Badly: 5996
+Date: 31/01/2022 22:21:47 Max Strike: 57
+
+Date: 01/02/2022 11:35:30 Number of words: 2640
+Date: 01/02/2022 11:35:30 Correctly: 17252
+Date: 01/02/2022 11:35:30 Badly: 5996
+Date: 01/02/2022 11:35:30 Max Strike: 57
+
+Date: 01/02/2022 11:36:05 Number of words: 2641
+Date: 01/02/2022 11:36:05 Correctly: 17252
+Date: 01/02/2022 11:36:05 Badly: 5996
+Date: 01/02/2022 11:36:05 Max Strike: 57
+
+Date: 01/02/2022 12:30:09 Number of words: 2642
+Date: 01/02/2022 12:30:09 Correctly: 17252
+Date: 01/02/2022 12:30:09 Badly: 5996
+Date: 01/02/2022 12:30:09 Max Strike: 57
+
+Date: 01/02/2022 21:26:29 Number of words: 2642
+Date: 01/02/2022 21:26:29 Correctly: 17352
+Date: 01/02/2022 21:26:29 Badly: 6040
+Date: 01/02/2022 21:26:29 Max Strike: 57
+
+Date: 01/02/2022 21:26:30 Number of words: 2642
+Date: 01/02/2022 21:26:30 Correctly: 17352
+Date: 01/02/2022 21:26:30 Badly: 6040
+Date: 01/02/2022 21:26:30 Max Strike: 57
+
+Date: 02/02/2022 10:49:55 Number of words: 2643
+Date: 02/02/2022 10:49:55 Correctly: 17359
+Date: 02/02/2022 10:49:55 Badly: 6043
+Date: 02/02/2022 10:49:55 Max Strike: 57
+
+Date: 02/02/2022 21:32:03 Number of words: 2643
+Date: 02/02/2022 21:32:03 Correctly: 17459
+Date: 02/02/2022 21:32:03 Badly: 6097
+Date: 02/02/2022 21:32:03 Max Strike: 57
+
+Date: 04/02/2022 10:57:55 Number of words: 2644
+Date: 04/02/2022 10:57:55 Correctly: 17459
+Date: 04/02/2022 10:57:55 Badly: 6097
+Date: 04/02/2022 10:57:55 Max Strike: 57
+
+Date: 04/02/2022 10:58:16 Number of words: 2644
+Date: 04/02/2022 10:58:16 Correctly: 17459
+Date: 04/02/2022 10:58:16 Badly: 6097
+Date: 04/02/2022 10:58:16 Max Strike: 57
+
+Date: 04/02/2022 11:02:38 Number of words: 2645
+Date: 04/02/2022 11:02:38 Correctly: 17459
+Date: 04/02/2022 11:02:38 Badly: 6097
+Date: 04/02/2022 11:02:38 Max Strike: 57
+
+Date: 04/02/2022 11:04:19 Number of words: 2646
+Date: 04/02/2022 11:04:19 Correctly: 17459
+Date: 04/02/2022 11:04:19 Badly: 6097
+Date: 04/02/2022 11:04:19 Max Strike: 57
+
+Date: 04/02/2022 11:11:39 Number of words: 2647
+Date: 04/02/2022 11:11:39 Correctly: 17459
+Date: 04/02/2022 11:11:39 Badly: 6097
+Date: 04/02/2022 11:11:39 Max Strike: 57
+
+Date: 04/02/2022 11:14:01 Number of words: 2648
+Date: 04/02/2022 11:14:01 Correctly: 17459
+Date: 04/02/2022 11:14:01 Badly: 6097
+Date: 04/02/2022 11:14:01 Max Strike: 57
+
+Date: 04/02/2022 11:17:03 Number of words: 2649
+Date: 04/02/2022 11:17:03 Correctly: 17459
+Date: 04/02/2022 11:17:03 Badly: 6097
+Date: 04/02/2022 11:17:03 Max Strike: 57
+
+Date: 04/02/2022 14:21:32 Number of words: 2650
+Date: 04/02/2022 14:21:32 Correctly: 17459
+Date: 04/02/2022 14:21:32 Badly: 6097
+Date: 04/02/2022 14:21:32 Max Strike: 57
+
+Date: 05/02/2022 00:50:10 Number of words: 2650
+Date: 05/02/2022 00:50:10 Correctly: 17460
+Date: 05/02/2022 00:50:10 Badly: 6097
+Date: 05/02/2022 00:50:10 Max Strike: 57
+
+Date: 06/02/2022 10:55:43 Number of words: 2651
+Date: 06/02/2022 10:55:43 Correctly: 17460
+Date: 06/02/2022 10:55:43 Badly: 6097
+Date: 06/02/2022 10:55:43 Max Strike: 57
+
+Date: 07/02/2022 20:38:44 Number of words: 2653
+Date: 07/02/2022 20:38:44 Correctly: 17467
+Date: 07/02/2022 20:38:44 Badly: 6100
+Date: 07/02/2022 20:38:44 Max Strike: 57
+
+Date: 07/02/2022 20:58:28 Number of words: 2662
+Date: 07/02/2022 20:58:28 Correctly: 17467
+Date: 07/02/2022 20:58:28 Badly: 6100
+Date: 07/02/2022 20:58:28 Max Strike: 57
+
+Date: 07/02/2022 21:14:34 Number of words: 2666
+Date: 07/02/2022 21:14:34 Correctly: 17467
+Date: 07/02/2022 21:14:34 Badly: 6100
+Date: 07/02/2022 21:14:34 Max Strike: 57
+
+Date: 07/02/2022 22:34:17 Number of words: 2666
+Date: 07/02/2022 22:34:17 Correctly: 17567
+Date: 07/02/2022 22:34:17 Badly: 6150
+Date: 07/02/2022 22:34:17 Max Strike: 57
+
+Date: 08/02/2022 09:45:10 Number of words: 2667
+Date: 08/02/2022 09:45:10 Correctly: 17567
+Date: 08/02/2022 09:45:10 Badly: 6150
+Date: 08/02/2022 09:45:10 Max Strike: 57
+
+Date: 08/02/2022 10:25:44 Number of words: 2668
+Date: 08/02/2022 10:25:44 Correctly: 17567
+Date: 08/02/2022 10:25:44 Badly: 6150
+Date: 08/02/2022 10:25:44 Max Strike: 57
+
+Date: 08/02/2022 17:48:07 Number of words: 2669
+Date: 08/02/2022 17:48:07 Correctly: 17568
+Date: 08/02/2022 17:48:07 Badly: 6150
+Date: 08/02/2022 17:48:07 Max Strike: 57
+
+Date: 08/02/2022 18:42:18 Number of words: 2679
+Date: 08/02/2022 18:42:18 Correctly: 17568
+Date: 08/02/2022 18:42:18 Badly: 6150
+Date: 08/02/2022 18:42:18 Max Strike: 57
+
+Date: 08/02/2022 18:43:42 Number of words: 2680
+Date: 08/02/2022 18:43:42 Correctly: 17568
+Date: 08/02/2022 18:43:42 Badly: 6150
+Date: 08/02/2022 18:43:42 Max Strike: 57
+
+Date: 08/02/2022 18:48:41 Number of words: 2683
+Date: 08/02/2022 18:48:41 Correctly: 17568
+Date: 08/02/2022 18:48:41 Badly: 6150
+Date: 08/02/2022 18:48:41 Max Strike: 57
+
+Date: 08/02/2022 21:46:10 Number of words: 2692
+Date: 08/02/2022 21:46:10 Correctly: 17568
+Date: 08/02/2022 21:46:10 Badly: 6150
+Date: 08/02/2022 21:46:10 Max Strike: 57
+
+Date: 08/02/2022 22:06:53 Number of words: 2694
+Date: 08/02/2022 22:06:53 Correctly: 17668
+Date: 08/02/2022 22:06:53 Badly: 6191
+Date: 08/02/2022 22:06:53 Max Strike: 57
+
+Date: 08/02/2022 22:06:54 Number of words: 2694
+Date: 08/02/2022 22:06:54 Correctly: 17668
+Date: 08/02/2022 22:06:54 Badly: 6191
+Date: 08/02/2022 22:06:54 Max Strike: 57
+
+Date: 10/02/2022 17:28:49 Number of words: 2695
+Date: 10/02/2022 17:28:49 Correctly: 17668
+Date: 10/02/2022 17:28:49 Badly: 6191
+Date: 10/02/2022 17:28:49 Max Strike: 57
+
+Date: 10/02/2022 19:34:12 Number of words: 2695
+Date: 10/02/2022 19:34:12 Correctly: 17668
+Date: 10/02/2022 19:34:12 Badly: 6191
+Date: 10/02/2022 19:34:12 Max Strike: 57
+
+Date: 10/02/2022 22:09:30 Number of words: 2695
+Date: 10/02/2022 22:09:30 Correctly: 17768
+Date: 10/02/2022 22:09:30 Badly: 6222
+Date: 10/02/2022 22:09:30 Max Strike: 57
+
+Date: 12/02/2022 16:04:26 Number of words: 2696
+Date: 12/02/2022 16:04:26 Correctly: 17768
+Date: 12/02/2022 16:04:26 Badly: 6222
+Date: 12/02/2022 16:04:26 Max Strike: 57
+
+Date: 12/02/2022 16:05:18 Number of words: 2697
+Date: 12/02/2022 16:05:18 Correctly: 17768
+Date: 12/02/2022 16:05:18 Badly: 6222
+Date: 12/02/2022 16:05:18 Max Strike: 57
+
+Date: 12/02/2022 19:50:45 Number of words: 2704
+Date: 12/02/2022 19:50:45 Correctly: 17768
+Date: 12/02/2022 19:50:45 Badly: 6222
+Date: 12/02/2022 19:50:45 Max Strike: 57
+
+Date: 12/02/2022 20:10:49 Number of words: 2710
+Date: 12/02/2022 20:10:49 Correctly: 17768
+Date: 12/02/2022 20:10:49 Badly: 6222
+Date: 12/02/2022 20:10:49 Max Strike: 57
+
+Date: 12/02/2022 20:50:01 Number of words: 2711
+Date: 12/02/2022 20:50:01 Correctly: 17768
+Date: 12/02/2022 20:50:01 Badly: 6222
+Date: 12/02/2022 20:50:01 Max Strike: 57
+
+Date: 12/02/2022 21:01:42 Number of words: 2712
+Date: 12/02/2022 21:01:42 Correctly: 17768
+Date: 12/02/2022 21:01:42 Badly: 6222
+Date: 12/02/2022 21:01:42 Max Strike: 57
+
+Date: 12/02/2022 21:03:47 Number of words: 2712
+Date: 12/02/2022 21:03:47 Correctly: 17768
+Date: 12/02/2022 21:03:47 Badly: 6222
+Date: 12/02/2022 21:03:47 Max Strike: 57
+
+Date: 12/02/2022 21:06:11 Number of words: 2713
+Date: 12/02/2022 21:06:11 Correctly: 17768
+Date: 12/02/2022 21:06:11 Badly: 6222
+Date: 12/02/2022 21:06:11 Max Strike: 57
+
+Date: 12/02/2022 21:07:22 Number of words: 2714
+Date: 12/02/2022 21:07:22 Correctly: 17768
+Date: 12/02/2022 21:07:22 Badly: 6222
+Date: 12/02/2022 21:07:22 Max Strike: 57
+
+Date: 12/02/2022 21:14:31 Number of words: 2715
+Date: 12/02/2022 21:14:31 Correctly: 17768
+Date: 12/02/2022 21:14:31 Badly: 6222
+Date: 12/02/2022 21:14:31 Max Strike: 57
+
+Date: 12/02/2022 21:18:58 Number of words: 2716
+Date: 12/02/2022 21:18:58 Correctly: 17768
+Date: 12/02/2022 21:18:58 Badly: 6222
+Date: 12/02/2022 21:18:58 Max Strike: 57
+
+Date: 12/02/2022 21:19:11 Number of words: 2717
+Date: 12/02/2022 21:19:11 Correctly: 17768
+Date: 12/02/2022 21:19:11 Badly: 6222
+Date: 12/02/2022 21:19:11 Max Strike: 57
+
+Date: 12/02/2022 23:00:56 Number of words: 2721
+Date: 12/02/2022 23:00:56 Correctly: 17768
+Date: 12/02/2022 23:00:56 Badly: 6222
+Date: 12/02/2022 23:00:56 Max Strike: 57
+
+Date: 12/02/2022 23:01:20 Number of words: 2722
+Date: 12/02/2022 23:01:20 Correctly: 17768
+Date: 12/02/2022 23:01:20 Badly: 6222
+Date: 12/02/2022 23:01:20 Max Strike: 57
+
+Date: 12/02/2022 23:04:37 Number of words: 2723
+Date: 12/02/2022 23:04:37 Correctly: 17768
+Date: 12/02/2022 23:04:37 Badly: 6222
+Date: 12/02/2022 23:04:37 Max Strike: 57
+
+Date: 12/02/2022 23:09:07 Number of words: 2725
+Date: 12/02/2022 23:09:07 Correctly: 17768
+Date: 12/02/2022 23:09:07 Badly: 6222
+Date: 12/02/2022 23:09:07 Max Strike: 57
+
+Date: 12/02/2022 23:11:12 Number of words: 2726
+Date: 12/02/2022 23:11:12 Correctly: 17768
+Date: 12/02/2022 23:11:12 Badly: 6222
+Date: 12/02/2022 23:11:12 Max Strike: 57
+
+Date: 12/02/2022 23:12:00 Number of words: 2727
+Date: 12/02/2022 23:12:00 Correctly: 17768
+Date: 12/02/2022 23:12:00 Badly: 6222
+Date: 12/02/2022 23:12:00 Max Strike: 57
+
+Date: 12/02/2022 23:13:23 Number of words: 2728
+Date: 12/02/2022 23:13:23 Correctly: 17768
+Date: 12/02/2022 23:13:23 Badly: 6222
+Date: 12/02/2022 23:13:23 Max Strike: 57
+
+Date: 12/02/2022 23:14:13 Number of words: 2729
+Date: 12/02/2022 23:14:13 Correctly: 17768
+Date: 12/02/2022 23:14:13 Badly: 6222
+Date: 12/02/2022 23:14:13 Max Strike: 57
+
+Date: 12/02/2022 23:14:38 Number of words: 2730
+Date: 12/02/2022 23:14:38 Correctly: 17768
+Date: 12/02/2022 23:14:38 Badly: 6222
+Date: 12/02/2022 23:14:38 Max Strike: 57
+
+Date: 12/02/2022 23:16:09 Number of words: 2731
+Date: 12/02/2022 23:16:09 Correctly: 17768
+Date: 12/02/2022 23:16:09 Badly: 6222
+Date: 12/02/2022 23:16:09 Max Strike: 57
+
+Date: 13/02/2022 01:05:28 Number of words: 2732
+Date: 13/02/2022 01:05:28 Correctly: 17768
+Date: 13/02/2022 01:05:28 Badly: 6222
+Date: 13/02/2022 01:05:28 Max Strike: 57
+
+Date: 13/02/2022 01:09:05 Number of words: 2733
+Date: 13/02/2022 01:09:05 Correctly: 17768
+Date: 13/02/2022 01:09:05 Badly: 6222
+Date: 13/02/2022 01:09:05 Max Strike: 57
+
+Date: 13/02/2022 03:01:28 Number of words: 2733
+Date: 13/02/2022 03:01:28 Correctly: 17768
+Date: 13/02/2022 03:01:28 Badly: 6222
+Date: 13/02/2022 03:01:28 Max Strike: 57
+
+Date: 13/02/2022 20:02:35 Number of words: 2734
+Date: 13/02/2022 20:02:35 Correctly: 17768
+Date: 13/02/2022 20:02:35 Badly: 6222
+Date: 13/02/2022 20:02:35 Max Strike: 57
+
+Date: 13/02/2022 20:51:38 Number of words: 2736
+Date: 13/02/2022 20:51:38 Correctly: 17768
+Date: 13/02/2022 20:51:38 Badly: 6222
+Date: 13/02/2022 20:51:38 Max Strike: 57
+
+Date: 13/02/2022 21:16:48 Number of words: 2738
+Date: 13/02/2022 21:16:48 Correctly: 17768
+Date: 13/02/2022 21:16:48 Badly: 6222
+Date: 13/02/2022 21:16:48 Max Strike: 57
+
+Date: 13/02/2022 22:07:40 Number of words: 2739
+Date: 13/02/2022 22:07:40 Correctly: 17768
+Date: 13/02/2022 22:07:40 Badly: 6222
+Date: 13/02/2022 22:07:40 Max Strike: 57
+
+Date: 13/02/2022 22:42:52 Number of words: 2739
+Date: 13/02/2022 22:42:52 Correctly: 17768
+Date: 13/02/2022 22:42:52 Badly: 6222
+Date: 13/02/2022 22:42:52 Max Strike: 57
+
+Date: 13/02/2022 23:01:16 Number of words: 2739
+Date: 13/02/2022 23:01:16 Correctly: 17768
+Date: 13/02/2022 23:01:16 Badly: 6222
+Date: 13/02/2022 23:01:16 Max Strike: 57
+
+Date: 13/02/2022 23:04:11 Number of words: 2739
+Date: 13/02/2022 23:04:11 Correctly: 17868
+Date: 13/02/2022 23:04:11 Badly: 6257
+Date: 13/02/2022 23:04:11 Max Strike: 57
+
+Date: 13/02/2022 23:04:12 Number of words: 2739
+Date: 13/02/2022 23:04:12 Correctly: 17868
+Date: 13/02/2022 23:04:12 Badly: 6257
+Date: 13/02/2022 23:04:12 Max Strike: 57
+
+Date: 14/02/2022 12:32:18 Number of words: 2740
+Date: 14/02/2022 12:32:18 Correctly: 17868
+Date: 14/02/2022 12:32:18 Badly: 6257
+Date: 14/02/2022 12:32:18 Max Strike: 57
+
+Date: 14/02/2022 22:16:21 Number of words: 2740
+Date: 14/02/2022 22:16:21 Correctly: 17868
+Date: 14/02/2022 22:16:21 Badly: 6257
+Date: 14/02/2022 22:16:21 Max Strike: 57
+
+Date: 14/02/2022 22:22:15 Number of words: 2743
+Date: 14/02/2022 22:22:15 Correctly: 17868
+Date: 14/02/2022 22:22:15 Badly: 6257
+Date: 14/02/2022 22:22:15 Max Strike: 57
+
+Date: 14/02/2022 22:24:45 Number of words: 2744
+Date: 14/02/2022 22:24:45 Correctly: 17868
+Date: 14/02/2022 22:24:45 Badly: 6257
+Date: 14/02/2022 22:24:45 Max Strike: 57
+
+Date: 14/02/2022 22:33:34 Number of words: 2746
+Date: 14/02/2022 22:33:34 Correctly: 17868
+Date: 14/02/2022 22:33:34 Badly: 6257
+Date: 14/02/2022 22:33:34 Max Strike: 57
+
+Date: 14/02/2022 22:33:59 Number of words: 2747
+Date: 14/02/2022 22:33:59 Correctly: 17868
+Date: 14/02/2022 22:33:59 Badly: 6257
+Date: 14/02/2022 22:33:59 Max Strike: 57
+
+Date: 14/02/2022 22:51:16 Number of words: 2748
+Date: 14/02/2022 22:51:16 Correctly: 17868
+Date: 14/02/2022 22:51:16 Badly: 6257
+Date: 14/02/2022 22:51:16 Max Strike: 57
+
+Date: 14/02/2022 23:07:23 Number of words: 2748
+Date: 14/02/2022 23:07:23 Correctly: 17968
+Date: 14/02/2022 23:07:23 Badly: 6297
+Date: 14/02/2022 23:07:23 Max Strike: 57
+
+Date: 15/02/2022 10:02:30 Number of words: 2750
+Date: 15/02/2022 10:02:30 Correctly: 17968
+Date: 15/02/2022 10:02:30 Badly: 6297
+Date: 15/02/2022 10:02:30 Max Strike: 57
+
+Date: 15/02/2022 10:14:42 Number of words: 2751
+Date: 15/02/2022 10:14:42 Correctly: 17968
+Date: 15/02/2022 10:14:42 Badly: 6297
+Date: 15/02/2022 10:14:42 Max Strike: 57
+
+Date: 15/02/2022 10:19:05 Number of words: 2752
+Date: 15/02/2022 10:19:05 Correctly: 17968
+Date: 15/02/2022 10:19:05 Badly: 6297
+Date: 15/02/2022 10:19:05 Max Strike: 57
+
+Date: 15/02/2022 12:37:58 Number of words: 2753
+Date: 15/02/2022 12:37:58 Correctly: 17968
+Date: 15/02/2022 12:37:58 Badly: 6297
+Date: 15/02/2022 12:37:58 Max Strike: 57
+
+Date: 15/02/2022 13:06:26 Number of words: 2755
+Date: 15/02/2022 13:06:26 Correctly: 17968
+Date: 15/02/2022 13:06:26 Badly: 6297
+Date: 15/02/2022 13:06:26 Max Strike: 57
+
+Date: 15/02/2022 13:08:14 Number of words: 2756
+Date: 15/02/2022 13:08:14 Correctly: 17968
+Date: 15/02/2022 13:08:14 Badly: 6297
+Date: 15/02/2022 13:08:14 Max Strike: 57
+
+Date: 15/02/2022 13:11:52 Number of words: 2757
+Date: 15/02/2022 13:11:52 Correctly: 17968
+Date: 15/02/2022 13:11:52 Badly: 6297
+Date: 15/02/2022 13:11:52 Max Strike: 57
+
+Date: 15/02/2022 17:53:43 Number of words: 2757
+Date: 15/02/2022 17:53:43 Correctly: 17968
+Date: 15/02/2022 17:53:43 Badly: 6297
+Date: 15/02/2022 17:53:43 Max Strike: 57
+
+Date: 15/02/2022 18:06:00 Number of words: 2760
+Date: 15/02/2022 18:06:00 Correctly: 17968
+Date: 15/02/2022 18:06:00 Badly: 6297
+Date: 15/02/2022 18:06:00 Max Strike: 57
+
+Date: 15/02/2022 18:18:38 Number of words: 2761
+Date: 15/02/2022 18:18:38 Correctly: 17968
+Date: 15/02/2022 18:18:38 Badly: 6297
+Date: 15/02/2022 18:18:38 Max Strike: 57
+
+Date: 15/02/2022 18:19:12 Number of words: 2762
+Date: 15/02/2022 18:19:12 Correctly: 17968
+Date: 15/02/2022 18:19:12 Badly: 6297
+Date: 15/02/2022 18:19:12 Max Strike: 57
+
+Date: 15/02/2022 18:21:12 Number of words: 2763
+Date: 15/02/2022 18:21:12 Correctly: 17968
+Date: 15/02/2022 18:21:12 Badly: 6297
+Date: 15/02/2022 18:21:12 Max Strike: 57
+
+Date: 15/02/2022 18:22:10 Number of words: 2764
+Date: 15/02/2022 18:22:10 Correctly: 17968
+Date: 15/02/2022 18:22:10 Badly: 6297
+Date: 15/02/2022 18:22:10 Max Strike: 57
+
+Date: 15/02/2022 18:26:58 Number of words: 2765
+Date: 15/02/2022 18:26:58 Correctly: 17968
+Date: 15/02/2022 18:26:58 Badly: 6297
+Date: 15/02/2022 18:26:58 Max Strike: 57
+
+Date: 15/02/2022 18:28:31 Number of words: 2766
+Date: 15/02/2022 18:28:31 Correctly: 17968
+Date: 15/02/2022 18:28:31 Badly: 6297
+Date: 15/02/2022 18:28:31 Max Strike: 57
+
+Date: 15/02/2022 18:29:41 Number of words: 2767
+Date: 15/02/2022 18:29:41 Correctly: 17968
+Date: 15/02/2022 18:29:41 Badly: 6297
+Date: 15/02/2022 18:29:41 Max Strike: 57
+
+Date: 15/02/2022 18:44:05 Number of words: 2768
+Date: 15/02/2022 18:44:05 Correctly: 17968
+Date: 15/02/2022 18:44:05 Badly: 6297
+Date: 15/02/2022 18:44:05 Max Strike: 57
+
+Date: 15/02/2022 18:45:24 Number of words: 2769
+Date: 15/02/2022 18:45:24 Correctly: 17968
+Date: 15/02/2022 18:45:24 Badly: 6297
+Date: 15/02/2022 18:45:24 Max Strike: 57
+
+Date: 15/02/2022 19:49:14 Number of words: 2770
+Date: 15/02/2022 19:49:14 Correctly: 17968
+Date: 15/02/2022 19:49:14 Badly: 6297
+Date: 15/02/2022 19:49:14 Max Strike: 57
+
+Date: 15/02/2022 19:55:54 Number of words: 2771
+Date: 15/02/2022 19:55:54 Correctly: 17968
+Date: 15/02/2022 19:55:54 Badly: 6297
+Date: 15/02/2022 19:55:54 Max Strike: 57
+
+Date: 15/02/2022 19:58:02 Number of words: 2772
+Date: 15/02/2022 19:58:02 Correctly: 17968
+Date: 15/02/2022 19:58:02 Badly: 6297
+Date: 15/02/2022 19:58:02 Max Strike: 57
+
+Date: 15/02/2022 20:17:27 Number of words: 2773
+Date: 15/02/2022 20:17:27 Correctly: 17968
+Date: 15/02/2022 20:17:27 Badly: 6297
+Date: 15/02/2022 20:17:27 Max Strike: 57
+
+Date: 15/02/2022 20:31:07 Number of words: 2774
+Date: 15/02/2022 20:31:07 Correctly: 17968
+Date: 15/02/2022 20:31:07 Badly: 6297
+Date: 15/02/2022 20:31:07 Max Strike: 57
+
+Date: 15/02/2022 20:36:52 Number of words: 2775
+Date: 15/02/2022 20:36:52 Correctly: 17968
+Date: 15/02/2022 20:36:52 Badly: 6297
+Date: 15/02/2022 20:36:52 Max Strike: 57
+
+Date: 15/02/2022 20:53:10 Number of words: 2776
+Date: 15/02/2022 20:53:10 Correctly: 17968
+Date: 15/02/2022 20:53:10 Badly: 6297
+Date: 15/02/2022 20:53:10 Max Strike: 57
+
+Date: 15/02/2022 20:57:41 Number of words: 2777
+Date: 15/02/2022 20:57:41 Correctly: 17968
+Date: 15/02/2022 20:57:41 Badly: 6297
+Date: 15/02/2022 20:57:41 Max Strike: 57
+
+Date: 15/02/2022 21:51:04 Number of words: 2778
+Date: 15/02/2022 21:51:04 Correctly: 17968
+Date: 15/02/2022 21:51:04 Badly: 6297
+Date: 15/02/2022 21:51:04 Max Strike: 57
+
+Date: 15/02/2022 21:57:45 Number of words: 2779
+Date: 15/02/2022 21:57:45 Correctly: 17968
+Date: 15/02/2022 21:57:45 Badly: 6297
+Date: 15/02/2022 21:57:45 Max Strike: 57
+
+Date: 15/02/2022 21:58:20 Number of words: 2780
+Date: 15/02/2022 21:58:20 Correctly: 17968
+Date: 15/02/2022 21:58:20 Badly: 6297
+Date: 15/02/2022 21:58:20 Max Strike: 57
+
+Date: 15/02/2022 22:04:32 Number of words: 2780
+Date: 15/02/2022 22:04:32 Correctly: 17968
+Date: 15/02/2022 22:04:32 Badly: 6297
+Date: 15/02/2022 22:04:32 Max Strike: 57
+
+Date: 15/02/2022 22:05:17 Number of words: 2781
+Date: 15/02/2022 22:05:17 Correctly: 17968
+Date: 15/02/2022 22:05:17 Badly: 6297
+Date: 15/02/2022 22:05:17 Max Strike: 57
+
+Date: 15/02/2022 22:08:00 Number of words: 2782
+Date: 15/02/2022 22:08:00 Correctly: 17968
+Date: 15/02/2022 22:08:00 Badly: 6297
+Date: 15/02/2022 22:08:00 Max Strike: 57
+
+Date: 15/02/2022 22:11:09 Number of words: 2782
+Date: 15/02/2022 22:11:09 Correctly: 17968
+Date: 15/02/2022 22:11:09 Badly: 6297
+Date: 15/02/2022 22:11:09 Max Strike: 57
+
+Date: 15/02/2022 22:44:26 Number of words: 2782
+Date: 15/02/2022 22:44:26 Correctly: 17968
+Date: 15/02/2022 22:44:26 Badly: 6297
+Date: 15/02/2022 22:44:26 Max Strike: 57
+
+Date: 15/02/2022 22:48:44 Number of words: 2783
+Date: 15/02/2022 22:48:44 Correctly: 17968
+Date: 15/02/2022 22:48:44 Badly: 6297
+Date: 15/02/2022 22:48:44 Max Strike: 57
+
+Date: 15/02/2022 22:49:00 Number of words: 2784
+Date: 15/02/2022 22:49:00 Correctly: 17968
+Date: 15/02/2022 22:49:00 Badly: 6297
+Date: 15/02/2022 22:49:00 Max Strike: 57
+
+Date: 15/02/2022 22:49:46 Number of words: 2785
+Date: 15/02/2022 22:49:46 Correctly: 17968
+Date: 15/02/2022 22:49:46 Badly: 6297
+Date: 15/02/2022 22:49:46 Max Strike: 57
+
+Date: 15/02/2022 23:05:16 Number of words: 2786
+Date: 15/02/2022 23:05:16 Correctly: 17968
+Date: 15/02/2022 23:05:16 Badly: 6297
+Date: 15/02/2022 23:05:16 Max Strike: 57
+
+Date: 15/02/2022 23:21:08 Number of words: 2786
+Date: 15/02/2022 23:21:08 Correctly: 18068
+Date: 15/02/2022 23:21:08 Badly: 6347
+Date: 15/02/2022 23:21:08 Max Strike: 57
+
+Date: 16/02/2022 09:34:17 Number of words: 2787
+Date: 16/02/2022 09:34:17 Correctly: 18068
+Date: 16/02/2022 09:34:17 Badly: 6347
+Date: 16/02/2022 09:34:17 Max Strike: 57
+
+Date: 16/02/2022 09:35:07 Number of words: 2788
+Date: 16/02/2022 09:35:07 Correctly: 18068
+Date: 16/02/2022 09:35:07 Badly: 6347
+Date: 16/02/2022 09:35:07 Max Strike: 57
+
+Date: 16/02/2022 09:45:15 Number of words: 2789
+Date: 16/02/2022 09:45:15 Correctly: 18068
+Date: 16/02/2022 09:45:15 Badly: 6347
+Date: 16/02/2022 09:45:15 Max Strike: 57
+
+Date: 16/02/2022 09:51:25 Number of words: 2790
+Date: 16/02/2022 09:51:25 Correctly: 18068
+Date: 16/02/2022 09:51:25 Badly: 6347
+Date: 16/02/2022 09:51:25 Max Strike: 57
+
+Date: 16/02/2022 09:54:12 Number of words: 2791
+Date: 16/02/2022 09:54:12 Correctly: 18068
+Date: 16/02/2022 09:54:12 Badly: 6347
+Date: 16/02/2022 09:54:12 Max Strike: 57
+
+Date: 16/02/2022 10:41:58 Number of words: 2792
+Date: 16/02/2022 10:41:58 Correctly: 18068
+Date: 16/02/2022 10:41:58 Badly: 6347
+Date: 16/02/2022 10:41:58 Max Strike: 57
+
+Date: 16/02/2022 10:53:52 Number of words: 2793
+Date: 16/02/2022 10:53:52 Correctly: 18068
+Date: 16/02/2022 10:53:52 Badly: 6347
+Date: 16/02/2022 10:53:52 Max Strike: 57
+
+Date: 16/02/2022 11:25:10 Number of words: 2794
+Date: 16/02/2022 11:25:10 Correctly: 18068
+Date: 16/02/2022 11:25:10 Badly: 6347
+Date: 16/02/2022 11:25:10 Max Strike: 57
+
+Date: 16/02/2022 11:52:32 Number of words: 2795
+Date: 16/02/2022 11:52:32 Correctly: 18068
+Date: 16/02/2022 11:52:32 Badly: 6347
+Date: 16/02/2022 11:52:32 Max Strike: 57
+
+Date: 16/02/2022 11:52:57 Number of words: 2796
+Date: 16/02/2022 11:52:57 Correctly: 18068
+Date: 16/02/2022 11:52:57 Badly: 6347
+Date: 16/02/2022 11:52:57 Max Strike: 57
+
+Date: 16/02/2022 11:53:44 Number of words: 2796
+Date: 16/02/2022 11:53:44 Correctly: 18068
+Date: 16/02/2022 11:53:44 Badly: 6347
+Date: 16/02/2022 11:53:44 Max Strike: 57
+
+Date: 16/02/2022 11:54:10 Number of words: 2797
+Date: 16/02/2022 11:54:10 Correctly: 18068
+Date: 16/02/2022 11:54:10 Badly: 6347
+Date: 16/02/2022 11:54:10 Max Strike: 57
+
+Date: 16/02/2022 12:00:19 Number of words: 2798
+Date: 16/02/2022 12:00:19 Correctly: 18068
+Date: 16/02/2022 12:00:19 Badly: 6347
+Date: 16/02/2022 12:00:19 Max Strike: 57
+
+Date: 16/02/2022 12:00:38 Number of words: 2799
+Date: 16/02/2022 12:00:38 Correctly: 18068
+Date: 16/02/2022 12:00:38 Badly: 6347
+Date: 16/02/2022 12:00:38 Max Strike: 57
+
+Date: 16/02/2022 12:11:02 Number of words: 2800
+Date: 16/02/2022 12:11:02 Correctly: 18068
+Date: 16/02/2022 12:11:02 Badly: 6347
+Date: 16/02/2022 12:11:02 Max Strike: 57
+
+Date: 16/02/2022 12:27:21 Number of words: 2801
+Date: 16/02/2022 12:27:21 Correctly: 18068
+Date: 16/02/2022 12:27:21 Badly: 6347
+Date: 16/02/2022 12:27:21 Max Strike: 57
+
+Date: 16/02/2022 13:21:48 Number of words: 2802
+Date: 16/02/2022 13:21:48 Correctly: 18068
+Date: 16/02/2022 13:21:48 Badly: 6347
+Date: 16/02/2022 13:21:48 Max Strike: 57
+
+Date: 16/02/2022 13:37:51 Number of words: 2803
+Date: 16/02/2022 13:37:51 Correctly: 18068
+Date: 16/02/2022 13:37:51 Badly: 6347
+Date: 16/02/2022 13:37:51 Max Strike: 57
+
+Date: 16/02/2022 14:36:59 Number of words: 2804
+Date: 16/02/2022 14:36:59 Correctly: 18068
+Date: 16/02/2022 14:36:59 Badly: 6347
+Date: 16/02/2022 14:36:59 Max Strike: 57
+
+Date: 16/02/2022 15:44:20 Number of words: 2805
+Date: 16/02/2022 15:44:20 Correctly: 18068
+Date: 16/02/2022 15:44:20 Badly: 6347
+Date: 16/02/2022 15:44:20 Max Strike: 57
+
+Date: 16/02/2022 16:26:41 Number of words: 2806
+Date: 16/02/2022 16:26:41 Correctly: 18068
+Date: 16/02/2022 16:26:41 Badly: 6347
+Date: 16/02/2022 16:26:41 Max Strike: 57
+
+Date: 16/02/2022 16:46:06 Number of words: 2806
+Date: 16/02/2022 16:46:06 Correctly: 18068
+Date: 16/02/2022 16:46:06 Badly: 6347
+Date: 16/02/2022 16:46:06 Max Strike: 57
+
+Date: 16/02/2022 22:38:20 Number of words: 2806
+Date: 16/02/2022 22:38:20 Correctly: 18068
+Date: 16/02/2022 22:38:20 Badly: 6347
+Date: 16/02/2022 22:38:20 Max Strike: 57
+
+Date: 16/02/2022 23:01:00 Number of words: 2807
+Date: 16/02/2022 23:01:00 Correctly: 18068
+Date: 16/02/2022 23:01:00 Badly: 6347
+Date: 16/02/2022 23:01:00 Max Strike: 57
+
+Date: 17/02/2022 00:45:52 Number of words: 2807
+Date: 17/02/2022 00:45:52 Correctly: 18168
+Date: 17/02/2022 00:45:52 Badly: 6402
+Date: 17/02/2022 00:45:52 Max Strike: 57
+
+Date: 19/02/2022 10:26:04 Number of words: 2808
+Date: 19/02/2022 10:26:04 Correctly: 18168
+Date: 19/02/2022 10:26:04 Badly: 6402
+Date: 19/02/2022 10:26:04 Max Strike: 57
+
+Date: 19/02/2022 10:27:17 Number of words: 2809
+Date: 19/02/2022 10:27:17 Correctly: 18168
+Date: 19/02/2022 10:27:17 Badly: 6402
+Date: 19/02/2022 10:27:17 Max Strike: 57
+
+Date: 19/02/2022 10:42:12 Number of words: 2811
+Date: 19/02/2022 10:42:12 Correctly: 18168
+Date: 19/02/2022 10:42:12 Badly: 6402
+Date: 19/02/2022 10:42:12 Max Strike: 57
+
+Date: 19/02/2022 10:51:33 Number of words: 2814
+Date: 19/02/2022 10:51:33 Correctly: 18168
+Date: 19/02/2022 10:51:33 Badly: 6402
+Date: 19/02/2022 10:51:33 Max Strike: 57
+
+Date: 19/02/2022 11:17:22 Number of words: 2815
+Date: 19/02/2022 11:17:22 Correctly: 18168
+Date: 19/02/2022 11:17:22 Badly: 6402
+Date: 19/02/2022 11:17:22 Max Strike: 57
+
+Date: 19/02/2022 11:18:19 Number of words: 2816
+Date: 19/02/2022 11:18:19 Correctly: 18168
+Date: 19/02/2022 11:18:19 Badly: 6402
+Date: 19/02/2022 11:18:19 Max Strike: 57
+
+Date: 19/02/2022 11:25:16 Number of words: 2818
+Date: 19/02/2022 11:25:16 Correctly: 18168
+Date: 19/02/2022 11:25:16 Badly: 6402
+Date: 19/02/2022 11:25:16 Max Strike: 57
+
+Date: 19/02/2022 11:38:40 Number of words: 2819
+Date: 19/02/2022 11:38:40 Correctly: 18168
+Date: 19/02/2022 11:38:40 Badly: 6402
+Date: 19/02/2022 11:38:40 Max Strike: 57
+
+Date: 19/02/2022 11:42:01 Number of words: 2820
+Date: 19/02/2022 11:42:01 Correctly: 18168
+Date: 19/02/2022 11:42:01 Badly: 6402
+Date: 19/02/2022 11:42:01 Max Strike: 57
+
+Date: 19/02/2022 11:43:27 Number of words: 2821
+Date: 19/02/2022 11:43:27 Correctly: 18168
+Date: 19/02/2022 11:43:27 Badly: 6402
+Date: 19/02/2022 11:43:27 Max Strike: 57
+
+Date: 19/02/2022 11:55:46 Number of words: 2823
+Date: 19/02/2022 11:55:46 Correctly: 18168
+Date: 19/02/2022 11:55:46 Badly: 6402
+Date: 19/02/2022 11:55:46 Max Strike: 57
+
+Date: 19/02/2022 11:59:57 Number of words: 2824
+Date: 19/02/2022 11:59:57 Correctly: 18168
+Date: 19/02/2022 11:59:57 Badly: 6402
+Date: 19/02/2022 11:59:57 Max Strike: 57
+
+Date: 19/02/2022 12:01:10 Number of words: 2825
+Date: 19/02/2022 12:01:10 Correctly: 18168
+Date: 19/02/2022 12:01:10 Badly: 6402
+Date: 19/02/2022 12:01:10 Max Strike: 57
+
+Date: 20/02/2022 10:58:46 Number of words: 2826
+Date: 20/02/2022 10:58:46 Correctly: 18168
+Date: 20/02/2022 10:58:46 Badly: 6402
+Date: 20/02/2022 10:58:46 Max Strike: 57
+
+Date: 20/02/2022 11:56:29 Number of words: 2828
+Date: 20/02/2022 11:56:29 Correctly: 18168
+Date: 20/02/2022 11:56:29 Badly: 6402
+Date: 20/02/2022 11:56:29 Max Strike: 57
+
+Date: 20/02/2022 12:02:51 Number of words: 2829
+Date: 20/02/2022 12:02:51 Correctly: 18168
+Date: 20/02/2022 12:02:51 Badly: 6402
+Date: 20/02/2022 12:02:51 Max Strike: 57
+
+Date: 20/02/2022 12:03:30 Number of words: 2830
+Date: 20/02/2022 12:03:30 Correctly: 18168
+Date: 20/02/2022 12:03:30 Badly: 6402
+Date: 20/02/2022 12:03:30 Max Strike: 57
+
+Date: 20/02/2022 12:03:49 Number of words: 2831
+Date: 20/02/2022 12:03:49 Correctly: 18168
+Date: 20/02/2022 12:03:49 Badly: 6402
+Date: 20/02/2022 12:03:49 Max Strike: 57
+
+Date: 20/02/2022 12:19:23 Number of words: 2832
+Date: 20/02/2022 12:19:23 Correctly: 18168
+Date: 20/02/2022 12:19:23 Badly: 6402
+Date: 20/02/2022 12:19:23 Max Strike: 57
+
+Date: 20/02/2022 13:06:05 Number of words: 2834
+Date: 20/02/2022 13:06:05 Correctly: 18168
+Date: 20/02/2022 13:06:05 Badly: 6402
+Date: 20/02/2022 13:06:05 Max Strike: 57
+
+Date: 20/02/2022 13:06:45 Number of words: 2835
+Date: 20/02/2022 13:06:45 Correctly: 18168
+Date: 20/02/2022 13:06:45 Badly: 6402
+Date: 20/02/2022 13:06:45 Max Strike: 57
+
+Date: 20/02/2022 18:53:49 Number of words: 2836
+Date: 20/02/2022 18:53:49 Correctly: 18168
+Date: 20/02/2022 18:53:49 Badly: 6402
+Date: 20/02/2022 18:53:49 Max Strike: 57
+
+Date: 20/02/2022 18:54:30 Number of words: 2837
+Date: 20/02/2022 18:54:30 Correctly: 18168
+Date: 20/02/2022 18:54:30 Badly: 6402
+Date: 20/02/2022 18:54:30 Max Strike: 57
+
+Date: 20/02/2022 18:55:05 Number of words: 2838
+Date: 20/02/2022 18:55:05 Correctly: 18168
+Date: 20/02/2022 18:55:05 Badly: 6402
+Date: 20/02/2022 18:55:05 Max Strike: 57
+
+Date: 20/02/2022 18:56:29 Number of words: 2839
+Date: 20/02/2022 18:56:29 Correctly: 18168
+Date: 20/02/2022 18:56:29 Badly: 6402
+Date: 20/02/2022 18:56:29 Max Strike: 57
+
+Date: 20/02/2022 18:56:51 Number of words: 2840
+Date: 20/02/2022 18:56:51 Correctly: 18168
+Date: 20/02/2022 18:56:51 Badly: 6402
+Date: 20/02/2022 18:56:51 Max Strike: 57
+
+Date: 20/02/2022 18:58:41 Number of words: 2841
+Date: 20/02/2022 18:58:41 Correctly: 18168
+Date: 20/02/2022 18:58:41 Badly: 6402
+Date: 20/02/2022 18:58:41 Max Strike: 57
+
+Date: 20/02/2022 19:02:06 Number of words: 2842
+Date: 20/02/2022 19:02:06 Correctly: 18168
+Date: 20/02/2022 19:02:06 Badly: 6402
+Date: 20/02/2022 19:02:06 Max Strike: 57
+
+Date: 20/02/2022 19:17:16 Number of words: 2843
+Date: 20/02/2022 19:17:16 Correctly: 18168
+Date: 20/02/2022 19:17:16 Badly: 6402
+Date: 20/02/2022 19:17:16 Max Strike: 57
+
+Date: 20/02/2022 19:21:56 Number of words: 2844
+Date: 20/02/2022 19:21:56 Correctly: 18168
+Date: 20/02/2022 19:21:56 Badly: 6402
+Date: 20/02/2022 19:21:56 Max Strike: 57
+
+Date: 20/02/2022 19:29:23 Number of words: 2845
+Date: 20/02/2022 19:29:23 Correctly: 18168
+Date: 20/02/2022 19:29:23 Badly: 6402
+Date: 20/02/2022 19:29:23 Max Strike: 57
+
+Date: 20/02/2022 19:32:42 Number of words: 2846
+Date: 20/02/2022 19:32:42 Correctly: 18168
+Date: 20/02/2022 19:32:42 Badly: 6402
+Date: 20/02/2022 19:32:42 Max Strike: 57
+
+Date: 20/02/2022 19:34:24 Number of words: 2847
+Date: 20/02/2022 19:34:24 Correctly: 18168
+Date: 20/02/2022 19:34:24 Badly: 6402
+Date: 20/02/2022 19:34:24 Max Strike: 57
+
+Date: 20/02/2022 19:35:03 Number of words: 2848
+Date: 20/02/2022 19:35:03 Correctly: 18168
+Date: 20/02/2022 19:35:03 Badly: 6402
+Date: 20/02/2022 19:35:03 Max Strike: 57
+
+Date: 20/02/2022 19:56:22 Number of words: 2849
+Date: 20/02/2022 19:56:22 Correctly: 18168
+Date: 20/02/2022 19:56:22 Badly: 6402
+Date: 20/02/2022 19:56:22 Max Strike: 57
+
+Date: 20/02/2022 20:11:59 Number of words: 2850
+Date: 20/02/2022 20:11:59 Correctly: 18168
+Date: 20/02/2022 20:11:59 Badly: 6402
+Date: 20/02/2022 20:11:59 Max Strike: 57
+
+Date: 20/02/2022 20:12:52 Number of words: 2851
+Date: 20/02/2022 20:12:52 Correctly: 18168
+Date: 20/02/2022 20:12:52 Badly: 6402
+Date: 20/02/2022 20:12:52 Max Strike: 57
+
+Date: 20/02/2022 20:22:58 Number of words: 2851
+Date: 20/02/2022 20:22:58 Correctly: 18168
+Date: 20/02/2022 20:22:58 Badly: 6402
+Date: 20/02/2022 20:22:58 Max Strike: 57
+
+Date: 20/02/2022 21:15:31 Number of words: 2852
+Date: 20/02/2022 21:15:31 Correctly: 18168
+Date: 20/02/2022 21:15:31 Badly: 6402
+Date: 20/02/2022 21:15:31 Max Strike: 57
+
+Date: 20/02/2022 21:21:48 Number of words: 2853
+Date: 20/02/2022 21:21:48 Correctly: 18168
+Date: 20/02/2022 21:21:48 Badly: 6402
+Date: 20/02/2022 21:21:48 Max Strike: 57
+
+Date: 20/02/2022 21:28:00 Number of words: 2854
+Date: 20/02/2022 21:28:00 Correctly: 18168
+Date: 20/02/2022 21:28:00 Badly: 6402
+Date: 20/02/2022 21:28:00 Max Strike: 57
+
+Date: 20/02/2022 21:43:42 Number of words: 2855
+Date: 20/02/2022 21:43:42 Correctly: 18168
+Date: 20/02/2022 21:43:42 Badly: 6402
+Date: 20/02/2022 21:43:42 Max Strike: 57
+
+Date: 20/02/2022 21:47:45 Number of words: 2856
+Date: 20/02/2022 21:47:45 Correctly: 18168
+Date: 20/02/2022 21:47:45 Badly: 6402
+Date: 20/02/2022 21:47:45 Max Strike: 57
+
+Date: 20/02/2022 21:49:42 Number of words: 2857
+Date: 20/02/2022 21:49:42 Correctly: 18168
+Date: 20/02/2022 21:49:42 Badly: 6402
+Date: 20/02/2022 21:49:42 Max Strike: 57
+
+Date: 20/02/2022 21:50:14 Number of words: 2858
+Date: 20/02/2022 21:50:14 Correctly: 18168
+Date: 20/02/2022 21:50:14 Badly: 6402
+Date: 20/02/2022 21:50:14 Max Strike: 57
+
+Date: 20/02/2022 21:59:03 Number of words: 2859
+Date: 20/02/2022 21:59:03 Correctly: 18168
+Date: 20/02/2022 21:59:03 Badly: 6402
+Date: 20/02/2022 21:59:03 Max Strike: 57
+
+Date: 20/02/2022 23:20:19 Number of words: 2859
+Date: 20/02/2022 23:20:19 Correctly: 18168
+Date: 20/02/2022 23:20:19 Badly: 6402
+Date: 20/02/2022 23:20:19 Max Strike: 57
+
+Date: 20/02/2022 23:20:44 Number of words: 2859
+Date: 20/02/2022 23:20:44 Correctly: 18176
+Date: 20/02/2022 23:20:44 Badly: 6406
+Date: 20/02/2022 23:20:44 Max Strike: 57
+
+Date: 20/02/2022 23:23:56 Number of words: 2859
+Date: 20/02/2022 23:23:56 Correctly: 18276
+Date: 20/02/2022 23:23:56 Badly: 6440
+Date: 20/02/2022 23:23:56 Max Strike: 57
+
+Date: 21/02/2022 09:33:32 Number of words: 2860
+Date: 21/02/2022 09:33:32 Correctly: 18276
+Date: 21/02/2022 09:33:32 Badly: 6440
+Date: 21/02/2022 09:33:32 Max Strike: 57
+
+Date: 21/02/2022 09:58:44 Number of words: 2861
+Date: 21/02/2022 09:58:44 Correctly: 18276
+Date: 21/02/2022 09:58:44 Badly: 6440
+Date: 21/02/2022 09:58:44 Max Strike: 57
+
+Date: 21/02/2022 09:59:10 Number of words: 2862
+Date: 21/02/2022 09:59:10 Correctly: 18276
+Date: 21/02/2022 09:59:10 Badly: 6440
+Date: 21/02/2022 09:59:10 Max Strike: 57
+
+Date: 21/02/2022 10:01:44 Number of words: 2862
+Date: 21/02/2022 10:01:44 Correctly: 18276
+Date: 21/02/2022 10:01:44 Badly: 6440
+Date: 21/02/2022 10:01:44 Max Strike: 57
+
+Date: 21/02/2022 10:01:55 Number of words: 2863
+Date: 21/02/2022 10:01:55 Correctly: 18276
+Date: 21/02/2022 10:01:55 Badly: 6440
+Date: 21/02/2022 10:01:55 Max Strike: 57
+
+Date: 21/02/2022 10:06:46 Number of words: 2864
+Date: 21/02/2022 10:06:46 Correctly: 18276
+Date: 21/02/2022 10:06:46 Badly: 6440
+Date: 21/02/2022 10:06:46 Max Strike: 57
+
+Date: 21/02/2022 10:07:27 Number of words: 2865
+Date: 21/02/2022 10:07:27 Correctly: 18276
+Date: 21/02/2022 10:07:27 Badly: 6440
+Date: 21/02/2022 10:07:27 Max Strike: 57
+
+Date: 21/02/2022 10:12:43 Number of words: 2866
+Date: 21/02/2022 10:12:43 Correctly: 18276
+Date: 21/02/2022 10:12:43 Badly: 6440
+Date: 21/02/2022 10:12:43 Max Strike: 57
+
+Date: 21/02/2022 10:13:04 Number of words: 2867
+Date: 21/02/2022 10:13:04 Correctly: 18276
+Date: 21/02/2022 10:13:04 Badly: 6440
+Date: 21/02/2022 10:13:04 Max Strike: 57
+
+Date: 21/02/2022 10:17:42 Number of words: 2868
+Date: 21/02/2022 10:17:42 Correctly: 18276
+Date: 21/02/2022 10:17:42 Badly: 6440
+Date: 21/02/2022 10:17:42 Max Strike: 57
+
+Date: 21/02/2022 10:18:15 Number of words: 2869
+Date: 21/02/2022 10:18:15 Correctly: 18276
+Date: 21/02/2022 10:18:15 Badly: 6440
+Date: 21/02/2022 10:18:15 Max Strike: 57
+
+Date: 21/02/2022 10:18:58 Number of words: 2870
+Date: 21/02/2022 10:18:58 Correctly: 18276
+Date: 21/02/2022 10:18:58 Badly: 6440
+Date: 21/02/2022 10:18:58 Max Strike: 57
+
+Date: 21/02/2022 10:20:10 Number of words: 2871
+Date: 21/02/2022 10:20:10 Correctly: 18276
+Date: 21/02/2022 10:20:10 Badly: 6440
+Date: 21/02/2022 10:20:10 Max Strike: 57
+
+Date: 21/02/2022 10:21:17 Number of words: 2872
+Date: 21/02/2022 10:21:17 Correctly: 18276
+Date: 21/02/2022 10:21:17 Badly: 6440
+Date: 21/02/2022 10:21:17 Max Strike: 57
+
+Date: 21/02/2022 10:47:08 Number of words: 2873
+Date: 21/02/2022 10:47:08 Correctly: 18276
+Date: 21/02/2022 10:47:08 Badly: 6440
+Date: 21/02/2022 10:47:08 Max Strike: 57
+
+Date: 21/02/2022 10:48:17 Number of words: 2874
+Date: 21/02/2022 10:48:17 Correctly: 18276
+Date: 21/02/2022 10:48:17 Badly: 6440
+Date: 21/02/2022 10:48:17 Max Strike: 57
+
+Date: 21/02/2022 10:50:51 Number of words: 2875
+Date: 21/02/2022 10:50:51 Correctly: 18276
+Date: 21/02/2022 10:50:51 Badly: 6440
+Date: 21/02/2022 10:50:51 Max Strike: 57
+
+Date: 21/02/2022 10:51:10 Number of words: 2876
+Date: 21/02/2022 10:51:10 Correctly: 18276
+Date: 21/02/2022 10:51:10 Badly: 6440
+Date: 21/02/2022 10:51:10 Max Strike: 57
+
+Date: 21/02/2022 10:52:30 Number of words: 2877
+Date: 21/02/2022 10:52:30 Correctly: 18276
+Date: 21/02/2022 10:52:30 Badly: 6440
+Date: 21/02/2022 10:52:30 Max Strike: 57
+
+Date: 21/02/2022 10:52:58 Number of words: 2877
+Date: 21/02/2022 10:52:58 Correctly: 18276
+Date: 21/02/2022 10:52:58 Badly: 6440
+Date: 21/02/2022 10:52:58 Max Strike: 57
+
+Date: 21/02/2022 10:56:09 Number of words: 2878
+Date: 21/02/2022 10:56:09 Correctly: 18276
+Date: 21/02/2022 10:56:09 Badly: 6440
+Date: 21/02/2022 10:56:09 Max Strike: 57
+
+Date: 21/02/2022 10:59:04 Number of words: 2879
+Date: 21/02/2022 10:59:04 Correctly: 18276
+Date: 21/02/2022 10:59:04 Badly: 6440
+Date: 21/02/2022 10:59:04 Max Strike: 57
+
+Date: 21/02/2022 11:10:16 Number of words: 2881
+Date: 21/02/2022 11:10:16 Correctly: 18276
+Date: 21/02/2022 11:10:16 Badly: 6440
+Date: 21/02/2022 11:10:16 Max Strike: 57
+
+Date: 21/02/2022 17:38:48 Number of words: 2882
+Date: 21/02/2022 17:38:48 Correctly: 18276
+Date: 21/02/2022 17:38:48 Badly: 6440
+Date: 21/02/2022 17:38:48 Max Strike: 57
+
+Date: 21/02/2022 19:06:03 Number of words: 2882
+Date: 21/02/2022 19:06:03 Correctly: 18276
+Date: 21/02/2022 19:06:03 Badly: 6440
+Date: 21/02/2022 19:06:03 Max Strike: 57
+
+Date: 22/02/2022 23:42:36 Number of words: 2882
+Date: 22/02/2022 23:42:36 Correctly: 18376
+Date: 22/02/2022 23:42:36 Badly: 6499
+Date: 22/02/2022 23:42:36 Max Strike: 57
+
+Date: 23/02/2022 11:48:06 Number of words: 2883
+Date: 23/02/2022 11:48:06 Correctly: 18376
+Date: 23/02/2022 11:48:06 Badly: 6499
+Date: 23/02/2022 11:48:06 Max Strike: 57
+
+Date: 23/02/2022 12:20:23 Number of words: 2884
+Date: 23/02/2022 12:20:23 Correctly: 18376
+Date: 23/02/2022 12:20:23 Badly: 6499
+Date: 23/02/2022 12:20:23 Max Strike: 57
+
+Date: 23/02/2022 22:59:23 Number of words: 2884
+Date: 23/02/2022 22:59:23 Correctly: 18476
+Date: 23/02/2022 22:59:23 Badly: 6559
+Date: 23/02/2022 22:59:23 Max Strike: 57
+
+Date: 24/02/2022 10:01:34 Number of words: 2885
+Date: 24/02/2022 10:01:34 Correctly: 18476
+Date: 24/02/2022 10:01:34 Badly: 6559
+Date: 24/02/2022 10:01:34 Max Strike: 57
+
+Date: 24/02/2022 17:55:36 Number of words: 2889
+Date: 24/02/2022 17:55:36 Correctly: 18476
+Date: 24/02/2022 17:55:36 Badly: 6559
+Date: 24/02/2022 17:55:36 Max Strike: 57
+
+Date: 24/02/2022 17:56:02 Number of words: 2890
+Date: 24/02/2022 17:56:02 Correctly: 18476
+Date: 24/02/2022 17:56:02 Badly: 6559
+Date: 24/02/2022 17:56:02 Max Strike: 57
+
+Date: 24/02/2022 17:56:51 Number of words: 2892
+Date: 24/02/2022 17:56:51 Correctly: 18476
+Date: 24/02/2022 17:56:51 Badly: 6559
+Date: 24/02/2022 17:56:51 Max Strike: 57
+
+Date: 24/02/2022 17:57:37 Number of words: 2893
+Date: 24/02/2022 17:57:37 Correctly: 18476
+Date: 24/02/2022 17:57:37 Badly: 6559
+Date: 24/02/2022 17:57:37 Max Strike: 57
+
+Date: 24/02/2022 17:58:10 Number of words: 2894
+Date: 24/02/2022 17:58:10 Correctly: 18476
+Date: 24/02/2022 17:58:10 Badly: 6559
+Date: 24/02/2022 17:58:10 Max Strike: 57
+
+Date: 24/02/2022 18:43:59 Number of words: 2895
+Date: 24/02/2022 18:43:59 Correctly: 18476
+Date: 24/02/2022 18:43:59 Badly: 6559
+Date: 24/02/2022 18:43:59 Max Strike: 57
+
+Date: 24/02/2022 18:44:26 Number of words: 2896
+Date: 24/02/2022 18:44:26 Correctly: 18476
+Date: 24/02/2022 18:44:26 Badly: 6559
+Date: 24/02/2022 18:44:26 Max Strike: 57
+
+Date: 24/02/2022 22:47:32 Number of words: 2896
+Date: 24/02/2022 22:47:32 Correctly: 18576
+Date: 24/02/2022 22:47:32 Badly: 6624
+Date: 24/02/2022 22:47:32 Max Strike: 57
+
+Date: 26/02/2022 22:14:50 Number of words: 2897
+Date: 26/02/2022 22:14:50 Correctly: 18576
+Date: 26/02/2022 22:14:50 Badly: 6624
+Date: 26/02/2022 22:14:50 Max Strike: 57
+
+Date: 26/02/2022 22:24:53 Number of words: 2898
+Date: 26/02/2022 22:24:53 Correctly: 18576
+Date: 26/02/2022 22:24:53 Badly: 6624
+Date: 26/02/2022 22:24:53 Max Strike: 57
+
+Date: 26/02/2022 22:25:05 Number of words: 2899
+Date: 26/02/2022 22:25:05 Correctly: 18576
+Date: 26/02/2022 22:25:05 Badly: 6624
+Date: 26/02/2022 22:25:05 Max Strike: 57
+
+Date: 26/02/2022 22:35:22 Number of words: 2900
+Date: 26/02/2022 22:35:22 Correctly: 18576
+Date: 26/02/2022 22:35:22 Badly: 6624
+Date: 26/02/2022 22:35:22 Max Strike: 57
+
+Date: 27/02/2022 00:04:10 Number of words: 2900
+Date: 27/02/2022 00:04:10 Correctly: 18576
+Date: 27/02/2022 00:04:10 Badly: 6624
+Date: 27/02/2022 00:04:10 Max Strike: 57
+
+Date: 28/02/2022 22:26:38 Number of words: 2900
+Date: 28/02/2022 22:26:38 Correctly: 18676
+Date: 28/02/2022 22:26:38 Badly: 6682
+Date: 28/02/2022 22:26:38 Max Strike: 57
+
+Date: 04/03/2022 08:46:43 Number of words: 2901
+Date: 04/03/2022 08:46:43 Correctly: 18676
+Date: 04/03/2022 08:46:43 Badly: 6682
+Date: 04/03/2022 08:46:43 Max Strike: 57
+
+Date: 04/03/2022 09:04:53 Number of words: 2901
+Date: 04/03/2022 09:04:53 Correctly: 18676
+Date: 04/03/2022 09:04:53 Badly: 6682
+Date: 04/03/2022 09:04:53 Max Strike: 57
+
+Date: 04/03/2022 09:06:50 Number of words: 2902
+Date: 04/03/2022 09:06:50 Correctly: 18676
+Date: 04/03/2022 09:06:50 Badly: 6682
+Date: 04/03/2022 09:06:50 Max Strike: 57
+
+Date: 04/03/2022 09:36:56 Number of words: 2902
+Date: 04/03/2022 09:36:56 Correctly: 18676
+Date: 04/03/2022 09:36:56 Badly: 6682
+Date: 04/03/2022 09:36:56 Max Strike: 57
+
+Date: 04/03/2022 09:46:56 Number of words: 2903
+Date: 04/03/2022 09:46:56 Correctly: 18676
+Date: 04/03/2022 09:46:56 Badly: 6682
+Date: 04/03/2022 09:46:56 Max Strike: 57
+
+Date: 04/03/2022 10:04:20 Number of words: 2904
+Date: 04/03/2022 10:04:20 Correctly: 18676
+Date: 04/03/2022 10:04:20 Badly: 6682
+Date: 04/03/2022 10:04:20 Max Strike: 57
+
+Date: 04/03/2022 10:05:32 Number of words: 2904
+Date: 04/03/2022 10:05:32 Correctly: 18676
+Date: 04/03/2022 10:05:32 Badly: 6682
+Date: 04/03/2022 10:05:32 Max Strike: 57
+
+Date: 04/03/2022 10:08:21 Number of words: 2905
+Date: 04/03/2022 10:08:21 Correctly: 18676
+Date: 04/03/2022 10:08:21 Badly: 6682
+Date: 04/03/2022 10:08:21 Max Strike: 57
+
+Date: 04/03/2022 10:13:30 Number of words: 2906
+Date: 04/03/2022 10:13:30 Correctly: 18676
+Date: 04/03/2022 10:13:30 Badly: 6682
+Date: 04/03/2022 10:13:30 Max Strike: 57
+
+Date: 04/03/2022 10:17:35 Number of words: 2907
+Date: 04/03/2022 10:17:35 Correctly: 18676
+Date: 04/03/2022 10:17:35 Badly: 6682
+Date: 04/03/2022 10:17:35 Max Strike: 57
+
+Date: 04/03/2022 10:26:11 Number of words: 2908
+Date: 04/03/2022 10:26:11 Correctly: 18676
+Date: 04/03/2022 10:26:11 Badly: 6682
+Date: 04/03/2022 10:26:11 Max Strike: 57
+
+Date: 04/03/2022 10:33:17 Number of words: 2909
+Date: 04/03/2022 10:33:17 Correctly: 18676
+Date: 04/03/2022 10:33:17 Badly: 6682
+Date: 04/03/2022 10:33:17 Max Strike: 57
+
+Date: 04/03/2022 10:45:39 Number of words: 2910
+Date: 04/03/2022 10:45:39 Correctly: 18676
+Date: 04/03/2022 10:45:39 Badly: 6682
+Date: 04/03/2022 10:45:39 Max Strike: 57
+
+Date: 04/03/2022 10:46:06 Number of words: 2911
+Date: 04/03/2022 10:46:06 Correctly: 18676
+Date: 04/03/2022 10:46:06 Badly: 6682
+Date: 04/03/2022 10:46:06 Max Strike: 57
+
+Date: 04/03/2022 11:00:51 Number of words: 2912
+Date: 04/03/2022 11:00:51 Correctly: 18676
+Date: 04/03/2022 11:00:51 Badly: 6682
+Date: 04/03/2022 11:00:51 Max Strike: 57
+
+Date: 04/03/2022 11:07:46 Number of words: 2913
+Date: 04/03/2022 11:07:46 Correctly: 18676
+Date: 04/03/2022 11:07:46 Badly: 6682
+Date: 04/03/2022 11:07:46 Max Strike: 57
+
+Date: 04/03/2022 14:16:17 Number of words: 2914
+Date: 04/03/2022 14:16:17 Correctly: 18676
+Date: 04/03/2022 14:16:17 Badly: 6682
+Date: 04/03/2022 14:16:17 Max Strike: 57
+
+Date: 04/03/2022 14:19:13 Number of words: 2915
+Date: 04/03/2022 14:19:13 Correctly: 18676
+Date: 04/03/2022 14:19:13 Badly: 6682
+Date: 04/03/2022 14:19:13 Max Strike: 57
+
+Date: 04/03/2022 14:20:23 Number of words: 2916
+Date: 04/03/2022 14:20:23 Correctly: 18676
+Date: 04/03/2022 14:20:23 Badly: 6682
+Date: 04/03/2022 14:20:23 Max Strike: 57
+
+Date: 04/03/2022 14:27:11 Number of words: 2917
+Date: 04/03/2022 14:27:11 Correctly: 18676
+Date: 04/03/2022 14:27:11 Badly: 6682
+Date: 04/03/2022 14:27:11 Max Strike: 57
+
+Date: 04/03/2022 14:28:52 Number of words: 2918
+Date: 04/03/2022 14:28:52 Correctly: 18676
+Date: 04/03/2022 14:28:52 Badly: 6682
+Date: 04/03/2022 14:28:52 Max Strike: 57
+
+Date: 04/03/2022 14:32:24 Number of words: 2919
+Date: 04/03/2022 14:32:24 Correctly: 18676
+Date: 04/03/2022 14:32:24 Badly: 6682
+Date: 04/03/2022 14:32:24 Max Strike: 57
+
+Date: 04/03/2022 14:33:03 Number of words: 2920
+Date: 04/03/2022 14:33:03 Correctly: 18676
+Date: 04/03/2022 14:33:03 Badly: 6682
+Date: 04/03/2022 14:33:03 Max Strike: 57
+
+Date: 04/03/2022 14:34:02 Number of words: 2921
+Date: 04/03/2022 14:34:02 Correctly: 18676
+Date: 04/03/2022 14:34:02 Badly: 6682
+Date: 04/03/2022 14:34:02 Max Strike: 57
+
+Date: 04/03/2022 14:49:33 Number of words: 2922
+Date: 04/03/2022 14:49:33 Correctly: 18676
+Date: 04/03/2022 14:49:33 Badly: 6682
+Date: 04/03/2022 14:49:33 Max Strike: 57
+
+Date: 04/03/2022 14:55:58 Number of words: 2923
+Date: 04/03/2022 14:55:58 Correctly: 18676
+Date: 04/03/2022 14:55:58 Badly: 6682
+Date: 04/03/2022 14:55:58 Max Strike: 57
+
+Date: 04/03/2022 15:02:27 Number of words: 2924
+Date: 04/03/2022 15:02:27 Correctly: 18676
+Date: 04/03/2022 15:02:27 Badly: 6682
+Date: 04/03/2022 15:02:27 Max Strike: 57
+
+Date: 04/03/2022 15:13:38 Number of words: 2925
+Date: 04/03/2022 15:13:38 Correctly: 18676
+Date: 04/03/2022 15:13:38 Badly: 6682
+Date: 04/03/2022 15:13:38 Max Strike: 57
+
+Date: 04/03/2022 15:22:10 Number of words: 2926
+Date: 04/03/2022 15:22:10 Correctly: 18676
+Date: 04/03/2022 15:22:10 Badly: 6682
+Date: 04/03/2022 15:22:10 Max Strike: 57
+
+Date: 04/03/2022 16:11:09 Number of words: 2927
+Date: 04/03/2022 16:11:09 Correctly: 18676
+Date: 04/03/2022 16:11:09 Badly: 6682
+Date: 04/03/2022 16:11:09 Max Strike: 57
+
+Date: 04/03/2022 16:12:53 Number of words: 2928
+Date: 04/03/2022 16:12:53 Correctly: 18676
+Date: 04/03/2022 16:12:53 Badly: 6682
+Date: 04/03/2022 16:12:53 Max Strike: 57
+
+Date: 04/03/2022 16:50:05 Number of words: 2929
+Date: 04/03/2022 16:50:05 Correctly: 18676
+Date: 04/03/2022 16:50:05 Badly: 6682
+Date: 04/03/2022 16:50:05 Max Strike: 57
+
+Date: 04/03/2022 20:11:52 Number of words: 2929
+Date: 04/03/2022 20:11:52 Correctly: 18676
+Date: 04/03/2022 20:11:52 Badly: 6682
+Date: 04/03/2022 20:11:52 Max Strike: 57
+
+Date: 05/03/2022 15:16:50 Number of words: 2930
+Date: 05/03/2022 15:16:50 Correctly: 18676
+Date: 05/03/2022 15:16:50 Badly: 6682
+Date: 05/03/2022 15:16:50 Max Strike: 57
+
+Date: 05/03/2022 15:17:29 Number of words: 2931
+Date: 05/03/2022 15:17:29 Correctly: 18676
+Date: 05/03/2022 15:17:29 Badly: 6682
+Date: 05/03/2022 15:17:29 Max Strike: 57
+
+Date: 05/03/2022 15:18:27 Number of words: 2932
+Date: 05/03/2022 15:18:27 Correctly: 18676
+Date: 05/03/2022 15:18:27 Badly: 6682
+Date: 05/03/2022 15:18:27 Max Strike: 57
+
+Date: 05/03/2022 15:19:19 Number of words: 2933
+Date: 05/03/2022 15:19:19 Correctly: 18676
+Date: 05/03/2022 15:19:19 Badly: 6682
+Date: 05/03/2022 15:19:19 Max Strike: 57
+
+Date: 05/03/2022 15:20:00 Number of words: 2934
+Date: 05/03/2022 15:20:00 Correctly: 18676
+Date: 05/03/2022 15:20:00 Badly: 6682
+Date: 05/03/2022 15:20:00 Max Strike: 57
+
+Date: 05/03/2022 15:23:01 Number of words: 2935
+Date: 05/03/2022 15:23:01 Correctly: 18676
+Date: 05/03/2022 15:23:01 Badly: 6682
+Date: 05/03/2022 15:23:01 Max Strike: 57
+
+Date: 05/03/2022 15:24:19 Number of words: 2936
+Date: 05/03/2022 15:24:19 Correctly: 18676
+Date: 05/03/2022 15:24:19 Badly: 6682
+Date: 05/03/2022 15:24:19 Max Strike: 57
+
+Date: 05/03/2022 15:25:14 Number of words: 2937
+Date: 05/03/2022 15:25:14 Correctly: 18676
+Date: 05/03/2022 15:25:14 Badly: 6682
+Date: 05/03/2022 15:25:14 Max Strike: 57
+
+Date: 05/03/2022 15:30:16 Number of words: 2938
+Date: 05/03/2022 15:30:16 Correctly: 18676
+Date: 05/03/2022 15:30:16 Badly: 6682
+Date: 05/03/2022 15:30:16 Max Strike: 57
+
+Date: 05/03/2022 15:30:56 Number of words: 2939
+Date: 05/03/2022 15:30:56 Correctly: 18676
+Date: 05/03/2022 15:30:56 Badly: 6682
+Date: 05/03/2022 15:30:56 Max Strike: 57
+
+Date: 05/03/2022 15:31:36 Number of words: 2940
+Date: 05/03/2022 15:31:36 Correctly: 18676
+Date: 05/03/2022 15:31:36 Badly: 6682
+Date: 05/03/2022 15:31:36 Max Strike: 57
+
+Date: 05/03/2022 15:31:45 Number of words: 2941
+Date: 05/03/2022 15:31:45 Correctly: 18676
+Date: 05/03/2022 15:31:45 Badly: 6682
+Date: 05/03/2022 15:31:45 Max Strike: 57
+
+Date: 05/03/2022 15:43:26 Number of words: 2942
+Date: 05/03/2022 15:43:26 Correctly: 18676
+Date: 05/03/2022 15:43:26 Badly: 6682
+Date: 05/03/2022 15:43:26 Max Strike: 57
+
+Date: 05/03/2022 15:46:03 Number of words: 2943
+Date: 05/03/2022 15:46:03 Correctly: 18676
+Date: 05/03/2022 15:46:03 Badly: 6682
+Date: 05/03/2022 15:46:03 Max Strike: 57
+
+Date: 05/03/2022 16:42:31 Number of words: 2944
+Date: 05/03/2022 16:42:31 Correctly: 18676
+Date: 05/03/2022 16:42:31 Badly: 6682
+Date: 05/03/2022 16:42:31 Max Strike: 57
+
+Date: 05/03/2022 16:42:45 Number of words: 2945
+Date: 05/03/2022 16:42:45 Correctly: 18676
+Date: 05/03/2022 16:42:45 Badly: 6682
+Date: 05/03/2022 16:42:45 Max Strike: 57
+
+Date: 05/03/2022 16:44:37 Number of words: 2946
+Date: 05/03/2022 16:44:37 Correctly: 18676
+Date: 05/03/2022 16:44:37 Badly: 6682
+Date: 05/03/2022 16:44:37 Max Strike: 57
+
+Date: 05/03/2022 17:45:43 Number of words: 2946
+Date: 05/03/2022 17:45:43 Correctly: 18676
+Date: 05/03/2022 17:45:43 Badly: 6682
+Date: 05/03/2022 17:45:43 Max Strike: 57
+
+Date: 06/03/2022 14:12:21 Number of words: 2947
+Date: 06/03/2022 14:12:21 Correctly: 18676
+Date: 06/03/2022 14:12:21 Badly: 6682
+Date: 06/03/2022 14:12:21 Max Strike: 57
+
+Date: 06/03/2022 14:49:37 Number of words: 2948
+Date: 06/03/2022 14:49:37 Correctly: 18676
+Date: 06/03/2022 14:49:37 Badly: 6682
+Date: 06/03/2022 14:49:37 Max Strike: 57
+
+Date: 06/03/2022 15:02:09 Number of words: 2949
+Date: 06/03/2022 15:02:09 Correctly: 18676
+Date: 06/03/2022 15:02:09 Badly: 6682
+Date: 06/03/2022 15:02:09 Max Strike: 57
+
+Date: 06/03/2022 15:07:40 Number of words: 2949
+Date: 06/03/2022 15:07:40 Correctly: 18676
+Date: 06/03/2022 15:07:40 Badly: 6682
+Date: 06/03/2022 15:07:40 Max Strike: 57
+
+Date: 06/03/2022 21:53:38 Number of words: 2950
+Date: 06/03/2022 21:53:38 Correctly: 18676
+Date: 06/03/2022 21:53:38 Badly: 6682
+Date: 06/03/2022 21:53:38 Max Strike: 57
+
+Date: 06/03/2022 22:03:57 Number of words: 2951
+Date: 06/03/2022 22:03:57 Correctly: 18676
+Date: 06/03/2022 22:03:57 Badly: 6682
+Date: 06/03/2022 22:03:57 Max Strike: 57
+
+Date: 06/03/2022 22:07:18 Number of words: 2952
+Date: 06/03/2022 22:07:18 Correctly: 18676
+Date: 06/03/2022 22:07:18 Badly: 6682
+Date: 06/03/2022 22:07:18 Max Strike: 57
+
+Date: 06/03/2022 22:12:06 Number of words: 2953
+Date: 06/03/2022 22:12:06 Correctly: 18676
+Date: 06/03/2022 22:12:06 Badly: 6682
+Date: 06/03/2022 22:12:06 Max Strike: 57
+
+Date: 06/03/2022 22:13:09 Number of words: 2954
+Date: 06/03/2022 22:13:09 Correctly: 18676
+Date: 06/03/2022 22:13:09 Badly: 6682
+Date: 06/03/2022 22:13:09 Max Strike: 57
+
+Date: 06/03/2022 22:14:31 Number of words: 2955
+Date: 06/03/2022 22:14:31 Correctly: 18676
+Date: 06/03/2022 22:14:31 Badly: 6682
+Date: 06/03/2022 22:14:31 Max Strike: 57
+
+Date: 06/03/2022 22:23:05 Number of words: 2956
+Date: 06/03/2022 22:23:05 Correctly: 18676
+Date: 06/03/2022 22:23:05 Badly: 6682
+Date: 06/03/2022 22:23:05 Max Strike: 57
+
+Date: 06/03/2022 22:37:27 Number of words: 2957
+Date: 06/03/2022 22:37:27 Correctly: 18676
+Date: 06/03/2022 22:37:27 Badly: 6682
+Date: 06/03/2022 22:37:27 Max Strike: 57
+
+Date: 06/03/2022 22:52:17 Number of words: 2958
+Date: 06/03/2022 22:52:17 Correctly: 18676
+Date: 06/03/2022 22:52:17 Badly: 6682
+Date: 06/03/2022 22:52:17 Max Strike: 57
+
+Date: 06/03/2022 22:55:07 Number of words: 2959
+Date: 06/03/2022 22:55:07 Correctly: 18676
+Date: 06/03/2022 22:55:07 Badly: 6682
+Date: 06/03/2022 22:55:07 Max Strike: 57
+
+Date: 06/03/2022 22:56:54 Number of words: 2960
+Date: 06/03/2022 22:56:54 Correctly: 18676
+Date: 06/03/2022 22:56:54 Badly: 6682
+Date: 06/03/2022 22:56:54 Max Strike: 57
+
+Date: 06/03/2022 22:57:38 Number of words: 2961
+Date: 06/03/2022 22:57:38 Correctly: 18676
+Date: 06/03/2022 22:57:38 Badly: 6682
+Date: 06/03/2022 22:57:38 Max Strike: 57
+
+Date: 06/03/2022 23:03:40 Number of words: 2962
+Date: 06/03/2022 23:03:40 Correctly: 18676
+Date: 06/03/2022 23:03:40 Badly: 6682
+Date: 06/03/2022 23:03:40 Max Strike: 57
+
+Date: 06/03/2022 23:18:24 Number of words: 2963
+Date: 06/03/2022 23:18:24 Correctly: 18676
+Date: 06/03/2022 23:18:24 Badly: 6682
+Date: 06/03/2022 23:18:24 Max Strike: 57
+
+Date: 06/03/2022 23:20:20 Number of words: 2963
+Date: 06/03/2022 23:20:20 Correctly: 18676
+Date: 06/03/2022 23:20:20 Badly: 6682
+Date: 06/03/2022 23:20:20 Max Strike: 57
+
+Date: 06/03/2022 23:36:00 Number of words: 2964
+Date: 06/03/2022 23:36:00 Correctly: 18676
+Date: 06/03/2022 23:36:00 Badly: 6682
+Date: 06/03/2022 23:36:00 Max Strike: 57
+
+Date: 06/03/2022 23:42:29 Number of words: 2964
+Date: 06/03/2022 23:42:29 Correctly: 18676
+Date: 06/03/2022 23:42:29 Badly: 6682
+Date: 06/03/2022 23:42:29 Max Strike: 57
+
+Date: 07/03/2022 18:50:47 Number of words: 2964
+Date: 07/03/2022 18:50:47 Correctly: 18676
+Date: 07/03/2022 18:50:47 Badly: 6682
+Date: 07/03/2022 18:50:47 Max Strike: 57
+
+Date: 07/03/2022 19:00:21 Number of words: 2965
+Date: 07/03/2022 19:00:21 Correctly: 18676
+Date: 07/03/2022 19:00:21 Badly: 6682
+Date: 07/03/2022 19:00:21 Max Strike: 57
+
+Date: 07/03/2022 19:12:39 Number of words: 2966
+Date: 07/03/2022 19:12:39 Correctly: 18676
+Date: 07/03/2022 19:12:39 Badly: 6682
+Date: 07/03/2022 19:12:39 Max Strike: 57
+
+Date: 07/03/2022 20:18:49 Number of words: 2967
+Date: 07/03/2022 20:18:49 Correctly: 18676
+Date: 07/03/2022 20:18:49 Badly: 6682
+Date: 07/03/2022 20:18:49 Max Strike: 57
+
+Date: 07/03/2022 20:27:56 Number of words: 2968
+Date: 07/03/2022 20:27:56 Correctly: 18676
+Date: 07/03/2022 20:27:56 Badly: 6682
+Date: 07/03/2022 20:27:56 Max Strike: 57
+
+Date: 07/03/2022 20:29:00 Number of words: 2969
+Date: 07/03/2022 20:29:00 Correctly: 18676
+Date: 07/03/2022 20:29:00 Badly: 6682
+Date: 07/03/2022 20:29:00 Max Strike: 57
+
+Date: 07/03/2022 20:30:32 Number of words: 2970
+Date: 07/03/2022 20:30:32 Correctly: 18676
+Date: 07/03/2022 20:30:32 Badly: 6682
+Date: 07/03/2022 20:30:32 Max Strike: 57
+
+Date: 07/03/2022 20:31:21 Number of words: 2970
+Date: 07/03/2022 20:31:21 Correctly: 18676
+Date: 07/03/2022 20:31:21 Badly: 6682
+Date: 07/03/2022 20:31:21 Max Strike: 57
+
+Date: 07/03/2022 21:13:03 Number of words: 2971
+Date: 07/03/2022 21:13:03 Correctly: 18676
+Date: 07/03/2022 21:13:03 Badly: 6682
+Date: 07/03/2022 21:13:03 Max Strike: 57
+
+Date: 07/03/2022 21:14:33 Number of words: 2972
+Date: 07/03/2022 21:14:33 Correctly: 18676
+Date: 07/03/2022 21:14:33 Badly: 6682
+Date: 07/03/2022 21:14:33 Max Strike: 57
+
+Date: 07/03/2022 21:15:09 Number of words: 2973
+Date: 07/03/2022 21:15:09 Correctly: 18676
+Date: 07/03/2022 21:15:09 Badly: 6682
+Date: 07/03/2022 21:15:09 Max Strike: 57
+
+Date: 07/03/2022 21:17:24 Number of words: 2974
+Date: 07/03/2022 21:17:24 Correctly: 18676
+Date: 07/03/2022 21:17:24 Badly: 6682
+Date: 07/03/2022 21:17:24 Max Strike: 57
+
+Date: 07/03/2022 21:20:57 Number of words: 2975
+Date: 07/03/2022 21:20:57 Correctly: 18676
+Date: 07/03/2022 21:20:57 Badly: 6682
+Date: 07/03/2022 21:20:57 Max Strike: 57
+
+Date: 07/03/2022 23:15:53 Number of words: 2975
+Date: 07/03/2022 23:15:53 Correctly: 18676
+Date: 07/03/2022 23:15:53 Badly: 6682
+Date: 07/03/2022 23:15:53 Max Strike: 57
+
+Date: 07/03/2022 23:16:30 Number of words: 2976
+Date: 07/03/2022 23:16:30 Correctly: 18676
+Date: 07/03/2022 23:16:30 Badly: 6682
+Date: 07/03/2022 23:16:30 Max Strike: 57
+
+Date: 07/03/2022 23:17:20 Number of words: 2976
+Date: 07/03/2022 23:17:20 Correctly: 18676
+Date: 07/03/2022 23:17:20 Badly: 6682
+Date: 07/03/2022 23:17:20 Max Strike: 57
+
+Date: 08/03/2022 18:53:59 Number of words: 2977
+Date: 08/03/2022 18:53:59 Correctly: 18676
+Date: 08/03/2022 18:53:59 Badly: 6682
+Date: 08/03/2022 18:53:59 Max Strike: 57
+
+Date: 08/03/2022 19:29:41 Number of words: 2978
+Date: 08/03/2022 19:29:41 Correctly: 18676
+Date: 08/03/2022 19:29:41 Badly: 6682
+Date: 08/03/2022 19:29:41 Max Strike: 57
+
+Date: 08/03/2022 19:45:27 Number of words: 2979
+Date: 08/03/2022 19:45:27 Correctly: 18676
+Date: 08/03/2022 19:45:27 Badly: 6682
+Date: 08/03/2022 19:45:27 Max Strike: 57
+
+Date: 08/03/2022 19:48:35 Number of words: 2980
+Date: 08/03/2022 19:48:35 Correctly: 18676
+Date: 08/03/2022 19:48:35 Badly: 6682
+Date: 08/03/2022 19:48:35 Max Strike: 57
+
+Date: 08/03/2022 19:55:10 Number of words: 2981
+Date: 08/03/2022 19:55:10 Correctly: 18676
+Date: 08/03/2022 19:55:10 Badly: 6682
+Date: 08/03/2022 19:55:10 Max Strike: 57
+
+Date: 08/03/2022 19:55:44 Number of words: 2982
+Date: 08/03/2022 19:55:44 Correctly: 18676
+Date: 08/03/2022 19:55:44 Badly: 6682
+Date: 08/03/2022 19:55:44 Max Strike: 57
+
+Date: 08/03/2022 19:56:05 Number of words: 2983
+Date: 08/03/2022 19:56:05 Correctly: 18676
+Date: 08/03/2022 19:56:05 Badly: 6682
+Date: 08/03/2022 19:56:05 Max Strike: 57
+
+Date: 08/03/2022 21:51:26 Number of words: 2983
+Date: 08/03/2022 21:51:26 Correctly: 18676
+Date: 08/03/2022 21:51:26 Badly: 6682
+Date: 08/03/2022 21:51:26 Max Strike: 57
+
+Date: 08/03/2022 22:06:45 Number of words: 2984
+Date: 08/03/2022 22:06:45 Correctly: 18676
+Date: 08/03/2022 22:06:45 Badly: 6682
+Date: 08/03/2022 22:06:45 Max Strike: 57
+
+Date: 08/03/2022 22:10:07 Number of words: 2985
+Date: 08/03/2022 22:10:07 Correctly: 18676
+Date: 08/03/2022 22:10:07 Badly: 6682
+Date: 08/03/2022 22:10:07 Max Strike: 57
+
+Date: 08/03/2022 23:02:37 Number of words: 2985
+Date: 08/03/2022 23:02:37 Correctly: 18676
+Date: 08/03/2022 23:02:37 Badly: 6682
+Date: 08/03/2022 23:02:37 Max Strike: 57
+
+Date: 09/03/2022 21:00:18 Number of words: 2986
+Date: 09/03/2022 21:00:18 Correctly: 18676
+Date: 09/03/2022 21:00:18 Badly: 6682
+Date: 09/03/2022 21:00:18 Max Strike: 57
+
+Date: 09/03/2022 22:41:32 Number of words: 2987
+Date: 09/03/2022 22:41:32 Correctly: 18676
+Date: 09/03/2022 22:41:32 Badly: 6682
+Date: 09/03/2022 22:41:32 Max Strike: 57
+
+Date: 09/03/2022 23:26:29 Number of words: 2987
+Date: 09/03/2022 23:26:29 Correctly: 18676
+Date: 09/03/2022 23:26:29 Badly: 6682
+Date: 09/03/2022 23:26:29 Max Strike: 57
+
+Date: 10/03/2022 22:07:24 Number of words: 2988
+Date: 10/03/2022 22:07:24 Correctly: 18676
+Date: 10/03/2022 22:07:24 Badly: 6682
+Date: 10/03/2022 22:07:24 Max Strike: 57
+
+Date: 10/03/2022 23:26:42 Number of words: 2988
+Date: 10/03/2022 23:26:42 Correctly: 18676
+Date: 10/03/2022 23:26:42 Badly: 6682
+Date: 10/03/2022 23:26:42 Max Strike: 57
+
+Date: 11/03/2022 09:35:44 Number of words: 2989
+Date: 11/03/2022 09:35:44 Correctly: 18676
+Date: 11/03/2022 09:35:44 Badly: 6682
+Date: 11/03/2022 09:35:44 Max Strike: 57
+
+Date: 11/03/2022 09:42:25 Number of words: 2990
+Date: 11/03/2022 09:42:25 Correctly: 18676
+Date: 11/03/2022 09:42:25 Badly: 6682
+Date: 11/03/2022 09:42:25 Max Strike: 57
+
+Date: 11/03/2022 09:59:28 Number of words: 2991
+Date: 11/03/2022 09:59:28 Correctly: 18676
+Date: 11/03/2022 09:59:28 Badly: 6682
+Date: 11/03/2022 09:59:28 Max Strike: 57
+
+Date: 13/03/2022 09:14:25 Number of words: 2992
+Date: 13/03/2022 09:14:25 Correctly: 18676
+Date: 13/03/2022 09:14:25 Badly: 6682
+Date: 13/03/2022 09:14:25 Max Strike: 57
+
+Date: 13/03/2022 09:21:23 Number of words: 2993
+Date: 13/03/2022 09:21:23 Correctly: 18676
+Date: 13/03/2022 09:21:23 Badly: 6682
+Date: 13/03/2022 09:21:23 Max Strike: 57
+
+Date: 13/03/2022 09:23:47 Number of words: 2994
+Date: 13/03/2022 09:23:47 Correctly: 18676
+Date: 13/03/2022 09:23:47 Badly: 6682
+Date: 13/03/2022 09:23:47 Max Strike: 57
+
+Date: 13/03/2022 09:25:46 Number of words: 2995
+Date: 13/03/2022 09:25:46 Correctly: 18676
+Date: 13/03/2022 09:25:46 Badly: 6682
+Date: 13/03/2022 09:25:46 Max Strike: 57
+
+Date: 13/03/2022 09:36:28 Number of words: 2995
+Date: 13/03/2022 09:36:28 Correctly: 18676
+Date: 13/03/2022 09:36:28 Badly: 6682
+Date: 13/03/2022 09:36:28 Max Strike: 57
+
+Date: 13/03/2022 10:22:27 Number of words: 2996
+Date: 13/03/2022 10:22:27 Correctly: 18676
+Date: 13/03/2022 10:22:27 Badly: 6682
+Date: 13/03/2022 10:22:27 Max Strike: 57
+
+Date: 13/03/2022 11:04:11 Number of words: 2997
+Date: 13/03/2022 11:04:11 Correctly: 18676
+Date: 13/03/2022 11:04:11 Badly: 6682
+Date: 13/03/2022 11:04:11 Max Strike: 57
+
+Date: 13/03/2022 11:12:48 Number of words: 2998
+Date: 13/03/2022 11:12:48 Correctly: 18676
+Date: 13/03/2022 11:12:48 Badly: 6682
+Date: 13/03/2022 11:12:48 Max Strike: 57
+
+Date: 13/03/2022 12:11:46 Number of words: 2998
+Date: 13/03/2022 12:11:46 Correctly: 18676
+Date: 13/03/2022 12:11:46 Badly: 6682
+Date: 13/03/2022 12:11:46 Max Strike: 57
+
+Date: 13/03/2022 13:44:26 Number of words: 2999
+Date: 13/03/2022 13:44:26 Correctly: 18676
+Date: 13/03/2022 13:44:26 Badly: 6682
+Date: 13/03/2022 13:44:26 Max Strike: 57
+
+Date: 13/03/2022 13:45:25 Number of words: 3000
+Date: 13/03/2022 13:45:25 Correctly: 18676
+Date: 13/03/2022 13:45:25 Badly: 6682
+Date: 13/03/2022 13:45:25 Max Strike: 57
+
+Date: 13/03/2022 15:14:09 Number of words: 3001
+Date: 13/03/2022 15:14:09 Correctly: 18728
+Date: 13/03/2022 15:14:09 Badly: 6702
+Date: 13/03/2022 15:14:09 Max Strike: 57
+
+Date: 13/03/2022 15:16:19 Number of words: 3001
+Date: 13/03/2022 15:16:19 Correctly: 18728
+Date: 13/03/2022 15:16:19 Badly: 6702
+Date: 13/03/2022 15:16:19 Max Strike: 57
+
+Date: 13/03/2022 15:32:56 Number of words: 3002
+Date: 13/03/2022 15:32:56 Correctly: 18728
+Date: 13/03/2022 15:32:56 Badly: 6702
+Date: 13/03/2022 15:32:56 Max Strike: 57
+
+Date: 13/03/2022 15:37:14 Number of words: 3003
+Date: 13/03/2022 15:37:14 Correctly: 18728
+Date: 13/03/2022 15:37:14 Badly: 6702
+Date: 13/03/2022 15:37:14 Max Strike: 57
+
+Date: 13/03/2022 16:18:01 Number of words: 3004
+Date: 13/03/2022 16:18:01 Correctly: 18728
+Date: 13/03/2022 16:18:01 Badly: 6702
+Date: 13/03/2022 16:18:01 Max Strike: 57
+
+Date: 13/03/2022 16:33:43 Number of words: 3005
+Date: 13/03/2022 16:33:43 Correctly: 18728
+Date: 13/03/2022 16:33:43 Badly: 6702
+Date: 13/03/2022 16:33:43 Max Strike: 57
+
+Date: 13/03/2022 16:34:18 Number of words: 3006
+Date: 13/03/2022 16:34:18 Correctly: 18728
+Date: 13/03/2022 16:34:18 Badly: 6702
+Date: 13/03/2022 16:34:18 Max Strike: 57
+
+Date: 13/03/2022 16:34:47 Number of words: 3007
+Date: 13/03/2022 16:34:47 Correctly: 18728
+Date: 13/03/2022 16:34:47 Badly: 6702
+Date: 13/03/2022 16:34:47 Max Strike: 57
+
+Date: 13/03/2022 16:39:51 Number of words: 3008
+Date: 13/03/2022 16:39:51 Correctly: 18728
+Date: 13/03/2022 16:39:51 Badly: 6702
+Date: 13/03/2022 16:39:51 Max Strike: 57
+
+Date: 13/03/2022 16:40:47 Number of words: 3009
+Date: 13/03/2022 16:40:47 Correctly: 18728
+Date: 13/03/2022 16:40:47 Badly: 6702
+Date: 13/03/2022 16:40:47 Max Strike: 57
+
+Date: 13/03/2022 16:41:53 Number of words: 3010
+Date: 13/03/2022 16:41:53 Correctly: 18728
+Date: 13/03/2022 16:41:53 Badly: 6702
+Date: 13/03/2022 16:41:53 Max Strike: 57
+
+Date: 13/03/2022 18:10:47 Number of words: 3011
+Date: 13/03/2022 18:10:47 Correctly: 18728
+Date: 13/03/2022 18:10:47 Badly: 6702
+Date: 13/03/2022 18:10:47 Max Strike: 57
+
+Date: 13/03/2022 18:14:51 Number of words: 3012
+Date: 13/03/2022 18:14:51 Correctly: 18728
+Date: 13/03/2022 18:14:51 Badly: 6702
+Date: 13/03/2022 18:14:51 Max Strike: 57
+
+Date: 13/03/2022 19:29:46 Number of words: 3012
+Date: 13/03/2022 19:29:46 Correctly: 18728
+Date: 13/03/2022 19:29:46 Badly: 6702
+Date: 13/03/2022 19:29:46 Max Strike: 57
+
+Date: 13/03/2022 19:30:25 Number of words: 3013
+Date: 13/03/2022 19:30:25 Correctly: 18728
+Date: 13/03/2022 19:30:25 Badly: 6702
+Date: 13/03/2022 19:30:25 Max Strike: 57
+
+Date: 13/03/2022 19:30:41 Number of words: 3014
+Date: 13/03/2022 19:30:41 Correctly: 18728
+Date: 13/03/2022 19:30:41 Badly: 6702
+Date: 13/03/2022 19:30:41 Max Strike: 57
+
+Date: 13/03/2022 19:32:34 Number of words: 3015
+Date: 13/03/2022 19:32:34 Correctly: 18728
+Date: 13/03/2022 19:32:34 Badly: 6702
+Date: 13/03/2022 19:32:34 Max Strike: 57
+
+Date: 13/03/2022 19:33:24 Number of words: 3016
+Date: 13/03/2022 19:33:24 Correctly: 18728
+Date: 13/03/2022 19:33:24 Badly: 6702
+Date: 13/03/2022 19:33:24 Max Strike: 57
+
+Date: 13/03/2022 20:19:39 Number of words: 3017
+Date: 13/03/2022 20:19:39 Correctly: 18728
+Date: 13/03/2022 20:19:39 Badly: 6702
+Date: 13/03/2022 20:19:39 Max Strike: 57
+
+Date: 13/03/2022 21:05:40 Number of words: 3018
+Date: 13/03/2022 21:05:40 Correctly: 18728
+Date: 13/03/2022 21:05:40 Badly: 6702
+Date: 13/03/2022 21:05:40 Max Strike: 57
+
+Date: 13/03/2022 21:08:23 Number of words: 3019
+Date: 13/03/2022 21:08:23 Correctly: 18728
+Date: 13/03/2022 21:08:23 Badly: 6702
+Date: 13/03/2022 21:08:23 Max Strike: 57
+
+Date: 13/03/2022 23:12:24 Number of words: 3019
+Date: 13/03/2022 23:12:24 Correctly: 18728
+Date: 13/03/2022 23:12:24 Badly: 6702
+Date: 13/03/2022 23:12:24 Max Strike: 57
+
+Date: 14/03/2022 22:34:37 Number of words: 3019
+Date: 14/03/2022 22:34:37 Correctly: 18728
+Date: 14/03/2022 22:34:37 Badly: 6702
+Date: 14/03/2022 22:34:37 Max Strike: 57
+
+Date: 14/03/2022 22:51:25 Number of words: 3020
+Date: 14/03/2022 22:51:25 Correctly: 18728
+Date: 14/03/2022 22:51:25 Badly: 6702
+Date: 14/03/2022 22:51:25 Max Strike: 57
+
+Date: 14/03/2022 23:40:21 Number of words: 3020
+Date: 14/03/2022 23:40:21 Correctly: 18828
+Date: 14/03/2022 23:40:21 Badly: 6749
+Date: 14/03/2022 23:40:21 Max Strike: 57
+
+Date: 15/03/2022 19:46:40 Number of words: 3021
+Date: 15/03/2022 19:46:40 Correctly: 18828
+Date: 15/03/2022 19:46:40 Badly: 6749
+Date: 15/03/2022 19:46:40 Max Strike: 57
+
+Date: 15/03/2022 19:48:34 Number of words: 3022
+Date: 15/03/2022 19:48:34 Correctly: 18828
+Date: 15/03/2022 19:48:34 Badly: 6749
+Date: 15/03/2022 19:48:34 Max Strike: 57
+
+Date: 15/03/2022 19:58:47 Number of words: 3022
+Date: 15/03/2022 19:58:47 Correctly: 18828
+Date: 15/03/2022 19:58:47 Badly: 6749
+Date: 15/03/2022 19:58:47 Max Strike: 57
+
+Date: 15/03/2022 19:59:59 Number of words: 3023
+Date: 15/03/2022 19:59:59 Correctly: 18828
+Date: 15/03/2022 19:59:59 Badly: 6749
+Date: 15/03/2022 19:59:59 Max Strike: 57
+
+Date: 15/03/2022 20:40:27 Number of words: 3025
+Date: 15/03/2022 20:40:27 Correctly: 18828
+Date: 15/03/2022 20:40:27 Badly: 6749
+Date: 15/03/2022 20:40:27 Max Strike: 57
+
+Date: 15/03/2022 20:45:13 Number of words: 3026
+Date: 15/03/2022 20:45:13 Correctly: 18828
+Date: 15/03/2022 20:45:13 Badly: 6749
+Date: 15/03/2022 20:45:13 Max Strike: 57
+
+Date: 15/03/2022 21:39:12 Number of words: 3027
+Date: 15/03/2022 21:39:12 Correctly: 18828
+Date: 15/03/2022 21:39:12 Badly: 6749
+Date: 15/03/2022 21:39:12 Max Strike: 57
+
+Date: 15/03/2022 21:47:19 Number of words: 3028
+Date: 15/03/2022 21:47:19 Correctly: 18828
+Date: 15/03/2022 21:47:19 Badly: 6749
+Date: 15/03/2022 21:47:19 Max Strike: 57
+
+Date: 15/03/2022 21:55:59 Number of words: 3029
+Date: 15/03/2022 21:55:59 Correctly: 18828
+Date: 15/03/2022 21:55:59 Badly: 6749
+Date: 15/03/2022 21:55:59 Max Strike: 57
+
+Date: 15/03/2022 22:07:09 Number of words: 3030
+Date: 15/03/2022 22:07:09 Correctly: 18828
+Date: 15/03/2022 22:07:09 Badly: 6749
+Date: 15/03/2022 22:07:09 Max Strike: 57
+
+Date: 15/03/2022 22:20:07 Number of words: 3031
+Date: 15/03/2022 22:20:07 Correctly: 18828
+Date: 15/03/2022 22:20:07 Badly: 6749
+Date: 15/03/2022 22:20:07 Max Strike: 57
+
+Date: 15/03/2022 22:20:26 Number of words: 3031
+Date: 15/03/2022 22:20:26 Correctly: 18828
+Date: 15/03/2022 22:20:26 Badly: 6749
+Date: 15/03/2022 22:20:26 Max Strike: 57
+
+Date: 15/03/2022 22:39:12 Number of words: 3032
+Date: 15/03/2022 22:39:12 Correctly: 18828
+Date: 15/03/2022 22:39:12 Badly: 6749
+Date: 15/03/2022 22:39:12 Max Strike: 57
+
+Date: 15/03/2022 22:54:09 Number of words: 3033
+Date: 15/03/2022 22:54:09 Correctly: 18828
+Date: 15/03/2022 22:54:09 Badly: 6749
+Date: 15/03/2022 22:54:09 Max Strike: 57
+
+Date: 15/03/2022 23:05:45 Number of words: 3034
+Date: 15/03/2022 23:05:45 Correctly: 18828
+Date: 15/03/2022 23:05:45 Badly: 6749
+Date: 15/03/2022 23:05:45 Max Strike: 57
+
+Date: 15/03/2022 23:33:45 Number of words: 3035
+Date: 15/03/2022 23:33:45 Correctly: 18828
+Date: 15/03/2022 23:33:45 Badly: 6749
+Date: 15/03/2022 23:33:45 Max Strike: 57
+
+Date: 15/03/2022 23:36:00 Number of words: 3035
+Date: 15/03/2022 23:36:00 Correctly: 18828
+Date: 15/03/2022 23:36:00 Badly: 6749
+Date: 15/03/2022 23:36:00 Max Strike: 57
+
+Date: 15/03/2022 23:36:29 Number of words: 3036
+Date: 15/03/2022 23:36:29 Correctly: 18828
+Date: 15/03/2022 23:36:29 Badly: 6749
+Date: 15/03/2022 23:36:29 Max Strike: 57
+
+Date: 15/03/2022 23:38:35 Number of words: 3037
+Date: 15/03/2022 23:38:35 Correctly: 18828
+Date: 15/03/2022 23:38:35 Badly: 6749
+Date: 15/03/2022 23:38:35 Max Strike: 57
+
+Date: 15/03/2022 23:48:31 Number of words: 3038
+Date: 15/03/2022 23:48:31 Correctly: 18828
+Date: 15/03/2022 23:48:31 Badly: 6749
+Date: 15/03/2022 23:48:31 Max Strike: 57
+
+Date: 15/03/2022 23:50:16 Number of words: 3038
+Date: 15/03/2022 23:50:16 Correctly: 18828
+Date: 15/03/2022 23:50:16 Badly: 6749
+Date: 15/03/2022 23:50:16 Max Strike: 57
+
+Date: 16/03/2022 21:07:27 Number of words: 3039
+Date: 16/03/2022 21:07:27 Correctly: 18828
+Date: 16/03/2022 21:07:27 Badly: 6749
+Date: 16/03/2022 21:07:27 Max Strike: 57
+
+Date: 17/03/2022 22:10:13 Number of words: 3040
+Date: 17/03/2022 22:10:13 Correctly: 18828
+Date: 17/03/2022 22:10:13 Badly: 6749
+Date: 17/03/2022 22:10:13 Max Strike: 57
+
+Date: 17/03/2022 22:22:21 Number of words: 3040
+Date: 17/03/2022 22:22:21 Correctly: 18828
+Date: 17/03/2022 22:22:21 Badly: 6749
+Date: 17/03/2022 22:22:21 Max Strike: 57
+
+Date: 17/03/2022 22:43:50 Number of words: 3040
+Date: 17/03/2022 22:43:50 Correctly: 18828
+Date: 17/03/2022 22:43:50 Badly: 6749
+Date: 17/03/2022 22:43:50 Max Strike: 57
+
+Date: 18/03/2022 12:31:25 Number of words: 3042
+Date: 18/03/2022 12:31:25 Correctly: 18831
+Date: 18/03/2022 12:31:25 Badly: 6751
+Date: 18/03/2022 12:31:25 Max Strike: 57
+
+Date: 18/03/2022 12:50:12 Number of words: 3043
+Date: 18/03/2022 12:50:12 Correctly: 18831
+Date: 18/03/2022 12:50:12 Badly: 6751
+Date: 18/03/2022 12:50:12 Max Strike: 57
+
+Date: 18/03/2022 13:20:46 Number of words: 3044
+Date: 18/03/2022 13:20:46 Correctly: 18831
+Date: 18/03/2022 13:20:46 Badly: 6751
+Date: 18/03/2022 13:20:46 Max Strike: 57
+
+Date: 18/03/2022 17:55:28 Number of words: 3045
+Date: 18/03/2022 17:55:28 Correctly: 18831
+Date: 18/03/2022 17:55:28 Badly: 6751
+Date: 18/03/2022 17:55:28 Max Strike: 57
+
+Date: 18/03/2022 17:55:28 Number of words: 3045
+Date: 18/03/2022 17:55:28 Correctly: 18831
+Date: 18/03/2022 17:55:28 Badly: 6751
+Date: 18/03/2022 17:55:28 Max Strike: 57
+
+Date: 18/03/2022 17:56:26 Number of words: 3046
+Date: 18/03/2022 17:56:26 Correctly: 18831
+Date: 18/03/2022 17:56:26 Badly: 6751
+Date: 18/03/2022 17:56:26 Max Strike: 57
+
+Date: 18/03/2022 18:00:37 Number of words: 3047
+Date: 18/03/2022 18:00:37 Correctly: 18831
+Date: 18/03/2022 18:00:37 Badly: 6751
+Date: 18/03/2022 18:00:37 Max Strike: 57
+
+Date: 18/03/2022 18:01:55 Number of words: 3048
+Date: 18/03/2022 18:01:55 Correctly: 18831
+Date: 18/03/2022 18:01:55 Badly: 6751
+Date: 18/03/2022 18:01:55 Max Strike: 57
+
+Date: 18/03/2022 18:02:46 Number of words: 3049
+Date: 18/03/2022 18:02:46 Correctly: 18831
+Date: 18/03/2022 18:02:46 Badly: 6751
+Date: 18/03/2022 18:02:46 Max Strike: 57
+
+Date: 18/03/2022 18:03:38 Number of words: 3050
+Date: 18/03/2022 18:03:38 Correctly: 18831
+Date: 18/03/2022 18:03:38 Badly: 6751
+Date: 18/03/2022 18:03:38 Max Strike: 57
+
+Date: 18/03/2022 18:04:00 Number of words: 3051
+Date: 18/03/2022 18:04:00 Correctly: 18831
+Date: 18/03/2022 18:04:00 Badly: 6751
+Date: 18/03/2022 18:04:00 Max Strike: 57
+
+Date: 18/03/2022 18:04:34 Number of words: 3052
+Date: 18/03/2022 18:04:34 Correctly: 18831
+Date: 18/03/2022 18:04:34 Badly: 6751
+Date: 18/03/2022 18:04:34 Max Strike: 57
+
+Date: 18/03/2022 18:06:04 Number of words: 3053
+Date: 18/03/2022 18:06:04 Correctly: 18831
+Date: 18/03/2022 18:06:04 Badly: 6751
+Date: 18/03/2022 18:06:04 Max Strike: 57
+
+Date: 18/03/2022 18:06:38 Number of words: 3054
+Date: 18/03/2022 18:06:38 Correctly: 18831
+Date: 18/03/2022 18:06:38 Badly: 6751
+Date: 18/03/2022 18:06:38 Max Strike: 57
+
+Date: 18/03/2022 18:08:08 Number of words: 3056
+Date: 18/03/2022 18:08:08 Correctly: 18831
+Date: 18/03/2022 18:08:08 Badly: 6751
+Date: 18/03/2022 18:08:08 Max Strike: 57
+
+Date: 18/03/2022 18:09:02 Number of words: 3057
+Date: 18/03/2022 18:09:02 Correctly: 18831
+Date: 18/03/2022 18:09:02 Badly: 6751
+Date: 18/03/2022 18:09:02 Max Strike: 57
+
+Date: 18/03/2022 18:10:26 Number of words: 3058
+Date: 18/03/2022 18:10:26 Correctly: 18831
+Date: 18/03/2022 18:10:26 Badly: 6751
+Date: 18/03/2022 18:10:26 Max Strike: 57
+
+Date: 18/03/2022 18:11:10 Number of words: 3059
+Date: 18/03/2022 18:11:10 Correctly: 18831
+Date: 18/03/2022 18:11:10 Badly: 6751
+Date: 18/03/2022 18:11:10 Max Strike: 57
+
+Date: 18/03/2022 18:11:26 Number of words: 3060
+Date: 18/03/2022 18:11:26 Correctly: 18831
+Date: 18/03/2022 18:11:26 Badly: 6751
+Date: 18/03/2022 18:11:26 Max Strike: 57
+
+Date: 18/03/2022 18:13:01 Number of words: 3062
+Date: 18/03/2022 18:13:01 Correctly: 18831
+Date: 18/03/2022 18:13:01 Badly: 6751
+Date: 18/03/2022 18:13:01 Max Strike: 57
+
+Date: 18/03/2022 18:13:32 Number of words: 3063
+Date: 18/03/2022 18:13:32 Correctly: 18831
+Date: 18/03/2022 18:13:32 Badly: 6751
+Date: 18/03/2022 18:13:32 Max Strike: 57
+
+Date: 18/03/2022 18:14:07 Number of words: 3064
+Date: 18/03/2022 18:14:07 Correctly: 18831
+Date: 18/03/2022 18:14:07 Badly: 6751
+Date: 18/03/2022 18:14:07 Max Strike: 57
+
+Date: 18/03/2022 18:14:31 Number of words: 3065
+Date: 18/03/2022 18:14:31 Correctly: 18831
+Date: 18/03/2022 18:14:31 Badly: 6751
+Date: 18/03/2022 18:14:31 Max Strike: 57
+
+Date: 18/03/2022 18:15:38 Number of words: 3066
+Date: 18/03/2022 18:15:38 Correctly: 18831
+Date: 18/03/2022 18:15:38 Badly: 6751
+Date: 18/03/2022 18:15:38 Max Strike: 57
+
+Date: 18/03/2022 18:15:57 Number of words: 3067
+Date: 18/03/2022 18:15:57 Correctly: 18831
+Date: 18/03/2022 18:15:57 Badly: 6751
+Date: 18/03/2022 18:15:57 Max Strike: 57
+
+Date: 18/03/2022 18:16:22 Number of words: 3068
+Date: 18/03/2022 18:16:22 Correctly: 18831
+Date: 18/03/2022 18:16:22 Badly: 6751
+Date: 18/03/2022 18:16:22 Max Strike: 57
+
+Date: 18/03/2022 18:17:33 Number of words: 3069
+Date: 18/03/2022 18:17:33 Correctly: 18831
+Date: 18/03/2022 18:17:33 Badly: 6751
+Date: 18/03/2022 18:17:33 Max Strike: 57
+
+Date: 18/03/2022 18:18:16 Number of words: 3070
+Date: 18/03/2022 18:18:16 Correctly: 18831
+Date: 18/03/2022 18:18:16 Badly: 6751
+Date: 18/03/2022 18:18:16 Max Strike: 57
+
+Date: 18/03/2022 18:19:30 Number of words: 3071
+Date: 18/03/2022 18:19:30 Correctly: 18831
+Date: 18/03/2022 18:19:30 Badly: 6751
+Date: 18/03/2022 18:19:30 Max Strike: 57
+
+Date: 18/03/2022 18:20:12 Number of words: 3072
+Date: 18/03/2022 18:20:12 Correctly: 18831
+Date: 18/03/2022 18:20:12 Badly: 6751
+Date: 18/03/2022 18:20:12 Max Strike: 57
+
+Date: 18/03/2022 18:22:13 Number of words: 3073
+Date: 18/03/2022 18:22:13 Correctly: 18831
+Date: 18/03/2022 18:22:13 Badly: 6751
+Date: 18/03/2022 18:22:13 Max Strike: 57
+
+Date: 18/03/2022 18:24:19 Number of words: 3074
+Date: 18/03/2022 18:24:19 Correctly: 18831
+Date: 18/03/2022 18:24:19 Badly: 6751
+Date: 18/03/2022 18:24:19 Max Strike: 57
+
+Date: 18/03/2022 18:25:23 Number of words: 3075
+Date: 18/03/2022 18:25:23 Correctly: 18831
+Date: 18/03/2022 18:25:23 Badly: 6751
+Date: 18/03/2022 18:25:23 Max Strike: 57
+
+Date: 18/03/2022 18:28:13 Number of words: 3076
+Date: 18/03/2022 18:28:13 Correctly: 18831
+Date: 18/03/2022 18:28:13 Badly: 6751
+Date: 18/03/2022 18:28:13 Max Strike: 57
+
+Date: 18/03/2022 18:28:48 Number of words: 3077
+Date: 18/03/2022 18:28:48 Correctly: 18831
+Date: 18/03/2022 18:28:48 Badly: 6751
+Date: 18/03/2022 18:28:48 Max Strike: 57
+
+Date: 18/03/2022 18:29:32 Number of words: 3078
+Date: 18/03/2022 18:29:32 Correctly: 18831
+Date: 18/03/2022 18:29:32 Badly: 6751
+Date: 18/03/2022 18:29:32 Max Strike: 57
+
+Date: 18/03/2022 18:31:11 Number of words: 3079
+Date: 18/03/2022 18:31:11 Correctly: 18831
+Date: 18/03/2022 18:31:11 Badly: 6751
+Date: 18/03/2022 18:31:11 Max Strike: 57
+
+Date: 18/03/2022 18:32:41 Number of words: 3080
+Date: 18/03/2022 18:32:41 Correctly: 18831
+Date: 18/03/2022 18:32:41 Badly: 6751
+Date: 18/03/2022 18:32:41 Max Strike: 57
+
+Date: 18/03/2022 18:33:49 Number of words: 3081
+Date: 18/03/2022 18:33:49 Correctly: 18831
+Date: 18/03/2022 18:33:49 Badly: 6751
+Date: 18/03/2022 18:33:49 Max Strike: 57
+
+Date: 18/03/2022 18:35:14 Number of words: 3082
+Date: 18/03/2022 18:35:14 Correctly: 18831
+Date: 18/03/2022 18:35:14 Badly: 6751
+Date: 18/03/2022 18:35:14 Max Strike: 57
+
+Date: 18/03/2022 18:35:35 Number of words: 3083
+Date: 18/03/2022 18:35:35 Correctly: 18831
+Date: 18/03/2022 18:35:35 Badly: 6751
+Date: 18/03/2022 18:35:35 Max Strike: 57
+
+Date: 18/03/2022 18:36:27 Number of words: 3084
+Date: 18/03/2022 18:36:27 Correctly: 18831
+Date: 18/03/2022 18:36:27 Badly: 6751
+Date: 18/03/2022 18:36:27 Max Strike: 57
+
+Date: 18/03/2022 18:37:14 Number of words: 3085
+Date: 18/03/2022 18:37:14 Correctly: 18831
+Date: 18/03/2022 18:37:14 Badly: 6751
+Date: 18/03/2022 18:37:14 Max Strike: 57
+
+Date: 18/03/2022 18:37:45 Number of words: 3086
+Date: 18/03/2022 18:37:45 Correctly: 18831
+Date: 18/03/2022 18:37:45 Badly: 6751
+Date: 18/03/2022 18:37:45 Max Strike: 57
+
+Date: 18/03/2022 18:38:26 Number of words: 3087
+Date: 18/03/2022 18:38:26 Correctly: 18831
+Date: 18/03/2022 18:38:26 Badly: 6751
+Date: 18/03/2022 18:38:26 Max Strike: 57
+
+Date: 18/03/2022 18:38:58 Number of words: 3088
+Date: 18/03/2022 18:38:58 Correctly: 18831
+Date: 18/03/2022 18:38:58 Badly: 6751
+Date: 18/03/2022 18:38:58 Max Strike: 57
+
+Date: 18/03/2022 18:45:20 Number of words: 3089
+Date: 18/03/2022 18:45:20 Correctly: 18831
+Date: 18/03/2022 18:45:20 Badly: 6751
+Date: 18/03/2022 18:45:20 Max Strike: 57
+
+Date: 18/03/2022 18:56:48 Number of words: 3090
+Date: 18/03/2022 18:56:48 Correctly: 18831
+Date: 18/03/2022 18:56:48 Badly: 6751
+Date: 18/03/2022 18:56:48 Max Strike: 57
+
+Date: 18/03/2022 18:59:27 Number of words: 3091
+Date: 18/03/2022 18:59:27 Correctly: 18831
+Date: 18/03/2022 18:59:27 Badly: 6751
+Date: 18/03/2022 18:59:27 Max Strike: 57
+
+Date: 18/03/2022 19:14:20 Number of words: 3092
+Date: 18/03/2022 19:14:20 Correctly: 18831
+Date: 18/03/2022 19:14:20 Badly: 6751
+Date: 18/03/2022 19:14:20 Max Strike: 57
+
+Date: 18/03/2022 19:17:06 Number of words: 3093
+Date: 18/03/2022 19:17:06 Correctly: 18831
+Date: 18/03/2022 19:17:06 Badly: 6751
+Date: 18/03/2022 19:17:06 Max Strike: 57
+
+Date: 18/03/2022 19:24:47 Number of words: 3094
+Date: 18/03/2022 19:24:47 Correctly: 18831
+Date: 18/03/2022 19:24:47 Badly: 6751
+Date: 18/03/2022 19:24:47 Max Strike: 57
+
+Date: 18/03/2022 20:04:13 Number of words: 3094
+Date: 18/03/2022 20:04:13 Correctly: 18831
+Date: 18/03/2022 20:04:13 Badly: 6751
+Date: 18/03/2022 20:04:13 Max Strike: 57
+
+Date: 19/03/2022 17:19:31 Number of words: 3095
+Date: 19/03/2022 17:19:31 Correctly: 18831
+Date: 19/03/2022 17:19:31 Badly: 6751
+Date: 19/03/2022 17:19:31 Max Strike: 57
+
+Date: 19/03/2022 17:56:42 Number of words: 3096
+Date: 19/03/2022 17:56:42 Correctly: 18831
+Date: 19/03/2022 17:56:42 Badly: 6751
+Date: 19/03/2022 17:56:42 Max Strike: 57
+
+Date: 19/03/2022 18:05:25 Number of words: 3097
+Date: 19/03/2022 18:05:25 Correctly: 18831
+Date: 19/03/2022 18:05:25 Badly: 6751
+Date: 19/03/2022 18:05:25 Max Strike: 57
+
+Date: 19/03/2022 18:25:59 Number of words: 3098
+Date: 19/03/2022 18:25:59 Correctly: 18831
+Date: 19/03/2022 18:25:59 Badly: 6751
+Date: 19/03/2022 18:25:59 Max Strike: 57
+
+Date: 19/03/2022 18:33:31 Number of words: 3098
+Date: 19/03/2022 18:33:31 Correctly: 18831
+Date: 19/03/2022 18:33:31 Badly: 6751
+Date: 19/03/2022 18:33:31 Max Strike: 57
+
+Date: 19/03/2022 18:37:04 Number of words: 3099
+Date: 19/03/2022 18:37:04 Correctly: 18831
+Date: 19/03/2022 18:37:04 Badly: 6751
+Date: 19/03/2022 18:37:04 Max Strike: 57
+
+Date: 19/03/2022 18:38:50 Number of words: 3100
+Date: 19/03/2022 18:38:50 Correctly: 18831
+Date: 19/03/2022 18:38:50 Badly: 6751
+Date: 19/03/2022 18:38:50 Max Strike: 57
+
+Date: 19/03/2022 18:41:31 Number of words: 3101
+Date: 19/03/2022 18:41:31 Correctly: 18831
+Date: 19/03/2022 18:41:31 Badly: 6751
+Date: 19/03/2022 18:41:31 Max Strike: 57
+
+Date: 19/03/2022 18:42:35 Number of words: 3102
+Date: 19/03/2022 18:42:35 Correctly: 18831
+Date: 19/03/2022 18:42:35 Badly: 6751
+Date: 19/03/2022 18:42:35 Max Strike: 57
+
+Date: 19/03/2022 18:48:18 Number of words: 3102
+Date: 19/03/2022 18:48:18 Correctly: 18831
+Date: 19/03/2022 18:48:18 Badly: 6751
+Date: 19/03/2022 18:48:18 Max Strike: 57
+
+Date: 19/03/2022 19:00:12 Number of words: 3103
+Date: 19/03/2022 19:00:12 Correctly: 18831
+Date: 19/03/2022 19:00:12 Badly: 6751
+Date: 19/03/2022 19:00:12 Max Strike: 57
+
+Date: 19/03/2022 19:12:07 Number of words: 3104
+Date: 19/03/2022 19:12:07 Correctly: 18831
+Date: 19/03/2022 19:12:07 Badly: 6751
+Date: 19/03/2022 19:12:07 Max Strike: 57
+
+Date: 19/03/2022 19:17:57 Number of words: 3105
+Date: 19/03/2022 19:17:57 Correctly: 18831
+Date: 19/03/2022 19:17:57 Badly: 6751
+Date: 19/03/2022 19:17:57 Max Strike: 57
+
+Date: 19/03/2022 19:18:26 Number of words: 3105
+Date: 19/03/2022 19:18:26 Correctly: 18831
+Date: 19/03/2022 19:18:26 Badly: 6751
+Date: 19/03/2022 19:18:26 Max Strike: 57
+
+Date: 19/03/2022 19:19:27 Number of words: 3106
+Date: 19/03/2022 19:19:27 Correctly: 18831
+Date: 19/03/2022 19:19:27 Badly: 6751
+Date: 19/03/2022 19:19:27 Max Strike: 57
+
+Date: 19/03/2022 19:19:59 Number of words: 3107
+Date: 19/03/2022 19:19:59 Correctly: 18831
+Date: 19/03/2022 19:19:59 Badly: 6751
+Date: 19/03/2022 19:19:59 Max Strike: 57
+
+Date: 19/03/2022 19:20:34 Number of words: 3108
+Date: 19/03/2022 19:20:34 Correctly: 18831
+Date: 19/03/2022 19:20:34 Badly: 6751
+Date: 19/03/2022 19:20:34 Max Strike: 57
+
+Date: 19/03/2022 19:32:43 Number of words: 3109
+Date: 19/03/2022 19:32:43 Correctly: 18831
+Date: 19/03/2022 19:32:43 Badly: 6751
+Date: 19/03/2022 19:32:43 Max Strike: 57
+
+Date: 19/03/2022 19:36:23 Number of words: 3110
+Date: 19/03/2022 19:36:23 Correctly: 18831
+Date: 19/03/2022 19:36:23 Badly: 6751
+Date: 19/03/2022 19:36:23 Max Strike: 57
+
+Date: 19/03/2022 19:36:47 Number of words: 3111
+Date: 19/03/2022 19:36:47 Correctly: 18831
+Date: 19/03/2022 19:36:47 Badly: 6751
+Date: 19/03/2022 19:36:47 Max Strike: 57
+
+Date: 19/03/2022 19:37:10 Number of words: 3112
+Date: 19/03/2022 19:37:10 Correctly: 18831
+Date: 19/03/2022 19:37:10 Badly: 6751
+Date: 19/03/2022 19:37:10 Max Strike: 57
+
+Date: 19/03/2022 19:48:53 Number of words: 3113
+Date: 19/03/2022 19:48:53 Correctly: 18831
+Date: 19/03/2022 19:48:53 Badly: 6751
+Date: 19/03/2022 19:48:53 Max Strike: 57
+
+Date: 19/03/2022 19:51:44 Number of words: 3114
+Date: 19/03/2022 19:51:44 Correctly: 18831
+Date: 19/03/2022 19:51:44 Badly: 6751
+Date: 19/03/2022 19:51:44 Max Strike: 57
+
+Date: 19/03/2022 20:09:55 Number of words: 3115
+Date: 19/03/2022 20:09:55 Correctly: 18831
+Date: 19/03/2022 20:09:55 Badly: 6751
+Date: 19/03/2022 20:09:55 Max Strike: 57
+
+Date: 19/03/2022 20:10:45 Number of words: 3116
+Date: 19/03/2022 20:10:45 Correctly: 18831
+Date: 19/03/2022 20:10:45 Badly: 6751
+Date: 19/03/2022 20:10:45 Max Strike: 57
+
+Date: 19/03/2022 23:28:34 Number of words: 3116
+Date: 19/03/2022 23:28:34 Correctly: 18831
+Date: 19/03/2022 23:28:34 Badly: 6751
+Date: 19/03/2022 23:28:34 Max Strike: 57
+
+Date: 20/03/2022 21:05:54 Number of words: 3117
+Date: 20/03/2022 21:05:54 Correctly: 18831
+Date: 20/03/2022 21:05:54 Badly: 6751
+Date: 20/03/2022 21:05:54 Max Strike: 57
+
+Date: 20/03/2022 21:24:28 Number of words: 3118
+Date: 20/03/2022 21:24:28 Correctly: 18831
+Date: 20/03/2022 21:24:28 Badly: 6751
+Date: 20/03/2022 21:24:28 Max Strike: 57
+
+Date: 20/03/2022 21:25:42 Number of words: 3119
+Date: 20/03/2022 21:25:42 Correctly: 18831
+Date: 20/03/2022 21:25:42 Badly: 6751
+Date: 20/03/2022 21:25:42 Max Strike: 57
+
+Date: 21/03/2022 20:44:32 Number of words: 3120
+Date: 21/03/2022 20:44:32 Correctly: 18831
+Date: 21/03/2022 20:44:32 Badly: 6751
+Date: 21/03/2022 20:44:32 Max Strike: 57
+
+Date: 21/03/2022 20:45:20 Number of words: 3121
+Date: 21/03/2022 20:45:20 Correctly: 18831
+Date: 21/03/2022 20:45:20 Badly: 6751
+Date: 21/03/2022 20:45:20 Max Strike: 57
+
+Date: 21/03/2022 20:53:07 Number of words: 3122
+Date: 21/03/2022 20:53:07 Correctly: 18831
+Date: 21/03/2022 20:53:07 Badly: 6751
+Date: 21/03/2022 20:53:07 Max Strike: 57
+
+Date: 21/03/2022 20:54:14 Number of words: 3123
+Date: 21/03/2022 20:54:14 Correctly: 18831
+Date: 21/03/2022 20:54:14 Badly: 6751
+Date: 21/03/2022 20:54:14 Max Strike: 57
+
+Date: 21/03/2022 20:55:57 Number of words: 3124
+Date: 21/03/2022 20:55:57 Correctly: 18831
+Date: 21/03/2022 20:55:57 Badly: 6751
+Date: 21/03/2022 20:55:57 Max Strike: 57
+
+Date: 21/03/2022 20:57:43 Number of words: 3125
+Date: 21/03/2022 20:57:43 Correctly: 18831
+Date: 21/03/2022 20:57:43 Badly: 6751
+Date: 21/03/2022 20:57:43 Max Strike: 57
+
+Date: 21/03/2022 20:58:11 Number of words: 3126
+Date: 21/03/2022 20:58:11 Correctly: 18831
+Date: 21/03/2022 20:58:11 Badly: 6751
+Date: 21/03/2022 20:58:11 Max Strike: 57
+
+Date: 21/03/2022 21:05:52 Number of words: 3127
+Date: 21/03/2022 21:05:52 Correctly: 18831
+Date: 21/03/2022 21:05:52 Badly: 6751
+Date: 21/03/2022 21:05:52 Max Strike: 57
+
+Date: 21/03/2022 21:07:43 Number of words: 3128
+Date: 21/03/2022 21:07:43 Correctly: 18831
+Date: 21/03/2022 21:07:43 Badly: 6751
+Date: 21/03/2022 21:07:43 Max Strike: 57
+
+Date: 21/03/2022 21:19:19 Number of words: 3129
+Date: 21/03/2022 21:19:19 Correctly: 18831
+Date: 21/03/2022 21:19:19 Badly: 6751
+Date: 21/03/2022 21:19:19 Max Strike: 57
+
+Date: 21/03/2022 21:52:42 Number of words: 3131
+Date: 21/03/2022 21:52:42 Correctly: 18831
+Date: 21/03/2022 21:52:42 Badly: 6751
+Date: 21/03/2022 21:52:42 Max Strike: 57
+
+Date: 21/03/2022 21:52:57 Number of words: 3132
+Date: 21/03/2022 21:52:57 Correctly: 18831
+Date: 21/03/2022 21:52:57 Badly: 6751
+Date: 21/03/2022 21:52:57 Max Strike: 57
+
+Date: 21/03/2022 22:12:25 Number of words: 3133
+Date: 21/03/2022 22:12:25 Correctly: 18831
+Date: 21/03/2022 22:12:25 Badly: 6751
+Date: 21/03/2022 22:12:25 Max Strike: 57
+
+Date: 21/03/2022 22:13:16 Number of words: 3134
+Date: 21/03/2022 22:13:16 Correctly: 18831
+Date: 21/03/2022 22:13:16 Badly: 6751
+Date: 21/03/2022 22:13:16 Max Strike: 57
+
+Date: 21/03/2022 22:13:46 Number of words: 3134
+Date: 21/03/2022 22:13:46 Correctly: 18831
+Date: 21/03/2022 22:13:46 Badly: 6751
+Date: 21/03/2022 22:13:46 Max Strike: 57
+
+Date: 21/03/2022 22:32:12 Number of words: 3134
+Date: 21/03/2022 22:32:12 Correctly: 18834
+Date: 21/03/2022 22:32:12 Badly: 6751
+Date: 21/03/2022 22:32:12 Max Strike: 57
+
+Date: 21/03/2022 22:58:27 Number of words: 3135
+Date: 21/03/2022 22:58:27 Correctly: 18834
+Date: 21/03/2022 22:58:27 Badly: 6751
+Date: 21/03/2022 22:58:27 Max Strike: 57
+
+Date: 21/03/2022 22:59:41 Number of words: 3136
+Date: 21/03/2022 22:59:41 Correctly: 18834
+Date: 21/03/2022 22:59:41 Badly: 6751
+Date: 21/03/2022 22:59:41 Max Strike: 57
+
+Date: 21/03/2022 23:07:33 Number of words: 3137
+Date: 21/03/2022 23:07:33 Correctly: 18834
+Date: 21/03/2022 23:07:33 Badly: 6751
+Date: 21/03/2022 23:07:33 Max Strike: 57
+
+Date: 21/03/2022 23:52:13 Number of words: 3137
+Date: 21/03/2022 23:52:13 Correctly: 18934
+Date: 21/03/2022 23:52:13 Badly: 6804
+Date: 21/03/2022 23:52:13 Max Strike: 57
+
+Date: 22/03/2022 22:04:47 Number of words: 3138
+Date: 22/03/2022 22:04:47 Correctly: 18934
+Date: 22/03/2022 22:04:47 Badly: 6804
+Date: 22/03/2022 22:04:47 Max Strike: 57
+
+Date: 22/03/2022 22:34:12 Number of words: 3139
+Date: 22/03/2022 22:34:12 Correctly: 18934
+Date: 22/03/2022 22:34:12 Badly: 6804
+Date: 22/03/2022 22:34:12 Max Strike: 57
+
+Date: 22/03/2022 22:37:11 Number of words: 3139
+Date: 22/03/2022 22:37:11 Correctly: 18934
+Date: 22/03/2022 22:37:11 Badly: 6804
+Date: 22/03/2022 22:37:11 Max Strike: 57
+
+Date: 22/03/2022 23:01:47 Number of words: 3140
+Date: 22/03/2022 23:01:47 Correctly: 18934
+Date: 22/03/2022 23:01:47 Badly: 6804
+Date: 22/03/2022 23:01:47 Max Strike: 57
+
+Date: 23/03/2022 01:02:39 Number of words: 3141
+Date: 23/03/2022 01:02:39 Correctly: 18934
+Date: 23/03/2022 01:02:39 Badly: 6804
+Date: 23/03/2022 01:02:39 Max Strike: 57
+
+Date: 23/03/2022 02:23:47 Number of words: 3141
+Date: 23/03/2022 02:23:47 Correctly: 18934
+Date: 23/03/2022 02:23:47 Badly: 6804
+Date: 23/03/2022 02:23:47 Max Strike: 57
+
+Date: 31/03/2022 22:34:22 Number of words: 3142
+Date: 31/03/2022 22:34:22 Correctly: 18934
+Date: 31/03/2022 22:34:22 Badly: 6804
+Date: 31/03/2022 22:34:22 Max Strike: 57
+
+Date: 31/03/2022 22:34:44 Number of words: 3143
+Date: 31/03/2022 22:34:44 Correctly: 18934
+Date: 31/03/2022 22:34:44 Badly: 6804
+Date: 31/03/2022 22:34:44 Max Strike: 57
+
+Date: 31/03/2022 22:37:10 Number of words: 3144
+Date: 31/03/2022 22:37:10 Correctly: 18934
+Date: 31/03/2022 22:37:10 Badly: 6804
+Date: 31/03/2022 22:37:10 Max Strike: 57
+
+Date: 31/03/2022 23:00:53 Number of words: 3145
+Date: 31/03/2022 23:00:53 Correctly: 18934
+Date: 31/03/2022 23:00:53 Badly: 6804
+Date: 31/03/2022 23:00:53 Max Strike: 57
+
+Date: 31/03/2022 23:01:54 Number of words: 3146
+Date: 31/03/2022 23:01:54 Correctly: 18934
+Date: 31/03/2022 23:01:54 Badly: 6804
+Date: 31/03/2022 23:01:54 Max Strike: 57
+
+Date: 31/03/2022 23:17:52 Number of words: 3147
+Date: 31/03/2022 23:17:52 Correctly: 18934
+Date: 31/03/2022 23:17:52 Badly: 6804
+Date: 31/03/2022 23:17:52 Max Strike: 57
+
+Date: 31/03/2022 23:24:44 Number of words: 3148
+Date: 31/03/2022 23:24:44 Correctly: 18934
+Date: 31/03/2022 23:24:44 Badly: 6804
+Date: 31/03/2022 23:24:44 Max Strike: 57
+
+Date: 31/03/2022 23:29:51 Number of words: 3149
+Date: 31/03/2022 23:29:51 Correctly: 18934
+Date: 31/03/2022 23:29:51 Badly: 6804
+Date: 31/03/2022 23:29:51 Max Strike: 57
+
+Date: 31/03/2022 23:38:44 Number of words: 3150
+Date: 31/03/2022 23:38:44 Correctly: 18934
+Date: 31/03/2022 23:38:44 Badly: 6804
+Date: 31/03/2022 23:38:44 Max Strike: 57
+
+Date: 31/03/2022 23:46:12 Number of words: 3150
+Date: 31/03/2022 23:46:12 Correctly: 18934
+Date: 31/03/2022 23:46:12 Badly: 6804
+Date: 31/03/2022 23:46:12 Max Strike: 57
+
+Date: 31/03/2022 23:47:02 Number of words: 3151
+Date: 31/03/2022 23:47:02 Correctly: 18934
+Date: 31/03/2022 23:47:02 Badly: 6804
+Date: 31/03/2022 23:47:02 Max Strike: 57
+
+Date: 31/03/2022 23:53:13 Number of words: 3152
+Date: 31/03/2022 23:53:13 Correctly: 18934
+Date: 31/03/2022 23:53:13 Badly: 6804
+Date: 31/03/2022 23:53:13 Max Strike: 57
+
+Date: 31/03/2022 23:55:52 Number of words: 3153
+Date: 31/03/2022 23:55:52 Correctly: 18934
+Date: 31/03/2022 23:55:52 Badly: 6804
+Date: 31/03/2022 23:55:52 Max Strike: 57
+
+Date: 31/03/2022 23:56:59 Number of words: 3154
+Date: 31/03/2022 23:56:59 Correctly: 18934
+Date: 31/03/2022 23:56:59 Badly: 6804
+Date: 31/03/2022 23:56:59 Max Strike: 57
+
+Date: 31/03/2022 23:57:46 Number of words: 3154
+Date: 31/03/2022 23:57:46 Correctly: 18934
+Date: 31/03/2022 23:57:46 Badly: 6804
+Date: 31/03/2022 23:57:46 Max Strike: 57
+
+Date: 01/04/2022 00:00:51 Number of words: 3154
+Date: 01/04/2022 00:00:51 Correctly: 19034
+Date: 01/04/2022 00:00:51 Badly: 6857
+Date: 01/04/2022 00:00:51 Max Strike: 57
+
+Date: 01/04/2022 17:12:12 Number of words: 3155
+Date: 01/04/2022 17:12:12 Correctly: 19034
+Date: 01/04/2022 17:12:12 Badly: 6857
+Date: 01/04/2022 17:12:12 Max Strike: 57
+
+Date: 01/04/2022 17:14:12 Number of words: 3156
+Date: 01/04/2022 17:14:12 Correctly: 19034
+Date: 01/04/2022 17:14:12 Badly: 6857
+Date: 01/04/2022 17:14:12 Max Strike: 57
+
+Date: 01/04/2022 17:19:33 Number of words: 3157
+Date: 01/04/2022 17:19:33 Correctly: 19034
+Date: 01/04/2022 17:19:33 Badly: 6857
+Date: 01/04/2022 17:19:33 Max Strike: 57
+
+Date: 01/04/2022 23:57:29 Number of words: 3157
+Date: 01/04/2022 23:57:29 Correctly: 19034
+Date: 01/04/2022 23:57:29 Badly: 6857
+Date: 01/04/2022 23:57:29 Max Strike: 57
+
+Date: 04/04/2022 22:41:52 Number of words: 3157
+Date: 04/04/2022 22:41:52 Correctly: 19134
+Date: 04/04/2022 22:41:52 Badly: 6916
+Date: 04/04/2022 22:41:52 Max Strike: 57
+
+Date: 10/04/2022 10:33:27 Number of words: 3158
+Date: 10/04/2022 10:33:27 Correctly: 19134
+Date: 10/04/2022 10:33:27 Badly: 6916
+Date: 10/04/2022 10:33:27 Max Strike: 57
+
+Date: 10/04/2022 10:42:00 Number of words: 3159
+Date: 10/04/2022 10:42:00 Correctly: 19134
+Date: 10/04/2022 10:42:00 Badly: 6916
+Date: 10/04/2022 10:42:00 Max Strike: 57
+
+Date: 10/04/2022 10:45:00 Number of words: 3160
+Date: 10/04/2022 10:45:00 Correctly: 19134
+Date: 10/04/2022 10:45:00 Badly: 6916
+Date: 10/04/2022 10:45:00 Max Strike: 57
+
+Date: 10/04/2022 10:50:33 Number of words: 3160
+Date: 10/04/2022 10:50:33 Correctly: 19134
+Date: 10/04/2022 10:50:33 Badly: 6916
+Date: 10/04/2022 10:50:33 Max Strike: 57
+
+Date: 10/04/2022 19:21:13 Number of words: 3161
+Date: 10/04/2022 19:21:13 Correctly: 19134
+Date: 10/04/2022 19:21:13 Badly: 6916
+Date: 10/04/2022 19:21:13 Max Strike: 57
+
+Date: 10/04/2022 23:16:02 Number of words: 3161
+Date: 10/04/2022 23:16:02 Correctly: 19234
+Date: 10/04/2022 23:16:02 Badly: 6961
+Date: 10/04/2022 23:16:02 Max Strike: 57
+
+Date: 11/04/2022 21:55:10 Number of words: 3162
+Date: 11/04/2022 21:55:10 Correctly: 19234
+Date: 11/04/2022 21:55:10 Badly: 6961
+Date: 11/04/2022 21:55:10 Max Strike: 57
+
+Date: 11/04/2022 22:01:14 Number of words: 3163
+Date: 11/04/2022 22:01:14 Correctly: 19234
+Date: 11/04/2022 22:01:14 Badly: 6961
+Date: 11/04/2022 22:01:14 Max Strike: 57
+
+Date: 14/04/2022 21:26:13 Number of words: 3164
+Date: 14/04/2022 21:26:13 Correctly: 19234
+Date: 14/04/2022 21:26:13 Badly: 6961
+Date: 14/04/2022 21:26:13 Max Strike: 57
+
+Date: 14/04/2022 21:31:56 Number of words: 3166
+Date: 14/04/2022 21:31:56 Correctly: 19234
+Date: 14/04/2022 21:31:56 Badly: 6961
+Date: 14/04/2022 21:31:56 Max Strike: 57
+
+Date: 14/04/2022 21:33:06 Number of words: 3167
+Date: 14/04/2022 21:33:06 Correctly: 19234
+Date: 14/04/2022 21:33:06 Badly: 6961
+Date: 14/04/2022 21:33:06 Max Strike: 57
+
+Date: 14/04/2022 21:36:50 Number of words: 3168
+Date: 14/04/2022 21:36:50 Correctly: 19234
+Date: 14/04/2022 21:36:50 Badly: 6961
+Date: 14/04/2022 21:36:50 Max Strike: 57
+
+Date: 14/04/2022 21:38:38 Number of words: 3169
+Date: 14/04/2022 21:38:38 Correctly: 19234
+Date: 14/04/2022 21:38:38 Badly: 6961
+Date: 14/04/2022 21:38:38 Max Strike: 57
+
+Date: 14/04/2022 21:39:06 Number of words: 3170
+Date: 14/04/2022 21:39:06 Correctly: 19234
+Date: 14/04/2022 21:39:06 Badly: 6961
+Date: 14/04/2022 21:39:06 Max Strike: 57
+
+Date: 14/04/2022 21:39:34 Number of words: 3171
+Date: 14/04/2022 21:39:34 Correctly: 19234
+Date: 14/04/2022 21:39:34 Badly: 6961
+Date: 14/04/2022 21:39:34 Max Strike: 57
+
+Date: 14/04/2022 21:43:16 Number of words: 3171
+Date: 14/04/2022 21:43:16 Correctly: 19234
+Date: 14/04/2022 21:43:16 Badly: 6961
+Date: 14/04/2022 21:43:16 Max Strike: 57
+
+Date: 14/04/2022 21:46:30 Number of words: 3172
+Date: 14/04/2022 21:46:30 Correctly: 19234
+Date: 14/04/2022 21:46:30 Badly: 6961
+Date: 14/04/2022 21:46:30 Max Strike: 57
+
+Date: 14/04/2022 21:47:37 Number of words: 3173
+Date: 14/04/2022 21:47:37 Correctly: 19234
+Date: 14/04/2022 21:47:37 Badly: 6961
+Date: 14/04/2022 21:47:37 Max Strike: 57
+
+Date: 14/04/2022 21:50:26 Number of words: 3174
+Date: 14/04/2022 21:50:26 Correctly: 19234
+Date: 14/04/2022 21:50:26 Badly: 6961
+Date: 14/04/2022 21:50:26 Max Strike: 57
+
+Date: 14/04/2022 21:51:00 Number of words: 3175
+Date: 14/04/2022 21:51:00 Correctly: 19234
+Date: 14/04/2022 21:51:00 Badly: 6961
+Date: 14/04/2022 21:51:00 Max Strike: 57
+
+Date: 14/04/2022 21:52:02 Number of words: 3176
+Date: 14/04/2022 21:52:02 Correctly: 19234
+Date: 14/04/2022 21:52:02 Badly: 6961
+Date: 14/04/2022 21:52:02 Max Strike: 57
+
+Date: 14/04/2022 21:54:00 Number of words: 3177
+Date: 14/04/2022 21:54:00 Correctly: 19234
+Date: 14/04/2022 21:54:00 Badly: 6961
+Date: 14/04/2022 21:54:00 Max Strike: 57
+
+Date: 14/04/2022 21:56:45 Number of words: 3178
+Date: 14/04/2022 21:56:45 Correctly: 19234
+Date: 14/04/2022 21:56:45 Badly: 6961
+Date: 14/04/2022 21:56:45 Max Strike: 57
+
+Date: 14/04/2022 21:58:36 Number of words: 3179
+Date: 14/04/2022 21:58:36 Correctly: 19234
+Date: 14/04/2022 21:58:36 Badly: 6961
+Date: 14/04/2022 21:58:36 Max Strike: 57
+
+Date: 14/04/2022 22:01:13 Number of words: 3180
+Date: 14/04/2022 22:01:13 Correctly: 19234
+Date: 14/04/2022 22:01:13 Badly: 6961
+Date: 14/04/2022 22:01:13 Max Strike: 57
+
+Date: 14/04/2022 22:02:28 Number of words: 3181
+Date: 14/04/2022 22:02:28 Correctly: 19234
+Date: 14/04/2022 22:02:28 Badly: 6961
+Date: 14/04/2022 22:02:28 Max Strike: 57
+
+Date: 14/04/2022 22:07:07 Number of words: 3182
+Date: 14/04/2022 22:07:07 Correctly: 19234
+Date: 14/04/2022 22:07:07 Badly: 6961
+Date: 14/04/2022 22:07:07 Max Strike: 57
+
+Date: 14/04/2022 22:13:31 Number of words: 3182
+Date: 14/04/2022 22:13:31 Correctly: 19334
+Date: 14/04/2022 22:13:31 Badly: 7026
+Date: 14/04/2022 22:13:31 Max Strike: 57
+
+Date: 18/04/2022 18:59:52 Number of words: 3183
+Date: 18/04/2022 18:59:52 Correctly: 19334
+Date: 18/04/2022 18:59:52 Badly: 7026
+Date: 18/04/2022 18:59:52 Max Strike: 57
+
+Date: 18/04/2022 19:00:14 Number of words: 3183
+Date: 18/04/2022 19:00:14 Correctly: 19334
+Date: 18/04/2022 19:00:14 Badly: 7026
+Date: 18/04/2022 19:00:14 Max Strike: 57
+
+Date: 18/04/2022 19:16:43 Number of words: 3184
+Date: 18/04/2022 19:16:43 Correctly: 19334
+Date: 18/04/2022 19:16:43 Badly: 7026
+Date: 18/04/2022 19:16:43 Max Strike: 57
+
+Date: 18/04/2022 22:07:58 Number of words: 3184
+Date: 18/04/2022 22:07:58 Correctly: 19334
+Date: 18/04/2022 22:07:58 Badly: 7026
+Date: 18/04/2022 22:07:58 Max Strike: 57
+
+Date: 19/04/2022 19:42:35 Number of words: 3185
+Date: 19/04/2022 19:42:35 Correctly: 19334
+Date: 19/04/2022 19:42:35 Badly: 7026
+Date: 19/04/2022 19:42:35 Max Strike: 57
+
+Date: 19/04/2022 19:50:23 Number of words: 3187
+Date: 19/04/2022 19:50:23 Correctly: 19334
+Date: 19/04/2022 19:50:23 Badly: 7026
+Date: 19/04/2022 19:50:23 Max Strike: 57
+
+Date: 19/04/2022 19:51:15 Number of words: 3188
+Date: 19/04/2022 19:51:15 Correctly: 19334
+Date: 19/04/2022 19:51:15 Badly: 7026
+Date: 19/04/2022 19:51:15 Max Strike: 57
+
+Date: 19/04/2022 19:53:33 Number of words: 3189
+Date: 19/04/2022 19:53:33 Correctly: 19334
+Date: 19/04/2022 19:53:33 Badly: 7026
+Date: 19/04/2022 19:53:33 Max Strike: 57
+
+Date: 19/04/2022 19:55:16 Number of words: 3190
+Date: 19/04/2022 19:55:16 Correctly: 19334
+Date: 19/04/2022 19:55:16 Badly: 7026
+Date: 19/04/2022 19:55:16 Max Strike: 57
+
+Date: 19/04/2022 19:56:05 Number of words: 3191
+Date: 19/04/2022 19:56:05 Correctly: 19334
+Date: 19/04/2022 19:56:05 Badly: 7026
+Date: 19/04/2022 19:56:05 Max Strike: 57
+
+Date: 19/04/2022 20:00:12 Number of words: 3192
+Date: 19/04/2022 20:00:12 Correctly: 19334
+Date: 19/04/2022 20:00:12 Badly: 7026
+Date: 19/04/2022 20:00:12 Max Strike: 57
+
+Date: 19/04/2022 20:20:32 Number of words: 3193
+Date: 19/04/2022 20:20:32 Correctly: 19334
+Date: 19/04/2022 20:20:32 Badly: 7026
+Date: 19/04/2022 20:20:32 Max Strike: 57
+
+Date: 19/04/2022 20:26:42 Number of words: 3194
+Date: 19/04/2022 20:26:42 Correctly: 19334
+Date: 19/04/2022 20:26:42 Badly: 7026
+Date: 19/04/2022 20:26:42 Max Strike: 57
+
+Date: 19/04/2022 20:34:44 Number of words: 3194
+Date: 19/04/2022 20:34:44 Correctly: 19334
+Date: 19/04/2022 20:34:44 Badly: 7026
+Date: 19/04/2022 20:34:44 Max Strike: 57
+
+Date: 19/04/2022 20:34:52 Number of words: 3194
+Date: 19/04/2022 20:34:52 Correctly: 19334
+Date: 19/04/2022 20:34:52 Badly: 7026
+Date: 19/04/2022 20:34:52 Max Strike: 57
+
+Date: 19/04/2022 20:34:54 Number of words: 3194
+Date: 19/04/2022 20:34:54 Correctly: 19334
+Date: 19/04/2022 20:34:54 Badly: 7026
+Date: 19/04/2022 20:34:54 Max Strike: 57
+
+Date: 19/04/2022 20:34:54 Number of words: 3194
+Date: 19/04/2022 20:34:54 Correctly: 19334
+Date: 19/04/2022 20:34:54 Badly: 7026
+Date: 19/04/2022 20:34:54 Max Strike: 57
+
+Date: 19/04/2022 20:39:20 Number of words: 3194
+Date: 19/04/2022 20:39:20 Correctly: 19434
+Date: 19/04/2022 20:39:20 Badly: 7057
+Date: 19/04/2022 20:39:20 Max Strike: 57
+
+Date: 20/04/2022 20:57:50 Number of words: 3195
+Date: 20/04/2022 20:57:50 Correctly: 19434
+Date: 20/04/2022 20:57:50 Badly: 7057
+Date: 20/04/2022 20:57:50 Max Strike: 57
+
+Date: 20/04/2022 21:01:52 Number of words: 3196
+Date: 20/04/2022 21:01:52 Correctly: 19434
+Date: 20/04/2022 21:01:52 Badly: 7057
+Date: 20/04/2022 21:01:52 Max Strike: 57
+
+Date: 20/04/2022 21:35:17 Number of words: 3197
+Date: 20/04/2022 21:35:17 Correctly: 19446
+Date: 20/04/2022 21:35:17 Badly: 7062
+Date: 20/04/2022 21:35:17 Max Strike: 57
+
+Date: 20/04/2022 21:37:58 Number of words: 3198
+Date: 20/04/2022 21:37:58 Correctly: 19446
+Date: 20/04/2022 21:37:58 Badly: 7062
+Date: 20/04/2022 21:37:58 Max Strike: 57
+
+Date: 20/04/2022 21:44:09 Number of words: 3199
+Date: 20/04/2022 21:44:09 Correctly: 19446
+Date: 20/04/2022 21:44:09 Badly: 7062
+Date: 20/04/2022 21:44:09 Max Strike: 57
+
+Date: 20/04/2022 21:48:59 Number of words: 3199
+Date: 20/04/2022 21:48:59 Correctly: 19546
+Date: 20/04/2022 21:48:59 Badly: 7114
+Date: 20/04/2022 21:48:59 Max Strike: 57
+
+Date: 21/04/2022 19:35:17 Number of words: 3199
+Date: 21/04/2022 19:35:17 Correctly: 19546
+Date: 21/04/2022 19:35:17 Badly: 7114
+Date: 21/04/2022 19:35:17 Max Strike: 57
+
+Date: 21/04/2022 19:37:42 Number of words: 3200
+Date: 21/04/2022 19:37:42 Correctly: 19546
+Date: 21/04/2022 19:37:42 Badly: 7114
+Date: 21/04/2022 19:37:42 Max Strike: 57
+
+Date: 21/04/2022 19:38:27 Number of words: 3201
+Date: 21/04/2022 19:38:27 Correctly: 19546
+Date: 21/04/2022 19:38:27 Badly: 7114
+Date: 21/04/2022 19:38:27 Max Strike: 57
+
+Date: 21/04/2022 19:39:31 Number of words: 3202
+Date: 21/04/2022 19:39:31 Correctly: 19546
+Date: 21/04/2022 19:39:31 Badly: 7114
+Date: 21/04/2022 19:39:31 Max Strike: 57
+
+Date: 21/04/2022 19:43:15 Number of words: 3203
+Date: 21/04/2022 19:43:15 Correctly: 19546
+Date: 21/04/2022 19:43:15 Badly: 7114
+Date: 21/04/2022 19:43:15 Max Strike: 57
+
+Date: 21/04/2022 20:19:46 Number of words: 3206
+Date: 21/04/2022 20:19:46 Correctly: 19546
+Date: 21/04/2022 20:19:46 Badly: 7114
+Date: 21/04/2022 20:19:46 Max Strike: 57
+
+Date: 21/04/2022 20:30:35 Number of words: 3207
+Date: 21/04/2022 20:30:35 Correctly: 19546
+Date: 21/04/2022 20:30:35 Badly: 7114
+Date: 21/04/2022 20:30:35 Max Strike: 57
+
+Date: 23/04/2022 19:36:20 Number of words: 3208
+Date: 23/04/2022 19:36:20 Correctly: 19546
+Date: 23/04/2022 19:36:20 Badly: 7114
+Date: 23/04/2022 19:36:20 Max Strike: 57
+
+Date: 24/04/2022 10:25:06 Number of words: 3209
+Date: 24/04/2022 10:25:06 Correctly: 19546
+Date: 24/04/2022 10:25:06 Badly: 7114
+Date: 24/04/2022 10:25:06 Max Strike: 57
+
+Date: 24/04/2022 11:03:06 Number of words: 3210
+Date: 24/04/2022 11:03:06 Correctly: 19546
+Date: 24/04/2022 11:03:06 Badly: 7114
+Date: 24/04/2022 11:03:06 Max Strike: 57
+
+Date: 24/04/2022 11:23:41 Number of words: 3210
+Date: 24/04/2022 11:23:41 Correctly: 19546
+Date: 24/04/2022 11:23:41 Badly: 7114
+Date: 24/04/2022 11:23:41 Max Strike: 57
+
+Date: 24/04/2022 11:24:29 Number of words: 3211
+Date: 24/04/2022 11:24:29 Correctly: 19546
+Date: 24/04/2022 11:24:29 Badly: 7114
+Date: 24/04/2022 11:24:29 Max Strike: 57
+
+Date: 24/04/2022 11:29:08 Number of words: 3212
+Date: 24/04/2022 11:29:08 Correctly: 19546
+Date: 24/04/2022 11:29:08 Badly: 7114
+Date: 24/04/2022 11:29:08 Max Strike: 57
+
+Date: 24/04/2022 11:30:36 Number of words: 3213
+Date: 24/04/2022 11:30:36 Correctly: 19546
+Date: 24/04/2022 11:30:36 Badly: 7114
+Date: 24/04/2022 11:30:36 Max Strike: 57
+
+Date: 24/04/2022 11:31:35 Number of words: 3214
+Date: 24/04/2022 11:31:35 Correctly: 19546
+Date: 24/04/2022 11:31:35 Badly: 7114
+Date: 24/04/2022 11:31:35 Max Strike: 57
+
+Date: 24/04/2022 12:12:32 Number of words: 3215
+Date: 24/04/2022 12:12:32 Correctly: 19546
+Date: 24/04/2022 12:12:32 Badly: 7114
+Date: 24/04/2022 12:12:32 Max Strike: 57
+
+Date: 24/04/2022 12:26:53 Number of words: 3216
+Date: 24/04/2022 12:26:53 Correctly: 19546
+Date: 24/04/2022 12:26:53 Badly: 7114
+Date: 24/04/2022 12:26:53 Max Strike: 57
+
+Date: 24/04/2022 13:25:53 Number of words: 3217
+Date: 24/04/2022 13:25:53 Correctly: 19546
+Date: 24/04/2022 13:25:53 Badly: 7114
+Date: 24/04/2022 13:25:53 Max Strike: 57
+
+Date: 24/04/2022 13:41:03 Number of words: 3218
+Date: 24/04/2022 13:41:03 Correctly: 19546
+Date: 24/04/2022 13:41:03 Badly: 7114
+Date: 24/04/2022 13:41:03 Max Strike: 57
+
+Date: 24/04/2022 13:46:02 Number of words: 3219
+Date: 24/04/2022 13:46:02 Correctly: 19546
+Date: 24/04/2022 13:46:02 Badly: 7114
+Date: 24/04/2022 13:46:02 Max Strike: 57
+
+Date: 24/04/2022 13:49:45 Number of words: 3220
+Date: 24/04/2022 13:49:45 Correctly: 19546
+Date: 24/04/2022 13:49:45 Badly: 7114
+Date: 24/04/2022 13:49:45 Max Strike: 57
+
+Date: 24/04/2022 15:03:06 Number of words: 3220
+Date: 24/04/2022 15:03:06 Correctly: 19546
+Date: 24/04/2022 15:03:06 Badly: 7114
+Date: 24/04/2022 15:03:06 Max Strike: 57
+
+Date: 24/04/2022 20:47:16 Number of words: 3221
+Date: 24/04/2022 20:47:16 Correctly: 19546
+Date: 24/04/2022 20:47:16 Badly: 7114
+Date: 24/04/2022 20:47:16 Max Strike: 57
+
+Date: 24/04/2022 21:25:48 Number of words: 3222
+Date: 24/04/2022 21:25:48 Correctly: 19546
+Date: 24/04/2022 21:25:48 Badly: 7114
+Date: 24/04/2022 21:25:48 Max Strike: 57
+
+Date: 24/04/2022 21:40:36 Number of words: 3223
+Date: 24/04/2022 21:40:36 Correctly: 19546
+Date: 24/04/2022 21:40:36 Badly: 7114
+Date: 24/04/2022 21:40:36 Max Strike: 57
+
+Date: 24/04/2022 21:42:02 Number of words: 3224
+Date: 24/04/2022 21:42:02 Correctly: 19546
+Date: 24/04/2022 21:42:02 Badly: 7114
+Date: 24/04/2022 21:42:02 Max Strike: 57
+
+Date: 24/04/2022 21:49:13 Number of words: 3225
+Date: 24/04/2022 21:49:13 Correctly: 19546
+Date: 24/04/2022 21:49:13 Badly: 7114
+Date: 24/04/2022 21:49:13 Max Strike: 57
+
+Date: 24/04/2022 21:54:21 Number of words: 3226
+Date: 24/04/2022 21:54:21 Correctly: 19546
+Date: 24/04/2022 21:54:21 Badly: 7114
+Date: 24/04/2022 21:54:21 Max Strike: 57
+
+Date: 24/04/2022 22:21:58 Number of words: 3226
+Date: 24/04/2022 22:21:58 Correctly: 19646
+Date: 24/04/2022 22:21:58 Badly: 7176
+Date: 24/04/2022 22:21:58 Max Strike: 57
+
+Date: 26/04/2022 21:55:40 Number of words: 3228
+Date: 26/04/2022 21:55:40 Correctly: 19646
+Date: 26/04/2022 21:55:40 Badly: 7176
+Date: 26/04/2022 21:55:40 Max Strike: 57
+
+Date: 26/04/2022 21:55:56 Number of words: 3230
+Date: 26/04/2022 21:55:56 Correctly: 19646
+Date: 26/04/2022 21:55:56 Badly: 7176
+Date: 26/04/2022 21:55:56 Max Strike: 57
+
+Date: 26/04/2022 21:56:16 Number of words: 3232
+Date: 26/04/2022 21:56:16 Correctly: 19646
+Date: 26/04/2022 21:56:16 Badly: 7176
+Date: 26/04/2022 21:56:16 Max Strike: 57
+
+Date: 26/04/2022 21:56:23 Number of words: 3233
+Date: 26/04/2022 21:56:23 Correctly: 19646
+Date: 26/04/2022 21:56:23 Badly: 7176
+Date: 26/04/2022 21:56:23 Max Strike: 57
+
+Date: 26/04/2022 21:56:30 Number of words: 3233
+Date: 26/04/2022 21:56:30 Correctly: 19646
+Date: 26/04/2022 21:56:30 Badly: 7176
+Date: 26/04/2022 21:56:30 Max Strike: 57
+
+Date: 26/04/2022 21:56:37 Number of words: 3234
+Date: 26/04/2022 21:56:37 Correctly: 19646
+Date: 26/04/2022 21:56:37 Badly: 7176
+Date: 26/04/2022 21:56:37 Max Strike: 57
+
+Date: 26/04/2022 21:56:44 Number of words: 3234
+Date: 26/04/2022 21:56:44 Correctly: 19646
+Date: 26/04/2022 21:56:44 Badly: 7176
+Date: 26/04/2022 21:56:44 Max Strike: 57
+
+Date: 26/04/2022 21:56:51 Number of words: 3235
+Date: 26/04/2022 21:56:51 Correctly: 19646
+Date: 26/04/2022 21:56:51 Badly: 7176
+Date: 26/04/2022 21:56:51 Max Strike: 57
+
+Date: 26/04/2022 21:56:58 Number of words: 3236
+Date: 26/04/2022 21:56:58 Correctly: 19646
+Date: 26/04/2022 21:56:58 Badly: 7176
+Date: 26/04/2022 21:56:58 Max Strike: 57
+
+Date: 26/04/2022 21:59:35 Number of words: 3236
+Date: 26/04/2022 21:59:35 Correctly: 19646
+Date: 26/04/2022 21:59:35 Badly: 7176
+Date: 26/04/2022 21:59:35 Max Strike: 57
+
+Date: 01/05/2022 10:54:12 Number of words: 3237
+Date: 01/05/2022 10:54:12 Correctly: 19646
+Date: 01/05/2022 10:54:12 Badly: 7176
+Date: 01/05/2022 10:54:12 Max Strike: 57
+
+Date: 01/05/2022 13:54:16 Number of words: 3238
+Date: 01/05/2022 13:54:16 Correctly: 19646
+Date: 01/05/2022 13:54:16 Badly: 7176
+Date: 01/05/2022 13:54:16 Max Strike: 57
+
+Date: 01/05/2022 21:57:02 Number of words: 3239
+Date: 01/05/2022 21:57:02 Correctly: 19646
+Date: 01/05/2022 21:57:02 Badly: 7176
+Date: 01/05/2022 21:57:02 Max Strike: 57
+
+Date: 02/05/2022 08:44:07 Number of words: 3239
+Date: 02/05/2022 08:44:07 Correctly: 19646
+Date: 02/05/2022 08:44:07 Badly: 7176
+Date: 02/05/2022 08:44:07 Max Strike: 57
+
+Date: 02/05/2022 09:19:12 Number of words: 3239
+Date: 02/05/2022 09:19:12 Correctly: 19700
+Date: 02/05/2022 09:19:12 Badly: 7200
+Date: 02/05/2022 09:19:12 Max Strike: 57
+
+Date: 02/05/2022 09:35:09 Number of words: 3240
+Date: 02/05/2022 09:35:09 Correctly: 19700
+Date: 02/05/2022 09:35:09 Badly: 7200
+Date: 02/05/2022 09:35:09 Max Strike: 57
+
+Date: 02/05/2022 09:35:29 Number of words: 3241
+Date: 02/05/2022 09:35:29 Correctly: 19700
+Date: 02/05/2022 09:35:29 Badly: 7200
+Date: 02/05/2022 09:35:29 Max Strike: 57
+
+Date: 02/05/2022 10:08:16 Number of words: 3242
+Date: 02/05/2022 10:08:16 Correctly: 19700
+Date: 02/05/2022 10:08:16 Badly: 7200
+Date: 02/05/2022 10:08:16 Max Strike: 57
+
+Date: 02/05/2022 10:10:45 Number of words: 3243
+Date: 02/05/2022 10:10:45 Correctly: 19700
+Date: 02/05/2022 10:10:45 Badly: 7200
+Date: 02/05/2022 10:10:45 Max Strike: 57
+
+Date: 02/05/2022 10:14:35 Number of words: 3244
+Date: 02/05/2022 10:14:35 Correctly: 19700
+Date: 02/05/2022 10:14:35 Badly: 7200
+Date: 02/05/2022 10:14:35 Max Strike: 57
+
+Date: 02/05/2022 10:17:10 Number of words: 3245
+Date: 02/05/2022 10:17:10 Correctly: 19700
+Date: 02/05/2022 10:17:10 Badly: 7200
+Date: 02/05/2022 10:17:10 Max Strike: 57
+
+Date: 02/05/2022 10:17:56 Number of words: 3246
+Date: 02/05/2022 10:17:56 Correctly: 19700
+Date: 02/05/2022 10:17:56 Badly: 7200
+Date: 02/05/2022 10:17:56 Max Strike: 57
+
+Date: 02/05/2022 10:19:16 Number of words: 3247
+Date: 02/05/2022 10:19:16 Correctly: 19700
+Date: 02/05/2022 10:19:16 Badly: 7200
+Date: 02/05/2022 10:19:16 Max Strike: 57
+
+Date: 02/05/2022 10:55:01 Number of words: 3247
+Date: 02/05/2022 10:55:01 Correctly: 19700
+Date: 02/05/2022 10:55:01 Badly: 7200
+Date: 02/05/2022 10:55:01 Max Strike: 57
+
+Date: 02/05/2022 12:18:42 Number of words: 3248
+Date: 02/05/2022 12:18:42 Correctly: 19700
+Date: 02/05/2022 12:18:42 Badly: 7200
+Date: 02/05/2022 12:18:42 Max Strike: 57
+
+Date: 02/05/2022 13:55:52 Number of words: 3248
+Date: 02/05/2022 13:55:52 Correctly: 19700
+Date: 02/05/2022 13:55:52 Badly: 7200
+Date: 02/05/2022 13:55:52 Max Strike: 57
+
+Date: 02/05/2022 18:11:29 Number of words: 3249
+Date: 02/05/2022 18:11:29 Correctly: 19700
+Date: 02/05/2022 18:11:29 Badly: 7200
+Date: 02/05/2022 18:11:29 Max Strike: 57
+
+Date: 02/05/2022 19:12:47 Number of words: 3250
+Date: 02/05/2022 19:12:47 Correctly: 19700
+Date: 02/05/2022 19:12:47 Badly: 7200
+Date: 02/05/2022 19:12:47 Max Strike: 57
+
+Date: 02/05/2022 19:34:47 Number of words: 3251
+Date: 02/05/2022 19:34:47 Correctly: 19700
+Date: 02/05/2022 19:34:47 Badly: 7200
+Date: 02/05/2022 19:34:47 Max Strike: 57
+
+Date: 02/05/2022 19:37:15 Number of words: 3252
+Date: 02/05/2022 19:37:15 Correctly: 19700
+Date: 02/05/2022 19:37:15 Badly: 7200
+Date: 02/05/2022 19:37:15 Max Strike: 57
+
+Date: 03/05/2022 10:48:49 Number of words: 3253
+Date: 03/05/2022 10:48:49 Correctly: 19700
+Date: 03/05/2022 10:48:49 Badly: 7200
+Date: 03/05/2022 10:48:49 Max Strike: 57
+
+Date: 03/05/2022 14:05:47 Number of words: 3254
+Date: 03/05/2022 14:05:47 Correctly: 19700
+Date: 03/05/2022 14:05:47 Badly: 7200
+Date: 03/05/2022 14:05:47 Max Strike: 57
+
+Date: 03/05/2022 14:17:28 Number of words: 3255
+Date: 03/05/2022 14:17:28 Correctly: 19700
+Date: 03/05/2022 14:17:28 Badly: 7200
+Date: 03/05/2022 14:17:28 Max Strike: 57
+
+Date: 03/05/2022 14:47:30 Number of words: 3256
+Date: 03/05/2022 14:47:30 Correctly: 19700
+Date: 03/05/2022 14:47:30 Badly: 7200
+Date: 03/05/2022 14:47:30 Max Strike: 57
+
+Date: 03/05/2022 19:49:17 Number of words: 3257
+Date: 03/05/2022 19:49:17 Correctly: 19700
+Date: 03/05/2022 19:49:17 Badly: 7200
+Date: 03/05/2022 19:49:17 Max Strike: 57
+
+Date: 03/05/2022 20:28:03 Number of words: 3258
+Date: 03/05/2022 20:28:03 Correctly: 19700
+Date: 03/05/2022 20:28:03 Badly: 7200
+Date: 03/05/2022 20:28:03 Max Strike: 57
+
+Date: 03/05/2022 20:43:01 Number of words: 3259
+Date: 03/05/2022 20:43:01 Correctly: 19700
+Date: 03/05/2022 20:43:01 Badly: 7200
+Date: 03/05/2022 20:43:01 Max Strike: 57
+
+Date: 03/05/2022 21:47:50 Number of words: 3260
+Date: 03/05/2022 21:47:50 Correctly: 19700
+Date: 03/05/2022 21:47:50 Badly: 7200
+Date: 03/05/2022 21:47:50 Max Strike: 57
+
+Date: 03/05/2022 23:05:14 Number of words: 3261
+Date: 03/05/2022 23:05:14 Correctly: 19700
+Date: 03/05/2022 23:05:14 Badly: 7200
+Date: 03/05/2022 23:05:14 Max Strike: 57
+
+Date: 04/05/2022 11:23:23 Number of words: 3262
+Date: 04/05/2022 11:23:23 Correctly: 19700
+Date: 04/05/2022 11:23:23 Badly: 7200
+Date: 04/05/2022 11:23:23 Max Strike: 57
+
+Date: 04/05/2022 11:24:44 Number of words: 3263
+Date: 04/05/2022 11:24:44 Correctly: 19700
+Date: 04/05/2022 11:24:44 Badly: 7200
+Date: 04/05/2022 11:24:44 Max Strike: 57
+
+Date: 04/05/2022 12:15:58 Number of words: 3264
+Date: 04/05/2022 12:15:58 Correctly: 19700
+Date: 04/05/2022 12:15:58 Badly: 7200
+Date: 04/05/2022 12:15:58 Max Strike: 57
+
+Date: 04/05/2022 12:19:26 Number of words: 3265
+Date: 04/05/2022 12:19:26 Correctly: 19700
+Date: 04/05/2022 12:19:26 Badly: 7200
+Date: 04/05/2022 12:19:26 Max Strike: 57
+
+Date: 04/05/2022 12:22:07 Number of words: 3266
+Date: 04/05/2022 12:22:07 Correctly: 19700
+Date: 04/05/2022 12:22:07 Badly: 7200
+Date: 04/05/2022 12:22:07 Max Strike: 57
+
+Date: 04/05/2022 12:22:47 Number of words: 3267
+Date: 04/05/2022 12:22:47 Correctly: 19700
+Date: 04/05/2022 12:22:47 Badly: 7200
+Date: 04/05/2022 12:22:47 Max Strike: 57
+
+Date: 04/05/2022 12:23:22 Number of words: 3268
+Date: 04/05/2022 12:23:22 Correctly: 19701
+Date: 04/05/2022 12:23:22 Badly: 7200
+Date: 04/05/2022 12:23:22 Max Strike: 57
+
+Date: 04/05/2022 12:23:51 Number of words: 3269
+Date: 04/05/2022 12:23:51 Correctly: 19701
+Date: 04/05/2022 12:23:51 Badly: 7200
+Date: 04/05/2022 12:23:51 Max Strike: 57
+
+Date: 04/05/2022 12:24:31 Number of words: 3270
+Date: 04/05/2022 12:24:31 Correctly: 19701
+Date: 04/05/2022 12:24:31 Badly: 7200
+Date: 04/05/2022 12:24:31 Max Strike: 57
+
+Date: 04/05/2022 12:24:52 Number of words: 3271
+Date: 04/05/2022 12:24:52 Correctly: 19701
+Date: 04/05/2022 12:24:52 Badly: 7200
+Date: 04/05/2022 12:24:52 Max Strike: 57
+
+Date: 04/05/2022 12:56:41 Number of words: 3272
+Date: 04/05/2022 12:56:41 Correctly: 19701
+Date: 04/05/2022 12:56:41 Badly: 7200
+Date: 04/05/2022 12:56:41 Max Strike: 57
+
+Date: 04/05/2022 12:59:05 Number of words: 3273
+Date: 04/05/2022 12:59:05 Correctly: 19701
+Date: 04/05/2022 12:59:05 Badly: 7200
+Date: 04/05/2022 12:59:05 Max Strike: 57
+
+Date: 04/05/2022 23:46:50 Number of words: 3273
+Date: 04/05/2022 23:46:50 Correctly: 19701
+Date: 04/05/2022 23:46:50 Badly: 7200
+Date: 04/05/2022 23:46:50 Max Strike: 57
