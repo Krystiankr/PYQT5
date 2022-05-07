@@ -1,4 +1,5 @@
 import sys
+import json
 from datetime import datetime
 from random import shuffle
 
@@ -193,11 +194,25 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def json_words(self):
         print("json_word")
+        json_test = self.migrate.textEdit.toPlainText()
+        print(f"len {json_test}: {len(json_test)}")
+        try:
+            json_obj = json.loads(json_test)
+            print(len(json_test))
+            print(json_obj.items())
+            mess = ''
+            for (ang, pol) in json_obj.items():
+                mess += self.df_data.add_new_word(ang, pol)
+            self.bar_change_text(mess)
+        except:
+            self.bar_change_text("Error with saving new words.")
+            print("Error")
 
     def reload_df(self):
         self.ui.number_of_words.setText(str(self.df_data.len_df()))
 
     def open_migrate_window(self):
+        self.migrate.textEdit.setText("")
         self.Migrate.exec_()
 
     def open_dialog_window(self):
