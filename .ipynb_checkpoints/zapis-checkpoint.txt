@@ -1,4 +1,0 @@
-pyuic5 mainwindow.ui -o MainWindow.py
-
-
-C:\Users\Krystian\PycharmProjects\pandas\Stare
