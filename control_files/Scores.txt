@@ -1,3 +1,0 @@
-correctly: 0
-badly: 0
-Max_strike: 0
