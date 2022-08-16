@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>500</width>
-    <height>448</height>
+    <height>522</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -46,11 +46,60 @@ height: 50px;
    <property name="styleSheet">
     <string notr="true"/>
    </property>
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="2" column="0">
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QGroupBox" name="grpMenu">
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="accessibleName">
+       <string/>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="btnMain">
+         <property name="text">
+          <string>Main</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnDisplay">
+         <property name="text">
+          <string>DisplayWords</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnMigrate">
+         <property name="text">
+          <string>Migrate</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnStats">
+         <property name="text">
+          <string>Stats</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="MainPage">
        <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -127,19 +176,22 @@ height: 50px;
        </layout>
       </widget>
       <widget class="QWidget" name="StatsPage">
-       <widget class="QLabel" name="label">
-        <property name="geometry">
-         <rect>
-          <x>130</x>
-          <y>150</y>
-          <width>271</width>
-          <height>96</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Stats Page</string>
-        </property>
-       </widget>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Stats Page</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
       <widget class="QWidget" name="MigratePage">
        <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -170,6 +222,9 @@ height: 50px;
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
+          <property name="placeholderText">
+           <string>Place JSON here</string>
+          </property>
          </widget>
         </item>
         <item>
@@ -184,55 +239,6 @@ height: 50px;
         </item>
        </layout>
       </widget>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QGroupBox" name="grpMenu">
-      <property name="statusTip">
-       <string/>
-      </property>
-      <property name="whatsThis">
-       <string/>
-      </property>
-      <property name="accessibleName">
-       <string/>
-      </property>
-      <property name="title">
-       <string/>
-      </property>
-      <property name="flat">
-       <bool>false</bool>
-      </property>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
-        <widget class="QPushButton" name="btnMain">
-         <property name="text">
-          <string>Main</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnDisplay">
-         <property name="text">
-          <string>DisplayWords</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnMigrate">
-         <property name="text">
-          <string>Migrate</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnStats">
-         <property name="text">
-          <string>Stats</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
      </widget>
     </item>
    </layout>
@@ -256,6 +262,10 @@ height: 50px;
     <addaction name="actionStatystyki"/>
     <addaction name="actionMain"/>
     <addaction name="actionOptions"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_cords"/>
+    <addaction name="actionLoad_cords"/>
+    <addaction name="actionSave_last_page"/>
    </widget>
    <addaction name="menuMenu"/>
   </widget>
@@ -289,8 +299,26 @@ height: 50px;
    <property name="checkable">
     <bool>true</bool>
    </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
    <property name="text">
     <string>Options</string>
+   </property>
+  </action>
+  <action name="actionSave_cords">
+   <property name="text">
+    <string>Save cords</string>
+   </property>
+  </action>
+  <action name="actionLoad_cords">
+   <property name="text">
+    <string>Load cords</string>
+   </property>
+  </action>
+  <action name="actionSave_last_page">
+   <property name="text">
+    <string>Save last page</string>
    </property>
   </action>
  </widget>
