@@ -99,7 +99,7 @@ height: 50px;
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="MainPage">
        <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -122,6 +122,13 @@ height: 50px;
             </property>
             <property name="text">
              <string>Start</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnRandom">
+            <property name="text">
+             <string>Random</string>
             </property>
            </widget>
           </item>

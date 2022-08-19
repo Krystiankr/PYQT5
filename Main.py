@@ -5,9 +5,11 @@ from interface.table_view import TableModel
 import sys
 import json
 import pandas as pd
+import random
 from datetime import datetime
 from control.json_operations import set_dimension, get_dimension, set_current_page, get_last_page
 from control.pd_operations import return_df, transform_df
+from control.data_operations import DataOperations
 
 main_dialog = uic.loadUiType("interface/main.ui")[0]
 
@@ -39,6 +41,8 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             btn.clicked.connect(self.btn_random_word)
             btn.setObjectName(str(index))
 
+        ####
+        self.data = DataOperations()
         # Btn
         #self.btnStart.clicked.connect(lambda: print("Start btn"))
 
@@ -118,8 +122,19 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.progressBar.setValue(value)
         if value == 100:
             self.result_setup()
+            self.set_start_btn(mode='end')
+            self.progressBar.setValue(0)
         print(f'value: {value}')
         print(obj)
+
+    def set_start_btn(self, mode: str = ''):
+        color = "rgb(0,123,255)" if mode == 'end' else "rgb(209,245,255)"
+        text = "Start" if mode == 'end' else "In game..."
+        print(f"Change to: {mode} color: {color}")
+        self.btnStart.setStyleSheet(
+            "QPushButton""{""background-color:"+color+";color:rgb(0,0,0)""}")
+        self.btnStart.setText(text)
+        self.btnStart.setEnabled(mode == 'end')
 
     def result_setup(self):
         self.stackedWidget.setCurrentWidget(self.StatsPage)
@@ -128,14 +143,25 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.btnTimerResult.setText(f'Competition took {result_time} seconds')
 
     @pyqtSlot()
+    def on_btnRandom_clicked(self):
+        winning_word = self.data.sample_row()
+        english_word = self.data.get_english_word(winning_word)
+        polish_word = self.data.get_polish_word(winning_word)
+        random_word_1, random_word_2 = self.data.get_sample_polish(
+        ), self.data.get_sample_polish()
+        buttons = self.buttons.copy()
+        self.lblMainWord.setText(english_word)
+        random.shuffle(buttons)
+        for word, btn in zip([polish_word, random_word_1, random_word_2], buttons):
+            btn.setText(word)
+
+    @pyqtSlot()
     def on_btnStart_clicked(self):
         # set scores
         self.correct_words = [f'good{i}' for i in range(10)]
         self.bad_words = [f'bad{i}' for i in range(10)]
         self.start_time = datetime.today()
-        self.btnStart.setEnabled(False)
-        self.btnStart.setStyleSheet(
-            "QPushButton""{""background-color : rgb(209,245,255);color:rgb(0,0,0)""}")
+        self.set_start_btn(mode='start')
         print("start")
 
     @pyqtSlot()
