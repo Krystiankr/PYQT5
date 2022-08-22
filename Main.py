@@ -50,23 +50,30 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.txtDisplaySearch.textChanged.connect(
             self.txt_search_input_changed)
         # DataFrame setup
-        self.df = return_df('control/Data.csv')
-        self.set_table_model(self.df)
-
+        self.set_table_model(self.data.get_df())
+        # self.lblNumerWords.setText(
+        #     f'Number of words: {self.data.get_num_all_words()}')
+        self.set_len_df_lbl(self.data.get_num_all_words())
         # Another
         self.load_dimensions()
         self.load_last_page_index()
 
     # SETTINGS
+    def set_len_df_lbl(self, number_of_words: int) -> None:
+        self.lblNumerWords.setText(
+            f'Number of words: {number_of_words}')
+
     def set_table_model(self, _df: pd.DataFrame):
         self.tableView.setModel(TableModel(_df))
 
     def refresh_df(self, text: str):
-        tmp_df = transform_df(self.df, text)
+        tmp_df = transform_df(self.data.get_df(), text)
         self.set_table_model(tmp_df)
+        return tmp_df
 
     def txt_search_input_changed(self):
-        self.refresh_df(self.txtDisplaySearch.text())
+        tmp_df = self.refresh_df(self.txtDisplaySearch.text())
+        self.set_len_df_lbl(DataOperations.get_numm_words_from_tmp_df(tmp_df))
         print(self.txtDisplaySearch.text())
 
     def current_page_index(self) -> int:
@@ -141,6 +148,26 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.lblResult.setText(f"{self.correct_words},\n {self.bad_words}")
         result_time = int((datetime.today() - self.start_time).total_seconds())
         self.btnTimerResult.setText(f'Competition took {result_time} seconds')
+
+    def set_status_message(self, mess: str) -> None:
+        self.statusbar.showMessage(mess)
+
+    def refresh_display_page(self):
+        self.refresh_df(self.txtDisplaySearch.text())
+        self.set_len_df_lbl(
+            self.data.get_num_all_words())
+
+    # Buttons setup
+    @pyqtSlot()
+    def on_btnAddWord_clicked(self):
+        english_word, polish_word = self.txtEnglishWord.text(
+        ), self.txtPolishWord.text()
+        mess = self.data.add_new_word(english_word=english_word,
+                                      polish_word=polish_word)
+        if mess.startswith('Added new word'):
+            self.refresh_display_page()
+        self.set_status_message(mess)
+        #print(f'add word clicked! {english_word} {polish_word}')
 
     @pyqtSlot()
     def on_btnRandom_clicked(self):
