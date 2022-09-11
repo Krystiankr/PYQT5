@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>500</width>
-    <height>522</height>
+    <height>739</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -99,7 +99,7 @@ height: 50px;
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="MainPage">
        <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -161,6 +161,9 @@ height: 50px;
         </item>
         <item>
          <widget class="QPushButton" name="btnWord1">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="text">
            <string>Word1</string>
           </property>
@@ -168,6 +171,9 @@ height: 50px;
         </item>
         <item>
          <widget class="QPushButton" name="btnWord2">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="text">
            <string>Word2</string>
           </property>
@@ -175,6 +181,9 @@ height: 50px;
         </item>
         <item>
          <widget class="QPushButton" name="btnWord3">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="text">
            <string>Word3</string>
           </property>
@@ -185,7 +194,13 @@ height: 50px;
       <widget class="QWidget" name="DisplayPage">
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
-         <widget class="QLineEdit" name="txtDisplaySearch"/>
+         <widget class="QLineEdit" name="txtDisplaySearch">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="Line" name="line">
@@ -195,7 +210,13 @@ height: 50px;
          </widget>
         </item>
         <item>
-         <widget class="QTableView" name="tableView"/>
+         <widget class="QTableView" name="tableView">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="lblNumerWords">
@@ -358,6 +379,19 @@ height: 50px;
         </item>
         <item>
          <widget class="QTableView" name="tableView_2"/>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="btnAddWords">
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Add words</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>

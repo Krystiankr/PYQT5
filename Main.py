@@ -40,6 +40,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         for index, btn in enumerate(self.buttons):
             btn.clicked.connect(self.btn_random_word)
             btn.setObjectName(str(index))
+        self.buttons_disable_all()
 
         ####
         self.data = DataOperations()
@@ -57,6 +58,8 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         # Another
         self.load_dimensions()
         self.load_last_page_index()
+        # Word configurations
+        self.tournament_dict = {"corrects": [], "bads": []}
 
     # SETTINGS
     def set_len_df_lbl(self, number_of_words: int) -> None:
@@ -113,6 +116,18 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         print("Wymiary")
         print(wymiary)
 
+    def random_word(self):
+        self.winning_row = self.data.sample_row()
+        english_word = self.data.get_english_word(self.winning_row)
+        polish_word = self.data.get_polish_word(self.winning_row)
+        random_word_1, random_word_2 = self.data.get_sample_polish(
+        ), self.data.get_sample_polish()
+        buttons = self.buttons.copy()
+        self.lblMainWord.setText(english_word)
+        random.shuffle(buttons)
+        for word, btn in zip([polish_word, random_word_1, random_word_2], buttons):
+            btn.setText(word)
+
     # Random words key pressed
     def keyPressEvent(self, e):
         if e.key() == Qt.Key_1:
@@ -121,16 +136,54 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.buttons[1].click()
         if e.key() == Qt.Key_3:
             self.buttons[2].click()
+        if e.key() == Qt.Key_R:
+            print("random word")
+            self.button_default_stylesheet()
+            self.random_word()
+
+    def button_default_stylesheet(self):
+        for btn in self.buttons:
+            btn.setEnabled(True)
+            btn.setStyleSheet(
+                "QPushButton""{""background-color : rgb(0, 123, 255);""}")
+
+    def buttons_disable_all(self):
+        for btn in self.buttons:
+            btn.setEnabled(False)
+            # btn.setStyleSheet(
+            #     "QPushButton""{""background-color : rgb(66, 189, 255);""}")
 
     # Btn configurations
     def btn_random_word(self):
+        # background-color: rgb(66, 189, 255);
         obj = self.sender().objectName()
+        self.buttons[int(obj)].setStyleSheet(
+            "QPushButton""{""background-color: rgb(66, 189, 255); color : white;""}")
+        self.buttons[int(obj)].setEnabled(False)
+
+        print(f'Button: {self.buttons[int(obj)].text()}')
+        if str(self.buttons[int(obj)].text()) in str(self.winning_row["Polski"]):
+            self.buttons_disable_all()
+            self.buttons[int(obj)].setStyleSheet(
+                "QPushButton""{""background-color: rgb(40, 179, 90); color : white;""}")
+            self.tournament_dict['corrects'].append(
+                str(self.buttons[int(obj)].text()))
+
+        else:
+            self.tournament_dict['bads'].append(
+                str(self.buttons[int(obj)].text()))
+            self.buttons[int(obj)].setStyleSheet(
+                "QPushButton""{""background-color: rgb(220, 237, 255); color : black;""}")
+        self.buttons[int(obj)].setEnabled(False)
+
+        print(f'Winning: {self.winning_row["Polski"]}')
         value = self.progressBar.value() + 10
         self.progressBar.setValue(value)
         if value == 100:
             self.result_setup()
             self.set_start_btn(mode='end')
             self.progressBar.setValue(0)
+            print(self.tournament_dict)
         print(f'value: {value}')
         print(obj)
 
@@ -139,7 +192,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         text = "Start" if mode == 'end' else "In game..."
         print(f"Change to: {mode} color: {color}")
         self.btnStart.setStyleSheet(
-            "QPushButton""{""background-color:"+color+";color:rgb(0,0,0)""}")
+            "QPushButton""{""background-color:"+color+";color:rgb(255,255,255)""}")
         self.btnStart.setText(text)
         self.btnStart.setEnabled(mode == 'end')
 
@@ -159,28 +212,32 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
 
     # Buttons setup
     @pyqtSlot()
+    def on_btnAddWords_clicked(self):
+        for index, row in self.json_df.iterrows():
+            self.data.add_new_word(english_word=row.English,
+                                   polish_word=row.Polish)
+        self.refresh_display_page()
+        self.stackedWidget.setCurrentWidget(self.DisplayPage)
+        self.set_status_message(f'Added {len(self.json_df)} words.')
+
+    @pyqtSlot()
     def on_btnAddWord_clicked(self):
         english_word, polish_word = self.txtEnglishWord.text(
         ), self.txtPolishWord.text()
-        mess = self.data.add_new_word(english_word=english_word,
-                                      polish_word=polish_word)
-        if mess.startswith('Added new word'):
-            self.refresh_display_page()
-        self.set_status_message(mess)
+        if english_word == '' or polish_word == '':
+            self.set_status_message('New words can\'t be empty!')
+        else:
+            mess = self.data.add_new_word(english_word=english_word,
+                                          polish_word=polish_word)
+            if mess.startswith('Added new word'):
+                self.refresh_display_page()
+            self.stackedWidget.setCurrentWidget(self.DisplayPage)
+            self.set_status_message(mess)
         #print(f'add word clicked! {english_word} {polish_word}')
 
     @pyqtSlot()
     def on_btnRandom_clicked(self):
-        winning_word = self.data.sample_row()
-        english_word = self.data.get_english_word(winning_word)
-        polish_word = self.data.get_polish_word(winning_word)
-        random_word_1, random_word_2 = self.data.get_sample_polish(
-        ), self.data.get_sample_polish()
-        buttons = self.buttons.copy()
-        self.lblMainWord.setText(english_word)
-        random.shuffle(buttons)
-        for word, btn in zip([polish_word, random_word_1, random_word_2], buttons):
-            btn.setText(word)
+        self.random_word()
 
     @pyqtSlot()
     def on_btnStart_clicked(self):
@@ -212,11 +269,11 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         print("Load JSON!")
         try:
             parsed = json.loads(self.txtJSON.toPlainText())
-            df = pd.DataFrame.from_dict(
+            self.json_df = pd.DataFrame.from_dict(
                 dict(parsed), orient='index').reset_index()
-            df.columns = ['English', 'Polish']
-            df['Exists'] = False
-            self.tableView_2.setModel(TableModel(df))
+            self.json_df.columns = ['English', 'Polish']
+            self.json_df['Exists'] = False
+            self.tableView_2.setModel(TableModel(self.json_df))
             print(self.txtJSON.toPlainText())
         except Exception:
             self.statusbar.showMessage("Error with parsing data")
