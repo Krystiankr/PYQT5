@@ -46,3 +46,20 @@ def get_dimension():
         json_obiekt = json.load(f)
         dim = json_obiekt['dimensions']
     return dim['x'], dim['y'], dim['width'], dim['height']
+
+
+def get_json_value(name: str) -> str:
+    with open('settings.json', 'r') as f:
+        json_obiekt = json.load(f)
+        dim = json_obiekt[name]
+    return dim
+
+
+def set_json_value(*, name: str, name2: str, value: str) -> None:
+    json_obiekt = ''
+    with open(FILE_NAME, 'r') as f:
+        json_obiekt = json.load(f)
+        json_obiekt[name][name2] = value
+    with open(FILE_NAME, 'w') as f:
+        json.dump(json_obiekt, f, indent=4)
+    return

@@ -7,9 +7,12 @@ import json
 import pandas as pd
 import random
 from datetime import datetime
-from control.json_operations import set_dimension, get_dimension, set_current_page, get_last_page
+from control.json_operations import *
 from control.pd_operations import return_df, transform_df
 from control.data_operations import DataOperations
+from control.toggle import AnimatedToggle
+from control.Worker import *
+from PyQt5.QtCore import QProcess
 
 main_dialog = uic.loadUiType("interface/main.ui")[0]
 
@@ -46,7 +49,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.data = DataOperations()
         # Btn
         #self.btnStart.clicked.connect(lambda: print("Start btn"))
-
+        self.speaker = True
         # Input
         self.txtDisplaySearch.textChanged.connect(
             self.txt_search_input_changed)
@@ -61,7 +64,28 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         # Word configurations
         self.tournament_dict = {"corrects": [], "bads": []}
 
+        # Toggle setup
+        self.toggle_settings = AnimatedToggle(
+            checked_color="#FFB000",
+            pulse_checked_color="#44FFB000"
+        )
+        self.toggle_settings.clicked.connect(
+            lambda: self.toggle_settings_func(self.toggle_settings.isChecked()))
+        self.verSettings.addWidget(self.toggle_settings)
+
+        self.load_settings()
+        self.thredapool = QThreadPool()
+        self.voice = VoiceSpeech()
+        self.lblSpeaker.clicked.connect(self.speaker_on)
+
+    def toggle_settings_func(self, value):
+        set_json_value(name='settings_page', name2='speaker', value=value)
+
     # SETTINGS
+    def load_settings(self):
+        self.toggle_settings.setChecked(
+            get_json_value('settings_page')['speaker'])
+
     def set_len_df_lbl(self, number_of_words: int) -> None:
         self.lblNumerWords.setText(
             f'Number of words: {number_of_words}')
@@ -128,6 +152,10 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         for word, btn in zip([polish_word, random_word_1, random_word_2], buttons):
             btn.setText(word)
 
+    def worker_result(self):
+        print('Finish project')
+        self.speaker = True
+
     # Random words key pressed
     def keyPressEvent(self, e):
         if e.key() == Qt.Key_1:
@@ -140,6 +168,17 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             print("random word")
             self.button_default_stylesheet()
             self.random_word()
+            
+            self.speaker_on()
+
+    def speaker_on(self):
+        text = DataOperations.get_english_word(
+                self.winning_row)
+        if self.speaker:
+                self.worker = Worker(text=text, voice=self.voice)
+                self.speaker = False
+                self.worker.signals.finish.connect(self.worker_result)
+                self.thredapool.start(self.worker)
 
     def button_default_stylesheet(self):
         for btn in self.buttons:
@@ -212,6 +251,11 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
 
     # Buttons setup
     @pyqtSlot()
+    def on_btnTest_clicked(self):
+        self.toggle_settings.setChecked(True)
+        print(f"Btn test ")
+
+    @pyqtSlot()
     def on_btnAddWords_clicked(self):
         for index, row in self.json_df.iterrows():
             self.data.add_new_word(english_word=row.English,
@@ -247,6 +291,10 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.start_time = datetime.today()
         self.set_start_btn(mode='start')
         print("start")
+
+    @pyqtSlot()
+    def on_btnSettings_clicked(self):
+        self.stackedWidget.setCurrentWidget(self.SettingsPage)
 
     @pyqtSlot()
     def on_btnMain_clicked(self):

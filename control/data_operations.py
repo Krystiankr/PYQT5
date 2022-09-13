@@ -13,7 +13,8 @@ class DataOperations:
     def get_polish_word(self, row):
         return row['Polski'].values[0]
 
-    def get_english_word(self, row):
+    @staticmethod
+    def get_english_word(row):
         return row['Angielski'].values[0]
 
     def get_sample_polish(self):
