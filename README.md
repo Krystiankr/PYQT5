@@ -10,6 +10,6 @@ The program includes options such as
 - settings that are saved in the application
 
 Preview of the program
-![](icons/../../icons/random_word.png)
+![](icons/random_word.png)
 
 It's second version of this Random Word application.
