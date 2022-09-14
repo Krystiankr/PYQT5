@@ -11,6 +11,7 @@ from control.json_operations import *
 from control.pd_operations import return_df, transform_df
 from control.data_operations import DataOperations
 from control.toggle import AnimatedToggle
+from control.table_model import TableModel
 from control.Worker import *
 from PyQt5.QtCore import QProcess
 
@@ -49,7 +50,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.data = DataOperations()
         # Btn
         #self.btnStart.clicked.connect(lambda: print("Start btn"))
-        self.speaker = True
+        self.speaker = get_json_value('settings_page')['speaker']
         # Input
         self.txtDisplaySearch.textChanged.connect(
             self.txt_search_input_changed)
@@ -80,8 +81,11 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
 
     def toggle_settings_func(self, value):
         set_json_value(name='settings_page', name2='speaker', value=value)
+        self.speaker = get_json_value('settings_page')['speaker']
+        self.set_status_message(f'Change speaker status: {self.speaker}')
 
     # SETTINGS
+
     def load_settings(self):
         self.toggle_settings.setChecked(
             get_json_value('settings_page')['speaker'])
@@ -112,29 +116,32 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         lista_a = dict(map(lambda x, y: (x, y), range(4), [11, 22, 33, 44]))
         print(lista_a)
 
+    def set_status_message(self, text: str) -> None:
+        self.statusbar.showMessage(text)
+
     def load_last_page_index(self) -> None:
         pages = ["MainPage", "DisplayPage",
                  "StatsPage", "MigratePage"]
         index = get_last_page()
         self.stackedWidget.setCurrentIndex(index)
-        self.statusbar.showMessage(f"Loaded Last page: {pages[index]}")
+        self.set_status_message(f"Loaded Last page: {pages[index]}")
 
     def set_last_page_index(self) -> int:
         pages = ["MainPage", "DisplayPage",
                  "StatsPage", "MigratePage"]
         index = self.current_page_index()
         set_current_page(index)
-        self.statusbar.showMessage(f"Saved Last page: {pages[index]}")
+        self.set_status_message(f"Saved Last page: {pages[index]}")
 
     def load_dimensions(self):
         wymiary = get_dimension()
-        self.statusbar.showMessage(f"Load dimensions from file: {wymiary}")
+        self.set_status_message(f"Load dimensions from file: {wymiary}")
         self.setGeometry(QtCore.QRect(*wymiary))
         print(wymiary)
 
     def save_dimensions(self):
         wymiary = self.frameGeometry().getCoords()
-        self.statusbar.showMessage(f"Save dimensions to file: {wymiary}")
+        self.set_status_message(f"Save dimensions to file: {wymiary}")
         set_dimension(*wymiary)
         # self.setGeometry(QtCore.QRect(*wymiary))
         print("Wymiary")
@@ -151,10 +158,13 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         random.shuffle(buttons)
         for word, btn in zip([polish_word, random_word_1, random_word_2], buttons):
             btn.setText(word)
+        self.speaker_on()
 
     def worker_result(self):
         print('Finish project')
         self.speaker = True
+        self.pix_map(label=self.lblSpeaker,
+                     file_path='icons/Speaker_black.svg')
 
     # Random words key pressed
     def keyPressEvent(self, e):
@@ -164,21 +174,24 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.buttons[1].click()
         if e.key() == Qt.Key_3:
             self.buttons[2].click()
+        if e.key() == Qt.Key_S:
+            self.start_game()
+            self.button_default_stylesheet()
         if e.key() == Qt.Key_R:
             print("random word")
             self.button_default_stylesheet()
             self.random_word()
-            
-            self.speaker_on()
 
     def speaker_on(self):
         text = DataOperations.get_english_word(
-                self.winning_row)
+            self.winning_row)
         if self.speaker:
-                self.worker = Worker(text=text, voice=self.voice)
-                self.speaker = False
-                self.worker.signals.finish.connect(self.worker_result)
-                self.thredapool.start(self.worker)
+            self.pix_map(label=self.lblSpeaker,
+                         file_path='icons/Speaker_gray.svg')
+            self.worker = Worker(text=text, voice=self.voice)
+            self.speaker = False
+            self.worker.signals.finish.connect(self.worker_result)
+            self.thredapool.start(self.worker)
 
     def button_default_stylesheet(self):
         for btn in self.buttons:
@@ -223,8 +236,27 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.set_start_btn(mode='end')
             self.progressBar.setValue(0)
             print(self.tournament_dict)
+            self.lblResult.setText(
+                f"Corrects: {len(self.tournament_dict['corrects'])}, Bads: {len(self.tournament_dict['bads'])}")
+            df_corrects = pd.DataFrame.from_dict(
+                self.tournament_dict['corrects'])
+            df_bads = pd.DataFrame.from_dict(self.tournament_dict['bads'])
+            df_corrects.columns, df_bads.columns = ['corrects'], ['bads']
+            self.tabCorrects.setModel(TableModel(df_corrects, df_type='green'))
+            self.tabBads.setModel(TableModel(df_bads, df_type='red'))
+            # self.tabBads.horizontalHeader().setMinimumSectionSize(2200)
+            self.tabCorrects.horizontalHeader().setSectionResizeMode(
+                0, QtWidgets.QHeaderView.Stretch)
+            self.tabBads.horizontalHeader().setSectionResizeMode(
+                0, QtWidgets.QHeaderView.Stretch)
+
         print(f'value: {value}')
         print(obj)
+
+    def start_game(self):
+        self.start_time = datetime.today()
+        self.set_start_btn(mode='start')
+        print("start")
 
     def set_start_btn(self, mode: str = ''):
         color = "rgb(0,123,255)" if mode == 'end' else "rgb(209,245,255)"
@@ -234,15 +266,17 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             "QPushButton""{""background-color:"+color+";color:rgb(255,255,255)""}")
         self.btnStart.setText(text)
         self.btnStart.setEnabled(mode == 'end')
+        self.random_word()
+
+    def pix_map(self, *, label, file_path: str):
+        pixmap = QPixmap(file_path)
+        label.setPixmap(pixmap)
+        label.setScaledContents(True)
 
     def result_setup(self):
         self.stackedWidget.setCurrentWidget(self.StatsPage)
-        self.lblResult.setText(f"{self.correct_words},\n {self.bad_words}")
         result_time = int((datetime.today() - self.start_time).total_seconds())
         self.btnTimerResult.setText(f'Competition took {result_time} seconds')
-
-    def set_status_message(self, mess: str) -> None:
-        self.statusbar.showMessage(mess)
 
     def refresh_display_page(self):
         self.refresh_df(self.txtDisplaySearch.text())
@@ -286,11 +320,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
     @pyqtSlot()
     def on_btnStart_clicked(self):
         # set scores
-        self.correct_words = [f'good{i}' for i in range(10)]
-        self.bad_words = [f'bad{i}' for i in range(10)]
-        self.start_time = datetime.today()
-        self.set_start_btn(mode='start')
-        print("start")
+        self.start_game()
 
     @pyqtSlot()
     def on_btnSettings_clicked(self):
@@ -324,7 +354,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.tableView_2.setModel(TableModel(self.json_df))
             print(self.txtJSON.toPlainText())
         except Exception:
-            self.statusbar.showMessage("Error with parsing data")
+            self.set_status_message("Error with parsing data")
 
 
 def main():

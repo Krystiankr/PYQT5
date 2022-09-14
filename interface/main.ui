@@ -106,7 +106,7 @@ height: 50px;
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="MainPage">
        <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -131,7 +131,7 @@ height: 50px;
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>C:/Users/Krystian/Pictures/speaker_icon.png</pixmap>
+             <pixmap>../icons/Speaker_Icon.svg</pixmap>
             </property>
             <property name="scaledContents">
              <bool>true</bool>
@@ -234,6 +234,13 @@ height: 50px;
         </item>
         <item>
          <layout class="QVBoxLayout" name="verSettings">
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QPushButton" name="btnTest">
+            <property name="text">
+             <string>btnTest</string>
+            </property>
+           </widget>
+          </item>
           <item>
            <widget class="QLabel" name="label_4">
             <property name="sizePolicy">
@@ -244,20 +251,12 @@ height: 50px;
             </property>
             <property name="font">
              <font>
-              <family>Arial</family>
               <italic>false</italic>
               <underline>false</underline>
              </font>
             </property>
             <property name="text">
              <string>Speaker durning the draw</string>
-            </property>
-           </widget>
-          </item>
-          <item alignment="Qt::AlignHCenter">
-           <widget class="QPushButton" name="btnTest">
-            <property name="text">
-             <string>btnTest</string>
             </property>
            </widget>
           </item>
@@ -309,7 +308,7 @@ height: 50px;
       </widget>
       <widget class="QWidget" name="StatsPage">
        <layout class="QVBoxLayout" name="verticalLayout_5">
-        <item>
+        <item alignment="Qt::AlignTop">
          <widget class="QLabel" name="btnTimerResult">
           <property name="text">
            <string>TextLabel</string>
@@ -322,6 +321,16 @@ height: 50px;
            <string>Stats Page</string>
           </property>
          </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QTableView" name="tabCorrects"/>
+          </item>
+          <item>
+           <widget class="QTableView" name="tabBads"/>
+          </item>
+         </layout>
         </item>
         <item alignment="Qt::AlignBottom">
          <widget class="QTableView" name="tableView_3"/>
