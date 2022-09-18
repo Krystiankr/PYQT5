@@ -63,3 +63,27 @@ def set_json_value(*, name: str, name2: str, value: str) -> None:
     with open(FILE_NAME, 'w') as f:
         json.dump(json_obiekt, f, indent=4)
     return
+
+
+def set_display_value(*, index: int, bool_value: bool) -> None:
+    # 0 - Ang, 1 - Pol, 2 - Feq, 3 - Badly, 4 Perfect
+    columns = ["Angielski", "Polski", "Frequency",
+               "BadlyAnswer", "PerfectScore"]
+    name = columns[index]
+    json_obiekt = ''
+    with open(FILE_NAME, 'r') as f:
+        json_obiekt = json.load(f)
+        json_obiekt['display_columns_configurations'][name] = bool_value
+    with open(FILE_NAME, 'w') as f:
+        json.dump(json_obiekt, f, indent=4)
+    return
+
+
+def get_display_value(index: int) -> str:
+    columns = ["Angielski", "Polski", "Frequency",
+               "BadlyAnswer", "PerfectScore"]
+    name = columns[index]
+    with open('settings.json', 'r') as f:
+        json_obiekt = json.load(f)
+        value = json_obiekt['display_columns_configurations'][name]
+    return value

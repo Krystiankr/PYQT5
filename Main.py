@@ -1,4 +1,5 @@
 
+import enum
 from PyQt5 import QtWidgets, uic, QtCore
 from PyQt5.QtCore import Qt, pyqtSlot
 from interface.table_view import TableModel
@@ -38,6 +39,12 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.actionOptions.triggered.connect(
             lambda: self.grpMenu.setVisible(self.actionOptions.isChecked()))
         self.actionSave_last_page.triggered.connect(self.set_last_page_index)
+        # Set up checkbox
+        self.checkboxs = [self.cbxAngielski, self.cbxPolski,
+                          self.cbxFrequency, self.cbxBadlyAnswer, self.cbxPerfectScore]
+        for index, cbx in enumerate(self.checkboxs):
+            cbx.setObjectName(str(index))
+            cbx.clicked.connect(self.checkbox_display)
         # Set up words buttons
         self.buttons = [self.btnWord1, self.btnWord2,
                         self.btnWord3]
@@ -64,6 +71,8 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.load_last_page_index()
         # Word configurations
         self.tournament_dict = {"corrects": [], "bads": []}
+        self.winning_status = True
+        self.is_game = False
 
         # Toggle setup
         self.toggle_settings = AnimatedToggle(
@@ -75,9 +84,16 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.verSettings.addWidget(self.toggle_settings)
 
         self.load_settings()
+        self.setup_checkbox_display()
         self.thredapool = QThreadPool()
         self.voice = VoiceSpeech()
         self.lblSpeaker.clicked.connect(self.speaker_on)
+
+    def checkbox_display(self):
+        obj_index = int(self.sender().objectName())
+        bool_value = self.checkboxs[obj_index].isChecked()
+        set_display_value(index=obj_index, bool_value=bool_value)
+        print(f'obj clicked: {obj_index} = {bool_value}')
 
     def toggle_settings_func(self, value):
         set_json_value(name='settings_page', name2='speaker', value=value)
@@ -179,8 +195,19 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.button_default_stylesheet()
         if e.key() == Qt.Key_R:
             print("random word")
-            self.button_default_stylesheet()
-            self.random_word()
+            if not self.is_game:
+                self.set_status_message(f'First start the game!')
+                return
+            if self.winning_status:
+                self.button_default_stylesheet()
+                self.random_word()
+                self.winning_status = False
+            else:
+                self.set_status_message(f'Answer the current question first')
+
+    def setup_checkbox_display(self) -> None:
+        for index, cbx in enumerate(self.checkboxs):
+            cbx.setChecked(get_display_value(index))
 
     def speaker_on(self):
         text = DataOperations.get_english_word(
@@ -220,7 +247,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
                 "QPushButton""{""background-color: rgb(40, 179, 90); color : white;""}")
             self.tournament_dict['corrects'].append(
                 str(self.buttons[int(obj)].text()))
-
+            self.winning_status = True
         else:
             self.tournament_dict['bads'].append(
                 str(self.buttons[int(obj)].text()))
@@ -241,7 +268,11 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             df_corrects = pd.DataFrame.from_dict(
                 self.tournament_dict['corrects'])
             df_bads = pd.DataFrame.from_dict(self.tournament_dict['bads'])
-            df_corrects.columns, df_bads.columns = ['corrects'], ['bads']
+            df_corrects.columns, df_bads.columns = ['Polski'], ['Polski']
+            df_corrects['English'] = df_corrects.Polski.apply(
+                lambda x: self.data.get_translation_from_pl(polish_word=x))
+            df_bads['English'] = df_bads.Polski.apply(
+                lambda x: self.data.get_translation_from_pl(polish_word=x))
             self.tabCorrects.setModel(TableModel(df_corrects, df_type='green'))
             self.tabBads.setModel(TableModel(df_bads, df_type='red'))
             # self.tabBads.horizontalHeader().setMinimumSectionSize(2200)
@@ -255,6 +286,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
 
     def start_game(self):
         self.start_time = datetime.today()
+        self.button_default_stylesheet()
         self.set_start_btn(mode='start')
         print("start")
 
@@ -266,6 +298,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             "QPushButton""{""background-color:"+color+";color:rgb(255,255,255)""}")
         self.btnStart.setText(text)
         self.btnStart.setEnabled(mode == 'end')
+        self.is_game = True
         self.random_word()
 
     def pix_map(self, *, label, file_path: str):
@@ -320,6 +353,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
     @pyqtSlot()
     def on_btnStart_clicked(self):
         # set scores
+        self.button_default_stylesheet()
         self.start_game()
 
     @pyqtSlot()
@@ -366,3 +400,26 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+{
+  "dimensions": {
+    "x": 818,
+    "y": 555,
+    "width": 810,
+    "height": 916
+  },
+  "last_page_index": 0,
+  "settings_page": {
+    "speaker": false
+  },
+  "display_columns_configurations": {
+    "Angielski": true,
+    "Polski": true,
+    "Frequency": false,
+    "BadlyAnswer": false,
+    "PerfectScore": false
+  }
+}
+"""

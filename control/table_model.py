@@ -18,13 +18,15 @@ class TableModel(QtCore.QAbstractTableModel):
             return str(value)
 
         if role == Qt.BackgroundColorRole:
+            bgColor = QColor(255, 255, 255)
             if row % 2:
-                # bgColor = QColor(Qt.white)106 57 55
+                bgColor = QColor(Qt.white)
                 if self.df_type == 'green':
                     bgColor = QColor(119, 150, 109)
                 if self.df_type == 'red':
                     bgColor = QColor(53, 13, 17)
             else:
+                bgColor = QColor(206, 206, 206)
                 if self.df_type == 'green':
                     bgColor = QColor(188, 235, 203)
                 if self.df_type == 'red':
@@ -32,6 +34,7 @@ class TableModel(QtCore.QAbstractTableModel):
             return QVariant(QColor(bgColor))
 
         if role == Qt.TextColorRole:
+            bgColor = QColor(0, 0, 0)
             if self.df_type == 'green':
                 bgColor = QColor(0, 0, 0)
             if self.df_type == 'red':

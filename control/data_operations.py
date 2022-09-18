@@ -33,6 +33,9 @@ class DataOperations:
     def english_cointains_word(self, word: str) -> bool:
         return self.df.Angielski.str.contains(word).any()
 
+    def polish_cointains_word(self, word: str) -> bool:
+        return self.df.Polski.str.contains(word).any()
+
     def get_max_index(self) -> int:
         return self.df.index.max()
 
@@ -45,6 +48,10 @@ class DataOperations:
     def get_translation(self, english_word: str) -> str:
         if self.english_cointains_word(english_word):
             return self.df[self.df.Angielski.str.contains(english_word)].Polski.values[0]
+
+    def get_translation_from_pl(self, polish_word: str) -> str:
+        if self.polish_cointains_word(polish_word):
+            return self.df[self.df.Polski.str.contains(polish_word)].Angielski.values[0]
 
     def add_new_word(self, *, english_word, polish_word):
         if not self.english_cointains_word(english_word):

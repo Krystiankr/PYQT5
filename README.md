@@ -10,6 +10,7 @@ The program includes options such as
 - settings that are saved in the application
 
 Preview of the program
+<br>
 <img src="icons/random_word.png" width="200">
 
 It's second version of this Random Word application.
