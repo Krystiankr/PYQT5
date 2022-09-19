@@ -26,6 +26,9 @@ class DataOperations:
     def get_df(self):
         return self.df
 
+    def df_len(self):
+        return len(self.df)
+
     @staticmethod
     def get_numm_words_from_tmp_df(df: pd.DataFrame) -> int:
         return len(df)
@@ -66,3 +69,9 @@ class DataOperations:
 
     def reload_df(self) -> None:
         self.df = pd.read_csv(FILEPATH, encoding='utf8')
+
+    def get_english_index(self, english_word: str) -> int:
+        return list(self.df[self.df.Angielski.str.contains(english_word)].Polski.index)[0]
+
+    def increase_frequency(self, index: int) -> None:
+        self.df.at[index, 'Frequency'] += 1

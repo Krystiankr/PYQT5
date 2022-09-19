@@ -11,6 +11,6 @@ The program includes options such as
 
 Preview of the program
 <br>
-<img src="icons/random_word.png" width="200">
+<img src="icons/random_word.png" width="300">
 
 It's second version of this Random Word application.

@@ -26,14 +26,14 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.setupUi(self)
         # Action setup
         self.actionDisplay_words.triggered.connect(lambda:
-                                                   self.stackedWidget.setCurrentWidget(self.DisplayPage))
+                                                   self.interface_pages_redirecting('DisplayPage'))
         self.actionMain.triggered.connect(lambda:
-                                          self.stackedWidget.setCurrentWidget(self.MainPage))
+                                          self.interface_pages_redirecting('MainPage'))
         self.actionMigrate_Words.triggered.connect(lambda:
-                                                   self.stackedWidget.setCurrentWidget(self.MigratePage))
+                                                   self.interface_pages_redirecting('MigratePage'))
 
         self.actionStatystyki.triggered.connect(lambda:
-                                                self.stackedWidget.setCurrentWidget(self.StatsPage))
+                                                self.interface_pages_redirecting('StatsPage'))
         self.actionSave_cords.triggered.connect(self.save_dimensions)
         self.actionLoad_cords.triggered.connect(self.load_dimensions)
         self.actionOptions.triggered.connect(
@@ -56,7 +56,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         ####
         self.data = DataOperations()
         # Btn
-        #self.btnStart.clicked.connect(lambda: print("Start btn"))
+        # self.btnStart.clicked.connect(lambda: print("Start btn"))
         self.speaker = get_json_value('settings_page')['speaker']
         # Input
         self.txtDisplaySearch.textChanged.connect(
@@ -190,6 +190,8 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.buttons[1].click()
         if e.key() == Qt.Key_3:
             self.buttons[2].click()
+        if e.key() == Qt.Key_4:
+            self.speaker_on()
         if e.key() == Qt.Key_S:
             self.start_game()
             self.button_default_stylesheet()
@@ -232,6 +234,16 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             # btn.setStyleSheet(
             #     "QPushButton""{""background-color : rgb(66, 189, 255);""}")
 
+    def refresh_progress_bar_stats(self):
+        df_len = self.data.df_len()
+        freq_val = len(self.data.df[self.data.df.Frequency ==
+                                    self.data.df.Frequency.min()])
+        meter = (df_len - freq_val) * 100
+        denominator = df_len
+        update_val = meter / denominator
+        self.progStats.setValue(update_val)
+        self.lblProgressBar.setText(f'{freq_val}/{denominator}')
+
     # Btn configurations
     def btn_random_word(self):
         # background-color: rgb(66, 189, 255);
@@ -248,6 +260,8 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.tournament_dict['corrects'].append(
                 str(self.buttons[int(obj)].text()))
             self.winning_status = True
+            index = self.winning_row.index.values[0]
+            self.data.increase_frequency(index)
         else:
             self.tournament_dict['bads'].append(
                 str(self.buttons[int(obj)].text()))
@@ -316,22 +330,38 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.set_len_df_lbl(
             self.data.get_num_all_words())
 
+    # interface pages
+    def interface_pages_redirecting(self, page_name: str):
+        if page_name == 'DisplayPage':
+            self.stackedWidget.setCurrentWidget(self.DisplayPage)
+        if page_name == 'SettingsPage':
+            self.stackedWidget.setCurrentWidget(self.SettingsPage)
+        if page_name == 'StatsPage':
+            self.refresh_progress_bar_stats()
+            self.stackedWidget.setCurrentWidget(self.StatsPage)
+        if page_name == 'MigratePage':
+            self.stackedWidget.setCurrentWidget(self.MigratePage)
+        if page_name == 'MainPage':
+            self.stackedWidget.setCurrentWidget(self.MainPage)
+
     # Buttons setup
-    @pyqtSlot()
+
+    @ pyqtSlot()
     def on_btnTest_clicked(self):
         self.toggle_settings.setChecked(True)
         print(f"Btn test ")
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnAddWords_clicked(self):
         for index, row in self.json_df.iterrows():
             self.data.add_new_word(english_word=row.English,
                                    polish_word=row.Polish)
         self.refresh_display_page()
-        self.stackedWidget.setCurrentWidget(self.DisplayPage)
+        self.interface_pages_redirecting('DisplayPage')
+
         self.set_status_message(f'Added {len(self.json_df)} words.')
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnAddWord_clicked(self):
         english_word, polish_word = self.txtEnglishWord.text(
         ), self.txtPolishWord.text()
@@ -342,41 +372,41 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
                                           polish_word=polish_word)
             if mess.startswith('Added new word'):
                 self.refresh_display_page()
-            self.stackedWidget.setCurrentWidget(self.DisplayPage)
+            self.interface_pages_redirecting('DisplayPage')
             self.set_status_message(mess)
-        #print(f'add word clicked! {english_word} {polish_word}')
+        # print(f'add word clicked! {english_word} {polish_word}')
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnRandom_clicked(self):
         self.random_word()
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnStart_clicked(self):
         # set scores
         self.button_default_stylesheet()
         self.start_game()
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnSettings_clicked(self):
-        self.stackedWidget.setCurrentWidget(self.SettingsPage)
+        self.interface_pages_redirecting('SettingsPage')
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnMain_clicked(self):
-        self.stackedWidget.setCurrentWidget(self.MainPage)
+        self.interface_pages_redirecting('MainPage')
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnDisplay_clicked(self):
-        self.stackedWidget.setCurrentWidget(self.DisplayPage)
+        self.interface_pages_redirecting('DisplayPage')
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnMigrate_clicked(self):
-        self.stackedWidget.setCurrentWidget(self.MigratePage)
+        self.interface_pages_redirecting('MigratePage')
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnStats_clicked(self):
-        self.stackedWidget.setCurrentWidget(self.StatsPage)
+        self.interface_pages_redirecting('StatsPage')
 
-    @pyqtSlot()
+    @ pyqtSlot()
     def on_btnLoadJson_clicked(self):
         print("Load JSON!")
         try:
