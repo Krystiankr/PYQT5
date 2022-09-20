@@ -1,323 +1,469 @@
+
+import enum
+from PyQt5 import QtWidgets, uic, QtCore
+from PyQt5.QtCore import Qt, pyqtSlot
+from interface.table_view import TableModel
 import sys
+import json
+import pandas as pd
+import random
 from datetime import datetime
-from random import shuffle
+from control.json_operations import *
+from control.pd_operations import return_df, transform_df
+from control.data_operations import DataOperations
+from control.toggle import AnimatedToggle
+from control.table_model import TableModel
+from control.Worker import *
+from PyQt5.QtCore import QProcess
 
-from interface_files.Dialog import Ui_Dialog
-from interface_files.MainWindow import Ui_MainWindow
-from control_files.Voice import voice_speech
-from control_files.Graph import Graph
-
-from PyQt5 import QtCore, QtWidgets
-from control_files.Data import Data
-from control_files.File_IO import File
-from PyQt5.QtWidgets import QLabel, QAction
-from PyQt5.QtGui import QIcon, QPixmap
+main_dialog = uic.loadUiType("interface/main.ui")[0]
 
 
-class MainWindow(QtWidgets.QMainWindow):
-    def __init__(self):
-        super().__init__()
+class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
+    def __init__(self, parent=None):
+        QtWidgets.QMainWindow.__init__(self, parent)
+        ############ CONFIGURATIONS ############
+        self.setupUi(self)
+        # Action setup
+        self.actionDisplay_words.triggered.connect(lambda:
+                                                   self.interface_pages_redirecting('DisplayPage'))
+        self.actionMain.triggered.connect(lambda:
+                                          self.interface_pages_redirecting('MainPage'))
+        self.actionMigrate_Words.triggered.connect(lambda:
+                                                   self.interface_pages_redirecting('MigratePage'))
 
-        # using the interface made
-        self.ui = Ui_MainWindow()
-        self.ui.setupUi(self)
-        self.ui.add_new_word.clicked.connect(self.open_dialog_window)
+        self.actionStatystyki.triggered.connect(lambda:
+                                                self.interface_pages_redirecting('StatsPage'))
+        self.actionInformation_page.triggered.connect(lambda:
+                                                      self.interface_pages_redirecting('InformationPage'))
+        self.actionSave_cords.triggered.connect(self.save_dimensions)
+        self.actionLoad_cords.triggered.connect(self.load_dimensions)
+        self.actionOptions.triggered.connect(
+            lambda: self.grpMenu.setVisible(self.actionOptions.isChecked()))
+        self.actionSave_last_page.triggered.connect(self.set_last_page_index)
+        # Settings
+        self.spnQLabel.valueChanged.connect(lambda x: self.spin_font(x))
 
-        # dialog window for adding new word
-        self.Dialog = QtWidgets.QDialog()
-        self.dialog = Ui_Dialog()
-        self.dialog.setupUi(self.Dialog)
-        self.dialog.buttonBox.accepted.connect(self.new_word)
+        # Set up checkbox
+        self.checkboxs = [self.cbxAngielski, self.cbxPolski,
+                          self.cbxFrequency, self.cbxBadlyAnswer, self.cbxPerfectScore]
+        for index, cbx in enumerate(self.checkboxs):
+            cbx.setObjectName(str(index))
+            cbx.clicked.connect(self.checkbox_display)
+        # Set up words buttons
+        self.buttons = [self.btnWord1, self.btnWord2,
+                        self.btnWord3]
+        for index, btn in enumerate(self.buttons):
+            btn.clicked.connect(self.btn_random_word)
+            btn.setObjectName(str(index))
+        self.buttons_disable_all()
 
-        # adding configuration of answering calls from the button
-        self.ui.random_button.clicked.connect(self.change_text_main)
-        self.ui.cbutton1.clicked.connect(lambda: self.polish_button_clicked(self.ui.cbutton1))
-        self.ui.cbutton2.clicked.connect(lambda: self.polish_button_clicked(self.ui.cbutton2))
-        self.ui.cbutton3.clicked.connect(lambda: self.polish_button_clicked(self.ui.cbutton3))
-        self.ui.save_button.clicked.connect(self.save_button)
-        self.ui.reset_button.clicked.connect(self.reset_button)
+        ####
+        self.data = DataOperations()
+        # Btn
+        # self.btnStart.clicked.connect(lambda: print("Start btn"))
+        self.speaker = get_json_value('settings_page')['speaker']
+        # Input
+        self.txtDisplaySearch.textChanged.connect(
+            self.txt_search_input_changed)
+        # DataFrame setup
+        self.set_table_model(self.data.get_df())
+        # self.lblNumerWords.setText(
+        #     f'Number of words: {self.data.get_num_all_words()}')
+        self.set_len_df_lbl(self.data.get_num_all_words())
+        # Another
+        self.load_dimensions()
+        self.load_last_page_index()
+        # Word configurations
+        self.tournament_dict = {"corrects": [], "bads": []}
+        self.winning_status = True
+        self.is_game = False
 
-        # Status bar
-        self.bar_label = QLabel("Welcome")
-        self.statusBar().setStyleSheet(
-            "QLabel{font-weight:bold;color:grey}QStatusBar{border :1px solid gray;padding-left:8px;background:rgba(0,0,0,0);color:black;font-weight:bold;}")
-        self.statusBar().addPermanentWidget(self.bar_label)
+        # Toggle setup
+        self.toggle_settings = AnimatedToggle(
+            checked_color="#FFB000",
+            pulse_checked_color="#44FFB000"
+        )
+        self.toggle_settings.clicked.connect(
+            lambda: self.toggle_settings_func(self.toggle_settings.isChecked()))
+        self.verSettings.addWidget(self.toggle_settings)
 
-        # a class that deals with pandas df
-        self.df_data = Data()
-        self.ui.number_of_words.setText(str(self.df_data.len_df()))
-        self.update_rand()
+        self.load_settings()
+        self.setup_checkbox_display()
+        self.thredapool = QThreadPool()
+        self.voice = VoiceSpeech()
+        self.lblSpeaker.clicked.connect(self.speaker_on)
 
-        # voice speaker class
-        self.speak = voice_speech()
-        # self.ui.pronunciation_button.clicked.connect(lambda: self.speak.text(self.ui.random_word.text()))
-        self.ui.pronunciation_button.clicked.connect(lambda: self.reading_word(self.ui.random_word.text()))
+    def spin_font(self, a=''):
+        self.centralwidget.setStyleSheet(f"QLabel""{""font : {a}pt;""}")
+        print(f'Spin changed to c: {a}')
 
-        self.load_scores()
+    def checkbox_display(self):
+        obj_index = int(self.sender().objectName())
+        bool_value = self.checkboxs[obj_index].isChecked()
+        set_display_value(index=obj_index, bool_value=bool_value)
+        print(f'obj clicked: {obj_index} = {bool_value}')
 
-        def line_edit(line, btn):
-            line.setEnabled(True)
-            self.new_choice = [line, btn]
+    def toggle_settings_func(self, value):
+        set_json_value(name='settings_page', name2='speaker', value=value)
+        self.speaker = get_json_value('settings_page')['speaker']
+        self.set_status_message(f'Change speaker status: {self.speaker}')
 
-        # intercepts the signal from the right pushbutton
-        self.ui.cbutton1.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
-        self.ui.cbutton1.customContextMenuRequested.connect(lambda: line_edit(self.ui.edit_c1, self.ui.cbutton1))
-        self.ui.cbutton2.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
-        self.ui.cbutton2.customContextMenuRequested.connect(lambda: line_edit(self.ui.edit_c2, self.ui.cbutton2))
-        self.ui.cbutton3.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
-        self.ui.cbutton3.customContextMenuRequested.connect(lambda: line_edit(self.ui.edit_c3, self.ui.cbutton3))
-        self.ui.random_button.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
-        self.ui.random_button.customContextMenuRequested.connect(self.copy_eng_word)
+    # SETTINGS
 
-        # save streak
-        self.ui.save_word.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
-        self.ui.save_word.customContextMenuRequested.connect(self.test)
-        self.ui.save_button.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
-        self.ui.save_button.customContextMenuRequested.connect(self.to_file)
+    def load_settings(self):
+        self.toggle_settings.setChecked(
+            get_json_value('settings_page')['speaker'])
 
-        self.new_choice = None
-        self.ui.save_word.clicked.connect(self.line_edit_disable)
+    def set_len_df_lbl(self, number_of_words: int) -> None:
+        self.lblNumerWords.setText(
+            f'Number of words: {number_of_words}')
 
-        # init streak
-        self.tmp_file = File()
-        self.strike_max = self.tmp_file.return_strike()
-        print("Strike =", self.strike_max)
-        self.ui.strike_main.setText(str(self.strike_max))
-        self.streak_choice = "correct"
-        self.tmp_file.close()
-        self.record = None
+    def set_table_model(self, _df: pd.DataFrame):
+        self.tableView.setModel(TableModel(_df))
 
-        # init graph
-        self.graph = None
+    def refresh_df(self, text: str):
+        tmp_df = transform_df(self.data.get_df(), text)
+        self.set_table_model(tmp_df)
+        return tmp_df
 
-        self.init_graph()
+    def txt_search_input_changed(self):
+        tmp_df = self.refresh_df(self.txtDisplaySearch.text())
+        self.set_len_df_lbl(DataOperations.get_numm_words_from_tmp_df(tmp_df))
+        print(self.txtDisplaySearch.text())
 
-        # add action to menu bar
-        self.ui.actionGraph.triggered.connect(self.init_graph)
-        #self.ui.actionSave_Graph.triggered.connect(self.save_graph)
+    def current_page_index(self) -> int:
+        return self.stackedWidget.currentIndex()
 
-        # setting icons for buttons
-        self.ui.save_button.setIcon(QIcon("images/disk-black.png"))
-        self.ui.save_word.setIcon(QIcon("images/disk-black.png"))
-        self.ui.add_new_word.setIcon(QIcon("images/plus.png"))
-        self.ui.reset_button.setIcon(QIcon("images/arrow-circle.png"))
-        self.ui.random_button.setIcon(QIcon("images/playing-card.png"))
-        self.ui.pronunciation_button.setIcon(QIcon("images/speaker.png"))
-        self.ui.actionSave_Graph.setIcon(QIcon("images/image--arrow.png"))
+    def save_last_page(self):
+        pages = [self.MainPage, self.DisplayPage,
+                 self.StatsPage, self.MigratePage]
+        lista_a = dict(map(lambda x, y: (x, y), range(4), [11, 22, 33, 44]))
+        print(lista_a)
 
-    # def save_graph(self):
-    #     p = QPixmap.grabWindow(self.ui.verticalLayout_2.winId())
-    #     p.save('123.png', 'png')
-    #
-    # def save_graph2(self):
-    #     self.save_graph()
+    def set_status_message(self, text: str) -> None:
+        self.statusbar.showMessage(text)
 
-    def init_graph(self):
-        self.graph = Graph()
+    def load_last_page_index(self) -> None:
+        pages = ["MainPage", "DisplayPage",
+                 "StatsPage", "MigratePage"]
+        index = get_last_page()
+        self.stackedWidget.setCurrentIndex(index)
+        self.set_status_message(f"Loaded Last page: {pages[index]}")
 
-        # add graph to horizontal3
-        self.ui.stackedWidget.addWidget(self.graph.return_canvas())
-        self.ui.stackedWidget.setCurrentWidget(self.graph.return_canvas())
-      #  self.ui.horizontalLayout_3.addWidget(self.graph.return_canvas())
+    def set_last_page_index(self) -> int:
+        pages = ["MainPage", "DisplayPage",
+                 "StatsPage", "MigratePage"]
+        index = self.current_page_index()
+        set_current_page(index)
+        self.set_status_message(f"Saved Last page: {pages[index]}")
 
-    def to_file(self):
-        print("to file")
-        f = File("a+", "control_files/Log.txt")
-        now = datetime.now()
-        today = now.strftime("%d/%m/%Y %H:%M:%S")
-        print(f"{today}+\n+{self.strike_max}")
-        f.write_end("")
-        f.write_end(f"Date: {today} Number of words: {self.ui.number_of_words.text()}")
-        f.write_end(f"Date: {today} Correctly:{self.ui.correctly_main.text()}")
-        f.write_end(f"Date: {today} Badly:{self.ui.badly_main.text()}")
-        f.write_end(f"Date: {today} Max Strike: {self.strike_max}")
-        f.close()
-        self.bar_change_text("update log file")
+    def load_dimensions(self):
+        wymiary = get_dimension()
+        self.set_status_message(f"Load dimensions from file: {wymiary}")
+        self.setGeometry(QtCore.QRect(*wymiary))
+        print(wymiary)
 
-    def bar_change_text(self, text):
-        self.bar_label.setText(text)
+    def save_dimensions(self):
+        wymiary = self.frameGeometry().getCoords()
+        self.set_status_message(f"Save dimensions to file: {wymiary}")
+        set_dimension(*wymiary)
+        # self.setGeometry(QtCore.QRect(*wymiary))
+        print("Wymiary")
+        print(wymiary)
 
-    def reading_word(self, word):
-        if self.ui.pronunciation_checkbox.isChecked():
-            self.speak.text(word)
-        else:
-            print("Pronunciation is disable")
-        self.bar_change_text("clicked pronunciation")
+    def random_word(self):
+        self.winning_row = self.data.sample_row()
+        english_word = self.data.get_english_word(self.winning_row)
+        polish_word = self.data.get_polish_word(self.winning_row)
+        random_word_1, random_word_2 = self.data.get_sample_polish(
+        ), self.data.get_sample_polish()
+        buttons = self.buttons.copy()
+        self.lblMainWord.setText(english_word)
+        random.shuffle(buttons)
+        for word, btn in zip([polish_word, random_word_1, random_word_2], buttons):
+            btn.setText(word)
+        self.speaker_on()
 
-    def copy_eng_word(self):
-        print(self.ui.random_word.text())
+    def worker_result(self):
+        print('Finish project')
+        self.speaker = True
+        self.pix_map(label=self.lblSpeaker,
+                     file_path='icons/Speaker_black.svg')
 
-    def new_word(self):
-        add = self.df_data.add_new_word(self.dialog.angielski.text(), self.dialog.polski.text())
-        print(add)
-        #self.reading_word(add)
-        self.reload_df()
-        #self.df_data = Data()
-        self.bar_change_text(add)
+    # Random words key pressed
+    def keyPressEvent(self, e):
+        if e.key() == Qt.Key_1:
+            self.buttons[0].click()
+        if e.key() == Qt.Key_2:
+            self.buttons[1].click()
+        if e.key() == Qt.Key_3:
+            self.buttons[2].click()
+        if e.key() == Qt.Key_4:
+            self.speaker_on()
+        if e.key() == Qt.Key_P:
+            self.centralwidget.setStyleSheet(
+                "QLabel""{""font : 3pt;""}")
+        if e.key() == Qt.Key_S:
+            self.start_game()
+            self.button_default_stylesheet()
+        if e.key() == Qt.Key_R:
+            print("random word")
+            self.button_default_stylesheet()
+            if not self.is_game:
+                self.set_status_message(f'First start the game!')
+                return
+            if self.winning_status:
+                self.button_default_stylesheet()
+                self.random_word()
+                self.winning_status = False
+            else:
+                self.set_status_message(f'Answer the current question first')
 
-    def reload_df(self):
-        self.ui.number_of_words.setText(str(self.df_data.len_df()))
+    def setup_checkbox_display(self) -> None:
+        for index, cbx in enumerate(self.checkboxs):
+            cbx.setChecked(get_display_value(index))
 
-    def open_dialog_window(self):
-        self.Dialog.exec_()
-        self.dialog.angielski.setText("")
-        self.dialog.polski.setText("")
-
-    def update_rand(self):
-        self.ui.random_w.setText(str(self.df_data.len_random()))
-        number_all = int(self.ui.number_of_words.text())
-        number_need = number_all-int(self.ui.random_w.text())
-        new_value = (100*number_need)//number_all
-        self.ui.progressBar.setValue(new_value)
-
-    def line_edit_disable(self):
-        self.ui.edit_c1.setEnabled(False)
-        self.ui.edit_c2.setEnabled(False)
-        self.ui.edit_c3.setEnabled(False)
-        self.update_new_word()
-
-    def update_new_word(self):# ??need change this name
-        if self.new_choice is not None:
-            try:
-                df = self.df_data.df_return()
-                stare = df[self.df_data.ret_pol(df) == self.new_choice[1].text()].index[0]
-                df.at[stare, 'Polski'] = self.new_choice[0].text()
-                self.new_choice[1].setText(self.new_choice[0].text())
-                self.new_choice = None
-                print("Successfully update")
-                self.bar_change_text("Update word")
-            except Exception:
-                print("Update failed")
-
-    def change_text_main(self):
-        def change_text_in_label(btn, text):
-            btn.setText(text)
-
-        self.line_edit_disable()
-        self.button_default_stylesheet()
-        self.button_set_enabled(True)
-
-        sample_row = self.df_data.sample_row()
-        change_text_in_label(self.ui.random_word, self.df_data.return_english_word_from_row(sample_row))
-
-        # create dictes and shuffle their elements
-        button_dict = [self.ui.cbutton1, self.ui.cbutton2, self.ui.cbutton3]
-        edit_dict = [self.ui.edit_c1, self.ui.edit_c2, self.ui.edit_c3]
-        pack = list(zip(button_dict, edit_dict))
-        shuffle(pack)
-        button_dict, edit_dict = zip(*pack)
-
-        # enters the randomly selected words into the pushbutton
-        texts = [sample_row, self.df_data.sample_row(), self.df_data.sample_row()]
-        for button, text, ed in zip(button_dict, texts, edit_dict):
-            text_t = self.df_data.return_polish_word_from_row(text)
-            change_text_in_label(button, text_t)
-            change_text_in_label(ed, text_t)
-        #self.reading_word(self.ui.random_word.text())
-        self.bar_change_text("Random a word")
-        self.ui.random_button.setEnabled(False)
-
-    def polish_button_clicked(self, btn): # temporary stats
-        df = self.df_data.df_random_return()
-        print(self.ui.random_word.text(), " + ", df[df['Polski'] == btn.text()]['Angielski'].any())
-        if self.ui.random_word.text() in df[df['Polski'] == btn.text()]['Angielski'].values:
-            self.df_data.increase_frequency(self.ui.random_word.text())
-            new_number = int(self.ui.correctly.text()) + 1
-            self.ui.correctly.setText(str(new_number))
-            self.button_set_enabled(False)
-            btn.setStyleSheet("QPushButton""{""background-color: rgb(14, 217, 0); color : green;""}")
-            self.update_rand()
-            self.streak("correct")
-            self.ui.random_button.setEnabled(True)
-            if self.graph:
-                self.graph.add_item(1)
-        else:
-            self.df_data.increaseBadlyAnswer(self.ui.random_word.text())
-            new_number = int(self.ui.badly.text()) + 1
-            self.ui.badly.setText(str(new_number))
-            btn.setEnabled(False)
-            btn.setStyleSheet("QPushButton""{""background-color : rgb(167, 12, 20);""}")
-            self.streak("baddly")
-            if self.graph:
-                self.graph.add_item(-1)
-
-    def streak(self, w_l):
-        if w_l == "correct" and self.streak_choice == "correct":
-            self.ui.streak_num.setText(str(int(self.ui.streak_num.text())+1))
-        elif w_l == "correct" and self.streak_choice == "baddly":
-            self.ui.streak_num.setText("1")
-        else:
-            self.ui.streak_num.setText("0")
-        self.streak_choice = w_l
-        if int(self.ui.streak_num.text()) > self.strike_max:
-            self.strike_max = int(self.ui.streak_num.text())
-            self.bar_change_text("New streak!")
-        if int(self.ui.streak_num.text()) > 0:
-            self.ui.streak_num.setStyleSheet("QLabel{color: darkgreen;}")
-            self.ui.streak_name.setStyleSheet("QLabel{color: darkgreen;}")
-        else:
-            self.ui.streak_num.setStyleSheet("QLabel{color: dark;}")
-            self.ui.streak_name.setStyleSheet("QLabel{color: dark;}")
-
-    def test(self):
-        print("test")
-
-    def button_set_enabled(self, bool_tmp):
-        self.ui.cbutton1.setEnabled(bool_tmp)
-        self.ui.cbutton2.setEnabled(bool_tmp)
-        self.ui.cbutton3.setEnabled(bool_tmp)
+    def speaker_on(self):
+        text = DataOperations.get_english_word(
+            self.winning_row)
+        if self.speaker:
+            self.pix_map(label=self.lblSpeaker,
+                         file_path='icons/Speaker_gray.svg')
+            self.worker = Worker(text=text, voice=self.voice)
+            self.speaker = False
+            self.worker.signals.finish.connect(self.worker_result)
+            self.thredapool.start(self.worker)
 
     def button_default_stylesheet(self):
-        self.ui.cbutton1.setStyleSheet("QPushButton""{""background-color : None;""}")
-        self.ui.cbutton2.setStyleSheet("QPushButton""{""background-color : None;""}")
-        self.ui.cbutton3.setStyleSheet("QPushButton""{""background-color : None;""}")
+        for btn in self.buttons:
+            btn.setEnabled(True)
+            btn.setStyleSheet(
+                "QPushButton""{""background-color : rgb(0, 123, 255);""}")
 
-    def save_button(self):
-        self.df_data.df_return().to_csv('control_files/Data.csv', index=False, encoding='utf-8-sig')
-        print("save")
-        f = File()
-        scores = f.return_lines()
-        correct = int(scores[0][10:-1])+int(self.ui.correctly.text())
-        bad = int(scores[1][6:])+int(self.ui.badly.text())
-        strike = self.strike_max
+    def buttons_disable_all(self):
+        for btn in self.buttons:
+            btn.setEnabled(False)
 
-        scores = [f"correctly: {correct}\n", f"badly: {bad}\nMax_strike: {strike}"]
+    def refresh_progress_bar_stats(self):
+        df_len = self.data.df_len()
+        freq_val = len(self.data.df[self.data.df.Frequency ==
+                                    self.data.df.Frequency.min()])
+        meter = (df_len - freq_val) * 100
+        denominator = df_len
+        update_val = meter / denominator
+        self.progStats.setValue(update_val)
+        self.lblProgressBar.setText(f'{freq_val}/{denominator}')
 
-        f = File("w")
-        f.write_lines(scores)
-        f.close()
-        #self.reading_word("successfully saved")
-        self.reset_button()
-        self.load_scores()
-        self.bar_change_text("Save changes")
+    # Btn configurations
+    def btn_random_word(self):
+        # background-color: rgb(66, 189, 255);
+        obj = self.sender().objectName()
+        self.buttons[int(obj)].setStyleSheet(
+            "QPushButton""{""background-color: rgb(66, 189, 255); color : white;""}")
+        self.buttons[int(obj)].setEnabled(False)
 
-    def reset_button(self):
-        print("reset")
-        #.reading_word("reset")
-        self.df_data.reset_df()
-        self.update_rand()
-        self.ui.number_of_words.setText(str(self.df_data.len_df()))
-        self.ui.correctly.setText(str(0))
-        self.ui.badly.setText(str(0))
-        self.change_text_main()
-        self.ui.strike_main.setText(str(self.strike_max))
-        self.ui.random_button.setEnabled(True)
-        self.bar_change_text("Reset")
+        print(f'Button: {self.buttons[int(obj)].text()}')
+        print(f'Win: {str(self.winning_row["Polski"])}')
+        if str(self.buttons[int(obj)].text()) in str(self.winning_row["Polski"]):
+            self.buttons_disable_all()
+            self.buttons[int(obj)].setStyleSheet(
+                "QPushButton""{""background-color: rgb(40, 179, 90); color : white;""}")
+            self.tournament_dict['corrects'].append(
+                str(self.buttons[int(obj)].text()))
+            self.winning_status = True
+            index = self.winning_row.index.values[0]
+            self.data.increase_frequency(index)
+        else:
+            self.tournament_dict['bads'].append(
+                str(self.buttons[int(obj)].text()))
+            self.buttons[int(obj)].setStyleSheet(
+                "QPushButton""{""background-color: rgb(220, 237, 255); color : black;""}")
+        self.buttons[int(obj)].setEnabled(False)
 
-    def load_scores(self): # main stats
-        with open("control_files/Scores.txt", "r") as f:
-            scores = f.readlines()
-            self.ui.correctly_main.setText(scores[0][10:-1])
-            self.ui.badly_main.setText(scores[1][6:-1])
-            self.ui.badly_main.setStyleSheet("QLabel""{""color: rgb(153, 29, 29); font-family : SimSun-ExtB;""}")
-            self.ui.correctly_main.setStyleSheet("QLabel""{""color: rgb(60, 163, 44); font-family : SimSun-ExtB;""}")
-        f.close()
-        self.bar_change_text("Load scores")
-        return scores
+        print(f'Winning: {self.winning_row["Polski"]}')
+        value = self.progressBar.value() + 10
+        self.progressBar.setValue(value)
+        if value == 100:
+            self.result_setup()
+            self.set_start_btn(mode='end')
+            self.progressBar.setValue(0)
+            print(self.tournament_dict)
+            self.lblResult.setText(
+                f"Corrects: {len(self.tournament_dict['corrects'])}, Bads: {len(self.tournament_dict['bads'])}")
+            df_corrects = pd.DataFrame.from_dict(
+                self.tournament_dict['corrects'])
+            df_bads = pd.DataFrame.from_dict(self.tournament_dict['bads'])
+            df_corrects.columns, df_bads.columns = ['Polski'], ['Polski']
+            df_corrects['English'] = df_corrects.Polski.apply(
+                lambda x: self.data.get_translation_from_pl(polish_word=x))
+            df_bads['English'] = df_bads.Polski.apply(
+                lambda x: self.data.get_translation_from_pl(polish_word=x))
+            self.tabCorrects.setModel(TableModel(df_corrects, df_type='green'))
+            self.tabBads.setModel(TableModel(df_bads, df_type='red'))
+            # self.tabBads.horizontalHeader().setMinimumSectionSize(2200)
+            self.tabCorrects.horizontalHeader().setSectionResizeMode(
+                0, QtWidgets.QHeaderView.Stretch)
+            self.tabBads.horizontalHeader().setSectionResizeMode(
+                0, QtWidgets.QHeaderView.Stretch)
+
+        print(f'value: {value}')
+        print(obj)
+
+    def start_game(self):
+        self.start_time = datetime.today()
+        self.button_default_stylesheet()
+        self.set_start_btn(mode='start')
+        print("start")
+
+    def set_start_btn(self, mode: str = ''):
+        color = "rgb(0,123,255)" if mode == 'end' else "rgb(209,245,255)"
+        text = "Start" if mode == 'end' else "In game..."
+        print(f"Change to: {mode} color: {color}")
+        self.btnStart.setStyleSheet(
+            "QPushButton""{""background-color:"+color+";color:rgb(255,255,255)""}")
+        self.btnStart.setText(text)
+        self.btnStart.setEnabled(mode == 'end')
+        self.is_game = True
+        self.random_word()
+
+    def pix_map(self, *, label, file_path: str):
+        pixmap = QPixmap(file_path)
+        label.setPixmap(pixmap)
+        label.setScaledContents(True)
+
+    def result_setup(self):
+        self.interface_pages_redirecting('StatsPage')
+        result_time = int((datetime.today() - self.start_time).total_seconds())
+        self.btnTimerResult.setText(f'Competition took {result_time} seconds')
+
+    def refresh_display_page(self):
+        self.refresh_df(self.txtDisplaySearch.text())
+        self.set_len_df_lbl(
+            self.data.get_num_all_words())
+
+    # interface pages
+    def interface_pages_redirecting(self, page_name: str):
+        if page_name == 'DisplayPage':
+            self.stackedWidget.setCurrentWidget(self.DisplayPage)
+        if page_name == 'SettingsPage':
+            self.stackedWidget.setCurrentWidget(self.SettingsPage)
+        if page_name == 'StatsPage':
+            self.refresh_progress_bar_stats()
+            self.stackedWidget.setCurrentWidget(self.StatsPage)
+        if page_name == 'MigratePage':
+            self.stackedWidget.setCurrentWidget(self.MigratePage)
+        if page_name == 'MainPage':
+            self.stackedWidget.setCurrentWidget(self.MainPage)
+        if page_name == 'InformationPage':
+            self.stackedWidget.setCurrentWidget(self.InformationPage)
+
+    # Buttons setup
+
+    @ pyqtSlot()
+    def on_btnTest_clicked(self):
+        self.toggle_settings.setChecked(True)
+        print(f"Btn test ")
+
+    @ pyqtSlot()
+    def on_btnAddWords_clicked(self):
+        for index, row in self.json_df.iterrows():
+            self.data.add_new_word(english_word=row.English,
+                                   polish_word=row.Polish)
+        self.refresh_display_page()
+        self.interface_pages_redirecting('DisplayPage')
+
+        self.set_status_message(f'Added {len(self.json_df)} words.')
+
+    @ pyqtSlot()
+    def on_btnAddWord_clicked(self):
+        english_word, polish_word = self.txtEnglishWord.text(
+        ), self.txtPolishWord.text()
+        if english_word == '' or polish_word == '':
+            self.set_status_message('New words can\'t be empty!')
+        else:
+            mess = self.data.add_new_word(english_word=english_word,
+                                          polish_word=polish_word)
+            if mess.startswith('Added new word'):
+                self.refresh_display_page()
+            self.interface_pages_redirecting('DisplayPage')
+            self.set_status_message(mess)
+        # print(f'add word clicked! {english_word} {polish_word}')
+
+    @ pyqtSlot()
+    def on_btnRandom_clicked(self):
+        self.random_word()
+
+    @ pyqtSlot()
+    def on_btnStart_clicked(self):
+        # set scores
+        self.button_default_stylesheet()
+        self.start_game()
+
+    @ pyqtSlot()
+    def on_btnSettings_clicked(self):
+        self.interface_pages_redirecting('SettingsPage')
+
+    @ pyqtSlot()
+    def on_btnMain_clicked(self):
+        self.interface_pages_redirecting('MainPage')
+
+    @ pyqtSlot()
+    def on_btnDisplay_clicked(self):
+        self.interface_pages_redirecting('DisplayPage')
+
+    @ pyqtSlot()
+    def on_btnMigrate_clicked(self):
+        self.interface_pages_redirecting('MigratePage')
+
+    @ pyqtSlot()
+    def on_btnStats_clicked(self):
+        self.interface_pages_redirecting('StatsPage')
+
+    @ pyqtSlot()
+    def on_btnLoadJson_clicked(self):
+        print("Load JSON!")
+        try:
+            parsed = json.loads(self.txtJSON.toPlainText())
+            self.json_df = pd.DataFrame.from_dict(
+                dict(parsed), orient='index').reset_index()
+            self.json_df.columns = ['English', 'Polish']
+            self.json_df['Exists'] = False
+            self.tableView_2.setModel(TableModel(self.json_df))
+            print(self.txtJSON.toPlainText())
+        except Exception:
+            self.set_status_message("Error with parsing data")
+
+
+def main():
+    app = QtWidgets.QApplication(sys.argv)
+    myWindow = MyWindowClass()
+    myWindow.show()
+    app.exec_()
 
 
 if __name__ == "__main__":
-    app = QtWidgets.QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec_())
+    main()
+
+
+"""
+{
+  "dimensions": {
+    "x": 818,
+    "y": 555,
+    "width": 810,
+    "height": 916
+  },
+  "last_page_index": 0,
+  "settings_page": {
+    "speaker": false
+  },
+  "display_columns_configurations": {
+    "Angielski": true,
+    "Polski": true,
+    "Frequency": false,
+    "BadlyAnswer": false,
+    "PerfectScore": false
+  }
+}
+"""
