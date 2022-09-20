@@ -34,11 +34,16 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
 
         self.actionStatystyki.triggered.connect(lambda:
                                                 self.interface_pages_redirecting('StatsPage'))
+        self.actionInformation_page.triggered.connect(lambda:
+                                                      self.interface_pages_redirecting('InformationPage'))
         self.actionSave_cords.triggered.connect(self.save_dimensions)
         self.actionLoad_cords.triggered.connect(self.load_dimensions)
         self.actionOptions.triggered.connect(
             lambda: self.grpMenu.setVisible(self.actionOptions.isChecked()))
         self.actionSave_last_page.triggered.connect(self.set_last_page_index)
+        # Settings
+        self.spnQLabel.valueChanged.connect(lambda x: self.spin_font(x))
+
         # Set up checkbox
         self.checkboxs = [self.cbxAngielski, self.cbxPolski,
                           self.cbxFrequency, self.cbxBadlyAnswer, self.cbxPerfectScore]
@@ -88,6 +93,10 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.thredapool = QThreadPool()
         self.voice = VoiceSpeech()
         self.lblSpeaker.clicked.connect(self.speaker_on)
+
+    def spin_font(self, a=''):
+        self.centralwidget.setStyleSheet(f"QLabel""{""font : {a}pt;""}")
+        print(f'Spin changed to c: {a}')
 
     def checkbox_display(self):
         obj_index = int(self.sender().objectName())
@@ -192,11 +201,15 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.buttons[2].click()
         if e.key() == Qt.Key_4:
             self.speaker_on()
+        if e.key() == Qt.Key_P:
+            self.centralwidget.setStyleSheet(
+                "QLabel""{""font : 3pt;""}")
         if e.key() == Qt.Key_S:
             self.start_game()
             self.button_default_stylesheet()
         if e.key() == Qt.Key_R:
             print("random word")
+            self.button_default_stylesheet()
             if not self.is_game:
                 self.set_status_message(f'First start the game!')
                 return
@@ -231,8 +244,6 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
     def buttons_disable_all(self):
         for btn in self.buttons:
             btn.setEnabled(False)
-            # btn.setStyleSheet(
-            #     "QPushButton""{""background-color : rgb(66, 189, 255);""}")
 
     def refresh_progress_bar_stats(self):
         df_len = self.data.df_len()
@@ -253,6 +264,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.buttons[int(obj)].setEnabled(False)
 
         print(f'Button: {self.buttons[int(obj)].text()}')
+        print(f'Win: {str(self.winning_row["Polski"])}')
         if str(self.buttons[int(obj)].text()) in str(self.winning_row["Polski"]):
             self.buttons_disable_all()
             self.buttons[int(obj)].setStyleSheet(
@@ -321,7 +333,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         label.setScaledContents(True)
 
     def result_setup(self):
-        self.stackedWidget.setCurrentWidget(self.StatsPage)
+        self.interface_pages_redirecting('StatsPage')
         result_time = int((datetime.today() - self.start_time).total_seconds())
         self.btnTimerResult.setText(f'Competition took {result_time} seconds')
 
@@ -343,6 +355,8 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             self.stackedWidget.setCurrentWidget(self.MigratePage)
         if page_name == 'MainPage':
             self.stackedWidget.setCurrentWidget(self.MainPage)
+        if page_name == 'InformationPage':
+            self.stackedWidget.setCurrentWidget(self.InformationPage)
 
     # Buttons setup
 
