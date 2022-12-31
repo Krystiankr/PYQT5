@@ -118,7 +118,7 @@ height: 50px;
        </size>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="MainPage">
        <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -454,12 +454,106 @@ height: 50px;
          </widget>
         </item>
         <item>
-         <widget class="QTableView" name="tableView">
-          <property name="font">
-           <font>
-            <pointsize>15</pointsize>
-           </font>
+         <widget class="QTableWidget" name="tableView"/>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>600</height>
+           </size>
           </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>600</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="title">
+           <string>Translated word</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="lblMainWord_2">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>MainWord</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="Line" name="line_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="lblTranslation">
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Translation</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="Line" name="line_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>442</width>
+                <height>483</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <widget class="QLabel" name="lblExamples">
+                 <property name="font">
+                  <font>
+                   <pointsize>11</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Translation</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
         <item>

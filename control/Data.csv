@@ -3253,12 +3253,12 @@ obtrusive,natrętny,12,1,0
 space evenly,przestrzeń równomiernie,12,0,1
 data fetching,pobieranie danych,12,0,1
 leftover,resztki,12,1,0
-bundled into,w pakiecie w,11,0,0
+bundled into,w pakiecie w,12,0,0
 boilerplate ,"tekst/kod, który może być wielokrotnie używany",12,1,0
 fully fitted,w pełni wyposażone,12,1,0
 anteriorly,przodem,12,1,0
 resilient to,odporny na,11,0,0
-imperial,"należące do osoby, która rządzi",11,0,0
+imperial,"należące do osoby, która rządzi",12,0,0
 oversight,przeoczenie,12,1,0
 negligible,nieistotny,12,0,1
 shuttling,kursowanie,12,0,1
@@ -3298,17 +3298,17 @@ usability,użyteczność,11,0,0
 rarer requirement,rzadsze wymaganie,11,0,0
 to silently swallow ,po cichu połknąć,11,0,0
 momentarily,chwilowo,11,0,0
-perceptible,wyczuwalny,11,0,0
+perceptible,wyczuwalny,12,0,0
 immediately apparent,natychmiast widoczne,11,0,0
 mysterious moon,tajemniczy księżyc,11,0,0
 reveal all,odkryć wszystko,11,0,0
 tiles,płytki,11,0,0
 is aware,jest świadomy,11,0,0
-immediate vicinity,bezpośrednie sąsiedztwo,11,0,0
+immediate vicinity,bezpośrednie sąsiedztwo,12,0,0
 redraw,przerysować,11,0,0
 revealable,ujawnialny,11,0,0
 Revealed tiles,Odkryte płytki,11,0,0
-cleverness,spryt,11,0,0
+cleverness,spryt,12,0,0
 a little tricky,trochę trudne,11,0,0
 ensure consistency,zapewnić spójność,11,0,0
 stumble across,potknąć się,11,0,0
@@ -3326,7 +3326,7 @@ neglected,zaniedbany,11,0,0
 insurmountable,nie do pokonania,11,0,0
 tangible tools,namacalne narzędzia,11,0,0
 coherent assemblage,spójny zespół,11,0,0
-anticipating,przewidywanie,11,0,0
+anticipating,przewidywanie,12,0,0
 pig in a poke,świnia w worku,11,0,0
 stipulate,zastrzec,11,0,0
 codomain,współdomena,11,0,0
@@ -3344,7 +3344,7 @@ disposal of,utylizacja,11,0,0
 expenditure,wydatek,11,0,0
 assessed value,oceniana wartość,11,0,0
 ascertain,ustalać,11,0,0
-auditable,audytowalny,11,0,0
+auditable,audytowalny,12,0,0
 may seek,może szukać,11,0,0
 vertical manner,pionowy sposób,11,0,0
 impelled,przymuszony,11,0,0
@@ -3415,7 +3415,7 @@ revamped,odnowiony,11,0,0
 makeshift,prowizoryczny,11,0,0
 minutiae,drobne szczegóły,11,0,0
 rumbling,dudnienie,11,0,0
-disruptive,niszczący,11,0,0
+disruptive,niszczący,12,0,0
 ushered,wprowadzony,11,0,0
 twofold,dwojaki,11,0,0
 pave the way,utorować drogę,11,0,0
@@ -3436,7 +3436,7 @@ of text refer to the same entity",11,0,0
 pinpointing,to discover or describe the exact facts about something,11,0,0
 disenfranchising,to take away power or opportunities,11,0,0
 teal,a small wild duck,11,0,0
-wash out something,"o cause something to fail, stop, or be destroyed",11,0,0
+wash out something,"o cause something to fail, stop, or be destroyed",12,0,0
 guilty of,winny,11,0,0
 utterance,wypowiedź,11,0,0
 constituent,składnik,11,0,0
@@ -3452,7 +3452,7 @@ adherences,przynależności,11,0,0
 to tackle,do rozwiązania,11,0,0
 eel,węgorz,11,0,0
 deed of,czyn,11,0,0
-bestowed,obdarowany,11,0,0
+bestowed,obdarowany,12,0,0
 affixed,przymocowany,11,0,0
 sought after,podążał za,11,0,0
 garnering,zbieranie,11,0,0
@@ -3511,7 +3511,7 @@ disagree,nie zgadzać się,11,0,0
 fulfilling,spełnienie,11,0,0
 brings us,prowadzi nas,11,0,0
 wherein,w którym,11,0,0
-rightly,słusznie,11,0,0
+rightly,słusznie,12,0,0
 lexical,leksykalny,11,0,0
 a bird's eye view,a view from a very high place that allows you to see a large area,11,0,0
 attrition of,any situation in which there is strong competition between opposing sides or a great fight against something harmful,11,0,0
@@ -3521,7 +3521,7 @@ wrangle,"an argument, especially one that continues for a long time",11,0,0
 de-emphasize,deprecjonować,11,0,0
 steadily,stale,11,0,0
 anchor,Kotwica,11,0,0
-sense of magnitude,poczucie wielkości,11,0,0
+sense of magnitude,poczucie wielkości,12,0,0
 to aid,w celu ułatwienia,11,0,0
 exceed,przekroczyć,11,0,0
 acquisitions,przejęcia,11,0,0
@@ -3549,7 +3549,7 @@ intimate,intymny,11,0,0
 accompanying,towarzyszący,11,0,0
 progression,postęp,11,0,0
 common trait,wspólna cecha,11,0,0
-sunsetting,zachodzące słońce,11,0,0
+sunsetting,zachodzące słońce,12,0,0
 sigh of relief,westchnienie ulgi,11,0,0
 sluggish,powolny,11,0,0
 rookie mistakes,błędy początkującego,11,0,0
@@ -3665,7 +3665,7 @@ piecewise,kawałek po kawałku,11,0,0
 dimmed dots,przyciemnione kropki,11,0,0
 we can mimic,możemy naśladować,11,0,0
 suffered from,cierpiał z powodu,11,0,0
-interestingly,co ciekawe,11,0,0
+interestingly,co ciekawe,12,0,0
 multiplicand,mnożna,11,0,0
 subtrahend,odjemnik,11,0,0
 reciprocal,odwrotność,11,0,0
@@ -3676,7 +3676,7 @@ imperfections,niedoskonałości,11,0,0
 ancillary,pomocniczy,11,0,0
 among other things,między innymi,11,0,0
 we can tweak,możemy poprawić,11,0,0
-will invoke,będzie przywoływać,11,0,0
+will invoke,będzie przywoływać,12,0,0
 trimming away,odcinanie,11,0,0
 sneaker,tenisówka,11,0,0
 spike,kolec,11,0,0
@@ -3702,7 +3702,7 @@ scaffolding,rusztowanie,11,0,0
 verbose  ,rozległy,11,0,0
 affinity,podobieństwo,11,0,0
 shrouded,zasłonięty,11,0,0
-intercepting,przechwytywanie,11,0,0
+intercepting,przechwytywanie,12,0,0
 sentinel,strażnik,11,0,0
 vigilant,czujny,11,0,0
 havoc,spustoszenie,11,0,0
@@ -3731,10 +3731,52 @@ ship it,wyślij to!,11,0,0
 prism of,pryzmat,11,0,0
 wisest,najmądrzejszy,11,0,0
 designates,desygnuje,11,0,0
-fleet of,flota,11,0,0
+fleet of,flota,12,0,0
 graceful,wdzięczny,11,0,0
 versatility,wszechstronność,11,0,0
 severity,surowość,11,0,0
 induce,spowodować,11,0,0
 dubious,wątpliwy,11,0,0
 File carving,is the process of reassembling computer files from fragments in the absence of filesystem metadata. Contents.,11,0,0
+realm of,sfera,11,0,0
+footprint ,the amount of space on a surface that something needs,11,0,0
+honeypots,używanie infrastruktury w inny sposób niż legalny,11,0,0
+exposed circuits,odsłonięte obwody,11,0,0
+assembling,składanie,11,0,0
+erase data,kasowanie danych,11,0,0
+seated,siedząc,11,0,0
+tampered,sfałszowane,11,0,0
+remediation,naprawa,11,0,0
+stunnel,an open-source multi-platform application used to provide a universal TLS/SSL tunneling service,11,0,0
+vendor  ,someone who is selling something,11,0,0
+feasible  ,wykonalny,11,0,0
+stealth,podstęp,11,0,0
+dialed,wybrany,11,0,0
+dongle,klucz sprzętowy,11,0,0
+settle  ,rozstrzygnąć,11,0,0
+carry out,przeprowadzać coś,11,0,0
+establish a baseline,ustalić linię bazową,11,0,0
+verge on,na granicy,11,0,0
+sheer amount of work,ogrom pracy,11,0,0
+relentless,nieustępliwy,11,0,0
+job seekers,szukający pracy,11,0,0
+mitigate ,"to make something less harmful, unpleasant, or bad",11,0,0
+abundant,bogaty/obfity,11,0,0
+unequivocal,jednoznaczny,11,0,0
+exempt,zwolniony/wolny,11,0,0
+disbursement,wydatek,11,0,0
+diligence,pracowitość,11,0,0
+labor intensive,pracochłonne,11,0,0
+stratification,the fact that the different parts of something exist in or have been arranged into separate groups,11,0,0
+glimpse,to see something or someone for a very short time or only partly,11,0,0
+nutshell,using as few words as possible,11,0,0
+enlighten me,oświeć mnie,11,0,0
+flawlessly,bezbłędnie,11,0,0
+perversive,perwersyjny,11,0,0
+adversity,nieszczęście,11,0,0
+appraisals,wyceny,11,0,0
+ashes,proch,11,0,0
+double entendre,"a word or phrase that might be understood in two ways, one of which is usually sexual",11,0,0
+Incongruity,"fakt, że coś jest nielogiczne",11,0,0
+self esteem,samoocena,11,0,0
+workload,obciążenie pracą,11,0,0

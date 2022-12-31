@@ -7,6 +7,7 @@ import sys
 import json
 import pandas as pd
 import random
+import re
 from datetime import datetime
 from control.json_operations import *
 from control.pd_operations import return_df, transform_df
@@ -14,7 +15,10 @@ from control.data_operations import DataOperations
 from control.toggle import AnimatedToggle
 from control.table_model import TableModel
 from control.Worker import *
+from PyQt5.QtGui import QFont
 from PyQt5.QtCore import QProcess
+from PyQt5.QtWidgets import QTableWidget, QTableWidgetItem
+from operations import get_translation_from
 
 main_dialog = uic.loadUiType("interface/main.ui")[0]
 
@@ -98,6 +102,22 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.centralwidget.setStyleSheet(f"QLabel""{""font : {a}pt;""}")
         print(f'Spin changed to c: {a}')
 
+    def display_obj_name(self):
+
+        obj_index = self.sender().objectName()
+        resp = get_translation_from(obj_index)
+        self.lblMainWord_2.setText(resp['head_word'])
+        self.lblTranslation.setText(resp['translation'])
+        text = "<ul>"
+        for element in [element for element in resp['examples']]:
+            tmp_word = resp['head_word']
+            text += "<li>" + \
+                re.sub(rf"{tmp_word}(\w*)", rf"<b>{tmp_word}\1</b>",
+                       element) + "</li>"
+        text += "</ul>"
+        self.lblExamples.setText(text)
+        print(obj_index)
+
     def checkbox_display(self):
         obj_index = int(self.sender().objectName())
         bool_value = self.checkboxs[obj_index].isChecked()
@@ -120,7 +140,25 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             f'Number of words: {number_of_words}')
 
     def set_table_model(self, _df: pd.DataFrame):
-        self.tableView.setModel(TableModel(_df))
+
+        self.tableView.setRowCount(len(_df))
+        self.tableView.setColumnCount(len(_df.columns) + 1)
+
+        for i in range(len(_df)):
+            for j in range(len(_df.columns)):
+                item = QTableWidgetItem(str(_df.iloc[i, j]))
+                self.tableView.setItem(i, j, item)
+            button = QPushButton(str(_df.iloc[i, 0]))
+            button.setObjectName(str(_df.iloc[i, 0]))
+            button.clicked.connect(self.display_obj_name)
+            self.tableView.setCellWidget(
+                i, self.tableView.columnCount() - 1, button)
+
+        self.tableView.setHorizontalHeaderLabels(_df.columns)
+        self.tableView.setVerticalHeaderLabels(list(map(str, _df.index)))
+        item = QTableWidgetItem("Button column")
+        self.tableView.setHorizontalHeaderItem(
+            self.tableView.columnCount() - 1, item)
 
     def refresh_df(self, text: str):
         tmp_df = transform_df(self.data.get_df(), text)
