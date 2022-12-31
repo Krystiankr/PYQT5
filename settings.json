@@ -1,0 +1,19 @@
+{
+    "dimensions": {
+        "x": 818,
+        "y": 555,
+        "width": 810,
+        "height": 916
+    },
+    "last_page_index": 0,
+    "settings_page": {
+        "speaker": true
+    },
+    "display_columns_configurations": {
+        "Angielski": false,
+        "Polski": true,
+        "Frequency": true,
+        "BadlyAnswer": true,
+        "PerfectScore": false
+    }
+}
