@@ -18,9 +18,12 @@ def get_request(init_word: str):
 
 
 def get_translation_from(init_word: str) -> tuple:
-    soup = get_request(init_word)
-    head_word = soup.select_one('.dhw').text
-    translation = soup.select_one('.def').text
-    examples = [element.text for element in soup.find_all(
-        class_='examp dexamp')]
-    return {'head_word': head_word, 'translation': translation, 'examples': examples}
+    try:
+        soup = get_request(init_word)
+        head_word = soup.select_one('.dhw').text
+        translation = soup.select_one('.def').text
+        examples = [element.text for element in soup.find_all(
+            class_='examp dexamp')]
+        return {'head_word': head_word, 'translation': translation, 'examples': examples}
+    except Exception:
+        return {'head_word': '', 'translation': '', 'examples': ''}

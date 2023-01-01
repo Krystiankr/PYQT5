@@ -81,6 +81,7 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         # Word configurations
         self.tournament_dict = {"corrects": [], "bads": []}
         self.winning_status = True
+        self.winning_row = 'easy'
         self.is_game = False
 
         # Toggle setup
@@ -97,15 +98,26 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         self.thredapool = QThreadPool()
         self.voice = VoiceSpeech()
         self.lblSpeaker.clicked.connect(self.speaker_on)
+        self.lblRequest.clicked.connect(
+            lambda: self.make_request(self.txtDisplaySearch.text()))
+        self.lblAddFromRequest.clicked.connect(self.add_new_word)
+        self.lblPronunciation.clicked.connect(
+            lambda: self.speaker_on(page='display_words'))
 
-    def spin_font(self, a=''):
-        self.centralwidget.setStyleSheet(f"QLabel""{""font : {a}pt;""}")
-        print(f'Spin changed to c: {a}')
+    def add_new_word(self):
+        english_word = self.lblMainWord_2.text()
+        polish_word = self.lblTranslation.text()
+        if english_word == '' or polish_word == '':
+            self.set_status_message('New words can\'t be empty!')
+        else:
+            mess = self.data.add_new_word(english_word=english_word,
+                                          polish_word=polish_word)
+            self.refresh_display_page()
+            self.interface_pages_redirecting('DisplayPage')
+            self.set_status_message(mess)
 
-    def display_obj_name(self):
-
-        obj_index = self.sender().objectName()
-        resp = get_translation_from(obj_index)
+    def make_request(self, word: str):
+        resp = get_translation_from(word)
         self.lblMainWord_2.setText(resp['head_word'])
         self.lblTranslation.setText(resp['translation'])
         text = "<ul>"
@@ -116,7 +128,15 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
                        element) + "</li>"
         text += "</ul>"
         self.lblExamples.setText(text)
-        print(obj_index)
+        print(word)
+
+    def spin_font(self, a=''):
+        self.centralwidget.setStyleSheet(f"QLabel""{""font : {a}pt;""}")
+        print(f'Spin changed to c: {a}')
+
+    def display_obj_name(self):
+        obj_name = self.sender().objectName()
+        self.make_request(obj_name)
 
     def checkbox_display(self):
         obj_index = int(self.sender().objectName())
@@ -141,18 +161,24 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
 
     def set_table_model(self, _df: pd.DataFrame):
 
-        self.tableView.setRowCount(len(_df))
+        # self.tableView.setRowCount(len(_df))
+        self.tableView.setRowCount(10)
         self.tableView.setColumnCount(len(_df.columns) + 1)
 
-        for i in range(len(_df)):
-            for j in range(len(_df.columns)):
-                item = QTableWidgetItem(str(_df.iloc[i, j]))
-                self.tableView.setItem(i, j, item)
-            button = QPushButton(str(_df.iloc[i, 0]))
-            button.setObjectName(str(_df.iloc[i, 0]))
-            button.clicked.connect(self.display_obj_name)
-            self.tableView.setCellWidget(
-                i, self.tableView.columnCount() - 1, button)
+        # for i in range(len(_df)):
+        for i in range(10):
+            try:
+                for j in range(len(_df.columns)):
+                    item = QTableWidgetItem(str(_df.iloc[i, j]))
+                    self.tableView.setItem(i, j, item)
+
+                button = QPushButton(str(_df.iloc[i, 0]))
+                button.setObjectName(str(_df.iloc[i, 0]))
+                button.clicked.connect(self.display_obj_name)
+                self.tableView.setCellWidget(
+                    i, self.tableView.columnCount() - 1, button)
+            except Exception:
+                pass
 
         self.tableView.setHorizontalHeaderLabels(_df.columns)
         self.tableView.setVerticalHeaderLabels(list(map(str, _df.index)))
@@ -223,10 +249,10 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
             btn.setText(word)
         self.speaker_on()
 
-    def worker_result(self):
+    def worker_result(self, label):
         print('Finish project')
         self.speaker = True
-        self.pix_map(label=self.lblSpeaker,
+        self.pix_map(label=label,
                      file_path='icons/Speaker_black.svg')
 
     # Random words key pressed
@@ -262,15 +288,17 @@ class MyWindowClass(QtWidgets.QMainWindow, main_dialog):
         for index, cbx in enumerate(self.checkboxs):
             cbx.setChecked(get_display_value(index))
 
-    def speaker_on(self):
+    def speaker_on(self, page: str = 'main'):
         text = DataOperations.get_english_word(
-            self.winning_row)
+            self.winning_row) if page == 'main' else self.lblMainWord_2.text()
+        label = self.lblSpeaker if page == 'main' else self.lblPronunciation
         if self.speaker:
-            self.pix_map(label=self.lblSpeaker,
+            self.pix_map(label=label,
                          file_path='icons/Speaker_gray.svg')
             self.worker = Worker(text=text, voice=self.voice)
             self.speaker = False
-            self.worker.signals.finish.connect(self.worker_result)
+            self.worker.signals.finish.connect(
+                lambda: self.worker_result(label))
             self.thredapool.start(self.worker)
 
     def button_default_stylesheet(self):
