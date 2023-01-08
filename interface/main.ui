@@ -248,7 +248,6 @@ height: 50px;
           <property name="font">
            <font>
             <pointsize>20</pointsize>
-            <weight>75</weight>
             <bold>true</bold>
            </font>
           </property>
@@ -543,13 +542,13 @@ height: 50px;
           <property name="minimumSize">
            <size>
             <width>0</width>
-            <height>600</height>
+            <height>300</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
             <width>16777215</width>
-            <height>600</height>
+            <height>300</height>
            </size>
           </property>
           <property name="styleSheet">
@@ -570,7 +569,6 @@ height: 50px;
              <property name="font">
               <font>
                <pointsize>15</pointsize>
-               <weight>75</weight>
                <bold>true</bold>
               </font>
              </property>
@@ -615,8 +613,8 @@ height: 50px;
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>887</width>
-                <height>421</height>
+                <width>923</width>
+                <height>183</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_10">
@@ -647,7 +645,6 @@ height: 50px;
           <property name="font">
            <font>
             <pointsize>12</pointsize>
-            <weight>75</weight>
             <bold>true</bold>
            </font>
           </property>
@@ -674,7 +671,6 @@ height: 50px;
             <property name="font">
              <font>
               <pointsize>15</pointsize>
-              <weight>75</weight>
               <bold>true</bold>
              </font>
             </property>
@@ -765,7 +761,6 @@ height: 50px;
             </property>
             <property name="font">
              <font>
-              <weight>75</weight>
               <bold>true</bold>
              </font>
             </property>
@@ -804,7 +799,6 @@ height: 50px;
             </property>
             <property name="font">
              <font>
-              <weight>75</weight>
               <bold>true</bold>
              </font>
             </property>
@@ -840,7 +834,6 @@ height: 50px;
             </property>
             <property name="font">
              <font>
-              <weight>75</weight>
               <bold>true</bold>
              </font>
             </property>
@@ -876,7 +869,6 @@ height: 50px;
             </property>
             <property name="font">
              <font>
-              <weight>75</weight>
               <bold>true</bold>
              </font>
             </property>
@@ -913,7 +905,6 @@ height: 50px;
               <property name="font">
                <font>
                 <pointsize>12</pointsize>
-                <weight>75</weight>
                 <bold>true</bold>
                </font>
               </property>
@@ -940,7 +931,6 @@ height: 50px;
               <property name="font">
                <font>
                 <pointsize>12</pointsize>
-                <weight>75</weight>
                 <bold>true</bold>
                </font>
               </property>
@@ -999,7 +989,6 @@ height: 50px;
           <property name="font">
            <font>
             <pointsize>12</pointsize>
-            <weight>75</weight>
             <bold>true</bold>
            </font>
           </property>
@@ -1056,7 +1045,7 @@ height: 50px;
      <x>0</x>
      <y>0</y>
      <width>981</width>
-     <height>36</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuMenu">
