@@ -1,9 +1,4 @@
-from PyQt5 import uic, QtGui, QtCore
-from PyQt5.QtCore import Qt, pyqtSlot, QRunnable, QThreadPool, QObject, pyqtSignal
-from PyQt5.QtGui import QPalette
-from PyQt5.QtWidgets import QApplication, QPushButton, QDialog, QVBoxLayout, QHBoxLayout,  QLabel, QScrollArea, QWidget, QGroupBox, QFileDialog
-from PyQt5.QtGui import QPixmap, QIcon, QImage, QIntValidator
-from PyQt5 import QtWidgets, uic
+from PyQt5.QtCore import pyqtSlot, QRunnable, QObject, pyqtSignal, QThreadPool
 from control.Voice import VoiceSpeech
 
 
